@@ -1,0 +1,90 @@
+.team-section {
+    .team-header {
+        max-width: 645px;
+        margin: 60px auto;
+        text-align: center;
+        h2 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 56px;
+            line-height: 74px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #0B0036;
+        }
+    }
+    .team-wrapper {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+        .team {
+            max-width: 413px;
+            max-height: 570px;
+            position: relative;
+            img {
+                min-width: 100%;
+                min-height: 100%;
+
+            }
+            .team-info {
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(180deg, rgba(0, 0, 0, 0) 35.35%, #000000 104.5%);
+                position: absolute;
+                bottom: 0;
+                color: #0B0036;
+                z-index: 11;
+                border-radius: 16px;
+                padding: 23px;
+                .team-info-text {
+                    margin-top: 90%;
+                    h2 {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 32px;
+                        line-height: 39px;
+                        text-transform: capitalize;
+                        color: #FFFFFF;
+                    }
+    
+                    h4 {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 22px;
+                        text-transform: capitalize;
+                        color: #EBEAEA;
+                    }
+    
+                    h3 {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 24px;
+                        text-transform: capitalize;
+                        color: #FFFFFF;
+                        margin-top: 20px;
+                        margin-bottom: 6px;
+                    }
+    
+                    p {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 26px;
+                        text-transform: capitalize;
+                        color: #EBEAEA;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -3,8 +3,6 @@ header {
     width: 100%;
     .container {
         .header-top {
-            min-height: 1240px;
-            position: relative;
             .navbar {
                 .logo {
                     width: 203px;
@@ -54,102 +52,6 @@ header {
                     color: #434242;
                 }
             }
-    
-            .banner_wrapper {
-                height: 900px;
-                margin: 80px auto;
-                .banner_wrapper-left {
-                    max-width: 405px;
-                    max-height: 473px;
-                    img {
-                        max-width: 405px;
-                        max-height: 473px;
-                    }
-                }
-    
-                .banner_wrapper-right {
-                    max-width: 359px;
-                    max-height: 428px;
-                    img {
-                        width: 100%;
-                        height: 100%;
-                    }
-                }
-    
-                .banner-content {
-                    max-width: 465px;
-                    margin: 0 auto;
-    
-                    h1 {
-                        font-family: 'Inter';
-                        font-style: normal;
-                        font-weight: 600;
-                        font-size: 74px;
-                        line-height: 82px;
-                        text-transform: capitalize;
-                        color: #0B0036;
-                        padding: 15px;
-                    }
-    
-                    p {
-                        font-family: 'Inter';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 24px;
-                        line-height: 38px;
-                        color: #6D6E71;
-                        padding: 15px;
-                    }
-                    .primary_button {
-                        margin: 0px 15px;
-                    }
-                    
-                }
-    
-                .banner_bottom {
-                    width: 100%;
-                    display: flex;
-                    justify-content: space-between;
-                    .banner_wrapper-bottom-left {
-                        max-width: 304px;
-                        max-height: 355px;
-                        img {
-                            width: 100%;
-                            height: 100%;
-                        }
-                    }
-        
-                    .banner_wrapper-bottom-right {
-                        max-width: 587px;
-                        max-height: 697px;
-                        position: absolute;
-                        right: 0;
-                        bottom: -7%;
-                        img {
-                            width: 100%;
-                            height: 100%;
-                        }
-                    }
-                }             
-            }
         }
-    }
-
-    .header-botton {
-        background: #F4F4F4;
-        .header-bottom-text {
-            min-height: 320px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 44px;
-            line-height: 67px;
-            text-align: center;
-            text-transform: capitalize;
-            color: #333333;
-        } 
     }
 }
