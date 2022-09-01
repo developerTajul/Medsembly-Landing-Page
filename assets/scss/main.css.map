@@ -5,12 +5,7 @@
         "main.scss",
         "_variable.scss",
         "_common.scss",
-        "_header.scss",
-        "_slider.scss",
-        "_heading.scss",
-        "_services.scss",
-        "_counter.scss",
-        "_member.scss"
+        "_nav.scss"
     ],
     "names": [],
     "file": "main.css"

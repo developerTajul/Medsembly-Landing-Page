@@ -1,0 +1,13 @@
+header {
+    background-color: black;
+    .nav {
+        ul {
+            li {
+                a {
+                    font-family: $Inter;
+                    color: red;
+                }
+            }
+        }
+    }
+}
