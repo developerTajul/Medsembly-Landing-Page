@@ -59,6 +59,66 @@ button:focus {
   width: 100%;
 }
 
+.step {
+  max-width: 413px;
+  min-height: 519px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 10px 20px 15px 35px;
+  margin: 20px;
+}
+.step h2 {
+  width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 69px;
+  line-height: 84px;
+  color: rgba(234, 28, 45, 0.1);
+  text-align: right;
+}
+.step .step-img {
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.step .step-img img {
+  width: 70%;
+  height: 70%;
+  margin: 0 auto;
+  transition: all 1s ease;
+}
+.step .step-img:hover img {
+  margin-bottom: 20px;
+}
+.step h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: left;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 20px 0px 16px 0px;
+}
+.step p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #6D6E71;
+}
+.step:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 /* Deafult Margin & Padding */
 /*-- Margin Top --*/
 .mt-5 {
@@ -1964,9 +2024,9 @@ header .container .header-top .navbar .theme-btn a {
 }
 
 .team-section .team-header {
-  max-width: 665px;
+  max-width: 680px;
   margin: 60px auto;
-  text-align: center;
+  margin-right: 60px auto;
 }
 .team-section .team-header h2 {
   font-family: "Inter";
@@ -1976,7 +2036,7 @@ header .container .header-top .navbar .theme-btn a {
   line-height: 74px;
   text-align: center;
   text-transform: capitalize;
-  color: #0B0036;
+  color: #000000;
 }
 .team-section .team-wrapper {
   width: 100%;
@@ -2046,4 +2106,484 @@ header .container .header-top .navbar .theme-btn a {
   line-height: 26px;
   text-transform: capitalize;
   color: #EBEAEA;
+}
+
+.step-section .step-heading {
+  max-width: 680px;
+  margin: 60px auto;
+  margin: 100px auto 65px auto;
+}
+.step-section .step-heading h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 74px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+.step-section .step-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 110px;
+}
+.step-section .step-wrapper .step-one .step-img {
+  background: rgba(234, 28, 45, 0.1);
+}
+.step-section .step-wrapper .step-two .step-img {
+  background: rgba(143, 0, 255, 0.1);
+}
+.step-section .step-wrapper .step-three .step-img {
+  background: rgba(255, 3, 200, 0.1);
+}
+
+.student-review-section {
+  background-color: #F4F4F4;
+  width: 100%;
+  height: 1123px;
+  padding: 129px 0 129px 0;
+}
+.student-review-section .student-review-header {
+  max-width: 680px;
+  margin: 60px auto;
+}
+.student-review-section .student-review-header h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 74px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+.student-review-section .student-review-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: flex-start;
+  align-items: center;
+}
+.student-review-section .student-review-wrapper .student-review {
+  max-width: 413px;
+  min-height: 484px;
+  padding: 33px;
+  background-color: transparent;
+  border-radius: 16px;
+  position: relative;
+}
+.student-review-section .student-review-wrapper .student-review .student-img {
+  width: 49px;
+  height: 69px;
+  margin: 18px 0 14px 0px;
+  transition: all 1s ease;
+}
+.student-review-section .student-review-wrapper .student-review .student-img img {
+  width: 100%;
+  height: 100%;
+}
+.student-review-section .student-review-wrapper .student-review p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #666666;
+  padding: 14px 0px 20px 0px;
+}
+.student-review-section .student-review-wrapper .student-review h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.student-review-section .student-review-wrapper .student-review h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #6D6E71;
+}
+.student-review-section .student-review-wrapper .student-review h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #000000;
+  padding: 16px 0px;
+}
+.student-review-section .student-review-wrapper .student-review:hover {
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.1) 0px 6px 18px;
+}
+.student-review-section .student-review-wrapper .student-review:hover .student-img {
+  width: 106px;
+  height: 114px;
+}
+.student-review-section .student-review-wrapper .student-review:hover ::after {
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid #fff;
+  border-bottom: 50px solid transparent;
+  position: absolute;
+  bottom: -10%;
+  left: 36%;
+  transform: translateX(-40%);
+  transform: rotate(90deg);
+}
+
+.newsletter-section {
+  padding: 110px 0px;
+  background-color: #fff;
+}
+.newsletter-section .get-app {
+  max-width: 1123px;
+  max-height: 841px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.newsletter-section .get-app .get-app-img {
+  max-height: 807px;
+}
+.newsletter-section .get-app .get-app-img img {
+  height: 100%;
+}
+.newsletter-section .get-app .get-app-text {
+  max-width: 517px;
+  position: absolute;
+  right: 0%;
+}
+.newsletter-section .get-app .get-app-text h2 {
+  max-width: 680px;
+  margin: 60px auto;
+  margin: 0px auto 60px auto;
+}
+.newsletter-section .get-app .get-app-text h2 h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 74px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+.newsletter-section .get-app .get-app-text .img-group {
+  display: flex;
+}
+.newsletter-section .get-app .get-app-text .img-group img {
+  max-width: 235px;
+  max-height: 70px;
+  margin-right: 40px;
+}
+.newsletter-section .subscribe-area {
+  width: 100%;
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  justify-content: space-between;
+  align-items: center;
+}
+.newsletter-section .subscribe-area .subscribe-text {
+  max-width: 534px;
+}
+.newsletter-section .subscribe-area .subscribe-text .subscribe-title h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 70px;
+  text-transform: capitalize;
+  color: #0B0036;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-checkbox {
+  display: flex;
+  margin: 30px 0px 50px 0px;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-checkbox h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  text-transform: capitalize;
+  color: #333333;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-checkbox .switch {
+  margin: 0px 20px 0px 20px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  width: 58px;
+  height: 30px;
+  border-radius: 30px;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-checkbox .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-checkbox .switch input:checked + .slider {
+  background-color: transparent;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-checkbox .switch input:checked + .slider:before {
+  background: #fff;
+  transform: translateX(22px);
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-checkbox .switch .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0px;
+  right: 0;
+  bottom: 0;
+  border: 1px solid #EA1C2D;
+  transition: 0.3s;
+  border-radius: 30px;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-checkbox .switch .slider:before:hover {
+  background-color: #fff;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-checkbox .switch .slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 3px;
+  background-color: transparent;
+  transition: 0.3s;
+  border-radius: 50%;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-checkbox .switch.switch-warning input:checked + .slider {
+  background-color: #EA1C2D;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-checkbox .switch.switch-warning .slider {
+  border: 1px solid #EA1C2D;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-checkbox .switch.switch-warning .slider:before {
+  background-color: #EA1C2D;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-form .username {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-form .username .firstname {
+  max-width: 50%;
+  margin-right: 30px;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-form .username .firstname input {
+  width: 240px;
+  height: 62px;
+  background: #EEEEEE;
+  border-radius: 10px;
+  border: none;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-form .username .firstname h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 6px;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-form .username .lastname {
+  max-width: 50%;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-form .username .lastname input {
+  width: 240px;
+  height: 62px;
+  background: #EEEEEE;
+  border-radius: 10px;
+  border: none;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-form .username .lastname h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 6px;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-form .email {
+  max-width: 100%;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-form .email input {
+  width: 514px;
+  height: 62px;
+  background: #EEEEEE;
+  border-radius: 10px;
+  border: none;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-form .email h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 6px;
+}
+.newsletter-section .subscribe-area .subscribe-img {
+  max-width: 100%;
+}
+.newsletter-section .subscribe-area .subscribe-img img {
+  max-width: 100%;
+}
+
+footer {
+  width: 100%;
+  background-color: #F4F4F4;
+  height: 703px;
+  padding-top: 160px;
+  position: relative;
+}
+footer .logo {
+  width: 203px;
+  height: 38px;
+}
+footer .footer-wrapper .list-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+footer .footer-wrapper ul li a {
+  display: block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #6D6E71;
+  margin-bottom: 20px;
+}
+footer .footer-wrapper .footer-link-wrapper-one {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-wrapper .footer-link-wrapper-two {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer-wrapper .footer-link-wrapper-two .footer-three {
+  margin: 0 auto;
+}
+footer .footer-wrapper .footer-one p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6D6E71;
+  margin: 55px 0 30px 0px;
+}
+footer .footer-wrapper .footer-one input {
+  width: 289px;
+  height: 46px;
+  background-color: #fff;
+  border-radius: 25px;
+  border: none;
+  padding-left: 15px;
+}
+footer .footer-wrapper .footer-one input ::-moz-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #969696;
+}
+footer .footer-wrapper .footer-one input :-ms-input-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #969696;
+}
+footer .footer-wrapper .footer-one input ::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #969696;
+}
+footer .footer-wrapper .footer-one ul {
+  list-style: none;
+  display: flex;
+}
+footer .footer-wrapper .footer-one ul li {
+  margin: 50px 40px 10px 0px;
+}
+footer .footer-wrapper .footer-one ul li a {
+  color: #6D6E71;
+}
+footer .footer-wrapper .footer-one ul li a i {
+  font-size: 24px;
+}
+footer .copyright {
+  width: 84%;
+  display: flex;
+  border-top: 1px solid #CCCCCC;
+  padding: 30px 0px 35px 0px;
+  position: absolute;
+  left: 8%;
+  bottom: 0;
+}
+footer .copyright p {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #6D6E71;
+}
+footer .copyright .copyright-links {
+  float: right;
+}
+footer .copyright ul {
+  display: flex;
+}
+footer .copyright ul li {
+  color: #6D6E71;
+  margin-right: 10px;
+}
+footer .copyright ul li a {
+  display: block;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #6D6E71;
 }/*# sourceMappingURL=main.css.map */

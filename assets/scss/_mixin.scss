@@ -1,0 +1,63 @@
+@mixin title {
+    max-width: 680px;
+    margin: 60px auto;
+    h2 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 74px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #000000;
+    }
+}
+
+@mixin formH4Design {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+@mixin  formInput($width) {
+    input {
+        width: $width;
+        height: 62px;
+        background: #EEEEEE;
+        border-radius: 10px;
+        border: none;
+    }
+}
+
+@mixin listTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+@mixin LinkListStyle {
+    ul {
+        li {
+            a {
+                display: block;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                text-transform: capitalize;
+                color: #6D6E71;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

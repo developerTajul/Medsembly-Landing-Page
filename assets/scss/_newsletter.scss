@@ -1,0 +1,179 @@
+.newsletter-section {
+    padding: 110px 0px;
+    background-color: #fff;
+    .get-app {
+        max-width: 1123px;
+        max-height: 841px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        position: relative;
+        .get-app-img {
+            max-height: 807px;
+            img {
+                height: 100%;
+            }
+        }
+
+        .get-app-text {
+            max-width: 517px;
+            position: absolute;
+            right: 0%;
+            h2 {
+                @include title;
+                margin: 0px auto 60px auto;
+            }
+            .img-group {
+                display: flex;
+
+                img {
+                    max-width: 235px;
+                    max-height: 70px;
+                    margin-right: 40px;
+                }
+            }
+        }
+    }
+
+    // Subscribe To Our Newsletter
+    .subscribe-area {
+        width: 100%;
+        padding-top: 100px;
+        display: grid;
+        grid-template-columns: 45% 55%;
+        justify-content: space-between;
+        align-items: center;
+        .subscribe-text {
+            max-width: 534px;
+            .subscribe-title {
+                h2 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 56px;
+                    line-height: 70px;
+                    text-transform: capitalize;
+                    color: #0B0036;
+                }
+            }
+
+            .sub-checkbox {
+                display: flex;
+                margin: 30px 0px 50px 0px;
+                h3 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 28px;
+                    line-height: 34px;
+                    text-transform: capitalize;
+                    color: #333333;
+                }
+
+                .switch {
+                    margin: 0px 20px 0px 20px;
+                    position: relative;
+                    display: inline-block;
+                    cursor: pointer;
+                    width: 58px;
+                    height: 30px;
+                    border-radius: 30px;
+
+                    input {
+                        opacity: 0;
+                        width: 0;
+                        height: 0;
+
+                        &:checked+.slider {
+                            background-color: transparent;
+
+                            &:before {
+                                background: #fff;
+                                transform: translateX(22px);
+                            }
+                        }
+                    }
+
+                    .slider {
+                        position: absolute;
+                        cursor: pointer;
+                        top: 0;
+                        left: 0px;
+                        right: 0;
+                        bottom: 0;
+                        border: 1px solid #EA1C2D;
+                        transition: .3s;
+                        border-radius: 30px;
+
+                        &:before:hover {
+                            background-color: #fff;
+                        }
+
+                        &:before {
+                            position: absolute;
+                            content: "";
+                            height: 22px;
+                            width: 22px;
+                            left: 4px;
+                            bottom: 3px;
+                            background-color: transparent;
+                            transition: .3s;
+                            border-radius: 50%;
+                        }
+                    }
+
+                    &.switch-warning {
+                        input:checked+.slider {
+                            background-color: #EA1C2D;
+                        }
+
+                        .slider {
+                            border: 1px solid #EA1C2D;
+                            &:before {
+                                background-color: #EA1C2D;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .sub-form {
+                .username {
+                    width: 100%;
+                    display: flex;
+                    margin-bottom: 20px;
+                    .firstname {
+                        max-width: 50%;
+                        margin-right: 30px;
+                        @include formInput(240px);
+                        h4 {
+                            @include formH4Design;
+                        }
+                    }
+
+                    .lastname {
+                        max-width: 50%;
+                        @include formInput(240px);
+                        h4 {
+                            @include formH4Design;
+                        }
+                    }
+                }
+                .email {
+                    max-width: 100%;
+                    @include formInput(514px);
+                    h4 {
+                        @include formH4Design;
+                    }
+                }
+            }
+        }
+
+        .subscribe-img {
+            max-width: 100%;
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+}

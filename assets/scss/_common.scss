@@ -16,6 +16,7 @@ button:focus {
   outline: none;
 }
 
+
 .primary_button {
   padding: 20px 32px;
   background: #EA1C2D;
@@ -30,6 +31,7 @@ button:focus {
   text-transform: capitalize;
   color: #FFFFFF;
 }
+
 
 .feature {
   width: 590px;
@@ -59,5 +61,73 @@ button:focus {
 
   img {
     width: 100%;
+  }
+}
+
+
+.step {
+  max-width: 413px;
+  min-height: 519px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 10px 20px 15px 35px;
+  margin: 20px;
+  h2 {
+      width: 100%;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 69px;
+      line-height: 84px;
+      color: rgba(234, 28, 45, 0.1);
+      text-align: right;
+  }
+
+  .step-img {
+      width: 74px;
+      height: 74px;
+      border-radius: 50%;
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      cursor: pointer;
+      transition: all 1s ease;
+      img {
+          width: 70%;
+          height: 70%;
+          margin: 0 auto;
+          transition: all 1s ease;
+      }
+
+      &:hover {
+          img {
+              margin-bottom: 20px;
+          }
+      }
+  }
+
+  h3 {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 39px;
+      text-align: left;
+      text-transform: capitalize;
+      color: #000000;
+      margin: 20px 0px 16px 0px;
+  }
+
+  p {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      color: #6D6E71;
+  }
+
+  &:hover {
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
 }
