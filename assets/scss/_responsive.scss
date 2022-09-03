@@ -1,12 +1,11 @@
-@media only screen and (max-width: 767px) and (min-width: 576px) {
-
+@media only screen and (min-width: 576px) and (max-width: 992px) {
     header {
         .container {
             .header-top {
                 .navbar {
                     .logo {
-                        width: 203px;
-                        height: 38px;
+                        width: 190px;
+                        height: 40px;
                         margin: 20px;
                     }
 
@@ -159,7 +158,7 @@
                 font-size: 30px;
                 line-height: 50px;
             }
-            margin-right: 30px auto;
+            margin: 30px auto;
         }
         
         .team-wrapper {
@@ -526,6 +525,367 @@
                             font-size: 12px;
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+
+    //  Banner Section
+    .banner-section {
+        .banner_wrapper {
+            min-height: 570px;
+            .banner_wrapper-left,
+            .banner_wrapper-right {
+                max-height: 240px;
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+
+            .banner-content {
+                h1 {
+                    font-size: 25px;
+                    line-height: 35px;
+                    padding: 0px 4px 5px 0px;
+                }
+                p {
+                    font-size: 14px;
+                    line-height: 28px;
+                    padding: 5px 0px 15px 0px;
+                }
+            }
+
+            .banner_bottom {
+                .banner_wrapper-bottom-left {
+                    margin-left: 5%;
+                    max-width: 240px;
+                    max-height: 240px;
+                }
+                .banner_wrapper-bottom-right {
+                    max-height: 350px;
+                    bottom: -5%;
+                    img {
+                        max-height: 350px;
+                    }
+                }
+            }
+        }
+        .hero-section {
+            .hero-text h2 {
+                min-height: 170px;
+                font-size: 22px;
+                line-height: 35px;
+            }
+        }
+    }
+
+
+    //  Feature Section
+    .features-section {
+        padding: 40px 10px;
+        .feature-wrapper {
+            .feature-heading {
+                max-width: 52%;
+                margin-top: 30px;
+                p {
+                    font-size: 14px;
+                    line-height: 28px;
+                    padding: 15px 0px 15px 0px;
+                }
+            }
+            .feature {
+                width: 46%;
+                max-height: 500px;
+                padding: 10px;
+                margin: 20px 2%;
+
+                h2 {
+                    font-size: 22px;
+                    line-height: 35px;
+                }
+
+                p {
+                    font-size: 14px;
+                    line-height: 28px;
+                }
+
+                img {
+                    max-height: 240px;
+                }
+            }
+            .feature-one {
+                margin-bottom: 0px;
+                img {
+                    max-height: 270px;
+                }
+            }
+            .feature-two {
+                position: absolute;
+                left: 0;
+                bottom: 12%;
+            }
+            .feature-three {
+                margin-left: auto;
+            }
+        }
+    }
+
+    //  Team Section 
+    .team-section {
+        .team-wrapper {
+            width: 100%;
+            margin-bottom: 60px;
+            padding-bottom: 50px;
+            .team {
+                max-width: 30.7%;
+                margin: 0;
+                .team-info {
+                    width: 100%;
+                    height: 100%;
+                    padding: 10px;
+                    .team-info-text {
+                        margin-top: 60%;
+                        h2 {
+                            font-size: 18px;
+                        }
+        
+                        h4 {
+                            font-size: 14px;
+                            line-height: 22px;
+                        }
+        
+                        h3 {
+                            font-size: 16px;
+                            line-height: 20px;
+                            margin-top: 8px;
+                            margin-bottom: 6px;
+                        }
+        
+                        p {
+                            font-size: 12px;
+                            line-height: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    // Step Section: 
+    .step-section {
+        padding-top: 60px;
+        .step-wrapper {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 30px; 
+
+            .step {
+                max-width: 96%;
+                min-height: 410px;
+                border-radius: 10px;
+                padding: 10px;
+                margin: 30px 4%;
+                h2 {
+                    font-size: 35px;
+                    line-height: 44px;
+                    text-align: right;
+                }
+              
+                .step-img {
+                    width: 50px;
+                    height: 40px;
+                    border-radius: 50%;
+                    margin-top: 25px;
+                    img {
+                        width: 50%;
+                        height: 50%;
+                        margin: 0 auto;
+                    }
+                }
+              
+                h3 {
+                    font-size: 14px;
+                    line-height: 30px;
+                    margin: 20px 0px 16px 0px;
+                }
+              
+                p {
+                    font-size: 13px;
+                    line-height: 24px;
+                    text-align: justify;
+                }
+              }
+        }
+    }
+
+
+
+    //  Student Review Section
+    .student-review-section {
+        padding: 10px 0 40px 0;
+        .student-review-wrapper {
+            width: 100%;
+            min-height: 480px;
+            .student-review {
+                max-width: 30.7%;
+                min-height: 380px;
+                padding: 10px;
+                margin: 0px;
+            }
+        }
+    }
+
+
+    //  Subscribe and Newsletter Section
+    .newsletter-section {
+        @include CarouselSwiper;
+        .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+            bottom: 0px;
+            left: -20%;
+        }
+        padding: 70px 0px;
+    
+        .get-app {
+            .get-app-img {
+                margin-left: 40px;
+            }
+            .get-app-text {
+                right: 5%;
+                h2 {
+                    font-size: 30px;
+                    margin: 0px auto 30px auto;
+                }
+            }
+        }
+    
+        // Subscribe To Our Newsletter
+        .subscribe-area {
+            width: 100%;
+            padding-top: 100px;
+            display: grid;
+            grid-template-columns: 60% 40%;
+            justify-content: space-between;
+            align-items: center;
+            .subscribe-text {
+                order: 0;
+                max-width: 100%;
+                .subscribe-title {
+                    h2 {
+                        font-size: 30px;
+                        line-height: 45px;
+                    }
+                }
+    
+                .sub-checkbox {
+                    display: flex;
+                    margin: 30px 0px 50px 0px;
+                    h3 {
+                        font-size: 22px;
+                        line-height: 24px;
+                    }
+    
+                }
+    
+                .sub-form {
+                    .username {
+                        max-width: 100%;
+                        display: flex;
+                        margin-bottom: 50px;
+                        .firstname {
+                            max-width: 50%;
+                            margin-right: 10px;
+                            @include formInput(190px);
+                            h4 {
+                                @include formH4Design;
+                            }
+                        }
+    
+                        .lastname {
+                            max-width: 50%;
+                            @include formInput(190px);
+                        }
+                    }
+                    .email {
+                        max-width: 100%;
+                        @include formInput(390px);  
+                    }
+                }
+            }
+    
+            .subscribe-img {
+                max-width: 100%;
+                order: 1;
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+
+
+    //  footer Section
+    footer {
+        .logo {
+            width: 190px;
+            height: 40px;
+        }
+        
+        .footer-wrapper {
+            .list-title {
+                font-size: 16px
+            }
+    
+            ul {
+                li {
+                    a {
+                        font-size: 15px;
+                    }
+                }
+            }
+    
+            .footer-link-wrapper-one {
+                display: flex;
+                max-width: 100%;
+                .footer-one {
+                    max-width: 75%;
+                    p {
+                        font-size: 12px;
+                        padding-top: 14px;
+                    }
+                    .input-wrapper {
+                        width: 210px;
+                        height: 40px;
+                        input {
+                            width: 200px;
+                            height: 40px;
+                        }
+                        div {
+                            top: 2%;
+                        }
+                    }
+                }
+                .footer-two {
+                    ul {
+                        margin-top: 67px;
+                        margin-left: 25px;
+                    }
+                }
+            }
+            .footer-link-wrapper-two {
+                margin-top: 70px;
+                .footer-three {
+                    margin: 0 0px 0px 25px;
                 }
             }
         }
