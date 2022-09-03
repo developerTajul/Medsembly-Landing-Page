@@ -1,8 +1,10 @@
 .student-review-section {
+    @include CarouselSwiper;
+
     background-color: #F4F4F4;
     width: 100%;
     height: 1123px;
-    padding: 129px 0 129px 0;
+    padding: 60px 0 129px 0;
 
     .student-review-header {
         @include title;
@@ -10,13 +12,13 @@
 
     .student-review-wrapper {
         width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-content: flex-start;
-        align-items: center;
-
+        min-height: 650px;
         .student-review {
-            max-width: 413px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            max-width: 400px;
             min-height: 484px;
             padding: 33px;
             background-color: transparent;

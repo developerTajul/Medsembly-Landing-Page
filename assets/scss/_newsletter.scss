@@ -1,15 +1,25 @@
 .newsletter-section {
+    @include CarouselSwiper;
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: 0px;
+        left: -25%;
+    }
+
     padding: 110px 0px;
     background-color: #fff;
+
     .get-app {
         max-width: 1123px;
         max-height: 841px;
         margin: 0 auto;
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         align-items: center;
         position: relative;
         .get-app-img {
+            max-width: 780px;
             max-height: 807px;
+            padding-bottom: 30px;
             img {
                 height: 100%;
             }

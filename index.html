@@ -14,6 +14,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--    Bootstrap   -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/fontawesomeAll.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -131,12 +137,12 @@
     <!--    Team Section    -->
     <section class="team-section">
         <div class="container">
-            <div class="row">
+            <div class="row swiper mySwiper">
                 <div class="team-header">
                     <h2>Our mentors are ready to help you</h2>
                 </div>
-                <div class="team-wrapper">
-                    <div class="team">
+                <div class="team-wrapper swiper-wrapper">
+                    <div class="team swiper-slide">
                         <img src="./images/Home Page/team/1.png" alt="team" />
                         <div class="team-info">
                             <div class="team-info-text">
@@ -148,7 +154,7 @@
                         </div>
                     </div>
 
-                    <div class="team">
+                    <div class="team swiper-slide">
                         <img src="./images/Home Page/team/2.png" alt="team" />
                         <div class="team-info">
                             <div class="team-info-text">
@@ -160,7 +166,7 @@
                         </div>
                     </div>
 
-                    <div class="team">
+                    <div class="team swiper-slide">
                         <img src="./images/Home Page/team/3.png" alt="team" />
                         <div class="team-info">
                             <div class="team-info-text">
@@ -171,12 +177,37 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="team swiper-slide">
+                        <img src="./images/Home Page/team/1.png" alt="team" />
+                        <div class="team-info">
+                            <div class="team-info-text">
+                                <h2>Gunj Patel</h2>
+                                <h4>PA Student</h3>
+                                <h3>What I Can Help With:</h3>
+                                <p>General Advising, School Advice, Resume review, Application Review, Personal Statement Review, Mock interview,</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team swiper-slide">
+                        <img src="./images/Home Page/team/2.png" alt="team" />
+                        <div class="team-info">
+                            <div class="team-info-text">
+                                <h2>Jenelle soverall-jack</h2>
+                                <h4>PA Student</h3>
+                                <h3>What I Can Help With:</h3>
+                                <p>General Advising, School Advice, Resume review, Application Review, Personal Statement Review, Mock interview,</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </section>
 
-
+    <!--    Step Section    -->
     <section class="step-section">
         <div class="container">
             <div class="row step-heading">
@@ -222,44 +253,74 @@
                     <h2>Our Student Love Medsembly</h2>
                 </div>
             </div>
-            <div class="row student-review-wrapper">
-                <div class="student-review">
-                    <div class="quote-img">
-                        <img src="./images/Home Page/Quote.svg" alt="">
-                    </div>
-                    <div class="student-img">
-                        <img src="./images/Home Page/students/Student-1.png" alt="student1" />
-                    </div>
-                    <p>Hey Rodeline! I just wanted to say thank you so much for all of your advice and answers! I start PA school in January and would love to be a part of Medsembly</p>
-                    <h2>Priya</h2>
-                    <h4>Founder, WCD Dem</h4>
-                    <h3>Student</h3>
-                </div>
+                <div class="row swiper mySwiper">
+                    <div class="student-review-wrapper swiper-wrapper">
+                        <div class="student-review swiper-slide">
+                            <div class="quote-img">
+                                <img src="./images/Home Page/Quote.svg" alt="">
+                            </div>
+                            <div class="student-img">
+                                <img src="./images/Home Page/students/Student-1.png" alt="student1" />
+                            </div>
+                            <p>Hey Rodeline! I just wanted to say thank you so much for all of your advice and answers! I start PA school in January and would love to be a part of Medsembly</p>
+                            <h2>Priya</h2>
+                            <h4>Founder, WCD Dem</h4>
+                            <h3>Student</h3>
+                        </div>
+        
+                        <div class="student-review swiper-slide">
+                            <div class="quote-img">
+                                <img src="./images/Home Page/Quote.svg" alt="">
+                            </div>
+                            <div class="student-img">
+                                <img src="./images/Home Page/students/Student-2.png" alt="student2" />
+                            </div>
+                            <p>Hey Rodeline! I just wanted to say thank you so much for all of your advice and answers! I start PA school in January and would love.</p>
+                            <h2>Mckenna</h2>
+                            <h4>Founder, WCD Dem</h4>
+                            <h3>Student</h3>
+                        </div>
+        
+                        <div class="student-review swiper-slide">
+                            <div class="quote-img">
+                                <img src="./images/Home Page/Quote.svg" alt="">
+                            </div>
+                            <div class="student-img">
+                                <img src="./images/Home Page/students/Student-3.png" alt="student3" />
+                            </div>
+                            <p>I start PA school in January and would love to be a part of Medsembly and help students like how you have helped me and so many others!</p>
+                            <h2>Happy</h2>
+                            <h4>Founder, WCD Dem</h4>
+                            <h3>Student</h3>
+                        </div>
+        
+                        <div class="student-review swiper-slide">
+                            <div class="quote-img">
+                                <img src="./images/Home Page/Quote.svg" alt="">
+                            </div>
+                            <div class="student-img">
+                                <img src="./images/Home Page/students/Student-1.png" alt="student1" />
+                            </div>
+                            <p>Hey Rodeline! I just wanted to say thank you so much for all of your advice and answers! I start PA school in January and would love to be a part of Medsembly</p>
+                            <h2>Priya</h2>
+                            <h4>Founder, WCD Dem</h4>
+                            <h3>Student</h3>
+                        </div>
 
-                <div class="student-review">
-                    <div class="quote-img">
-                        <img src="./images/Home Page/Quote.svg" alt="">
-                    </div>
-                    <div class="student-img">
-                        <img src="./images/Home Page/students/Student-2.png" alt="student2" />
-                    </div>
-                    <p>Hey Rodeline! I just wanted to say thank you so much for all of your advice and answers! I start PA school in January and would love.</p>
-                    <h2>Mckenna</h2>
-                    <h4>Founder, WCD Dem</h4>
-                    <h3>Student</h3>
-                </div>
-
-                <div class="student-review">
-                    <div class="quote-img">
-                        <img src="./images/Home Page/Quote.svg" alt="">
-                    </div>
-                    <div class="student-img">
-                        <img src="./images/Home Page/students/Student-3.png" alt="student3" />
-                    </div>
-                    <p>I start PA school in January and would love to be a part of Medsembly and help students like how you have helped me and so many others!</p>
-                    <h2>Happy</h2>
-                    <h4>Founder, WCD Dem</h4>
-                    <h3>Student</h3>
+                        <div class="student-review swiper-slide">
+                            <div class="quote-img">
+                                <img src="./images/Home Page/Quote.svg" alt="">
+                            </div>
+                            <div class="student-img">
+                                <img src="./images/Home Page/students/Student-2.png" alt="student2" />
+                            </div>
+                            <p>Hey Rodeline! I just wanted to say thank you so much for all of your advice and answers! I start PA school in January and would love.</p>
+                            <h2>Mckenna</h2>
+                            <h4>Founder, WCD Dem</h4>
+                            <h3>Student</h3>
+                        </div>
+                    </div>  
+                    <div class="swiper-pagination"></div>    
                 </div>
             </div>
         </div>
@@ -271,9 +332,14 @@
         <div class="container">
             <div class="row">
                 <div class="get-app">
-                    <div class="get-app-img">
-                        <img src="./images/Home Page/Phone Mockup.png" alt="phone" />
-                    </div>
+                        <div class="get-app-img swiper mySwiperOne">
+                                <div class="swiper-wrapper">
+                                    <img class="swiper-slide" src="./images/Home Page/Phone Mockup.png" alt="phone" />
+                                    <img class="swiper-slide" src="./images/Home Page/Phone Mockup.png" alt="phone" />
+                                    <img class="swiper-slide" src="./images/Home Page/Phone Mockup.png" alt="phone" />
+                                </div>
+                                <div class="swiper-pagination"></div>
+                        </div>
                     <div class="get-app-text">
                         <h2>Join Medsembly</h2>
                         <div class="img-group">
@@ -334,7 +400,10 @@
                     <div class="footer-link-wrapper-one">
                         <div class="footer-one">
                             <p>Stay connected, join our newsletter</p>
-                            <input type="text" placeholder="Your email" />
+                            <div class="input-wrapper">
+                                <input type="text" placeholder="Your email" />
+                                <div class="arrow"><i class="fa-solid fa-greater-than"></i></div>
+                            </div>
                             <ul>
                                 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>

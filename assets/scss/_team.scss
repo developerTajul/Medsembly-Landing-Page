@@ -1,18 +1,17 @@
 .team-section {
+    @include CarouselSwiper;
     .team-header {
         @include title;
         margin-right: 60px auto;
     }
+    
     .team-wrapper {
         width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-content: center;
-        align-items: center;
         margin-bottom: 60px;
+        padding-bottom: 50px;
         .team {
-            max-width: 413px;
-            max-height: 570px;
+            max-width: 400px;
+            max-height: 590px;
             position: relative;
             img {
                 min-width: 100%;
@@ -28,7 +27,7 @@
                 color: #0B0036;
                 z-index: 11;
                 border-radius: 16px;
-                padding: 23px;
+                padding: 17px;
                 .team-info-text {
                     margin-top: 90%;
                     h2 {
