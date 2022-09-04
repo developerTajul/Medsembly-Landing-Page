@@ -1,6 +1,5 @@
 (function ($) {
   jQuery(document).ready(function () {
-
     //  Swiper for Carousel:
     const swiper = new Swiper(".mySwiper", {
       slidesPerView: 1,
@@ -43,4 +42,21 @@
 
 
 
+
+
+
+
+
+//  Handle Navigation:
+let hamburger_menu = document.getElementsByClassName("hamburger-menu")[0];
+let closeBtn = document.getElementsByClassName("close-btn")[0];
+let mobile_nav_wrapper = document.getElementsByClassName("mobile-nav-wrapper")[0];
+
+hamburger_menu.addEventListener("click", () => {
+  mobile_nav_wrapper.style.right = "-1px";
+});
+
+closeBtn.addEventListener("click", () => {
+  mobile_nav_wrapper.style.right = "-100%"
+})
 
