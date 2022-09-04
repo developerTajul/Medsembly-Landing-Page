@@ -4580,10 +4580,10 @@ footer .copyright .copy-right .copyright-links li span {
   color: #FFFFFF;
 }
 
-.about-team-section {
+.about-service-section {
   padding: 100px 0px;
 }
-.about-team-section .about-team-wrapper .about-team-text h2 {
+.about-service-section .about-service-wrapper .about-service-text h2 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -4593,7 +4593,7 @@ footer .copyright .copy-right .copyright-links li span {
   color: #000000;
   margin-bottom: 20px;
 }
-.about-team-section .about-team-wrapper .about-team-text p {
+.about-service-section .about-service-wrapper .about-service-text p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -4601,29 +4601,29 @@ footer .copyright .copy-right .copyright-links li span {
   line-height: 32px;
   color: #6D6E71;
 }
-.about-team-section .about-team-wrapper .about-team-img {
+.about-service-section .about-service-wrapper .about-service-img {
   max-width: 100%;
   position: relative;
 }
-.about-team-section .about-team-wrapper .about-team-img .bottom-img {
+.about-service-section .about-service-wrapper .about-service-img .bottom-img {
   max-width: 450px;
 }
-.about-team-section .about-team-wrapper .about-team-img .top-img {
+.about-service-section .about-service-wrapper .about-service-img .top-img {
   position: absolute;
   right: 10%;
   bottom: -25%;
 }
-.about-team-section .about-team-wrapper .about-team-two {
+.about-service-section .about-service-wrapper .about-service-two {
   padding-top: 100px;
   max-width: 1300px;
   max-height: 620px;
   position: relative;
 }
-.about-team-section .about-team-wrapper .about-team-two img {
+.about-service-section .about-service-wrapper .about-service-two img {
   max-width: 716px;
   max-height: 540px;
 }
-.about-team-section .about-team-wrapper .about-team-two .about-two-text {
+.about-service-section .about-service-wrapper .about-service-two .about-two-text {
   max-width: 706px;
   max-height: 430px;
   position: absolute;
@@ -4634,7 +4634,7 @@ footer .copyright .copy-right .copyright-links li span {
   overflow: hidden;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.about-team-section .about-team-wrapper .about-team-two .about-two-text::before {
+.about-service-section .about-service-wrapper .about-service-two .about-two-text::before {
   content: "";
   display: block;
   width: 290px;
@@ -4647,7 +4647,7 @@ footer .copyright .copy-right .copyright-links li span {
   z-index: 1111;
   background-repeat: no-repeat;
 }
-.about-team-section .about-team-wrapper .about-team-two .about-two-text h2 {
+.about-service-section .about-service-wrapper .about-service-two .about-two-text h2 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -4657,7 +4657,7 @@ footer .copyright .copy-right .copyright-links li span {
   color: #000000;
   padding: 30px 50px 20px 50px;
 }
-.about-team-section .about-team-wrapper .about-team-two .about-two-text p {
+.about-service-section .about-service-wrapper .about-service-two .about-two-text p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -4665,4 +4665,165 @@ footer .copyright .copy-right .copyright-links li span {
   line-height: 40px;
   color: #6D6E71;
   padding: 0 50px 50px 50px;
+}
+
+.about-team-section h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 74px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #0B0036;
+  padding: 110px 0px;
+}
+.about-team-section .about-team-wrapper {
+  max-width: 845px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-team-section .about-team-wrapper .about-team {
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.about-team-section .about-team-wrapper .about-team img {
+  width: 340px;
+  height: 340px;
+  margin-left: -15px;
+}
+.about-team-section .about-team-wrapper .about-team .about-team-content {
+  width: 120%;
+  height: 120%;
+  background: rgba(225, 0, 19, 0.7);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.about-team-section .about-team-wrapper .about-team .about-team-content h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.about-team-section .about-team-wrapper .about-team .about-team-content p {
+  color: #fff;
+  max-width: 202px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 5px 25px;
+}
+.about-team-section .about-team-wrapper .about-team .about-team-content a {
+  background-color: #fff;
+  display: block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #EA1C2D;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.about-team-section .about-team-wrapper .about-team:hover .about-team-content {
+  visibility: visible;
+  opacity: 1;
+}
+.about-team-section .ambassador-wrapper {
+  max-width: 1270px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-team-section .ambassador-wrapper .ambassador {
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+.about-team-section .ambassador-wrapper .ambassador img {
+  width: 340px;
+  height: 340px;
+  margin-left: -15px;
+}
+.about-team-section .ambassador-wrapper .ambassador .ambassador-content {
+  width: 120%;
+  height: 120%;
+  background: rgba(225, 0, 19, 0.7);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.about-team-section .ambassador-wrapper .ambassador .ambassador-content h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.about-team-section .ambassador-wrapper .ambassador .ambassador-content p {
+  color: #fff;
+  max-width: 202px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 5px 25px;
+}
+.about-team-section .ambassador-wrapper .ambassador .ambassador-content a {
+  background-color: #fff;
+  display: block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #EA1C2D;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.about-team-section .ambassador-wrapper .ambassador:hover .ambassador-content {
+  visibility: visible;
+  opacity: 1;
 }/*# sourceMappingURL=main.css.map */
