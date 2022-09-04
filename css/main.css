@@ -4239,7 +4239,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .features-section .feature-wrapper .feature {
     width: 46%;
-    max-height: 520px;
+    max-height: 580px;
     padding: 15px;
     margin: 25px 2%;
   }
@@ -4255,6 +4255,9 @@ footer .copyright .copy-right .copyright-links li span {
     position: absolute;
     left: 0;
     bottom: 14%;
+  }
+  .features-section .feature-wrapper .feature-three {
+    margin-left: auto;
   }
   .team-section .team-wrapper .team {
     max-width: 31.5%;

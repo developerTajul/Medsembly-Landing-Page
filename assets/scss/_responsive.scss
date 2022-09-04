@@ -1544,7 +1544,7 @@
             }
             .feature {
                 width: 46%;
-                max-height: 520px;
+                max-height: 580px;
                 padding: 15px;
                 margin: 25px 2%;
 
@@ -1562,6 +1562,9 @@
                 position: absolute;
                 left: 0;
                 bottom: 14%;
+            }
+            .feature-three {
+                margin-left: auto;
             }
         }
     }
