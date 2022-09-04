@@ -4388,6 +4388,9 @@ footer .copyright .copy-right .copyright-links li span {
     height: 40px;
     margin: 20px;
   }
+  header .container .header-top .navbar .hamburger-menu {
+    display: none;
+  }
   header .container .header-top .navbar .navbar-right {
     display: block;
   }
@@ -4398,10 +4401,12 @@ footer .copyright .copy-right .copyright-links li span {
     display: block;
     min-width: 80px;
     font-size: 16px;
+    white-space: nowrap;
   }
   header .container .header-top .navbar .navbar-right .theme-btn a {
     font-size: 16px;
     padding: 15px 20px;
+    white-space: nowrap;
   }
   .banner-section .banner_wrapper {
     height: 960px;
@@ -4532,5 +4537,10 @@ footer .copyright .copy-right .copyright-links li span {
   }
   footer .footer-wrapper .footer-link-wrapper-two .footer-three {
     margin: 0 0px 0px 130px;
+  }
+}
+@media only screen and (min-width: 1401px) {
+  header .container .header-top .navbar .hamburger-menu {
+    display: none;
   }
 }/*# sourceMappingURL=main.css.map */
