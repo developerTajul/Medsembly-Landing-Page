@@ -1958,7 +1958,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   height: 100%;
 }
 .banner-section .banner_wrapper .banner-content {
-  max-width: 465px;
+  max-width: 100%;
   margin: 0 auto;
 }
 .banner-section .banner_wrapper .banner-content h1 {
