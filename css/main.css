@@ -2277,8 +2277,7 @@ header .container .header-top .navbar .theme-btn a {
   box-shadow: rgba(149, 157, 165, 0.1) 0px 6px 18px;
 }
 .student-review-section .student-review-wrapper .student-review:hover .student-img {
-  width: 106px;
-  height: 114px;
+  width: 75px;
 }
 .student-review-section .student-review-wrapper .student-review:hover ::after {
   display: block;
@@ -2474,6 +2473,8 @@ header .container .header-top .navbar .theme-btn a {
   background: #EEEEEE;
   border-radius: 10px;
   border: none;
+  padding-left: 15px;
+  font-size: 18px;
 }
 .newsletter-section .subscribe-area .subscribe-text .sub-form .username .firstname h4 {
   font-family: "Inter";
@@ -2494,6 +2495,8 @@ header .container .header-top .navbar .theme-btn a {
   background: #EEEEEE;
   border-radius: 10px;
   border: none;
+  padding-left: 15px;
+  font-size: 18px;
 }
 .newsletter-section .subscribe-area .subscribe-text .sub-form .username .lastname h4 {
   font-family: "Inter";
@@ -2514,6 +2517,8 @@ header .container .header-top .navbar .theme-btn a {
   background: #EEEEEE;
   border-radius: 10px;
   border: none;
+  padding-left: 15px;
+  font-size: 18px;
 }
 .newsletter-section .subscribe-area .subscribe-text .sub-form .email h4 {
   font-family: "Inter";
@@ -2524,6 +2529,12 @@ header .container .header-top .navbar .theme-btn a {
   text-transform: capitalize;
   color: #000000;
   margin-bottom: 6px;
+}
+.newsletter-section .subscribe-area .subscribe-text .sub-form a {
+  max-width: 160px;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
 }
 .newsletter-section .subscribe-area .subscribe-img {
   max-width: 100%;
@@ -2687,7 +2698,562 @@ footer .copyright .copy-right .copyright-links li span {
   margin: 0 20px;
 }
 
-@media only screen and (min-width: 576px) and (max-width: 992px) {
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+  header .container .header-top .navbar .logo {
+    width: 190px;
+    height: 40px;
+    margin: 20px;
+  }
+  header .container .header-top .navbar .navbar-right {
+    display: none;
+  }
+  .banner-section .banner_wrapper {
+    height: auto;
+    min-height: 650px;
+    margin: 20px auto 0px auto;
+  }
+  .banner-section .banner_wrapper .banner_wrapper-left {
+    max-width: 90%;
+    max-height: 100%;
+    margin-bottom: 25px;
+  }
+  .banner-section .banner_wrapper .banner_wrapper-left img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .banner-section .banner_wrapper .banner_wrapper-right {
+    display: none;
+  }
+  .banner-section .banner_wrapper .banner-content h1 {
+    font-size: 24px;
+    line-height: 40px;
+    padding: 0px 4px 5px 0px;
+  }
+  .banner-section .banner_wrapper .banner-content p {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 5px;
+  }
+  .banner-section .banner_wrapper .banner-content .primary_button {
+    padding: 14px 20px;
+    margin: 20px 0px;
+    border-radius: 7px;
+    font-size: 14px;
+  }
+  .banner-section .banner_wrapper .banner_bottom {
+    display: none;
+  }
+  .banner-section .hero-section .hero-text h2 {
+    min-height: 200px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .features-section {
+    padding: 40px 10px;
+  }
+  .features-section .feature-wrapper .feature-heading {
+    max-width: 650px;
+    max-height: 416px;
+    margin-bottom: 25px;
+  }
+  .features-section .feature-wrapper .feature-heading h2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .features-section .feature-wrapper .feature-heading p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    padding: 25px 0px 25px 0px;
+  }
+  .features-section .feature-wrapper .feature-heading .primary_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 50px;
+    font-size: 16px;
+  }
+  .features-section .feature-wrapper .feature {
+    width: 100%;
+    max-height: 500px;
+    padding: 20px;
+    margin: 20px 0px;
+  }
+  .features-section .feature-wrapper .feature h2 {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .features-section .feature-wrapper .feature p {
+    font-size: 15px;
+  }
+  .features-section .feature-wrapper .feature img {
+    max-height: 270px;
+  }
+  .features-section .feature-wrapper .feature-one {
+    margin-bottom: 0px;
+  }
+  .features-section .feature-wrapper .feature-one img {
+    max-height: 270px;
+  }
+  .features-section .feature-wrapper .feature-two {
+    position: relative;
+  }
+  .team-section .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .team-section .swiper .swiper-pagination-bullet {
+    width: 27px;
+    height: 8px;
+    border-radius: 0%;
+    background-color: #D9D9D9;
+    opacity: 1;
+  }
+  .team-section .swiper .swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #EA1C2D;
+    width: 57px;
+    height: 8px;
+    border-radius: 0%;
+  }
+  .team-section .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .team-section .team-header {
+    max-width: 400px;
+    margin: 30px auto;
+  }
+  .team-section .team-header h2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .team-section .team-wrapper {
+    width: 100%;
+    margin-bottom: 60px;
+    padding-bottom: 50px;
+    margin-left: 10px;
+  }
+  .team-section .team-wrapper .team {
+    max-width: calc(100% - 25px);
+    margin-right: 23px;
+  }
+  .team-section .team-wrapper .team .team-info {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 35.35%, #000000 104.5%);
+    position: absolute;
+    bottom: 0;
+    color: #0B0036;
+    z-index: 11;
+    border-radius: 16px;
+    padding: 17px;
+  }
+  .team-section .team-wrapper .team .team-info .team-info-text {
+    margin-top: 85%;
+  }
+  .team-section .team-wrapper .team .team-info .team-info-text h2 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .team-section .team-wrapper .team .team-info .team-info-text h4 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .team-section .team-wrapper .team .team-info .team-info-text h3 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+  }
+  .team-section .team-wrapper .team .team-info .team-info-text p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .step-section {
+    padding-top: 60px;
+  }
+  .step-section .step-heading {
+    max-width: 400px;
+    margin: 50px auto 30px auto;
+  }
+  .step-section .step-heading h2 {
+    font-size: 23px;
+    line-height: 40px;
+  }
+  .step-section .step-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding-bottom: 30px;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .step-section .step-wrapper .step {
+    width: 98%;
+    min-height: 319px;
+    padding: 15px 10px 15px 10px;
+    margin: 20px auto;
+  }
+  .step-section .step-wrapper .step .step-head {
+    display: flex;
+  }
+  .step-section .step-wrapper .step .step-img {
+    width: 60px;
+    height: 50px;
+    margin-top: 15px;
+  }
+  .step-section .step-wrapper .step h2 {
+    font-size: 39px;
+    line-height: 74px;
+  }
+  .step-section .step-wrapper .step h3 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .step-section .step-wrapper .step p {
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .student-review-section {
+    width: 100%;
+    height: 750px;
+    max-height: 1123px;
+    padding: 10px 0 60px 0;
+  }
+  .student-review-section .student-review-header {
+    max-width: 400px;
+  }
+  .student-review-section .student-review-header h2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .student-review-section .student-review-wrapper {
+    width: 100%;
+    min-height: 450px;
+    margin: 0 auto;
+    margin-left: 15px;
+  }
+  .student-review-section .student-review-wrapper .student-review {
+    max-width: calc(100% - 25px);
+    margin-right: 23px;
+    min-height: 360px;
+    padding: 15px;
+  }
+  .student-review-section .student-review-wrapper .student-review .student-review-head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .student-review-section .student-review-wrapper .student-review .student-review-head .student-img {
+    width: 49px;
+    height: 69px;
+    margin: 0px 0 14px 0px;
+    transition: all 1s ease;
+  }
+  .student-review-section .student-review-wrapper .student-review .student-review-head .student-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .student-review-section .student-review-wrapper .student-review p {
+    font-size: 12px;
+    line-height: 25px;
+    padding: 10px 0px 12px 0px;
+  }
+  .student-review-section .student-review-wrapper .student-review h2 {
+    font-size: 18px;
+    line-height: 34px;
+  }
+  .student-review-section .student-review-wrapper .student-review h4 {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .student-review-section .student-review-wrapper .student-review h3 {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 0px;
+  }
+  .student-review-section .student-review-wrapper .student-review:hover {
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.1) 0px 6px 18px;
+  }
+  .student-review-section .student-review-wrapper .student-review:hover .student-img {
+    width: 70px;
+    height: 70px;
+  }
+  .student-review-section .student-review-wrapper .student-review:hover ::after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid #fff;
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    bottom: -10%;
+    left: 36%;
+    transform: translateX(-40%);
+    transform: rotate(90deg);
+  }
+  .newsletter-section {
+    padding: 70px 0px;
+  }
+  .newsletter-section .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .newsletter-section .swiper .swiper-pagination-bullet {
+    width: 27px;
+    height: 8px;
+    border-radius: 0%;
+    background-color: #D9D9D9;
+    opacity: 1;
+  }
+  .newsletter-section .swiper .swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #EA1C2D;
+    width: 57px;
+    height: 8px;
+    border-radius: 0%;
+  }
+  .newsletter-section .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .newsletter-section .swiper-horizontal > .swiper-pagination-bullets, .newsletter-section .swiper-pagination-bullets.swiper-pagination-horizontal, .newsletter-section .swiper-pagination-custom, .newsletter-section .swiper-pagination-fraction {
+    bottom: 0px;
+    left: 0%;
+  }
+  .newsletter-section .get-app {
+    max-width: 100%;
+    max-height: 841px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    position: relative;
+  }
+  .newsletter-section .get-app .get-app-img {
+    max-width: 780px;
+    max-height: 807px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+  }
+  .newsletter-section .get-app .get-app-img img {
+    height: 100%;
+  }
+  .newsletter-section .get-app .get-app-text {
+    max-width: 317px;
+    position: absolute;
+    right: 7%;
+  }
+  .newsletter-section .get-app .get-app-text h2 {
+    font-size: 20px;
+    margin: 0px auto 20px auto;
+  }
+  .newsletter-section .get-app .get-app-text .img-group {
+    display: flex;
+  }
+  .newsletter-section .get-app .get-app-text .img-group img {
+    max-width: 60px;
+    max-height: 50px;
+    margin-right: 10px;
+  }
+  .newsletter-section .subscribe-area {
+    width: 100%;
+    padding-top: 100px;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .newsletter-section .subscribe-area .subscribe-text {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    order: 1;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .subscribe-title h2 {
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-checkbox {
+    display: flex;
+    margin: 30px 0px 50px 0px;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-checkbox h3 {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 4px;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-checkbox .switch {
+    margin: 0px 20px 0px 20px;
+    width: 50px;
+    height: 25px;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-checkbox .switch .slider:before {
+    bottom: 1px;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form {
+    width: 100%;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form .username {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form .username .firstname {
+    max-width: 50%;
+    margin-right: 2%;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form .username .firstname input {
+    width: 96%;
+    height: 40px;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form .username .firstname h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form .username .lastname {
+    max-width: 50%;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form .username .lastname input {
+    width: 96%;
+    height: 40px;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form .username .lastname h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form .email {
+    max-width: 100%;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form .email input {
+    width: 100%;
+    height: 40px;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form .email h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form a {
+    padding: 13px 30px;
+    max-width: 125px;
+  }
+  .newsletter-section .subscribe-area .subscribe-img {
+    order: 0;
+    max-width: 300px;
+    margin: 0 auto 50px auto;
+  }
+  .newsletter-section .subscribe-area .subscribe-img img {
+    max-width: 100%;
+  }
+  footer {
+    width: 100%;
+    background-color: #F4F4F4;
+    max-height: 1050px;
+    padding-top: 70px;
+    position: relative;
+  }
+  footer .logo {
+    width: 203px;
+    height: 38px;
+  }
+  footer .footer-wrapper .list-title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 30px;
+    font-size: 17px;
+  }
+  footer .footer-wrapper ul li a {
+    display: block;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #6D6E71;
+    margin-bottom: 20px;
+  }
+  footer .footer-wrapper ul li a {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  footer .footer-wrapper .footer-link-wrapper-one {
+    display: grid;
+  }
+  footer .footer-wrapper .footer-link-wrapper-one .footer-one {
+    margin-bottom: 35px;
+  }
+  footer .footer-wrapper .footer-link-wrapper-two {
+    margin-top: 40px;
+  }
+  footer .footer-wrapper .footer-link-wrapper-two .footer-three {
+    margin: 0;
+  }
+  footer .copyright {
+    grid-template-columns: 1fr;
+    margin: 70px auto 0 auto;
+    text-align: center;
+    padding: 30px 0px;
+  }
+  footer .copyright .copy-left p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  footer .copyright .copy-right {
+    width: 100%;
+    display: block;
+  }
+  footer .copyright .copy-right .copyright-links {
+    float: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  footer .copyright .copy-right .copyright-links li a {
+    font-size: 12px;
+  }
+  footer .copyright .copy-right .copyright-links li span {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 1400px) {
   header .container .header-top .navbar .logo {
     width: 190px;
     height: 40px;
@@ -2775,9 +3341,9 @@ footer .copyright .copy-right .copyright-links li span {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 144px;
-    height: 55px;
-    font-size: 14px;
+    width: 140px;
+    height: 50px;
+    font-size: 16px;
   }
   .features-section .feature-wrapper .feature {
     width: 100%;
@@ -3144,6 +3710,10 @@ footer .copyright .copy-right .copyright-links li span {
     color: #000000;
     margin-bottom: 6px;
   }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form a {
+    padding: 15px 30px;
+    max-width: 125px;
+  }
   .newsletter-section .subscribe-area .subscribe-img {
     order: 0;
     max-width: 80%;
@@ -3155,7 +3725,7 @@ footer .copyright .copy-right .copyright-links li span {
   footer {
     width: 100%;
     background-color: #F4F4F4;
-    max-height: 803px;
+    max-height: 835px;
     padding-top: 70px;
     position: relative;
   }
@@ -3220,7 +3790,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-size: 12px;
   }
 }
-@media only screen and (max-width: 992px) and (min-width: 768px) {
+@media only screen and (max-width: 1400px) and (min-width: 768px) {
   .banner-section .banner_wrapper {
     min-height: 570px;
   }
@@ -3461,7 +4031,7 @@ footer .copyright .copy-right .copyright-links li span {
   .newsletter-section .subscribe-area .subscribe-text .sub-form .username {
     max-width: 100%;
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   .newsletter-section .subscribe-area .subscribe-text .sub-form .username .firstname {
     max-width: 50%;
@@ -3473,6 +4043,8 @@ footer .copyright .copy-right .copyright-links li span {
     background: #EEEEEE;
     border-radius: 10px;
     border: none;
+    padding-left: 15px;
+    font-size: 18px;
   }
   .newsletter-section .subscribe-area .subscribe-text .sub-form .username .firstname h4 {
     font-family: "Inter";
@@ -3484,6 +4056,9 @@ footer .copyright .copy-right .copyright-links li span {
     color: #000000;
     margin-bottom: 6px;
   }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form .username .firstname input {
+    height: 48px;
+  }
   .newsletter-section .subscribe-area .subscribe-text .sub-form .username .lastname {
     max-width: 50%;
   }
@@ -3493,6 +4068,11 @@ footer .copyright .copy-right .copyright-links li span {
     background: #EEEEEE;
     border-radius: 10px;
     border: none;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form .username .lastname input {
+    height: 48px;
   }
   .newsletter-section .subscribe-area .subscribe-text .sub-form .email {
     max-width: 100%;
@@ -3503,6 +4083,14 @@ footer .copyright .copy-right .copyright-links li span {
     background: #EEEEEE;
     border-radius: 10px;
     border: none;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form .email input {
+    height: 48px;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form input {
+    height: 48px;
   }
   .newsletter-section .subscribe-area .subscribe-img {
     max-width: 100%;
@@ -3552,5 +4140,323 @@ footer .copyright .copy-right .copyright-links li span {
   }
   footer .footer-wrapper .footer-link-wrapper-two .footer-three {
     margin: 0 0px 0px 25px;
+  }
+}
+@media only screen and (max-width: 1400px) and (min-width: 992px) {
+  .banner-section .banner_wrapper {
+    min-height: 600px;
+  }
+  .banner-section .banner_wrapper .banner_wrapper-left,
+.banner-section .banner_wrapper .banner_wrapper-right {
+    max-height: 330px;
+  }
+  .banner-section .banner_wrapper .banner-content h1 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+  .banner-section .banner_wrapper .banner-content p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .banner-section .banner_wrapper .banner_bottom .banner_wrapper-bottom-left {
+    margin-left: 5%;
+    max-width: 330px;
+    max-height: 330px;
+  }
+  .banner-section .banner_wrapper .banner_bottom .banner_wrapper-bottom-right {
+    max-height: 450px;
+    bottom: -5%;
+    right: 5%;
+  }
+  .banner-section .banner_wrapper .banner_bottom .banner_wrapper-bottom-right img {
+    max-height: 450px;
+  }
+  .banner-section .hero-section .hero-text h2 {
+    min-height: 200px;
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .features-section {
+    padding: 60px 60px;
+  }
+  .features-section .feature-wrapper .feature-heading p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .features-section .feature-wrapper .feature {
+    width: 46%;
+    max-height: 520px;
+    padding: 15px;
+    margin: 25px 2%;
+  }
+  .features-section .feature-wrapper .feature h2 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .features-section .feature-wrapper .feature p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .features-section .feature-wrapper .feature-two {
+    position: absolute;
+    left: 0;
+    bottom: 14%;
+  }
+  .team-section .team-wrapper .team {
+    max-width: 31.5%;
+  }
+  .team-section .team-wrapper .team .team-info {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+  .team-section .team-wrapper .team .team-info .team-info-text {
+    margin-top: 70%;
+  }
+  .team-section .team-wrapper .team .team-info .team-info-text h2 {
+    font-size: 22px;
+  }
+  .team-section .team-wrapper .team .team-info .team-info-text h4 {
+    font-size: 17px;
+    line-height: 22px;
+  }
+  .team-section .team-wrapper .team .team-info .team-info-text h3 {
+    font-size: 18px;
+  }
+  .team-section .team-wrapper .team .team-info .team-info-text p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .step-section {
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+  .step-section .step-wrapper .step .step-img {
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .step-section .step-wrapper .step .step-img img {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+  }
+  .step-section .step-wrapper .step h3 {
+    font-size: 20px;
+  }
+  .step-section .step-wrapper .step p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .student-review-section {
+    padding: 10px 0 40px 0;
+  }
+  .student-review-section .student-review-wrapper {
+    width: 100%;
+    min-height: 480px;
+  }
+  .student-review-section .student-review-wrapper .student-review {
+    max-width: 31.5%;
+    min-height: 400px;
+    padding: 10px;
+    margin: 0px;
+  }
+  .student-review-section .student-review-wrapper .student-review p {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+  }
+  .student-review-section .student-review-wrapper .student-review h2 {
+    font-size: 22px;
+    line-height: 35px;
+  }
+  .student-review-section .student-review-wrapper .student-review h3 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .newsletter-section {
+    padding: 70px 50px;
+  }
+  .newsletter-section .get-app .get-app-img {
+    margin-left: 70px;
+  }
+  .newsletter-section .get-app .get-app-text {
+    right: 10%;
+  }
+  .newsletter-section .get-app .get-app-text h2 {
+    font-size: 34px;
+    margin: 0px auto 30px auto;
+  }
+  .newsletter-section .get-app .get-app-text .img-group img {
+    max-width: 160px;
+    margin-right: 15px;
+  }
+  .newsletter-section .subscribe-area {
+    grid-template-columns: 55% 45%;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form .username .firstname input {
+    width: 220px;
+    height: 62px;
+    background: #EEEEEE;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form .username .lastname input {
+    width: 220px;
+    height: 62px;
+    background: #EEEEEE;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form .email input {
+    width: 450px;
+    height: 62px;
+    background: #EEEEEE;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+  footer .footer-wrapper .footer-link-wrapper-two {
+    margin-top: 70px;
+  }
+  footer .footer-wrapper .footer-link-wrapper-two .footer-three {
+    margin: 0 0px 0px 100px;
+  }
+}
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {
+  .banner-section .banner_wrapper {
+    height: 960px;
+  }
+  .banner-section .banner_wrapper .banner_wrapper-left,
+.banner-section .banner_wrapper .banner_wrapper-right {
+    max-height: 400px;
+  }
+  .banner-section .banner_wrapper .banner-content h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .banner-section .banner_wrapper .banner_bottom .banner_wrapper-bottom-left {
+    margin-left: 5%;
+    max-width: 400px;
+    max-height: 400px;
+  }
+  .banner-section .banner_wrapper .banner_bottom .banner_wrapper-bottom-right {
+    max-height: 450px;
+    max-width: 500px;
+    bottom: 10%;
+    right: 5%;
+  }
+  .banner-section .banner_wrapper .banner_bottom .banner_wrapper-bottom-right img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .banner-section .hero-section .hero-text h2 {
+    min-height: 230px;
+    font-size: 34px;
+    line-height: 50px;
+  }
+  .features-section .feature-wrapper .feature-heading p {
+    font-size: 18px;
+    line-height: 34px;
+  }
+  .features-section .feature-wrapper .feature h2 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+  .features-section .feature-wrapper .feature p {
+    font-size: 18px;
+    line-height: 34px;
+  }
+  .team-section .team-wrapper .team {
+    max-width: 29.5%;
+  }
+  .team-section .team-wrapper .team .team-info .team-info-text {
+    margin-top: 82%;
+  }
+  .step-section .step-wrapper .step .step-img {
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .step-section .step-wrapper .step .step-img img {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+  }
+  .step-section .step-wrapper .step h3 {
+    font-size: 23px;
+  }
+  .step-section .step-wrapper .step p {
+    font-size: 17px;
+    line-height: 34px;
+  }
+  .student-review-section {
+    padding: 10px 0 40px 0;
+  }
+  .student-review-section .student-review-wrapper {
+    width: 100%;
+    min-height: 520px;
+  }
+  .student-review-section .student-review-wrapper .student-review {
+    max-width: 29.5%;
+    min-height: 400px;
+  }
+  .newsletter-section {
+    padding: 70px 50px;
+  }
+  .newsletter-section .get-app .get-app-img {
+    margin-left: 70px;
+  }
+  .newsletter-section .get-app .get-app-text {
+    right: 20%;
+  }
+  .newsletter-section .get-app .get-app-text h2 {
+    font-size: 34px;
+    margin: 0px auto 30px auto;
+  }
+  .newsletter-section .get-app .get-app-text .img-group img {
+    max-width: 200px;
+    margin-right: 15px;
+  }
+  .newsletter-section .subscribe-area {
+    grid-template-columns: 50% 50%;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form .username .firstname input {
+    width: 230px;
+    height: 62px;
+    background: #EEEEEE;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form .username .lastname input {
+    width: 230px;
+    height: 62px;
+    background: #EEEEEE;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form .email input {
+    width: 470px;
+    height: 62px;
+    background: #EEEEEE;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+  footer .footer-wrapper .footer-link-wrapper-two {
+    margin-top: 70px;
+  }
+  footer .footer-wrapper .footer-link-wrapper-two .footer-three {
+    margin: 0 0px 0px 130px;
   }
 }/*# sourceMappingURL=main.css.map */
