@@ -1,0 +1,86 @@
+.partner-banner-section {
+    .partner-banner-top {
+        display: flex;
+        align-items: center;
+        margin: 40px 0px 100px 0px;
+        .partner-banner-text-one {
+            h1 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 74px;
+                line-height: 90px;
+                text-transform: capitalize;
+                color: #181818;
+            }
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 40px;
+                color: #6D6E71;
+            }
+        }
+
+        .partner-banner-img-one {
+            max-width: 520px;
+            max-height: 780px;
+            img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+    }
+    .partner-banner-middle {
+        .partner-banner-img-two {
+            max-width: 666px;
+            max-height: 622px;
+            img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+
+        .partner-banner-text-two {
+            max-width: 540px;
+            h2 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 56px;
+                line-height: 74px;
+                text-transform: capitalize;
+                color: #181818;
+            }
+            ul li,
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                text-align: left;
+                text-transform: capitalize;
+                color: #6D6E71;
+                padding: 20px 15px;
+            }
+            ul li img {
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+    .partner-banner-bottom {
+        width: 100%;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 67px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #333333;
+        margin: 110px auto;
+    }
+}

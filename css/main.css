@@ -6483,4 +6483,248 @@ footer .copyright .copy-right .copyright-links li span {
   .student-banner-wrapper .student_banner-bottom .banner_award {
     left: 5%;
   }
+}
+.become-partner-section {
+  width: 100%;
+}
+.become-partner-section .become-partner-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 110px 15px;
+}
+.become-partner-section .become-partner-wrapper .become-partner-content {
+  max-width: 550px;
+}
+.become-partner-section .become-partner-wrapper .become-partner-content h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 74px;
+  text-transform: capitalize;
+  color: #181818;
+}
+.become-partner-section .become-partner-wrapper .become-partner-content a {
+  max-width: 230px;
+  display: block;
+  margin: 50px 0px;
+}
+.become-partner-section .become-partner-wrapper .become-partner-img {
+  max-width: 750px;
+  max-height: 580px;
+  position: relative;
+  margin: 50px 0px;
+}
+.become-partner-section .become-partner-wrapper .become-partner-img .partner-bottom {
+  max-width: 530px;
+  max-height: 520px;
+  z-index: 11;
+}
+.become-partner-section .become-partner-wrapper .become-partner-img .partner-top {
+  max-width: 287px;
+  max-height: 302px;
+  position: absolute;
+  right: -10%;
+  top: 23%;
+}
+.become-partner-section .become-partner-wrapper .become-partner-img::before {
+  content: "";
+  display: block;
+  width: 290px;
+  height: 300px;
+  position: absolute;
+  left: -70px;
+  bottom: -70px;
+  background: rgba(234, 28, 45, 0.1);
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+
+.partner-banner-section .partner-banner-top {
+  display: flex;
+  align-items: center;
+  margin: 40px 0px 100px 0px;
+}
+.partner-banner-section .partner-banner-top .partner-banner-text-one h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 74px;
+  line-height: 90px;
+  text-transform: capitalize;
+  color: #181818;
+}
+.partner-banner-section .partner-banner-top .partner-banner-text-one p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #6D6E71;
+}
+.partner-banner-section .partner-banner-top .partner-banner-img-one {
+  max-width: 520px;
+  max-height: 780px;
+}
+.partner-banner-section .partner-banner-top .partner-banner-img-one img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.partner-banner-section .partner-banner-middle .partner-banner-img-two {
+  max-width: 666px;
+  max-height: 622px;
+}
+.partner-banner-section .partner-banner-middle .partner-banner-img-two img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.partner-banner-section .partner-banner-middle .partner-banner-text-two {
+  max-width: 540px;
+}
+.partner-banner-section .partner-banner-middle .partner-banner-text-two h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 74px;
+  text-transform: capitalize;
+  color: #181818;
+}
+.partner-banner-section .partner-banner-middle .partner-banner-text-two ul li,
+.partner-banner-section .partner-banner-middle .partner-banner-text-two p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  text-transform: capitalize;
+  color: #6D6E71;
+  padding: 20px 15px;
+}
+.partner-banner-section .partner-banner-middle .partner-banner-text-two ul li img {
+  width: 25px;
+  height: 25px;
+}
+.partner-banner-section .partner-banner-bottom {
+  width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 67px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #333333;
+  margin: 110px auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1400px) {
+  .partner-banner-section .partner-banner-top {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .partner-banner-section .partner-banner-top .partner-banner-text-one {
+    order: 1;
+  }
+  .partner-banner-section .partner-banner-top .partner-banner-text-one h1 {
+    font-size: 40px;
+    line-height: 60px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .partner-banner-section .partner-banner-top .partner-banner-text-one p {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .partner-banner-section .partner-banner-top .partner-banner-img-one {
+    order: 0;
+    max-width: 90%;
+    max-height: auto;
+    margin: 0 auto;
+  }
+  .partner-banner-section .partner-banner-middle .partner-banner-img-two {
+    max-width: 90%;
+    max-height: auto;
+    margin: 0 auto;
+  }
+  .partner-banner-section .partner-banner-middle .partner-banner-text-two {
+    max-width: 540px;
+  }
+  .partner-banner-section .partner-banner-middle .partner-banner-text-two h2 {
+    font-size: 40px;
+    line-height: 60px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .partner-banner-section .partner-banner-middle .partner-banner-text-two ul li,
+.partner-banner-section .partner-banner-middle .partner-banner-text-two p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    padding: 12px 15px;
+  }
+  .partner-banner-section .partner-banner-middle .partner-banner-text-two ul li img {
+    width: 25px;
+    height: 25px;
+  }
+  .partner-banner-section .partner-banner-bottom {
+    width: 100%;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 70px auto;
+    padding: 0 10px;
+  }
+  .become-partner-section {
+    width: 100%;
+  }
+  .become-partner-section .become-partner-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 110px 15px;
+  }
+  .become-partner-section .become-partner-wrapper .become-partner-content {
+    max-width: 100%;
+  }
+  .become-partner-section .become-partner-wrapper .become-partner-content h2 {
+    font-size: 24px;
+    line-height: 45px;
+  }
+  .become-partner-section .become-partner-wrapper .become-partner-content a {
+    max-width: 170px;
+    display: block;
+    margin: 50px 0px 0px 0px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+  .become-partner-section .become-partner-wrapper .become-partner-img {
+    max-width: 90%;
+    max-height: auto;
+    position: relative;
+    margin: 50px auto;
+  }
+  .become-partner-section .become-partner-wrapper .become-partner-img .partner-bottom {
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 11;
+    margin: 0 auto;
+  }
+  .become-partner-section .become-partner-wrapper .become-partner-img .partner-top {
+    max-width: 170px;
+    max-height: 202px;
+    position: absolute;
+    right: -10%;
+    top: 23%;
+  }
+  .become-partner-section .become-partner-wrapper .become-partner-img::before {
+    width: 190px;
+    height: 200px;
+    left: -20px;
+    bottom: -20px;
+  }
 }/*# sourceMappingURL=main.css.map */
