@@ -9,6 +9,7 @@
     .have-question-wrapper {
         width: 100%;
         position: relative;
+        display: block;
 
         .have-question-left {
             width: 1290px;
@@ -57,8 +58,8 @@
 
                 .follow {
                     position: absolute;
-                    top: 55%;
-                    left: -45%;
+                    top: 50%;
+                    right: 55%;
                 }
             }
         }

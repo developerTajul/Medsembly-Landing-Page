@@ -1,0 +1,803 @@
+
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+    .student-banner-wrapper {
+        .banner_wrapper-right {
+            img {
+                margin-top: 45px;
+            }
+        }
+    
+        .banner-content {
+            padding: 0px;
+            h1 {
+                text-align: center;
+            }
+            p {
+                padding-top: 40px;
+                text-align: center;
+            }
+        }
+    
+        .student_banner-bottom {
+            width: 100%;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 60px;
+    
+            .banner_bottom-img {
+                display: none;
+            }
+    
+            h2 {
+                max-width: 100%;
+                font-size: 28px;
+                line-height: 40px;
+                text-align: center;
+                margin-bottom: 25px;
+            }
+    
+            .banner_award {
+                display: flex;
+                justify-content: center;
+                position: relative;
+                left: 0;
+                margin: 0 15px;
+
+                .award {
+                    width: 100%;
+                    height: auto;
+                    min-height: 120px;
+                    border-radius: 10px;
+                    img {
+                        width: 40%;
+                        height: 40px;
+                    }
+                    h4 {
+                        font-size: 8px;
+                        line-height: 13px;
+                        padding: 4px;
+                    }
+    
+                    &:nth-child(2) {
+                        margin: 0px 10px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    //  Have Question Section
+    .have-question-section {
+        width: 100%;
+        margin: 100px 0px;
+        .container-fluid {
+            padding: 0px;
+            background: #F4F4F4;
+        }
+    
+        .have-question-wrapper {
+            width: 100%;
+            position: relative;
+            display: grid;
+            grid-template-columns: 1fr;
+            .have-question-left {
+                width: 100%;
+                max-height: 500px;
+                margin: 0px;
+                order: 1;
+                .have-question-left-wrapper {
+                    max-width: 100%;
+                    height: 100%;
+                    min-height: 450px;
+                    margin: 0 auto;
+        
+                    h2 {
+                        font-size: 28px;
+                        line-height: 40px;
+                        text-align: center;
+                        padding: 15px 0px 30px 0px;
+                    }
+                    p{
+                        font-size: 16px;
+                        line-height: 28px;
+                        margin: 0 15px;
+                        text-align: center;
+                    }
+                    a {
+                        margin: 30px auto;
+                    }
+                }
+            }
+            .have-question-img {
+                order: 0;
+                position: relative;
+                right:0;
+                top: 0;
+                .img-group {
+                    max-width: 100%;
+                    height: 300px;
+                    position: relative;
+    
+                    .follow {
+                        max-width: 200px;
+                        position: absolute;
+                        top: 35%;
+                        right: 25%;
+                        z-index: 111;
+                    }
+
+                    .mobile {
+                        position: absolute;
+                        right: 5%;
+                        max-width: 200px;
+                        margin-left: auto;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    
+        
+    }
+
+
+    //  For Student Service Section:
+    .for-student-service-section {
+        width: 100%;
+        h2 {
+            max-width: 688px;
+            font-size: 28px;
+            line-height: 40px;
+            text-align: center;
+            margin: 0 auto 65px auto;
+        }
+        .student-service-wrapper {
+            width: 100%;
+            margin: 0 auto;
+            .student-service {
+                width: 46%;
+                height: auto;
+                min-height: 120px;
+                border-radius: 10px;
+                margin: 10px auto;
+    
+                img {
+                    width: 50px;
+                    height: 40px;
+                    margin: 20px auto;
+                }
+                h4 {
+                    font-size: 14px;
+                    line-height: 20px;
+                    text-align: center;
+                    margin: 20px auto;
+                } 
+            }
+        }
+    } 
+
+
+    //  Pricing Section:
+    .pricing-section {
+        .section-title {
+            max-width: 885px;
+            margin: 60px auto 60px auto;
+            h2 {
+                font-size: 28px;
+                line-height: 40px;
+                text-align: center;
+                padding-bottom: 30px;
+            }
+            p {
+                font-size: 14px;
+                line-height: 28px;
+                text-align: center;
+            }
+        }
+    
+        .pricing {
+            width: 100%;
+            max-width: 86%;
+            max-height: 460px;
+            padding: 20px 17px;
+            position: relative;
+            border-radius: 16px;
+            margin: 20px auto;
+            box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 10px, rgba(17, 17, 26, 0.1) 0px 8px 16px, rgba(17, 17, 26, 0.1) 0px 8px 40px;
+    
+            .pricing-top {
+                h2 {
+                    width: 100%;
+                    font-size: 22px;
+                    line-height: 30px;
+                }
+                h4 {
+                    width: 100%;
+                    text-align: center;
+                    font-size: 18px;
+                    line-height: 25px;
+                    margin: 8px 0px;
+                }
+                h3 {
+                    font-size: 22px;
+                    line-height: 28px;
+                    text-align: center;
+                }
+                p {
+                    font-size: 14px;
+                    line-height: 20px;
+                    text-align: center;
+                    padding: 7px 0px;
+                }
+            }
+    
+            .pricing-bottom {
+                padding-top: 10px;
+                p {
+                    font-size: 14px;
+                    line-height: 20px;
+                    padding: 7px 0px;
+    
+                    span {
+                        display: block;
+                        width: 50px;
+                        height: 50px;
+                        img {
+                            width: 25px;
+                            height: 25px;
+                        }
+                    }
+                }
+    
+                button {
+                    width: 200px;
+                    height: 46px;
+                    position: absolute;
+                    left: 50%;
+                    bottom: 30px;
+                    transform: translateX(-50%);
+                    border-radius: 8px;
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+
+
+    //  Faq Section:
+    .faq-section {
+        margin: 60px auto;
+        h2 {
+            font-size: 28px;
+            line-height: 40px;
+            margin: 0 auto 60px auto;
+            text-align: center;
+        }
+    
+        .faq-wrapper {
+            .faq {
+                padding: 25px 15px 10px 15px;
+                position: relative;
+                .faq-head {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    h3 {
+                        max-width: 80%;
+                        font-size: 15px;
+                        line-height: 25px;
+                        text-align: left;
+                    }
+                    .faq-icon {
+                        min-width: 22px;
+                        min-height: 22px;
+                        display: flex;
+                        border-radius: 50%;
+                        cursor: pointer;                    
+                        span {
+                            font-size: 20px;
+                        }
+                    }
+                }
+                .faq-body {
+                    width: 100%;
+                    height: 0;
+                    padding-top: 20px;
+                    overflow: hidden;
+                    transition: all 1s ease;
+                    p {
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 1200px) {
+    .student-banner-wrapper {
+        .banner_wrapper-right {
+            img {
+                margin-top: 45px;
+            }
+        }
+    
+        .banner-content {
+            padding: 0px;
+            h1 {
+                text-align: center;
+            }
+            p {
+                padding-top: 40px;
+                text-align: center;
+            }
+        }
+    
+        .student_banner-bottom {
+            width: 100%;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 60px auto 0px auto;
+    
+            .banner_bottom-img {
+                display: block;
+                max-width: 55%;
+                max-height: 384px;
+                margin: 0 2%;
+                img {
+                    max-width: 100%;
+                    max-height: 380px;
+                }
+            }
+    
+            h2 {
+                max-width: 40%;
+                font-size: 28px;
+                line-height: 40px;
+                text-align: center;
+                margin-bottom: 25px;
+            }
+    
+            .banner_award {
+                display: flex;
+                justify-content: center;
+                position: absolute;
+                left: 0;
+                bottom: -30%;
+
+                .award {
+                    width: 100%;
+                    height: auto;
+                    min-height: 120px;
+                    border-radius: 10px;
+                    img {
+                        width: 40%;
+                        height: 40px;
+                    }
+                    h4 {
+                        font-size: 8px;
+                        line-height: 13px;
+                        padding: 4px;
+                    }
+    
+                    &:nth-child(2) {
+                        margin: 0px 10px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    //  Have Question Section
+    .have-question-section {
+        width: 100%;
+        margin: 100px 0px;
+        .container-fluid {
+            padding: 0px;
+            background: #F4F4F4;
+        }
+    
+        .have-question-wrapper {
+            width: 100%;
+            position: relative;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            .have-question-left {
+                width: 100%;
+                max-height: 500px;
+                margin: 0px;
+                order: 0;
+                .have-question-left-wrapper {
+                    max-width: 100%;
+                    height: 100%;
+                    min-height: 450px;
+                    margin: 0 auto;  
+                }
+            }
+            .have-question-img {
+                width: 100%;
+                order: 1;
+                position: relative;
+                right:0;
+                top: 0;
+                .img-group {
+                    max-width: 100%;
+                    height: 300px;
+                }
+            }
+        }
+    }
+
+
+    //  For Student Service Section:
+    .for-student-service-section {
+        width: 100%;
+        h2 {
+            max-width: 688px;
+            font-size: 28px;
+            line-height: 40px;
+            text-align: center;
+            margin: 0 auto 65px auto;
+        }
+        .student-service-wrapper {
+            width: 100%;
+            margin: 0 auto;
+            .student-service {
+                width: 46%;
+                height: auto;
+                min-height: 120px;
+                border-radius: 10px;
+                margin: 10px auto;
+    
+                img {
+                    width: 50px;
+                    height: 40px;
+                    margin: 20px auto;
+                }
+                h4 {
+                    font-size: 14px;
+                    line-height: 20px;
+                    text-align: center;
+                    margin: 20px auto;
+                } 
+            }
+        }
+    } 
+
+
+    //  Pricing Section:
+    .pricing-section {
+        .section-title {
+            p {
+                font-size: 16px;
+            }
+        }
+    
+        .pricing {
+            width: 100%;
+            max-width: 46%;
+            max-height: 390px;
+            padding: 15px 10px;
+            position: relative;
+            border-radius: 10px;
+            margin: 20px auto;
+            .pricing-top {
+                h2 {
+                    width: 100%;
+                    font-size: 20px;
+                    line-height: 25px;
+                }
+                h4 {
+                    width: 100%;
+                    font-size: 17px;
+                    line-height: 25px;
+                    margin: 5px 0px;
+                }
+                h3 {
+                    font-size: 20px;
+                    line-height: 25px;
+                    text-align: center;
+                }
+                p {
+                    font-size: 12px;
+                    line-height: 20px;
+                    padding: 7px 0px;
+                }
+            }
+    
+            .pricing-bottom {
+                padding-top: 10px;
+                p {
+                    font-size: 13px;
+                    line-height: 20px;
+                    padding: 5px 0px;
+    
+                    span {
+                        display: block;
+                        width: 40px;
+                        height: 40px;
+                        img {
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                }
+    
+                button {
+                    width: 160px;
+                    height: 46px;
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .student-banner-wrapper {
+        min-height: 680px !important;
+        .banner-content {
+            h1 {
+                font-size: 40px !important;
+                line-height: 50px !important;
+                text-align: center;
+            }
+            p {
+                font-size: 18px !important;
+                padding-top: 40px;
+                text-align: center;
+            }
+        }
+    
+        .student_banner-bottom {
+            .banner_bottom-img {
+                max-width: 55%;
+                max-height: 350px;
+                margin: 0 2%;
+                img {
+                    max-width: 100%;
+                    max-height: 380px;
+                }
+            }
+            .banner_award {
+                left: 0;
+                bottom: -45%;
+                padding-bottom: 70px;
+
+                .award {
+                    width: 100%;
+                    max-width: 200px;
+                    min-height: 150px;
+                    img {
+                        width: 40%;
+                        height: 40px;
+                    }
+                    h4 {
+                        font-size: 14px;
+                        line-height: 20px;
+                        padding: 4px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    //  Have Question Section
+    .have-question-section {
+        width: 100%;
+        margin: 100px 0px;
+        .container-fluid {
+            padding: 0px;
+            background: #F4F4F4;
+        }
+    
+        .have-question-wrapper {
+            width: 85%;
+            margin: 0 auto;
+            .have-question-left {
+                .have-question-left-wrapper {
+                    h2 {
+                        font-size: 32px;
+                        line-height: 42px;
+                    }
+                    p {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    //  For Student Service Section:
+    .for-student-service-section {
+        width: 100%;
+        h2 {
+            max-width: 688px;
+            font-size: 32px;
+            line-height: 45px;
+        }
+        .student-service-wrapper {
+            width: 100%;
+            margin: 0 auto;
+            .student-service {
+                width: 46%;
+                height: auto;
+                min-height: 220px;
+                border-radius: 10px;
+    
+                img {
+                    width: 90px;
+                    height: 80px;
+                }
+                h4 {
+                    font-size: 18px;
+                    line-height: 30px;
+                } 
+            }
+        }
+    } 
+
+
+    //  Pricing Section:
+    .pricing-section {
+        .section-title {
+            h2 {
+                font-size: 32px;
+                line-height: 45px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+    
+        .pricing {
+            width: 100%;
+            max-width: 46%;
+            max-height: 460px;
+            padding: 25px 12px;
+            position: relative;
+            border-radius: 10px;
+            margin: 30px auto;
+            .pricing-top {
+                h2 {
+                    width: 100%;
+                    font-size: 20px;
+                    line-height: 25px;
+                }
+                h4 {
+                    width: 100%;
+                    font-size: 17px;
+                    line-height: 25px;
+                    margin: 5px 0px;
+                }
+                h3 {
+                    font-size: 20px;
+                    line-height: 25px;
+                    text-align: center;
+                }
+                p {
+                    font-size: 16px;
+                    line-height: 28px;
+                    padding: 7px 0px;
+                }
+            }
+    
+            .pricing-bottom {
+                padding-top: 10px;
+                p {
+                    font-size: 16px;
+                    line-height: 28px;
+                    padding: 5px 0px;
+                }
+
+                button {
+                    width: 160px;
+                    height: 46px;
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+
+
+    //  Faq Section:
+    .faq-section {
+        h2 {
+            font-size: 32px;
+            line-height: 45px;
+        }
+    
+        .faq-wrapper {
+            .faq {
+                .faq-head {
+                    h3 {
+                        max-width: 80%;
+                        font-size: 18px;
+                        line-height: 30px;
+                    }
+                    .faq-icon {
+                        min-width: 30px;
+                        min-height: 30px;                  
+                        span {
+                            font-size: 24px;
+                        }
+                    }
+                }
+                .faq-body {
+                    p {
+                        font-size: 16px;
+                        line-height: 34px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .student-banner-wrapper {
+        min-height: 850px !important;
+    
+        .student_banner-bottom {
+            .banner_bottom-img {
+                max-width: 60%;
+                max-height: 350px;
+                margin: 0;
+                img {
+                    max-width: 100%;
+                    max-height: 380px;
+                }
+            }
+            h2 {
+                max-width: 38%;
+                font-size: 34px;
+                line-height: 50px;
+            }
+            .banner_award {
+                left: 0;
+                bottom: -55%;
+                padding-bottom: 70px;
+
+                .award {
+                    width: 100%;
+                    max-width: 230px;
+                    min-height: 200px;
+                    img {
+                        width: 40%;
+                        height: 40px;
+                    }
+                    h4 {
+                        font-size: 16px;
+                        line-height: 28px;
+                        padding: 4px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+    .student-banner-wrapper 
+    .student_banner-bottom 
+    .banner_award {
+        left: 5%;
+    }
+}
