@@ -60,3 +60,26 @@ closeBtn.addEventListener("click", () => {
   mobile_nav_wrapper.style.right = "-100%"
 })
 
+
+
+//  Faq Section
+const icons = document.getElementsByClassName("faq-icon");
+const faqBody = document.getElementsByClassName("faq-body");
+const PlusOrMinus    = document.getElementsByClassName("FaqIcon");
+Array.from(icons).forEach(icon => {
+  icon.addEventListener("click", () => {
+    if (icon.children[0].innerText === "+") {
+      Array.from(faqBody).forEach(faq => {
+        faq.style.height = "0";
+        Array.from(PlusOrMinus).forEach(e => {
+          e.innerText = "+";
+        })
+      })
+      icon.parentElement.nextElementSibling.style.height = "auto";
+      icon.children[0].innerText = "-";
+    }else {
+      icon.parentElement.nextElementSibling.style.height = "0";
+      icon.children[0].innerText = "+";
+    }
+  })
+})

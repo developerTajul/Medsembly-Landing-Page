@@ -1,0 +1,87 @@
+.student-banner-wrapper {
+
+    .banner_wrapper-right {
+        img {
+            margin-top: 45px;
+        }
+    }
+
+    .banner-content {
+        padding: 0px;
+        h1 {
+            text-align: center;
+        }
+        p {
+            padding-top: 40px;
+            text-align: center;
+        }
+    }
+
+    .banner_bottom {
+        width: 1320px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 110px;
+
+        .banner_bottom-img {
+            max-width: 680px;
+            max-height: 584px;
+            img {
+                max-width: 680px;
+                max-height: 584px;
+            }
+        }
+
+        h2 {
+            max-width: 535px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 56px;
+            line-height: 74px;
+            text-transform: capitalize;
+            color: #000000;
+        }
+
+        .banner_award {
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            left: 10%;
+            bottom: -17%;
+            .award {
+                background-color: #fff;
+                width: 340px;
+                height: 255px;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+
+                img {
+                    width: 90px;
+                    height: 80px;
+                }
+                h4 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    text-align: center;
+                    text-transform: capitalize;
+                    color: #6D6E71;
+                    padding: 34px 25px;
+                }
+
+                &:nth-child(2) {
+                    margin: 0px 50px;
+                }
+            }
+        }
+    }
+}

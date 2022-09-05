@@ -1,0 +1,140 @@
+.pricing-section {
+    .section-title {
+        max-width: 885px;
+        margin: 110px auto 110px auto;
+
+        h2 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 56px;
+            line-height: 68px;
+            text-align: center;
+            letter-spacing: -0.02em;
+            text-transform: capitalize;
+            color: #000000;
+            padding-bottom: 30px;
+        }
+
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            text-align: center;
+            color: #6D6E71;
+        }
+    }
+
+    .pricing {
+        width: 100%;
+        max-width: 600px;
+        height: 700px;
+        padding: 50px 42px;
+        position: relative;
+        border-radius: 16px;
+        margin: 0 auto;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 10px, rgba(17, 17, 26, 0.1) 0px 8px 16px, rgba(17, 17, 26, 0.1) 0px 8px 40px;
+
+        .pricing-top {
+            h2 {
+                width: 100%;
+                display: block;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 44px;
+                line-height: 53px;
+                letter-spacing: -0.02em;
+                color: #6D6E71;
+                text-align: center;
+                span {
+                    color: #EA1C2D;
+                }
+            }
+            h4 {
+                width: 100%;
+                display: block;
+                text-align: center;
+                font-family: 'Inter';
+                font-style: italic;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 39px;
+                text-align: center;
+                color: #6D6E71;
+                margin: 13px 0px;
+            }
+            h3 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 40px;
+                text-align: center;
+                color: #000000;
+            }
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 26px;
+                text-align: center;
+                color: #000000;
+                padding: 30px 0px;
+            }
+        }
+
+        .pricing-bottom {
+            padding-top: 38px;
+            border-top: 1px solid #CCCCCC;
+
+            .sub-title {
+                font-weight: 500;
+                color: #000000;
+            }
+
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 26px;
+                letter-spacing: -0.02em;
+                color: #6D6E71;
+                display: flex;
+                padding: 15px 0px;
+
+                span {
+                    display: block;
+                    width: 50px;
+                    height: 50px;
+                    img {
+                        width: 25px;
+                        height: 25px;
+                    }
+                }
+            }
+
+            button {
+                width: 414px;
+                height: 78px;
+                position: absolute;
+                left: 50%;
+                bottom: 30px;
+                transform: translateX(-50%);
+                background: #EA1C2D;
+                border-radius: 8px;
+                border: none;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                color: #FFFFFF;
+            }
+        }
+    }
+}

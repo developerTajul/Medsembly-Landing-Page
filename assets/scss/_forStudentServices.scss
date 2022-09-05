@@ -1,0 +1,51 @@
+.for-student-service-section {
+    width: 100%;
+    h2 {
+        max-width: 688px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 74px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #000000;
+        margin: 0 auto 65px auto;
+    }
+    .student-service-wrapper {
+        width: 100%;
+        .student-service {
+            background-color: #fff;
+            width: 413px;
+            height: 337px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 0.5px solid #6D6E71;
+            cursor: pointer;
+            transition: all 0.8s ease;
+            margin: 20px auto;
+
+            &:hover {
+                border: none;
+                box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px, rgba(0, 0, 0, 0.05) 0px 5px 4px;
+            }
+
+            img {
+                width: 90px;
+                height: 80px;
+            }
+            h4 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 28px;
+                line-height: 40px;
+                text-align: center;
+                color: #000000;
+            } 
+        }
+    }
+} 
