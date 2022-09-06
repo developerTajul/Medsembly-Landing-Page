@@ -44,6 +44,21 @@
 
 
 
+// //   Control Dropdown:
+// let dropdown = document.getElementsByClassName("dropdown")[0];
+// let dropdownItems = document.getElementsByClassName("dropdown-menu")[0];
+// dropdown.addEventListener('mouseenter', () => {
+//     dropdownItems.style.opacity = "1";
+//     dropdownItems.style.visivility = "visible";
+//     dropdownItems.style.height = "auto";
+// });
+// dropdown.addEventListener('mouseout', () => {
+//     dropdownItems.style.opacity = "0";
+//     dropdownItems.style.visivility = "hidden";
+//     dropdownItems.style.height = "0";
+// })
+
+
 
 
 

@@ -30,9 +30,60 @@ header {
                                     line-height: 22px;
                                     text-transform: capitalize;
                                     color: #6D6E71;
-                
+                                    white-space: nowrap;
                                 }
                             }
+
+                            .dropdown-container {
+                                margin: 0;
+                                .dropdown {
+                                    background: transparent;
+                                    padding: 10px;
+                                    border-radius: 3px;
+                                    width: 140px;
+                                    display: flex;
+                                    justify-content: space-around;
+                                    font-size: 1.1rem;
+                                    cursor: pointer;
+                                  }
+                                  
+                                  .dropdown-menu {
+                                    flex-direction: column;
+                                    border-radius: 4px;
+                                    margin-top: 8px;
+                                    width: 190px;
+                                    padding: 8px;
+                                    box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.3);
+                                    background: #fff;
+                                    transform-origin: top left;
+                                    overflow: hidden;
+                                  }
+                                  
+                                  .dropdown-menu li  {
+                                    padding: 8px 0px;
+                                    flex-grow: 1;
+                                    width: 100%;
+                                    box-sizing: border-box;
+                                    cursor: pointer;
+                                    transition: all 0.3s ease;
+                                    display: block;
+                                    a {
+                                        padding-left: 3px;
+                                    }
+                                  }
+                              } 
+                        }
+                        ul li ul {
+                            display: none;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: all 0.8s ease;
+                        }
+                        ul li:hover > ul,
+                        ul li ul:hover {
+                            display: block;
+                        visibility: visible;
+                        opacity: 1;
                         }
                     }
                     .theme-btn a {
@@ -43,7 +94,6 @@ header {
                         justify-content: flex-end;
                         align-items: center;
                         border-radius: 10px;
-            
                         font-family: 'Inter';
                         font-style: normal;
                         font-weight: 500;
@@ -51,6 +101,7 @@ header {
                         line-height: 22px;
                         text-transform: capitalize;
                         color: #434242;
+                        white-space: nowrap;
                     }   
                 }
 
@@ -87,13 +138,22 @@ header {
                         justify-content: flex-end;
                         align-items: flex-end;
                         li {
-                            margin: 0px 5px 35px 5px;
+                            margin: 0px 5px 22px 5px;
                             a {
                                 display: block;
-                                font-size: 18px;
+                                font-size: 14px;
                                 color: #6D6E71;;;
                             }
                         }
+                        ul {
+                            // margin-right: 15px;
+                            li {
+                                margin: 0px 5px 22px 5px;
+                                a{
+                                    font-size: 14px;
+                                }
+                            }
+                        } 
                     }
 
                     .theme-btn {
