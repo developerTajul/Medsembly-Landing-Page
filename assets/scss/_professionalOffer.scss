@@ -1,0 +1,70 @@
+.professional-offer-section {
+    background: #F4F4F4;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 140px 0px;
+    .professional-offer-context {
+        max-width: 630px;
+        h2 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 56px;
+            line-height: 74px;
+            text-transform: capitalize;
+            color: #000000;
+            margin-bottom: 30px;
+        }
+
+        ul li {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            text-transform: capitalize;
+            color: #333333;
+            background: #fff;
+            padding: 20px 20px 20px 0px;
+            margin: 17px 0px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            border-radius: 10px;
+
+            img {
+                width: 48px;
+                height: 48px;
+                display: block;
+                margin: 16px;
+            }
+        }
+        a {
+            display: block;
+            margin: 20px 0px;
+            max-width: 220px;
+            white-space: nowrap;
+        }
+    }
+
+    .offer-img-wrapper {
+        max-width: 782px;
+        max-height: 812px;
+        position: relative;
+        top: 10%;
+        .offer-bottom-img {
+            max-width: 635px;
+            max-height: 635px;
+            margin-left: auto;
+        }
+        .offer-top-img {
+            max-width: 400px;
+            max-height: 400px;
+            position: absolute;
+            right: -15%;
+            bottom: -30%;
+            z-index: 1;
+        }
+    }
+}
