@@ -102,26 +102,3 @@
         align-items: center;
     }
 }
-
-
-
-@mixin professionalBannerMiddle {
-    max-width: 700px;
-    h2 {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 56px;
-        line-height: 74px;
-        text-transform: capitalize;
-        color: #000000;
-    }
-    p {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 32px;
-        color: #6D6E71;
-    }
-}
