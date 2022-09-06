@@ -87,6 +87,7 @@
                 h2 {
                     font-size: 25px;
                     line-height: 40px;
+                    padding: 12px;
                 }
         
                 p {
@@ -95,7 +96,7 @@
                     font-weight: 400;
                     font-size: 15px;
                     line-height: 28px;
-                    padding: 25px 0px 25px 0px;
+                    padding: 25px 12px 25px 12px;
                 }
         
                 .primary_button {
@@ -1134,8 +1135,6 @@
 
 
 @media only screen and (max-width: 1400px) and (min-width: 768px) {
-    
-
 
     //  Banner Section
     .banner-section {
@@ -1294,7 +1293,7 @@
 
             .step {
                 max-width: 96%;
-                min-height: 410px;
+                min-height: 380px;
                 border-radius: 10px;
                 padding: 10px;
                 margin: 30px 4%;
