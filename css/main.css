@@ -6742,7 +6742,7 @@ footer .copyright .copy-right .copyright-links li span {
 .professional-banner-section .professional-banner-title {
   width: 100%;
   max-width: 785px;
-  margin: 150px auto;
+  margin: 150px auto 50px auto;
 }
 .professional-banner-section .professional-banner-title h1 {
   font-family: "Inter";
@@ -6771,6 +6771,7 @@ footer .copyright .copy-right .copyright-links li span {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+  margin: 0 0 200px 0;
 }
 .professional-banner-section .professional-banner-top .top-wrapper .banner-left-img {
   max-width: 278px;
