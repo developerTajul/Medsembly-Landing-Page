@@ -1,5 +1,8 @@
 .features-section {
-    padding: 70px 15px;
+    padding: 110px 15px;
+    .container {
+        max-width: 1320px;
+    }
     .feature-wrapper {
         position: relative;
         .feature-heading {
@@ -38,7 +41,9 @@
             margin-bottom: 140px;
 
             img {
-                max-height: 260px;
+                max-width: 486px;
+                height: 253px;
+                margin: 0 63px 50px 63px;
             }
         }
     
@@ -47,11 +52,23 @@
             position: absolute;
             left: 0%;
             bottom: 23%;
+
+            img {
+                height: 253px;
+                max-width: 447px;
+                margin: 0 40px 40px 40px;
+            }
         }
     
         .feature-three {
             background: #E6F6F6;
             margin-left: auto;
+
+            img {
+                height: 274px;
+                max-width: 484px;
+                margin: 0 auto;
+            }
         }
     }
 }

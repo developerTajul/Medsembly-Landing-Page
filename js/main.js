@@ -44,24 +44,6 @@
 
 
 
-// //   Control Dropdown:
-// let dropdown = document.getElementsByClassName("dropdown")[0];
-// let dropdownItems = document.getElementsByClassName("dropdown-menu")[0];
-// dropdown.addEventListener('mouseenter', () => {
-//     dropdownItems.style.opacity = "1";
-//     dropdownItems.style.visivility = "visible";
-//     dropdownItems.style.height = "auto";
-// });
-// dropdown.addEventListener('mouseout', () => {
-//     dropdownItems.style.opacity = "0";
-//     dropdownItems.style.visivility = "hidden";
-//     dropdownItems.style.height = "0";
-// })
-
-
-
-
-
 //  Handle Navigation:
 let hamburger_menu = document.getElementsByClassName("hamburger-menu")[0];
 let closeBtn = document.getElementsByClassName("close-btn")[0];
@@ -98,3 +80,18 @@ Array.from(icons).forEach(icon => {
     }
   })
 })
+
+
+
+//  Student Feature Section:
+//  Quote Color Change On Hover
+function hover(element) {
+  const target = element.children[0].children[0].children[0]
+  target.setAttribute('src', './images/Home Page/red-quote.svg');
+}
+
+function unhover(element) {
+  const target = element.children[0].children[0].children[0]
+  target.setAttribute('src', './images/Home Page/Quote.svg');
+}
+

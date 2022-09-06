@@ -39,7 +39,6 @@ button:focus {
   width: 590px;
   height: 616px;
   border-radius: 16px;
-  padding: 40px;
 }
 .feature h2 {
   font-family: "Inter";
@@ -49,6 +48,7 @@ button:focus {
   line-height: 50px;
   text-transform: capitalize;
   color: #0B0036;
+  padding: 50px 0px 16px 40px;
 }
 .feature p {
   font-family: "Inter";
@@ -57,15 +57,16 @@ button:focus {
   font-size: 16px;
   line-height: 28px;
   color: #6D6E71;
-  margin: 15px 0px;
+  margin: 0px 40px 35px 40px;
 }
 .feature img {
   width: 100%;
+  height: 100%;
 }
 
 .step {
   max-width: 413px;
-  min-height: 519px;
+  min-height: 539px;
   background: #FFFFFF;
   border-radius: 16px;
   padding: 10px 20px 15px 35px;
@@ -120,7 +121,7 @@ button:focus {
   color: #6D6E71;
 }
 .step:hover {
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  filter: drop-shadow(8px 10px 60px rgba(0, 0, 0, 0.08));
 }
 
 .professional-service-section {
@@ -1845,9 +1846,13 @@ button:focus {
 header {
   background-color: #fff;
   width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
 }
 header .container .header-top .navbar {
   position: relative;
+  padding: 0px;
 }
 header .container .header-top .navbar .logo {
   width: 203px;
@@ -1863,7 +1868,7 @@ header .container .header-top .navbar .navbar-right .main-menu ul {
   align-items: center;
 }
 header .container .header-top .navbar .navbar-right .main-menu ul li {
-  padding: 39px 28px;
+  padding: 0px 28px;
 }
 header .container .header-top .navbar .navbar-right .main-menu ul li a {
   font-family: "Inter";
@@ -1995,11 +2000,14 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-size: 18px;
 }
 
+.banner-section .container {
+  max-width: 1476px;
+}
 .banner-section .banner_wrapper {
-  height: 1050px;
-  max-height: 1050px;
+  height: 1086px;
+  max-height: 1086px;
   position: relative;
-  margin: 60px auto 0px auto;
+  margin: 75px auto 0px auto;
 }
 .banner-section .banner_wrapper .banner_wrapper-left {
   max-width: 405px;
@@ -2026,10 +2034,10 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-style: normal;
   font-weight: 600;
   font-size: 74px;
-  line-height: 82px;
+  line-height: 92px;
   text-transform: capitalize;
   color: #0B0036;
-  padding: 15px;
+  padding: 15px 0px;
 }
 .banner-section .banner_wrapper .banner-content p {
   font-family: "Inter";
@@ -2038,7 +2046,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-size: 24px;
   line-height: 38px;
   color: #6D6E71;
-  padding: 15px;
+  padding: 30px 6px 40px 6px;
 }
 .banner-section .banner_wrapper .banner-content .primary_button {
   margin: 0px 15px;
@@ -2072,7 +2080,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   background: #F4F4F4;
 }
 .banner-section .hero-section .hero-text h2 {
-  min-height: 320px;
+  max-height: 320px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2084,10 +2092,14 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   text-align: center;
   text-transform: capitalize;
   color: #333333;
+  padding: 93px 15px;
 }
 
 .features-section {
-  padding: 70px 15px;
+  padding: 110px 15px;
+}
+.features-section .container {
+  max-width: 1320px;
 }
 .features-section .feature-wrapper {
   position: relative;
@@ -2125,7 +2137,9 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   margin-bottom: 140px;
 }
 .features-section .feature-wrapper .feature-one img {
-  max-height: 260px;
+  max-width: 486px;
+  height: 253px;
+  margin: 0 63px 50px 63px;
 }
 .features-section .feature-wrapper .feature-two {
   background: #FFECEC;
@@ -2133,9 +2147,19 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   left: 0%;
   bottom: 23%;
 }
+.features-section .feature-wrapper .feature-two img {
+  height: 253px;
+  max-width: 447px;
+  margin: 0 40px 40px 40px;
+}
 .features-section .feature-wrapper .feature-three {
   background: #E6F6F6;
   margin-left: auto;
+}
+.features-section .feature-wrapper .feature-three img {
+  height: 274px;
+  max-width: 484px;
+  margin: 0 auto;
 }
 
 .team-section .swiper {
@@ -2246,7 +2270,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
 .step-section .step-heading {
   max-width: 680px;
   margin: 60px auto;
-  margin: 100px auto 65px auto;
+  margin: 110px auto 65px auto;
 }
 .step-section .step-heading h2 {
   font-family: "Inter";
@@ -2334,6 +2358,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   background-color: transparent;
   border-radius: 16px;
   position: relative;
+  z-index: 1111;
 }
 .student-review-section .student-review-wrapper .student-review .student-img {
   width: 49px;
@@ -2385,10 +2410,11 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
 }
 .student-review-section .student-review-wrapper .student-review:hover {
   background-color: #fff;
-  box-shadow: rgba(149, 157, 165, 0.1) 0px 6px 18px;
+  filter: drop-shadow(4px 8px 40px rgba(0, 0, 0, 0.04));
 }
 .student-review-section .student-review-wrapper .student-review:hover .student-img {
-  width: 75px;
+  width: 106px;
+  height: 114px;
 }
 .student-review-section .student-review-wrapper .student-review:hover ::after {
   display: block;
@@ -2403,6 +2429,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   left: 36%;
   transform: translateX(-40%);
   transform: rotate(90deg);
+  z-index: -1;
 }
 
 .newsletter-section {
@@ -2437,7 +2464,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   left: -17%;
 }
 .newsletter-section .get-app {
-  max-width: 100%;
+  max-width: 1123px;
   max-height: 841px;
   margin: 0 auto;
   display: grid;
@@ -2447,7 +2474,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
 }
 .newsletter-section .get-app .get-app-img {
   max-width: 777px;
-  max-height: 807px;
+  max-height: 707px;
 }
 .newsletter-section .get-app .get-app-img img {
   max-width: 100%;
@@ -2859,8 +2886,9 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .banner-section .hero-section .hero-text h2 {
     min-height: 200px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 35px;
+    padding: 15px 10px;
   }
   .features-section {
     padding: 40px 10px;
@@ -2892,28 +2920,37 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .features-section .feature-wrapper .feature {
     width: 100%;
-    max-height: 500px;
+    max-height: auto;
     padding: 20px;
     margin: 20px 0px;
   }
   .features-section .feature-wrapper .feature h2 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 35px;
+    padding: 4px;
   }
   .features-section .feature-wrapper .feature p {
     font-size: 15px;
+    padding: 4px;
+    margin: 0px;
   }
   .features-section .feature-wrapper .feature img {
-    max-height: 270px;
+    max-height: auto;
+    margin: 0;
   }
   .features-section .feature-wrapper .feature-one {
     margin-bottom: 0px;
   }
   .features-section .feature-wrapper .feature-one img {
-    max-height: 270px;
+    max-height: auto;
+    margin: 0px;
   }
   .features-section .feature-wrapper .feature-two {
     position: relative;
+  }
+  .features-section .feature-wrapper .feature-three {
+    margin-right: 25px;
+    padding-left: 0px;
   }
   .team-section .swiper {
     width: 100%;
@@ -3025,6 +3062,7 @@ footer .copyright .copy-right .copyright-links li span {
   .step-section .step-wrapper .step h2 {
     font-size: 39px;
     line-height: 74px;
+    text-align: left;
   }
   .step-section .step-wrapper .step h3 {
     font-size: 25px;
@@ -3049,7 +3087,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .student-review-section .student-review-wrapper {
     width: 100%;
-    min-height: 450px;
+    min-height: 470px;
     margin: 0 auto;
     margin-left: 15px;
   }
@@ -3098,8 +3136,8 @@ footer .copyright .copy-right .copyright-links li span {
     box-shadow: rgba(149, 157, 165, 0.1) 0px 6px 18px;
   }
   .student-review-section .student-review-wrapper .student-review:hover .student-img {
-    width: 70px;
-    height: 70px;
+    width: 106px;
+    height: 114px;
   }
   .student-review-section .student-review-wrapper .student-review:hover ::after {
     display: block;
@@ -3193,6 +3231,7 @@ footer .copyright .copy-right .copyright-links li span {
     display: grid;
     justify-content: center;
     order: 1;
+    padding-left: 16px;
   }
   .newsletter-section .subscribe-area .subscribe-text .subscribe-title h2 {
     font-size: 25px;
@@ -3461,22 +3500,28 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .features-section .feature-wrapper .feature {
     width: 100%;
-    max-height: 530px;
+    max-height: auto;
     padding: 20px;
     margin: 20px 0px;
   }
   .features-section .feature-wrapper .feature h2 {
     font-size: 24px;
     line-height: 37px;
+    padding: 10px;
+  }
+  .features-section .feature-wrapper .feature p {
+    margin: 10px;
   }
   .features-section .feature-wrapper .feature img {
-    max-height: 270px;
+    width: 100%;
+    max-height: auto;
+    margin: 25px auto;
   }
   .features-section .feature-wrapper .feature-one {
     margin-bottom: 0px;
   }
   .features-section .feature-wrapper .feature-one img {
-    max-height: 270px;
+    max-height: auto;
   }
   .features-section .feature-wrapper .feature-two {
     position: relative;
@@ -3582,11 +3627,12 @@ footer .copyright .copy-right .copyright-links li span {
   .step-section .step-wrapper .step .step-img {
     width: 60px;
     height: 60px;
-    margin-top: 15px;
+    margin-top: 0px;
   }
   .step-section .step-wrapper .step h2 {
     font-size: 49px;
     line-height: 84px;
+    text-align: left;
   }
   .student-review-section {
     width: 100%;
@@ -3650,8 +3696,8 @@ footer .copyright .copy-right .copyright-links li span {
     box-shadow: rgba(149, 157, 165, 0.1) 0px 6px 18px;
   }
   .student-review-section .student-review-wrapper .student-review:hover .student-img {
-    width: 70px;
-    height: 70px;
+    width: 106px;
+    height: 114px;
   }
   .student-review-section .student-review-wrapper .student-review:hover ::after {
     display: block;
@@ -3958,7 +4004,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .features-section .feature-wrapper .feature {
     width: 46%;
-    max-height: 500px;
+    max-height: 100%;
     padding: 10px;
     margin: 20px 2%;
   }
@@ -3971,13 +4017,14 @@ footer .copyright .copy-right .copyright-links li span {
     line-height: 28px;
   }
   .features-section .feature-wrapper .feature img {
-    max-height: 240px;
+    max-height: auto;
+    margin: 0px auto 30px auto;
   }
   .features-section .feature-wrapper .feature-one {
     margin-bottom: 0px;
   }
   .features-section .feature-wrapper .feature-one img {
-    max-height: 270px;
+    max-height: auto;
   }
   .features-section .feature-wrapper .feature-two {
     position: absolute;
@@ -4042,13 +4089,13 @@ footer .copyright .copy-right .copyright-links li span {
   .step-section .step-wrapper .step h2 {
     font-size: 35px;
     line-height: 44px;
-    text-align: right;
+    text-align: left;
   }
   .step-section .step-wrapper .step .step-img {
     width: 50px;
     height: 40px;
     border-radius: 50%;
-    margin-top: 25px;
+    margin-top: 0px;
   }
   .step-section .step-wrapper .step .step-img img {
     width: 50%;

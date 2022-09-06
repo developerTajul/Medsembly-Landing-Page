@@ -68,8 +68,9 @@
         .hero-section {
             .hero-text h2 {
                 min-height: 200px;
-                font-size: 20px;
+                font-size: 18px;
                 line-height: 35px;
+                padding: 15px 10px;
             }
         }
     }
@@ -109,33 +110,43 @@
 
             .feature {
                 width: 100%;
-                max-height: 500px;
+                max-height: auto;
                 padding: 20px;
                 margin: 20px 0px;
 
                 h2 {
-                    font-size: 20px;
+                    font-size: 18px;
                     line-height: 35px;
+                    padding: 4px;
                 }
 
                 p {
                     font-size: 15px;
+                    padding: 4px;
+                    margin: 0px;
                 }
 
                 img {
-                    max-height: 270px;
+                    max-height: auto;
+                    margin: 0;
                 }
             }
         
             .feature-one {
                 margin-bottom: 0px;
                 img {
-                    max-height: 270px;
+                    max-height: auto;
+                    margin: 0px;
                 }
             }
         
             .feature-two {
                 position: relative;
+            }
+
+            .feature-three {
+                margin-right: 25px;
+                padding-left: 0px;
             }
         }
     }
@@ -238,6 +249,7 @@
                 h2 {
                     font-size: 39px;
                     line-height: 74px;
+                    text-align: left;
                 }
 
                 h3 {
@@ -271,7 +283,7 @@
         }
         .student-review-wrapper {
             width: 100%;
-            min-height: 450px;
+            min-height: 470px;
             margin: 0 auto;
             margin-left: 15px;
             .student-review {
@@ -323,8 +335,8 @@
                     background-color: #fff;
                     box-shadow: rgba(149, 157, 165, 0.1) 0px 6px 18px;
                     .student-img {
-                        width: 70px;
-                        height: 70px;
+                        width: 106px;
+                        height: 114px;
                     } 
                     ::after {
                         display: block;
@@ -363,6 +375,7 @@
             grid-template-columns: 1fr 1fr;
             align-items: center;
             position: relative;
+
             .get-app-img {
                 max-width: 780px;
                 max-height: 807px;
@@ -405,6 +418,7 @@
                 display: grid;
                 justify-content: center;
                 order: 1;
+                padding-left: 16px;
                 .subscribe-title {
                     h2 {
                         font-size: 25px;
@@ -695,24 +709,31 @@
 
             .feature {
                 width: 100%;
-                max-height: 530px;
+                max-height: auto;
                 padding: 20px;
                 margin: 20px 0px;
 
                 h2 {
                     font-size: 24px;
                     line-height: 37px;
+                    padding: 10px;
+                }
+
+                p {
+                    margin: 10px;
                 }
 
                 img {
-                    max-height: 270px;
+                    width: 100%;
+                    max-height: auto;
+                    margin: 25px auto;
                 }
             }
         
             .feature-one {
                 margin-bottom: 0px;
                 img {
-                    max-height: 270px;
+                    max-height: auto;
                 }
             }
         
@@ -809,12 +830,13 @@
                 .step-img {
                     width: 60px;
                     height: 60px;
-                    margin-top: 15px;
+                    margin-top: 0px;
                 }
             }
             .step h2 {
                 font-size: 49px;
                 line-height: 84px;
+                text-align: left;
             }
         }
     }
@@ -888,8 +910,8 @@
                     background-color: #fff;
                     box-shadow: rgba(149, 157, 165, 0.1) 0px 6px 18px;
                     .student-img {
-                        width: 70px;
-                        height: 70px;
+                        width: 106px;
+                        height: 114px;
                     } 
                     ::after {
                         display: block;
@@ -1181,7 +1203,7 @@
             }
             .feature {
                 width: 46%;
-                max-height: 500px;
+                max-height: 100%;
                 padding: 10px;
                 margin: 20px 2%;
 
@@ -1196,13 +1218,14 @@
                 }
 
                 img {
-                    max-height: 240px;
+                    max-height: auto;
+                    margin: 0px auto 30px auto;
                 }
             }
             .feature-one {
                 margin-bottom: 0px;
                 img {
-                    max-height: 270px;
+                    max-height: auto;
                 }
             }
             .feature-two {
@@ -1278,14 +1301,14 @@
                 h2 {
                     font-size: 35px;
                     line-height: 44px;
-                    text-align: right;
+                    text-align: left;
                 }
               
                 .step-img {
                     width: 50px;
                     height: 40px;
                     border-radius: 50%;
-                    margin-top: 25px;
+                    margin-top: 0px;
                     img {
                         width: 50%;
                         height: 50%;

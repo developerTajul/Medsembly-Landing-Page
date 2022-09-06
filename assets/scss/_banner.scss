@@ -1,9 +1,12 @@
 .banner-section {
+    .container {
+        max-width: 1476px;
+    }
     .banner_wrapper {
-        height: 1050px;
-        max-height: 1050px;
+        height: 1086px;
+        max-height: 1086px;
         position: relative;
-        margin: 60px auto 0px auto;
+        margin: 75px auto 0px auto;
         .banner_wrapper-left {
             max-width: 405px;
             max-height: 473px;
@@ -31,10 +34,10 @@
                 font-style: normal;
                 font-weight: 600;
                 font-size: 74px;
-                line-height: 82px;
+                line-height: 92px;
                 text-transform: capitalize;
                 color: #0B0036;
-                padding: 15px;
+                padding: 15px 0px;
             }
 
             p {
@@ -44,8 +47,9 @@
                 font-size: 24px;
                 line-height: 38px;
                 color: #6D6E71;
-                padding: 15px;
+                padding: 30px 6px 40px 6px;
             }
+
             .primary_button {
                 margin: 0px 15px;
             }
@@ -83,7 +87,7 @@
     .hero-section {
         background: #F4F4F4;
         .hero-text h2{
-            min-height: 320px;
+            max-height: 320px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -95,6 +99,7 @@
             text-align: center;
             text-transform: capitalize;
             color: #333333;
+            padding: 93px 15px;
         }
     }
 }

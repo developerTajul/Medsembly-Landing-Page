@@ -24,6 +24,7 @@
             background-color: transparent;
             border-radius: 16px;
             position: relative;
+            z-index: 1111;
 
             .student-img {
                 width: 49px;
@@ -79,9 +80,10 @@
 
             &:hover {
                 background-color: #fff;
-                box-shadow: rgba(149, 157, 165, 0.1) 0px 6px 18px;
+                filter: drop-shadow(4px 8px 40px rgba(0, 0, 0, 0.04));
                 .student-img {
-                    width: 75px;
+                    width: 106px;
+                    height: 114px;
                 } 
                 ::after {
                     display: block;
@@ -96,6 +98,7 @@
                     left: 36%;
                     transform: translateX(-40%);
                     transform: rotate(90deg);
+                    z-index: -1;
                 }
             }
         }
