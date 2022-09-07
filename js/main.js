@@ -59,10 +59,12 @@ closeBtn.addEventListener("click", () => {
 
 
 
+
 //  Faq Section
 const icons = document.getElementsByClassName("faq-icon");
 const faqBody = document.getElementsByClassName("faq-body");
 const PlusOrMinus    = document.getElementsByClassName("FaqIcon");
+const arrowIcon = document.getElementsByClassName("arrowIcon");
 Array.from(icons).forEach(icon => {
   icon.addEventListener("click", () => {
     if (icon.children[0].innerText === "+") {
@@ -71,27 +73,17 @@ Array.from(icons).forEach(icon => {
         Array.from(PlusOrMinus).forEach(e => {
           e.innerText = "+";
         })
-      })
+      });
+      Array.from(arrowIcon).forEach(icon => icon.setAttribute("src", "./images/resources/arrow-down.svg"));
       icon.parentElement.nextElementSibling.style.height = "auto";
+      icon.parentElement.nextElementSibling.paddingTop = "25px";
       icon.children[0].innerText = "-";
+      icon.children[1].setAttribute("src", "./images/resources/arrow-up.svg");
     }else {
       icon.parentElement.nextElementSibling.style.height = "0";
+      icon.parentElement.nextElementSibling.paddingTop = "0";
       icon.children[0].innerText = "+";
+      icon.children[1].setAttribute("src", "./images/resources/arrow-down.svg");
     }
   })
-})
-
-
-
-//  Student Feature Section:
-//  Quote Color Change On Hover
-function hover(element) {
-  const target = element.children[0].children[0].children[0]
-  target.setAttribute('src', './images/Home Page/red-quote.svg');
-}
-
-function unhover(element) {
-  const target = element.children[0].children[0].children[0]
-  target.setAttribute('src', './images/Home Page/Quote.svg');
-}
-
+});

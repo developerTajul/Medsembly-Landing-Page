@@ -282,6 +282,8 @@
             .faq {
                 padding: 25px 15px 10px 15px;
                 position: relative;
+                margin: 0 auto;
+                max-width: 90%;
                 .faq-head {
                     width: 100%;
                     display: flex;
@@ -724,6 +726,7 @@
     
         .faq-wrapper {
             .faq {
+                max-width: 100%;
                 .faq-head {
                     h3 {
                         max-width: 80%;

@@ -5868,7 +5868,7 @@ footer .copyright .copy-right .copyright-links li span {
   text-align: center;
 }
 .faq-section .faq-wrapper .faq {
-  padding: 55px 15px;
+  padding: 45px 15px;
   border-bottom: 1px solid #CCCCCC;
   position: relative;
 }
@@ -5904,7 +5904,6 @@ footer .copyright .copy-right .copyright-links li span {
 .faq-section .faq-wrapper .faq .faq-body {
   width: 100%;
   height: 0;
-  padding-top: 20px;
   overflow: hidden;
   transition: all 1s ease;
 }
@@ -6160,6 +6159,8 @@ footer .copyright .copy-right .copyright-links li span {
   .faq-section .faq-wrapper .faq {
     padding: 25px 15px 10px 15px;
     position: relative;
+    margin: 0 auto;
+    max-width: 90%;
   }
   .faq-section .faq-wrapper .faq .faq-head {
     width: 100%;
@@ -6527,6 +6528,9 @@ footer .copyright .copy-right .copyright-links li span {
   .faq-section h2 {
     font-size: 32px;
     line-height: 45px;
+  }
+  .faq-section .faq-wrapper .faq {
+    max-width: 100%;
   }
   .faq-section .faq-wrapper .faq .faq-head h3 {
     max-width: 80%;
@@ -7918,5 +7922,278 @@ footer .copyright .copy-right .copyright-links li span {
     font-size: 20px;
     line-height: 22px;
     padding: 17px 15px;
+  }
+}
+.discount-banner-section .container-fluid {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.discount-banner-section .discount-wrapper {
+  width: 100%;
+  height: 486px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../../images/resources/Banner 3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.discount-banner-section .discount-wrapper h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 74px;
+  line-height: 90px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.discount-faq-wrapper .faq-icon {
+  border: none !important;
+}
+.discount-faq-wrapper span {
+  opacity: 0 !important;
+}
+.discount-faq-wrapper .faq-body {
+  max-width: 1176px;
+}
+.discount-faq-wrapper .faq-body small {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #6D6E71;
+}
+.discount-faq-wrapper .faq-body small h6 {
+  padding-left: 4px;
+  padding-top: 4px;
+  color: #EA1C2D;
+}
+
+.discount-section {
+  width: 100%;
+  height: 960px;
+  padding: 30px 0px 100px 0px;
+}
+.discount-section .healthcare-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+.discount-section .healthcare-wrapper .healthcare h2 {
+  max-width: 490px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 74px;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 50px;
+  margin-left: 23px;
+}
+.discount-section .healthcare-wrapper .healthcare ul li {
+  background: transparent;
+  border-radius: 10px;
+  padding: 23px 23px 23px 25px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: capitalize;
+  color: #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 10px;
+  transition: all 0.7s ease;
+  cursor: pointer;
+}
+.discount-section .healthcare-wrapper .healthcare ul li span {
+  width: 16px;
+  height: 9px;
+  color: #6D6E71;
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.7s ease;
+}
+.discount-section .healthcare-wrapper .healthcare ul li:hover {
+  background: #FFFFFF;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.discount-section .healthcare-wrapper .healthcare ul li:hover span {
+  visibility: visible;
+  opacity: 1;
+}
+.discount-section .healthcare-wrapper .healthcare button {
+  margin-left: 23px !important;
+}
+.discount-section .healthcare-wrapper .discount-img {
+  max-width: 613px;
+  max-height: 726px;
+}
+.discount-section .healthcare-wrapper .discount-img img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1400px) {
+  .discount-banner-section .discount-wrapper {
+    width: 100%;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+  }
+  .discount-banner-section .discount-wrapper h2 {
+    font-size: 44px;
+    line-height: 60px;
+  }
+  .discount-section {
+    width: 100%;
+    height: auto;
+    padding: 70px auto;
+  }
+  .discount-section .healthcare-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .discount-section .healthcare-wrapper .healthcare {
+    order: 1;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .discount-section .healthcare-wrapper .healthcare h2 {
+    max-width: 100%;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    margin-left: 13px;
+    text-align: center;
+  }
+  .discount-section .healthcare-wrapper .healthcare ul li {
+    padding: 7px 7px 7px 10px;
+    font-size: 18px;
+    line-height: 39px;
+    margin: 20px 10px;
+  }
+  .discount-section .healthcare-wrapper .healthcare ul li span {
+    width: 16px;
+    height: 9px;
+    opacity: 0;
+    transition: all 0.7s ease;
+  }
+  .discount-section .healthcare-wrapper .healthcare ul li:hover {
+    background: #FFFFFF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .discount-section .healthcare-wrapper .healthcare ul li:hover span {
+    visibility: visible;
+    opacity: 1;
+  }
+  .discount-section .healthcare-wrapper .healthcare button {
+    margin-left: 23px !important;
+    padding: 16px 25px !important;
+  }
+  .discount-section .healthcare-wrapper .discount-img {
+    order: 0;
+    margin-top: 50px;
+    max-width: 85%;
+    max-height: auto;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 1400px) {
+  .discount-banner-section .discount-wrapper {
+    height: 400px;
+    padding: 0;
+    margin: 0;
+  }
+  .discount-banner-section .discount-wrapper h2 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  .discount-banner-section .discount-wrapper {
+    width: 100%;
+    height: 486px;
+    padding: 0;
+    margin: 0;
+  }
+  .discount-banner-section .discount-wrapper h2 {
+    font-size: 74px;
+    line-height: 90px;
+  }
+  .discount-section {
+    width: 100%;
+    height: auto;
+    padding: 70px auto;
+  }
+  .discount-section .healthcare-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+  .discount-section .healthcare-wrapper .healthcare {
+    order: 0;
+  }
+  .discount-section .healthcare-wrapper .healthcare h2 {
+    max-width: 100%;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    margin-left: 13px;
+    text-align: left;
+  }
+  .discount-section .healthcare-wrapper .healthcare ul li {
+    padding: 7px 7px 7px 10px;
+    font-size: 18px;
+    line-height: 39px;
+    margin: 20px 10px;
+  }
+  .discount-section .healthcare-wrapper .discount-img {
+    order: 0;
+    margin-top: 50px;
+    max-width: 500px;
+    max-height: 400px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  .discount-banner-section .discount-wrapper {
+    width: 100%;
+    height: 486px;
+    padding: 0;
+    margin: 0;
+  }
+  .discount-banner-section .discount-wrapper h2 {
+    font-size: 74px;
+    line-height: 90px;
+  }
+  .discount-section .healthcare-wrapper .discount-img {
+    order: 0;
+    margin-top: 50px;
+    max-width: 80%;
+    max-height: auto;
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=main.css.map */
