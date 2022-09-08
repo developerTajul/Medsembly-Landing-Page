@@ -6830,10 +6830,17 @@ footer .copyright .copy-right .copyright-links li span {
   background-repeat: no-repeat;
 }
 
+.partner-banner-section .container {
+  max-width: 1340px;
+  margin: 0 auto;
+}
 .partner-banner-section .partner-banner-top {
   display: flex;
   align-items: center;
-  margin: 40px 0px 100px 0px;
+  margin: 30px 0px 120px 0px;
+}
+.partner-banner-section .partner-banner-top .partner-banner-text-one {
+  margin-right: 0 auto;
 }
 .partner-banner-section .partner-banner-top .partner-banner-text-one h1 {
   font-family: "Inter";
@@ -6843,6 +6850,19 @@ footer .copyright .copy-right .copyright-links li span {
   line-height: 90px;
   text-transform: capitalize;
   color: #181818;
+  margin-bottom: 40px;
+  position: relative;
+}
+.partner-banner-section .partner-banner-top .partner-banner-text-one h1::before {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 122px;
+  position: absolute;
+  left: -5%;
+  top: -12%;
+  background: rgba(234, 28, 45, 0.1);
+  border-radius: 250px 250px 0px 250px;
 }
 .partner-banner-section .partner-banner-top .partner-banner-text-one p {
   font-family: "Inter";
@@ -6855,10 +6875,15 @@ footer .copyright .copy-right .copyright-links li span {
 .partner-banner-section .partner-banner-top .partner-banner-img-one {
   max-width: 520px;
   max-height: 780px;
+  margin-left: auto;
 }
 .partner-banner-section .partner-banner-top .partner-banner-img-one img {
   max-width: 100%;
   max-height: 100%;
+}
+.partner-banner-section .partner-banner-middle {
+  display: flex;
+  justify-content: space-between;
 }
 .partner-banner-section .partner-banner-middle .partner-banner-img-two {
   max-width: 666px;
@@ -6885,7 +6910,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 22px;
   text-align: left;
   text-transform: capitalize;
@@ -6898,6 +6923,7 @@ footer .copyright .copy-right .copyright-links li span {
 }
 .partner-banner-section .partner-banner-bottom {
   width: 100%;
+  max-width: 1320px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -6913,6 +6939,7 @@ footer .copyright .copy-right .copyright-links li span {
   .partner-banner-section .partner-banner-top {
     display: grid;
     grid-template-columns: 1fr;
+    margin: 30px 0px 60px 0px;
   }
   .partner-banner-section .partner-banner-top .partner-banner-text-one {
     order: 1;
@@ -6922,6 +6949,9 @@ footer .copyright .copy-right .copyright-links li span {
     line-height: 60px;
     margin: 20px auto;
     text-align: center;
+  }
+  .partner-banner-section .partner-banner-top .partner-banner-text-one h1::before {
+    display: none;
   }
   .partner-banner-section .partner-banner-top .partner-banner-text-one p {
     font-size: 16px;
@@ -6948,12 +6978,15 @@ footer .copyright .copy-right .copyright-links li span {
     margin: 20px auto;
     text-align: center;
   }
+  .partner-banner-section .partner-banner-middle .partner-banner-text-two ul li {
+    padding: 12px 15px;
+  }
   .partner-banner-section .partner-banner-middle .partner-banner-text-two ul li,
 .partner-banner-section .partner-banner-middle .partner-banner-text-two p {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
     text-align: left;
-    padding: 12px 15px;
+    padding: 12px 0 12px 0px;
   }
   .partner-banner-section .partner-banner-middle .partner-banner-text-two ul li img {
     width: 25px;
@@ -6985,15 +7018,15 @@ footer .copyright .copy-right .copyright-links li span {
     line-height: 45px;
   }
   .become-partner-section .become-partner-wrapper .become-partner-content a {
-    max-width: 170px;
+    max-width: 150px;
     display: block;
     margin: 30px 0px 0px 0px;
     font-size: 14px;
     white-space: nowrap;
-    padding: 18px 24px;
+    padding: 16px 12px;
   }
   .become-partner-section .become-partner-wrapper .become-partner-img {
-    max-width: 90%;
+    max-width: 85%;
     max-height: auto;
     position: relative;
     margin: 50px auto;
@@ -7016,6 +7049,18 @@ footer .copyright .copy-right .copyright-links li span {
     height: 200px;
     left: -20px;
     bottom: -20px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 1400px) {
+  .partner-banner-section .partner-banner-middle .partner-banner-text-two ul li,
+.partner-banner-section .partner-banner-middle .partner-banner-text-two p {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    padding: 12px 0 12px 0px !important;
+  }
+  .partner-banner-section .partner-banner-middle .partner-banner-text-two ul li {
+    padding: 17px 20px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1400px) {

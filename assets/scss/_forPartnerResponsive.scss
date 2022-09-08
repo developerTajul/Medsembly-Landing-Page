@@ -4,6 +4,7 @@
         .partner-banner-top {
             display: grid;
             grid-template-columns: 1fr;
+            margin: 30px 0px 60px 0px;
             .partner-banner-text-one {
                 order: 1;
                 h1 {
@@ -11,6 +12,10 @@
                     line-height: 60px;
                     margin: 20px auto;
                     text-align: center;
+
+                    &::before {
+                        display: none;
+                    }
                 }
                 p {
                     font-size: 16px;
@@ -40,12 +45,17 @@
                     margin: 20px auto;
                     text-align: center;
                 }
+
+                ul li {
+                    padding: 12px 15px;
+                }
+
                 ul li,
                 p {
-                    font-size: 14px;
+                    font-size: 12px;
                     line-height: 20px;
                     text-align: left;
-                    padding: 12px 15px;
+                    padding: 12px 0 12px 0px;
                 }
                 ul li img {
                     width: 25px;
@@ -82,16 +92,16 @@
                     line-height: 45px;
                 }
                 a {
-                    max-width: 170px;
+                    max-width: 150px;
                     display: block;
                     margin: 30px 0px 0px 0px;
                     font-size: 14px;
                     white-space: nowrap;
-                    padding: 18px 24px;
+                    padding: 16px 12px;
                 }
             }
             .become-partner-img {
-                max-width: 90%;
+                max-width: 85%;
                 max-height: auto;
                 position: relative;
                 margin: 50px auto;
@@ -118,6 +128,23 @@
             }
         } 
     }
+}
+
+
+@media screen and (min-width:576px) and (max-width: 1400px) {
+    .partner-banner-section .partner-banner-middle .partner-banner-text-two ul li, 
+    .partner-banner-section .partner-banner-middle .partner-banner-text-two p {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+        padding: 12px 0 12px 0px !important;
+    }
+
+    .partner-banner-section .partner-banner-middle .partner-banner-text-two ul li {
+        padding: 17px 20px;
+    }
+
+    
 }
 
 
