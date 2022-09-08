@@ -35,6 +35,10 @@ header {
                                     text-transform: capitalize;
                                     color: #6D6E71;
                                     white-space: nowrap;
+
+                                    &:hover{
+                                        color: #EA1C2D;
+                                    }
                                 }
                             }
 
@@ -54,7 +58,7 @@ header {
                                   .dropdown-menu {
                                     flex-direction: column;
                                     border-radius: 4px;
-                                    margin-top: 8px;
+                                    margin-top: -1px;
                                     width: 190px;
                                     padding: 8px;
                                     box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.3);
@@ -105,7 +109,11 @@ header {
                         line-height: 22px;
                         text-transform: capitalize;
                         color: #434242;
-                        white-space: nowrap;
+                        white-space: nowrap; 
+
+                        &:hover {
+                            color: #EA1C2D;
+                        }
                     }   
                 }
 

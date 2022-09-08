@@ -44,10 +44,14 @@
 
 
 
+
+
 //  Handle Navigation:
 let hamburger_menu = document.getElementsByClassName("hamburger-menu")[0];
 let closeBtn = document.getElementsByClassName("close-btn")[0];
 let mobile_nav_wrapper = document.getElementsByClassName("mobile-nav-wrapper")[0];
+let navItem = document.querySelectorAll(".main-menu ul li");
+
 
 hamburger_menu.addEventListener("click", () => {
   mobile_nav_wrapper.style.right = "-1px";
@@ -56,7 +60,6 @@ hamburger_menu.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   mobile_nav_wrapper.style.right = "-100%"
 })
-
 
 
 

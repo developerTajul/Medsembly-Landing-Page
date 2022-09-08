@@ -1,8 +1,24 @@
 .about-service-section {
     padding: 100px 0px;
+    .container {
+        max-width: 1330px;
+        margin: 0 auto;
+        padding: 0px;
+
+        .row {
+            padding: 0px !important;
+            --bs-gutter-x: 0 !important;
+            --bs-gutter-y: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0px !important;
+        }
+    }
 
     .about-service-wrapper {
         .about-service-text {
+            max-width: 588px;
+            margin: 0 auto;
             h2 {
                 font-family: 'Inter';
                 font-style: normal;
@@ -30,19 +46,19 @@
 
             .bottom-img {
                 max-width: 450px;
-
+                margin-left: 100px;
             }
 
             .top-img {
                 position: absolute;
-                right: 10%;
-                bottom: -25%;
+                right: 0%;
+                bottom: -30%;
             }
         }
 
 
         .about-service-two {
-            padding-top: 100px;
+            padding-top: 110px;
             max-width: 1300px;
             max-height: 620px;
             position: relative;

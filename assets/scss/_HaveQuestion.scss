@@ -1,6 +1,6 @@
 .have-question-section {
     width: 100%;
-    margin: 310px 0px;
+    margin: 110px 0px;
 
     .container-fluid {
         padding: 0px;
@@ -9,8 +9,6 @@
     .have-question-wrapper {
         width: 100%;
         position: relative;
-        display: block;
-
         .have-question-left {
             width: 1290px;
             height: 532px;
@@ -50,18 +48,8 @@
         }
         .have-question-img {
             position: absolute;
-            right: 7%;
-            top: -15%;
-            .img-group {
-                max-width: 506px;
-                position: relative;
-
-                .follow {
-                    position: absolute;
-                    top: 50%;
-                    right: 55%;
-                }
-            }
+            right: 1%;
+            top: -20%;
         }
     }
 
