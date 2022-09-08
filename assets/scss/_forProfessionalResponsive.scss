@@ -430,3 +430,15 @@
         max-height: 300px;
     }
 }
+
+@media screen and (min-width: 1401px) {
+    .professional-banner-section {
+        .professional-banner-top {
+            width: 100%;
+            background: url('../../images/Inner/Professional/banner/banner-bg.svg');
+            background-repeat: no-repeat;
+            background-position: top center;
+            position: relative;
+        }
+    }
+}
