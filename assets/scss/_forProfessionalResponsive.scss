@@ -146,8 +146,9 @@
             a {
                 font-size: 12px;
                 margin: 20px 0px;
-                max-width: 170px;
+                max-width: 150px;
                 white-space: nowrap;
+                padding: 15px 25px;
             }
         }
     
@@ -171,9 +172,24 @@
         }
     }
 
+    .professional-service-section {
+        padding-top: 65px;
+    }
+
     .professional-newsletter-section 
     .get-app .get-app-text {
         max-width: 150px;
+        right: 10%;
+
+        h2 {
+            font-size: 14px;
+        }
+
+        .img-group img {
+            max-width: 70px;
+            max-height: 40px;
+            margin-right: 10px;
+        }
     }
 }
 
@@ -182,7 +198,15 @@
     .professional-newsletter-section 
     .get-app .get-app-text {
         max-width: 320px;
-        right: 3%;
+        right: 4%;
+        h2 {
+            font-size: 16px;
+        }
+        .img-group img {
+            max-width: 150px;
+            max-height: 150px;
+            margin-right: 10px;
+        }
     }
 }
 
@@ -285,6 +309,20 @@
             }
         }
     }
+
+    .professional-newsletter-section 
+    .get-app .get-app-text {
+        max-width: 400px;
+        right: 4%;
+        h2 {
+            font-size: 20px;
+        }
+        .img-group img {
+            max-width: 170px;
+            max-height: 150px;
+            margin-right: 10px;
+        }
+    }
 }
 
 
@@ -352,7 +390,15 @@
     .professional-newsletter-section 
     .get-app .get-app-text {
         max-width: 400px;
-        right: 7%;
+        right: 4%;
+        h2 {
+            font-size: 24px;
+        }
+        .img-group img {
+            max-width: 170px;
+            max-height: 150px;
+            margin-right: 10px;
+        }
     }
 }
 

@@ -120,10 +120,6 @@ button:focus {
   filter: drop-shadow(8px 10px 60px rgba(0, 0, 0, 0.08));
 }
 
-.professional-service-section {
-  padding: 140px 0px;
-}
-
 /* Deafult Margin & Padding */
 /*-- Margin Top --*/
 .mt-5 {
@@ -7137,10 +7133,14 @@ footer .copyright .copy-right .copyright-links li span {
 .professional-banner-section .container-fluid .row {
   --bs-gutter-x: 0;
 }
+.professional-banner-section .container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
 .professional-banner-section .professional-banner-title {
   width: 100%;
   max-width: 785px;
-  margin: 150px auto 50px auto;
+  margin: 110px auto 50px auto;
 }
 .professional-banner-section .professional-banner-title h1 {
   font-family: "Inter";
@@ -7167,16 +7167,16 @@ footer .copyright .copy-right .copyright-links li span {
   height: 400px;
   background: url("../../images/Inner/Professional/banner/banner-bg.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
   position: relative;
-  margin: 0 0 200px 0;
+  margin: 75px 0 0 0;
 }
 .professional-banner-section .professional-banner-top .top-wrapper .banner-left-img {
   max-width: 278px;
   max-height: 278px;
   position: absolute;
   left: 12%;
-  top: 20%;
+  top: 12%;
 }
 .professional-banner-section .professional-banner-top .top-wrapper .banner-left-img img {
   max-width: 100%;
@@ -7187,7 +7187,7 @@ footer .copyright .copy-right .copyright-links li span {
   max-height: 394px;
   position: absolute;
   left: 50%;
-  top: 15%;
+  top: 5%;
   transform: translateX(-50%);
 }
 .professional-banner-section .professional-banner-top .top-wrapper .banner-middle-img img {
@@ -7199,14 +7199,14 @@ footer .copyright .copy-right .copyright-links li span {
   max-height: 278px;
   position: absolute;
   right: 12%;
-  top: 20%;
+  top: 12%;
 }
 .professional-banner-section .professional-banner-top .top-wrapper .banner-right-img img {
   max-width: 100%;
   max-height: 100%;
 }
 .professional-banner-section .professional-banner-middle {
-  margin: 110px auto;
+  margin: 190px auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -7249,7 +7249,7 @@ footer .copyright .copy-right .copyright-links li span {
   color: #6D6E71;
 }
 .professional-banner-section .professional-banner-bottom {
-  margin: 0 auto 160px auto;
+  margin: 0 auto 190px auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -7337,27 +7337,27 @@ footer .copyright .copy-right .copyright-links li span {
 }
 .professional-offer-section .professional-offer-context a {
   display: block;
-  margin: 20px 0px;
+  margin: 30px 0px;
   max-width: 220px;
   white-space: nowrap;
 }
 .professional-offer-section .offer-img-wrapper {
-  max-width: 782px;
+  max-width: 740px;
   max-height: 812px;
   position: relative;
   top: 10%;
 }
 .professional-offer-section .offer-img-wrapper .offer-bottom-img {
-  max-width: 635px;
+  max-width: 600px;
   max-height: 635px;
-  margin-left: auto;
+  margin-left: 50px;
 }
 .professional-offer-section .offer-img-wrapper .offer-top-img {
   max-width: 400px;
   max-height: 400px;
   position: absolute;
-  right: -15%;
-  bottom: -30%;
+  right: -10%;
+  bottom: -35%;
   z-index: 1;
 }
 
@@ -7497,8 +7497,9 @@ footer .copyright .copy-right .copyright-links li span {
   .professional-offer-section .professional-offer-context a {
     font-size: 12px;
     margin: 20px 0px;
-    max-width: 170px;
+    max-width: 150px;
     white-space: nowrap;
+    padding: 15px 25px;
   }
   .professional-offer-section .offer-img-wrapper {
     max-width: 80%;
@@ -7518,14 +7519,34 @@ footer .copyright .copy-right .copyright-links li span {
     right: -15%;
     bottom: -30%;
   }
+  .professional-service-section {
+    padding-top: 65px;
+  }
   .professional-newsletter-section .get-app .get-app-text {
     max-width: 150px;
+    right: 10%;
+  }
+  .professional-newsletter-section .get-app .get-app-text h2 {
+    font-size: 14px;
+  }
+  .professional-newsletter-section .get-app .get-app-text .img-group img {
+    max-width: 70px;
+    max-height: 40px;
+    margin-right: 10px;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 1400px) {
   .professional-newsletter-section .get-app .get-app-text {
     max-width: 320px;
-    right: 3%;
+    right: 4%;
+  }
+  .professional-newsletter-section .get-app .get-app-text h2 {
+    font-size: 16px;
+  }
+  .professional-newsletter-section .get-app .get-app-text .img-group img {
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 10px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1400px) {
@@ -7604,6 +7625,18 @@ footer .copyright .copy-right .copyright-links li span {
     right: -5%;
     bottom: -25%;
   }
+  .professional-newsletter-section .get-app .get-app-text {
+    max-width: 400px;
+    right: 4%;
+  }
+  .professional-newsletter-section .get-app .get-app-text h2 {
+    font-size: 20px;
+  }
+  .professional-newsletter-section .get-app .get-app-text .img-group img {
+    max-width: 170px;
+    max-height: 150px;
+    margin-right: 10px;
+  }
 }
 @media screen and (min-width: 992px) and (max-width: 1400px) {
   .professional-banner-section .professional-banner-title {
@@ -7649,7 +7682,15 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .professional-newsletter-section .get-app .get-app-text {
     max-width: 400px;
-    right: 7%;
+    right: 4%;
+  }
+  .professional-newsletter-section .get-app .get-app-text h2 {
+    font-size: 24px;
+  }
+  .professional-newsletter-section .get-app .get-app-text .img-group img {
+    max-width: 170px;
+    max-height: 150px;
+    margin-right: 10px;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1400px) {

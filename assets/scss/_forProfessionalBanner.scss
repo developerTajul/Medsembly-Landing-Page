@@ -4,14 +4,19 @@
         padding: 0;
         .row {
             --bs-gutter-x: 0;
-            
         }
     }
+
+    .container {
+        max-width: 1320px;
+        margin: 0 auto;
+    }
+
 
     .professional-banner-title {
         width: 100%;
         max-width: 785px;
-        margin: 150px auto 50px auto;
+        margin: 110px auto 50px auto;
         h1 {
             font-family: 'Inter';
             font-style: normal;
@@ -39,9 +44,9 @@
         height: 400px;
         background: url('../../images/Inner/Professional/banner/banner-bg.svg');
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top center;
         position: relative;
-        margin: 0 0 200px 0;
+        margin: 75px 0 0 0;
 
         .top-wrapper {
             .banner-left-img {
@@ -49,7 +54,7 @@
                 max-height: 278px;
                 position: absolute;
                 left: 12%;
-                top: 20%;
+                top: 12%;
                 img {
                     max-width: 100%;
                     max-height: 100%;
@@ -61,7 +66,7 @@
                 max-height: 394px;
                 position: absolute;
                 left: 50%;
-                top: 15%;
+                top: 5%;
                 transform: translateX(-50%);
                 img {
                     max-width: 100%;
@@ -74,7 +79,7 @@
                 max-height: 278px;
                 position: absolute;
                 right: 12%;
-                top: 20%;
+                top: 12%;
                 img {
                     max-width: 100%;
                     max-height: 100%;
@@ -84,7 +89,7 @@
     }
 
     .professional-banner-middle {
-        margin: 110px auto;
+        margin: 190px auto;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -128,7 +133,7 @@
     }
 
     .professional-banner-bottom {
-        margin: 0 auto 160px auto;
+        margin: 0 auto 190px auto;
         display: flex;
         align-items: center;
         justify-content: space-between;
