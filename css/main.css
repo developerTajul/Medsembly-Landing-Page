@@ -9027,4 +9027,9 @@ footer .copyright .copy-right .copyright-links li span {
     height: 40px;
     margin-left: auto;
   }
+}
+.events-banner-section .discount-wrapper {
+  background: url("../../images/resources/events-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }/*# sourceMappingURL=main.css.map */
