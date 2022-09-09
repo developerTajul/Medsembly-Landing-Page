@@ -7763,6 +7763,15 @@ footer .copyright .copy-right .copyright-links li span {
     max-height: 300px;
   }
 }
+@media screen and (min-width: 1401px) {
+  .professional-banner-section .professional-banner-top {
+    width: 100%;
+    background: url("../../images/Inner/Professional/banner/banner-bg.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+  }
+}
 .resources-banner-section {
   max-width: 100%;
 }
@@ -8465,5 +8474,183 @@ footer .copyright .copy-right .copyright-links li span {
     max-width: 80%;
     max-height: auto;
     margin: 0 auto;
+  }
+}
+.workshop-banner-section .discount-wrapper {
+  background: url("../../images/resources/workshop-banner.png");
+}
+
+.workshop-section {
+  padding: 110px 10px;
+}
+.workshop-section .container {
+  max-width: 1313px;
+  margin: 0 auto;
+}
+.workshop-section .workshop-wrapper {
+  width: 100%;
+  height: 600px;
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.workshop-section .workshop-wrapper .workshop-content h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 74px;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 20px 0px;
+}
+.workshop-section .workshop-wrapper .workshop-content h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 20px 0px;
+}
+.workshop-section .workshop-wrapper .workshop-content h4 span {
+  color: #6D6E71;
+}
+.workshop-section .workshop-wrapper .workshop-content a {
+  max-width: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+}
+.workshop-section .workshop-wrapper .workshop-img {
+  max-width: 550px;
+  max-height: 600px;
+}
+.workshop-section .workshop-wrapper .workshop-img img {
+  width: 100%;
+  height: 100%;
+}
+.workshop-section a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .workshop-section {
+    padding: 60px 10px;
+  }
+  .workshop-section .container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .workshop-section .workshop-wrapper {
+    width: 100%;
+    height: auto;
+    margin-bottom: 120px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .workshop-section .workshop-wrapper .workshop-content {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  .workshop-section .workshop-wrapper .workshop-content h2 {
+    font-size: 36px;
+    line-height: 50px;
+    margin: 20px 0px;
+  }
+  .workshop-section .workshop-wrapper .workshop-content h4 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0px;
+  }
+  .workshop-section .workshop-wrapper .workshop-content a {
+    max-width: 160px;
+    height: 56px;
+    display: block;
+    margin: 20px 0px;
+    font-size: 14px;
+    padding: 18px 30px;
+    text-align: center;
+  }
+  .workshop-section .workshop-wrapper .workshop-img {
+    width: 80%;
+    margin: 0 auto;
+    max-height: 600px;
+  }
+  .workshop-section a {
+    max-width: 200px;
+    height: 56px;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 575px) and (max-width: 767px) {
+  .workshop-section {
+    padding: 60px 10px;
+  }
+  .workshop-section .container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .workshop-section .workshop-wrapper {
+    width: 100%;
+    height: auto;
+    margin-bottom: 120px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .workshop-section .workshop-wrapper .workshop-content {
+    width: 100%;
+  }
+  .workshop-section .workshop-wrapper .workshop-content h2 {
+    font-size: 46px;
+    line-height: 60px;
+    margin: 20px 0px;
+  }
+  .workshop-section .workshop-wrapper .workshop-content h4 {
+    font-size: 24px;
+    line-height: 30px;
+    margin: 20px 0px;
+  }
+  .workshop-section .workshop-wrapper .workshop-content a {
+    max-width: 180px;
+    height: 60px;
+    display: block;
+    margin: 20px 0px;
+    font-size: 17px;
+    padding: 22px 30px;
+    text-align: center;
+  }
+  .workshop-section .workshop-wrapper .workshop-img {
+    max-width: 450px;
+    max-height: 500px;
+    margin: 0 auto;
+    max-height: 600px;
+  }
+  .workshop-section a {
+    display: block;
+    max-width: 240px;
+    height: 60px;
+    margin: 0 auto;
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .workshop-section {
+    padding: 40px 10px 80px 10px;
+  }
+  .workshop-section .workshop-wrapper {
+    margin-bottom: 30px;
   }
 }/*# sourceMappingURL=main.css.map */
