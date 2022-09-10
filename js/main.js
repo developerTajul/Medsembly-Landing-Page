@@ -293,7 +293,12 @@ function CalendarControl() {
     },
     plotPrevMonthDates: function(dates){
       dates.reverse();
-      for(let i=0;i<dates.length;i++) {}
+      for(let i=0;i<dates.length;i++) {
+        //  To Show Previous Dates:
+          // if(document.querySelectorAll(".prev-dates")) {
+          //     document.querySelectorAll(".prev-dates")[i].textContent = dates[i];
+          // }
+      }
     },
     plotNextMonthDates: function(){
      let childElemCount = document.querySelector('.calendar-body').childElementCount;
@@ -312,7 +317,10 @@ function CalendarControl() {
     },
     loopThroughNextDays: function(count) {
       if(count > 0) {
-          for(let i=1;i<=count;i++) {}
+          for(let i=1;i<=count;i++) {
+            //  To Show Next Dates:
+            // document.querySelector('.calendar-body').innerHTML += `<div class="next-dates">${i}</div>`;
+          }
       }
     },
     attachEventsOnNextPrev: function () {
@@ -330,6 +338,8 @@ function CalendarControl() {
 const calendarControl = new CalendarControl();
 
 
+
+
 //  Select A Date
 const Selectdates = document.querySelectorAll(".number-item span");
 Array.from(Selectdates).forEach(date => {
@@ -338,3 +348,6 @@ Array.from(Selectdates).forEach(date => {
     console.log(date.classList);
   })
 })
+
+
+
