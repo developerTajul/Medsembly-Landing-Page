@@ -10156,4 +10156,163 @@ footer .copyright .copy-right .copyright-links li span {
     font-size: 18px;
     line-height: 30px;
   }
+}
+.privacy-banner-section .discount-wrapper {
+  background: url("../../images/PrivacyAndTerms/1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.privacy-policy-section {
+  padding: 110px 0px;
+}
+.privacy-policy-section .privacy-title {
+  border-bottom: 1px solid #CCCCCC;
+}
+.privacy-policy-section .privacy-title h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.privacy-policy-section .privacy-title p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 15px 0px 30px;
+  text-transform: capitalize;
+  color: #6D6E71;
+}
+.privacy-policy-section .privacy-top {
+  padding: 20px 0px;
+}
+.privacy-policy-section .privacy-top p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #6D6E71;
+  padding: 21px 0px;
+}
+.privacy-policy-section .privacy-body .privacy-sub-title {
+  margin-top: 50px;
+}
+.privacy-policy-section .privacy-body .privacy-sub-title h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.privacy-policy-section .privacy-body .privacy-sub-title p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #6D6E71;
+  padding: 15px 0px 0px 0px;
+}
+.privacy-policy-section .privacy-body .privacy-sub-title p span {
+  text-transform: capitalize;
+  color: #EA1C2D;
+}
+.privacy-policy-section .privacy-body ul {
+  list-style: disc;
+}
+.privacy-policy-section .privacy-body ul li {
+  list-style: disc;
+  list-style-position: inside;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #6D6E71;
+  padding: 16px 0px;
+}
+.privacy-policy-section .privacy-body p {
+  list-style: disc;
+  list-style-position: inside;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #6D6E71;
+  padding: 16px 0px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px) {
+  .privacy-banner-section .discount-wrapper h2 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+  .privacy-policy-section {
+    padding: 70px 12px;
+  }
+  .privacy-policy-section .privacy-title h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .privacy-policy-section .privacy-title p {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 10px 0px 20px;
+  }
+  .privacy-policy-section .privacy-top {
+    padding: 10px 0px;
+  }
+  .privacy-policy-section .privacy-top p {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    padding: 21px 0px;
+  }
+  .privacy-policy-section .privacy-body .privacy-sub-title {
+    margin-top: 50px;
+  }
+  .privacy-policy-section .privacy-body .privacy-sub-title h3 {
+    font-size: 22px;
+    line-height: 39px;
+  }
+  .privacy-policy-section .privacy-body .privacy-sub-title p {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 10px 0px 0px 0px;
+    text-align: justify;
+  }
+  .privacy-policy-section .privacy-body ul li {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 10px 0px;
+    text-align: justify;
+  }
+  .privacy-policy-section .privacy-body p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 10px 0px;
+    text-align: justify;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1399px) {
+  .privacy-policy-section .container {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .privacy-policy-section .container {
+    max-width: 1320px;
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=main.css.map */
