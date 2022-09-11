@@ -102,3 +102,64 @@
         align-items: center;
     }
 }
+
+
+@mixin blogComments ($width) {
+    max-width: $width;
+    height: 170px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    img {
+        width: 70px;
+        height: 70px;
+        margin-right: 25px;
+    }
+
+    div {
+        h2 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            text-transform: capitalize;
+            color: #000000;
+        }
+        small {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            text-transform: capitalize;
+            color: #6D6E71;
+            padding: 8px 0 12px 0;
+        }
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            text-transform: capitalize;
+            color: #6D6E71;
+        }
+    }
+    button {
+        width: 80px;
+        padding: 13px 15px;
+        font-size: 16px;
+        color: #fff;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+}
+            
