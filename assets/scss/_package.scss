@@ -1,0 +1,99 @@
+.package-section {
+    .package-wrapper {
+        .package {
+            max-height: 1400px;
+            max-width: 866px;
+            box-shadow: 10px 12px 60px rgba(0, 0, 0, 0.06);
+            border-radius: 20px;
+            padding: 0px 48px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 110px auto 110px auto;
+            .package-top {
+                text-align: center;
+                padding: 60px 0px;
+                border-bottom: 1px dashed #CCCCCC;
+                img {
+                    max-width: 265px;
+                    height: auto;
+                    margin: 0px auto 30px auto;
+                }
+                h2 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 56px;
+                    line-height: 68px;
+                    text-transform: capitalize;
+                    color: #000000;
+                    margin-bottom: 20px;
+                }
+
+                h4 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 39px;
+                    text-transform: capitalize;
+                    color: #000000;
+                }
+            }
+
+            .package-body {
+                padding: 0px 0px 40px 67px;
+                h3 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 40px;
+                    line-height: 48px;
+                    text-transform: capitalize;
+                    color: #EA1C2D;
+                    margin: 50px 0px 10px 0px;
+                }
+
+                ul {
+                    li {
+                        img {
+                            width: 30px;
+                            height: 30px;
+                            margin-right: 12px;
+                        }
+                        padding: 12px 0px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 36px;
+                        letter-spacing: -0.02em;
+                        color: #6D6E71;
+                    }
+                }
+            }
+
+            button {
+                max-width: 175px;
+                margin: 10px auto 60px auto;
+            }
+        }
+
+        .package-text {
+            max-width: 1145px;
+            margin: 0 auto 110px auto;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 40px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #6D6E71;
+
+            span {
+                color: #EA1C2D;
+            }
+        }
+    }
+}
