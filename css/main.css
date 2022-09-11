@@ -10315,4 +10315,21 @@ footer .copyright .copy-right .copyright-links li span {
     max-width: 1320px;
     margin: 0 auto;
   }
+}
+.terms-and-condition-section .privacy-title p {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: #EA1C2D;
+}
+.terms-and-condition-section .privacy-sub-title small {
+  font-weight: 600;
+  color: #000;
+  padding-left: 15px;
+}
+.terms-and-condition-section .privacy-sub-title i {
+  padding-left: 10px;
 }/*# sourceMappingURL=main.css.map */

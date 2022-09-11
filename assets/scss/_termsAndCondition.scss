@@ -1,0 +1,24 @@
+.terms-and-condition-section {
+    .privacy-title {
+        p {
+            font-family: 'Inter';
+            font-style: italic;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 40px;
+            text-transform: capitalize;
+            color: #EA1C2D;
+        }
+    }
+
+    .privacy-sub-title {
+        small {
+            font-weight: 600;
+            color: #000;
+            padding-left: 15px;
+        }
+        i {
+            padding-left: 10px;
+        }
+    }
+}
