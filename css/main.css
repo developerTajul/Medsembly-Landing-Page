@@ -10332,4 +10332,25 @@ footer .copyright .copy-right .copyright-links li span {
 }
 .terms-and-condition-section .privacy-sub-title i {
   padding-left: 10px;
+}
+.terms-and-condition-section .privacy-sub-title b {
+  color: #000;
+}
+.terms-and-condition-section .privacy-sub-title p {
+  word-wrap: break-word;
+}
+.terms-and-condition-section .privacy-sub-title p span {
+  color: #EA1C2D;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .terms-and-condition-section .privacy-title {
+    border-bottom: none;
+  }
+  .terms-and-condition-section .privacy-title p {
+    font-size: 15px;
+    line-height: 30px;
+    padding: 10px 0px 0px 0px;
+    text-align: justify;
+  }
 }/*# sourceMappingURL=main.css.map */

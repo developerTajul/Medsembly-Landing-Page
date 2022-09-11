@@ -20,5 +20,14 @@
         i {
             padding-left: 10px;
         }
+        b {
+            color: #000;
+        }
+        p {
+            word-wrap: break-word;
+            span {
+                color: #EA1C2D;
+            }
+        }
     }
 }
