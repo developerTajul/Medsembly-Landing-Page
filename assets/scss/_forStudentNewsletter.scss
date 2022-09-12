@@ -1,0 +1,9 @@
+.student-newsletter-section {
+    .get-app-text {
+        .student-get-app-text {
+            @include title;
+            font-size: 56px;
+            line-height: 74px !important;
+        }
+    }
+}

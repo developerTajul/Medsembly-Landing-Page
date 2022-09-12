@@ -19,7 +19,7 @@
                 text-transform: capitalize;
                 color: #000000;
                 margin-bottom: 50px;
-                margin-left: 23px;
+                margin-left: 30px;
             }
         
             ul {
@@ -33,7 +33,7 @@
                     font-size: 32px;
                     line-height: 39px;
                     text-transform: capitalize;
-                    color: #333333;
+                    color: #6D6E71;;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
@@ -44,7 +44,7 @@
                     span {
                         width: 16px;
                         height: 9px;
-                        color: #6D6E71;
+                        color: #6D6E71;;
                         display: flex;
                         align-items: center;
                         visibility: hidden;
@@ -53,7 +53,8 @@
                     }
                     &:hover {
                         background: #FFFFFF;
-                        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                        color:  #333333;
+                        filter: drop-shadow(8px 10px 60px rgba(0, 0, 0, 0.08));
                         span {
                             visibility: visible;
                             opacity: 1;

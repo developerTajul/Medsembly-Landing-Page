@@ -42,6 +42,8 @@
             }
 
             .banner-content {
+                padding-left: 24px;
+                padding-bottom: 24px;
                 h1 {
                     font-size: 24px;
                     line-height: 40px;
@@ -70,7 +72,8 @@
                 min-height: 200px;
                 font-size: 18px;
                 line-height: 35px;
-                padding: 15px 10px;
+                padding: 15px 0px;
+                text-align: center;
             }
         }
     }
@@ -87,7 +90,7 @@
                 h2 {
                     font-size: 25px;
                     line-height: 40px;
-                    padding: 12px;
+                    padding: 5px;
                 }
         
                 p {
@@ -96,7 +99,7 @@
                     font-weight: 400;
                     font-size: 15px;
                     line-height: 28px;
-                    padding: 25px 12px 25px 12px;
+                    padding: 25px 5px 25px 5px;
                 }
         
                 .primary_button {
@@ -105,18 +108,19 @@
                     align-items: center;
                     width: 140px;
                     height: 50px;
-                    font-size: 16px;
+                    font-size: 15px;
+                    padding: 17px 20px;
                 }
             }
 
             .feature {
-                width: 100%;
+                width: 96%;
                 max-height: auto;
-                padding: 20px;
-                margin: 20px 0px;
+                padding: 25px 13px;
+                margin: 20px auto;
 
                 h2 {
-                    font-size: 18px;
+                    font-size: 19px;
                     line-height: 35px;
                     padding: 4px;
                 }
@@ -125,6 +129,7 @@
                     font-size: 15px;
                     padding: 4px;
                     margin: 0px;
+                    text-align: justify;
                 }
 
                 img {
@@ -143,12 +148,6 @@
         
             .feature-two {
                 position: relative;
-            }
-
-            .feature-three {
-                margin-right: 25px;
-                padding-left: 0px;
-                padding-right: 25px;
             }
         }
     }
@@ -172,7 +171,7 @@
             margin-left: 10px;
             .team {
                 max-width: calc(100% - 25px);
-                margin-right: 23px;
+                margin-right: 25px;
 
                 .team-info {
                     width: 100%;
@@ -420,7 +419,7 @@
                 display: grid;
                 justify-content: center;
                 order: 1;
-                padding-left: 16px;
+                padding-left: 24px;
                 .subscribe-title {
                     h2 {
                         font-size: 25px;
@@ -504,6 +503,7 @@
                 margin: 0 auto 50px auto;
                 img {
                     max-width: 100%;
+                    margin-left: 15px;
                 }
             }
         }
@@ -524,6 +524,7 @@
         }
         
         .footer-wrapper {
+            padding: 15px;
             .list-title {
                 @include listTitle;
                 font-size: 17px

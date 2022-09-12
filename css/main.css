@@ -33,7 +33,7 @@ button:focus {
 
 .feature {
   width: 590px;
-  max-height: 616px;
+  max-height: 635px;
   border-radius: 16px;
 }
 .feature h2 {
@@ -2133,6 +2133,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   background: #E8E9FA;
   margin-left: auto;
   margin-bottom: 140px;
+  max-height: 680px;
 }
 .features-section .feature-wrapper .feature-one img {
   max-width: 486px;
@@ -2350,7 +2351,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  max-width: 400px;
+  max-width: 394px;
   min-height: 484px;
   padding: 33px;
   background-color: transparent;
@@ -2472,7 +2473,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
 }
 .newsletter-section .get-app .get-app-img {
   max-width: 777px;
-  max-height: 707px;
+  max-height: 807px;
 }
 .newsletter-section .get-app .get-app-img img {
   max-width: 100%;
@@ -2486,9 +2487,10 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
 .newsletter-section .get-app .get-app-text h2 {
   max-width: 680px;
   margin: 60px auto;
+  font-size: 56px;
+  line-height: 60px;
   max-width: 500px;
   margin: 0px auto 60px auto;
-  line-height: 60px;
 }
 .newsletter-section .get-app .get-app-text h2 h2 {
   font-family: "Inter";
@@ -2733,7 +2735,7 @@ footer .footer-wrapper .footer-one p {
   margin: 55px 0 30px 0px;
 }
 footer .footer-wrapper .footer-one .input-wrapper {
-  width: 289px;
+  width: 280px;
   height: 46px;
   background-color: #fff;
   border-radius: 25px;
@@ -2743,7 +2745,7 @@ footer .footer-wrapper .footer-one .input-wrapper {
 footer .footer-wrapper .footer-one .input-wrapper input {
   display: block;
   border: none;
-  width: 289px;
+  width: 280px;
   height: 46px;
   padding-left: 15px;
   border-radius: 25px;
@@ -2865,6 +2867,10 @@ footer .copyright .copy-right .copyright-links li span {
   .banner-section .banner_wrapper .banner_wrapper-right {
     display: none;
   }
+  .banner-section .banner_wrapper .banner-content {
+    padding-left: 24px;
+    padding-bottom: 24px;
+  }
   .banner-section .banner_wrapper .banner-content h1 {
     font-size: 24px;
     line-height: 40px;
@@ -2888,7 +2894,8 @@ footer .copyright .copy-right .copyright-links li span {
     min-height: 200px;
     font-size: 18px;
     line-height: 35px;
-    padding: 15px 10px;
+    padding: 15px 0px;
+    text-align: center;
   }
   .features-section {
     padding: 40px 10px;
@@ -2901,7 +2908,7 @@ footer .copyright .copy-right .copyright-links li span {
   .features-section .feature-wrapper .feature-heading h2 {
     font-size: 25px;
     line-height: 40px;
-    padding: 12px;
+    padding: 5px;
   }
   .features-section .feature-wrapper .feature-heading p {
     font-family: "Inter";
@@ -2909,7 +2916,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-weight: 400;
     font-size: 15px;
     line-height: 28px;
-    padding: 25px 12px 25px 12px;
+    padding: 25px 5px 25px 5px;
   }
   .features-section .feature-wrapper .feature-heading .primary_button {
     display: flex;
@@ -2917,16 +2924,17 @@ footer .copyright .copy-right .copyright-links li span {
     align-items: center;
     width: 140px;
     height: 50px;
-    font-size: 16px;
+    font-size: 15px;
+    padding: 17px 20px;
   }
   .features-section .feature-wrapper .feature {
-    width: 100%;
+    width: 96%;
     max-height: auto;
-    padding: 20px;
-    margin: 20px 0px;
+    padding: 25px 13px;
+    margin: 20px auto;
   }
   .features-section .feature-wrapper .feature h2 {
-    font-size: 18px;
+    font-size: 19px;
     line-height: 35px;
     padding: 4px;
   }
@@ -2934,6 +2942,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-size: 15px;
     padding: 4px;
     margin: 0px;
+    text-align: justify;
   }
   .features-section .feature-wrapper .feature img {
     max-height: auto;
@@ -2948,11 +2957,6 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .features-section .feature-wrapper .feature-two {
     position: relative;
-  }
-  .features-section .feature-wrapper .feature-three {
-    margin-right: 25px;
-    padding-left: 0px;
-    padding-right: 25px;
   }
   .team-section .swiper {
     width: 100%;
@@ -2993,7 +2997,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .team-section .team-wrapper .team {
     max-width: calc(100% - 25px);
-    margin-right: 23px;
+    margin-right: 25px;
   }
   .team-section .team-wrapper .team .team-info {
     width: 100%;
@@ -3233,7 +3237,7 @@ footer .copyright .copy-right .copyright-links li span {
     display: grid;
     justify-content: center;
     order: 1;
-    padding-left: 16px;
+    padding-left: 24px;
   }
   .newsletter-section .subscribe-area .subscribe-text .subscribe-title h2 {
     font-size: 25px;
@@ -3331,6 +3335,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .newsletter-section .subscribe-area .subscribe-img img {
     max-width: 100%;
+    margin-left: 15px;
   }
   footer {
     width: 100%;
@@ -3342,6 +3347,9 @@ footer .copyright .copy-right .copyright-links li span {
   footer .logo {
     width: 203px;
     height: 38px;
+  }
+  footer .footer-wrapper {
+    padding: 15px;
   }
   footer .footer-wrapper .list-title {
     font-family: "Inter";
@@ -4758,20 +4766,7 @@ footer .copyright .copy-right .copyright-links li span {
   background: #FFFFFF;
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-.about-service-section .about-service-wrapper .about-service-two .about-two-text::before {
-  content: "";
-  display: block;
-  width: 290px;
-  height: 290px;
-  position: absolute;
-  left: -115px;
-  top: -115px;
-  border-radius: 50%;
-  background: rgba(234, 28, 45, 0.1);
-  z-index: 1111;
-  background-repeat: no-repeat;
+  filter: drop-shadow(8px 10px 60px rgba(0, 0, 0, 0.08));
 }
 .about-service-section .about-service-wrapper .about-service-two .about-two-text h2 {
   font-family: "Inter";
@@ -5920,6 +5915,23 @@ footer .copyright .copy-right .copyright-links li span {
   color: #6D6E71;
 }
 
+.student-newsletter-section .get-app-text .student-get-app-text {
+  max-width: 680px;
+  margin: 60px auto;
+  font-size: 56px;
+  line-height: 74px !important;
+}
+.student-newsletter-section .get-app-text .student-get-app-text h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 74px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+
 @media screen and (min-width: 320px) and (max-width: 1400px) {
   .for-student-banner-section {
     height: auto;
@@ -6152,50 +6164,6 @@ footer .copyright .copy-right .copyright-links li span {
     border-radius: 8px;
     font-size: 18px;
     line-height: 22px;
-  }
-  .newsletter-section {
-    padding: 70px 0px;
-  }
-  .newsletter-section .swiper {
-    width: 100%;
-    height: 100%;
-  }
-  .newsletter-section .swiper .swiper-pagination-bullet {
-    width: 27px;
-    height: 8px;
-    border-radius: 0%;
-    background-color: #D9D9D9;
-    opacity: 1;
-  }
-  .newsletter-section .swiper .swiper-pagination-bullet-active {
-    opacity: var(--swiper-pagination-bullet-opacity, 1);
-    background: #EA1C2D;
-    width: 57px;
-    height: 8px;
-    border-radius: 0%;
-  }
-  .newsletter-section .swiper-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .newsletter-section .swiper-horizontal > .swiper-pagination-bullets, .newsletter-section .swiper-pagination-bullets.swiper-pagination-horizontal, .newsletter-section .swiper-pagination-custom, .newsletter-section .swiper-pagination-fraction {
-    bottom: 0px;
-    left: 0%;
-  }
-  .newsletter-section .get-app .get-app-text {
-    max-width: 50%;
-    right: 2%;
-  }
-  .newsletter-section .get-app .get-app-text h2 {
-    font-size: 12px;
-    line-height: 23px;
-    margin: 0px auto 15px auto;
-  }
-  .newsletter-section .get-app .get-app-text .img-group img {
-    max-width: 40px;
-    max-height: 30px;
-    margin-right: 10px;
   }
   .faq-section {
     margin: 60px auto;
@@ -6473,17 +6441,6 @@ footer .copyright .copy-right .copyright-links li span {
     font-size: 16px;
     line-height: 22px;
   }
-  .newsletter-section .get-app .get-app-text h2 {
-    font-size: 20px;
-    line-height: 30px;
-    margin: 0px auto 15px auto;
-  }
-  .newsletter-section .get-app .get-app-text .img-group img {
-    max-width: 100px;
-    max-height: 50px;
-    margin-right: 10px;
-    margin-top: 20px;
-  }
 }
 @media screen and (min-width: 992px) and (max-width: 1400px) {
   .for-student-banner-section {
@@ -6720,17 +6677,6 @@ footer .copyright .copy-right .copyright-links li span {
     font-size: 16px;
     line-height: 22px;
     margin-bottom: 30px;
-  }
-  .newsletter-section .get-app .get-app-text h2 {
-    font-size: 28px;
-    line-height: 45px;
-    margin: 0px auto 15px auto;
-  }
-  .newsletter-section .get-app .get-app-text .img-group img {
-    max-width: 200px;
-    max-height: 80px;
-    margin-right: 10px;
-    margin-top: 20px;
   }
   .faq-section {
     margin: 60px auto;
@@ -7328,6 +7274,7 @@ footer .copyright .copy-right .copyright-links li span {
   line-height: 74px;
   text-transform: capitalize;
   color: #000000;
+  margin-bottom: 25px;
 }
 .professional-banner-section .professional-banner-bottom .bottom-content p {
   font-family: "Inter";
@@ -8067,6 +8014,7 @@ footer .copyright .copy-right .copyright-links li span {
   line-height: 48px;
   text-transform: capitalize;
   color: #000000;
+  padding-left: 17px;
 }
 .physician-about-section .physician-about-wrapper .physician-about ul li {
   font-family: "Inter";
@@ -8119,9 +8067,10 @@ footer .copyright .copy-right .copyright-links li span {
     margin: 25px auto;
   }
   .physician-about-section .physician-about-wrapper .physician-about h2 {
-    font-size: 32px;
+    font-size: 28px;
     line-height: 45px;
     margin-bottom: 15px;
+    padding-left: 10px;
   }
   .physician-about-section .physician-about-wrapper .physician-about ul li {
     font-size: 15px;
@@ -8280,7 +8229,7 @@ footer .copyright .copy-right .copyright-links li span {
   text-transform: capitalize;
   color: #000000;
   margin-bottom: 50px;
-  margin-left: 23px;
+  margin-left: 30px;
 }
 .discount-section .healthcare-wrapper .healthcare ul li {
   background: transparent;
@@ -8292,7 +8241,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-size: 32px;
   line-height: 39px;
   text-transform: capitalize;
-  color: #333333;
+  color: #6D6E71;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8312,7 +8261,8 @@ footer .copyright .copy-right .copyright-links li span {
 }
 .discount-section .healthcare-wrapper .healthcare ul li:hover {
   background: #FFFFFF;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: #333333;
+  filter: drop-shadow(8px 10px 60px rgba(0, 0, 0, 0.08));
 }
 .discount-section .healthcare-wrapper .healthcare ul li:hover span {
   visibility: visible;
