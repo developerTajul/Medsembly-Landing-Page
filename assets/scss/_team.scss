@@ -10,12 +10,13 @@
         margin-bottom: 60px;
         padding-bottom: 50px;
         .team {
+            border: 1px solid red;
             max-width: 400px;
-            max-height: 590px;
+            height: 590px;
             position: relative;
             img {
                 min-width: 100%;
-                min-height: 100%;
+                height: 100%;
 
             }
             .team-info {

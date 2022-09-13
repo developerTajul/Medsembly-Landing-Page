@@ -1,4 +1,6 @@
 .pricing-section {
+    max-width: 1000px;
+    margin: 0 auto;
     .section-title {
         max-width: 885px;
         margin: 110px auto 110px auto;
@@ -29,9 +31,9 @@
 
     .pricing {
         width: 100%;
-        max-width: 600px;
-        height: 710px;
-        padding: 50px 42px;
+        max-width: 450px;
+        height: 630px;
+        padding: 20px 22px;
         position: relative;
         border-radius: 16px;
         margin: 0 auto;
@@ -44,7 +46,7 @@
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 44px;
+                font-size: 30px;
                 line-height: 53px;
                 letter-spacing: -0.02em;
                 color: #6D6E71;
@@ -70,7 +72,7 @@
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
-                font-size: 32px;
+                font-size: 28px;
                 line-height: 40px;
                 text-align: center;
                 color: #000000;
@@ -88,7 +90,7 @@
         }
 
         .pricing-bottom {
-            padding-top: 38px;
+            padding-top: 18px;
             border-top: 1px solid #CCCCCC;
 
             .sub-title {
@@ -119,8 +121,8 @@
             }
 
             button {
-                width: 414px;
-                height: 78px;
+                width: 200px;
+                height: 60px;
                 position: absolute;
                 left: 50%;
                 bottom: 50px;

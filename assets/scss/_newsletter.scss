@@ -7,7 +7,7 @@
     padding: 110px 0px;
     background-color: #fff;
     .get-app {
-        max-width: 1123px;
+        max-width: 1323px;
         max-height: 841px;
         margin: 0 auto;
         display: grid;
@@ -31,6 +31,7 @@
                 @include title;
                 max-width: 500px;
                 margin: 0px auto 60px auto;
+                font-size: 56px;
                 line-height: 60px;
             }
             .img-group {
