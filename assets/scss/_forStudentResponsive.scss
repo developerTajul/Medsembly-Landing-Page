@@ -270,7 +270,7 @@
     }
 
 
-    .newsletter-section {
+    .student-newsletter-section {
         @include CarouselSwiper;
         .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
             bottom: 0px;
@@ -278,20 +278,44 @@
         }
         padding: 70px 0px;
     
-        .get-app {
-            .get-app-text {
-                max-width: 50%;
-                right: 2%;
-                h2 {
-                    font-size: 12px;
-                    line-height: 23px;
-                    margin: 0px auto 15px auto;
+        .student-get-app {
+            grid-template-columns: 1fr;
+            justify-content: center;
+            align-items: center;
+            .student-get-app-img {
+                max-width: 94%;
+                max-height: auto;
+                img {
+                    max-width: 100%;
+                    height: 100%;
+                    margin: 0 auto 0 50px;
                 }
-                .img-group {
-                    img {
-                        max-width: 40px;
-                        max-height: 30px;
-                        margin-right: 10px;
+            }
+
+            .student-get-app-text {
+                max-width: 94%;
+                position: relative;
+                margin: 0 auto;
+                display: grid;
+                justify-content: center;
+                align-items: center;
+
+                h2 {
+                    font-size: 18px;
+                    line-height: 38px;
+                    margin: 30px auto 15px auto;
+                    text-align: center;
+                    padding: 15px;
+                }
+                .student-img-group {
+                    width: 220px;
+                    margin: 0 auto;
+                    a {
+                        img {
+                            max-width: 100px;
+                            max-height: 80px;
+                            margin: 0 20px 0 auto;
+                        }
                     }
                 }
             }
@@ -620,18 +644,25 @@
         }
     }
 
-    .newsletter-section .get-app .get-app-text {
+    .student-newsletter-section 
+    .student-get-app .student-get-app-text {
         h2 {
-            font-size: 20px;
-            line-height: 30px;
-            margin: 0px auto 15px auto;
+            font-size: 28px;
+            line-height: 40px;
+            margin: 70px auto 15px auto;
         }
 
-        .img-group img {
-            max-width: 100px;
-            max-height: 50px;
-            margin-right: 10px;
-            margin-top: 20px;
+        .student-img-group {
+            max-width: 330px;
+        }
+
+        .student-img-group a {
+            img {
+                max-width: 150px;
+                max-height: 100px;
+                margin-right: 10px;
+                margin-top: 20px;
+            }
         }
     } 
 }
@@ -911,21 +942,54 @@
 
 
     //  Newsletter Section:
-    .newsletter-section .get-app .get-app-text {
-        h2 {
-            font-size: 28px;
-            line-height: 45px;
-            margin: 0px auto 15px auto;
+    .student-newsletter-section {
+        @include CarouselSwiper;
+        .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+            bottom: 0px;
+            left: -17%;
         }
-
-        .img-group img {
-            max-width: 200px;
-            max-height: 80px;
-            margin-right: 10px;
-            margin-top: 20px;
+        padding: 110px 0px;
+        background-color: #fff;
+        .student-get-app {
+            max-width: 100%;
+            max-height: auto;
+            margin: 0 auto;
+            display: grid;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            .student-get-app-img {
+                max-width: 50%;
+                max-height: auto;
+                margin-right: 50%;
+            }
+    
+            .student-get-app-text {
+                max-width: 50%;
+                position: absolute;
+                right: 0%;
+                h2 {
+                    max-width: 500px;
+                    margin: 0px auto 60px auto;
+                    line-height: 60px;
+                    font-size: 40px;
+                    line-height: 60px;
+                    text-align: left;
+                }
+                .student-img-group {
+                    display: flex;
+                    max-width: 80%;
+                    a {
+                        img {
+                            max-width: 90%;
+                            max-height: 120px;
+                            margin-right: 40px;
+                        }
+                    }
+                }
+            }
         }
-    } 
-
+    }
 
     //  Faq Section:
     .faq-section {

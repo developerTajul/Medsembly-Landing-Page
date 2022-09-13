@@ -373,15 +373,16 @@
             max-height: 841px;
             margin: 0 auto;
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr;
             align-items: center;
             position: relative;
 
             .get-app-img {
-                max-width: 780px;
-                max-height: 807px;
+                max-width: 94%;
+                max-height: auto;
                 padding-bottom: 30px;
                 padding-left: 20px;
+                margin: 0 auto;
                 img {
                     height: 100%;
                 }
@@ -389,17 +390,22 @@
     
             .get-app-text {
                 max-width: 317px;
-                position: absolute;
-                right: 7%;
+                position: relative;
+                margin-top: 30px;
+                left: 50%;
+                transform: translateX(-50%);
                 h2 {
-                    font-size: 20px;
-                    margin: 0px auto 20px auto;
+                    font-size: 24px;
+                    margin: 0px auto 10px auto;
+                    text-align: center;
                 }
                 .img-group {
+                    width: 220px;
                     display: flex;
+                    margin: 0 auto;
                     img {
-                        max-width: 60px;
-                        max-height: 50px;
+                        max-width: 100px;
+                        max-height: 60px;
                         margin-right: 10px;
                     }
                 }
@@ -553,7 +559,7 @@
     
         .copyright {
             grid-template-columns: 1fr;
-            margin: 70px auto 0 auto;
+            margin: 40px auto 0 auto;
             text-align: center;
             padding: 30px 0px;
             .copy-left {
