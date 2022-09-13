@@ -2085,7 +2085,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 44px;
+  font-size: 42px;
   line-height: 67px;
   text-align: center;
   text-transform: capitalize;
@@ -2212,9 +2212,13 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   max-width: 414px;
   height: 590px;
   position: relative;
+  overflow: hidden;
+  border-radius: 16px;
 }
 .team-section .team-wrapper .team img {
-  min-width: 100%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   height: 100%;
   border-radius: 16px;
 }
@@ -2822,7 +2826,7 @@ footer .copyright .copy-left {
   display: block;
 }
 footer .copyright .copy-left p {
-  font-family: "Noto Sans";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -5022,6 +5026,8 @@ footer .copyright .copy-right .copyright-links li span {
     right: 0%;
     border-radius: 20px;
     margin-top: 60px;
+    padding: 15px;
+    text-align: justify;
   }
   .about-service-section .about-service-wrapper .about-service-two .about-two-text::before {
     width: 290px;
@@ -5033,7 +5039,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-size: 26px;
     line-height: 68px;
     text-align: center;
-    padding: 30px 10px 20px 10px;
+    padding: 5px 10px 7px 10px;
   }
   .about-service-section .about-service-wrapper .about-service-two .about-two-text p {
     font-size: 14px;
@@ -5129,7 +5135,7 @@ footer .copyright .copy-right .copyright-links li span {
     line-height: 60px;
   }
   .about-service-section {
-    padding: 60px 0px;
+    padding: 110px 0px;
   }
   .about-service-section .about-service-wrapper .about-service-text h2 {
     font-size: 32px;
@@ -5164,11 +5170,11 @@ footer .copyright .copy-right .copyright-links li span {
     max-height: 540px;
   }
   .about-service-section .about-service-wrapper .about-service-two .about-two-text {
-    max-width: 65%;
+    max-width: 70%;
     max-height: auto;
     position: absolute;
-    bottom: -5%;
-    right: -5%;
+    bottom: -20%;
+    right: 0%;
   }
   .about-service-section .about-service-wrapper .about-service-two .about-two-text::before {
     width: 190px;
@@ -5182,7 +5188,7 @@ footer .copyright .copy-right .copyright-links li span {
     padding: 15px 10px 10px 10px;
   }
   .about-service-section .about-service-wrapper .about-service-two .about-two-text p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
   }
   .about-team-section h2 {
@@ -5216,7 +5222,17 @@ footer .copyright .copy-right .copyright-links li span {
     margin: 0 auto;
   }
   .about-service-section .about-service-wrapper .about-service-two .about-two-text {
+    top: 40%;
     right: 0;
+    max-height: 350px;
+  }
+  .about-service-section .about-service-wrapper .about-service-two .about-two-text p {
+    font-size: 17px;
+  }
+  .about-service-section .about-service-wrapper .about-service-two .about-two-text h2 {
+    font-size: 26px;
+    line-height: 30px;
+    padding: 15px 10px 20px 10px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1400px) and (min-width: 992px) and (max-width: 1400px) {
@@ -5824,6 +5840,7 @@ footer .copyright .copy-right .copyright-links li span {
 .pricing-section .pricing .pricing-bottom {
   padding-top: 18px;
   border-top: 1px solid #CCCCCC;
+  padding: 18px 20px 0 20px;
 }
 .pricing-section .pricing .pricing-bottom .sub-title {
   font-weight: 500;
@@ -6205,10 +6222,10 @@ footer .copyright .copy-right .copyright-links li span {
     font-size: 14px;
     line-height: 20px;
     text-align: center;
-    padding: 10px 0px;
+    padding: 8px 8px 15px 8px;
   }
   .pricing-section .pricing .pricing-bottom {
-    padding-top: 10px;
+    padding: 15px 5px 15px 15px;
   }
   .pricing-section .pricing .pricing-bottom p {
     font-size: 14px;
@@ -6221,8 +6238,9 @@ footer .copyright .copy-right .copyright-links li span {
     height: 50px;
   }
   .pricing-section .pricing .pricing-bottom p span img {
-    width: 25px;
-    height: 25px;
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
   }
   .pricing-section .pricing .pricing-bottom button {
     width: 200px;
@@ -7001,6 +7019,18 @@ footer .copyright .copy-right .copyright-links li span {
     position: relative;
     background: #F4F4F4;
   }
+  .have-question-section .have-question-wrapper .have-question-left .have-question-left-wrapper {
+    max-width: 720px;
+    height: 100%;
+    margin: 0 0 0 20%;
+  }
+  .pricing-section .pricing .pricing-top p {
+    padding: 30px 16px;
+  }
+  .pricing-section .pricing .pricing-bottom {
+    border-top: 1px solid #CCCCCC;
+    padding: 20px 0 0 20px;
+  }
 }
 .become-partner-section {
   width: 100%;
@@ -7216,7 +7246,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-size: 12px;
     line-height: 20px;
     text-align: left;
-    padding: 12px 0 12px 0px;
+    padding: 12px 12px 12px 17px;
   }
   .partner-banner-section .partner-banner-middle .partner-banner-text-two ul li img {
     width: 25px;
