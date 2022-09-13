@@ -5612,7 +5612,7 @@ footer .copyright .copy-right .copyright-links li span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  filter: drop-shadow(8px 10px 60px rgba(0, 0, 0, 0.08));
+  box-shadow: 8px 10px 60px rgba(0, 0, 0, 0.04);
 }
 .for-student-banner-section .student-banner-wrapper .student_banner-bottom .banner_award .award img {
   width: 90px;
