@@ -1,4 +1,8 @@
 .team-section {
+    .container {
+        max-width: 1385px;
+        margin: 0 auto;
+    }
     @include CarouselSwiper;
     .team-header {
         @include title;
@@ -10,7 +14,7 @@
         margin-bottom: 60px;
         padding-bottom: 50px;
         .team {
-            max-width: 394px;
+            max-width: 414px;
             height: 590px;
             position: relative;
             img {
