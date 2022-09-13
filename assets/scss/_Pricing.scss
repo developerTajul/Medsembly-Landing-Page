@@ -32,7 +32,7 @@
     .pricing {
         width: 100%;
         max-width: 450px;
-        height: 630px;
+        height: 650px;
         padding: 20px 22px;
         position: relative;
         border-radius: 16px;
@@ -99,7 +99,7 @@
                 color: #000000;
             }
 
-            p {
+            li,p {
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 400;
@@ -120,24 +120,24 @@
                     }
                 }
             }
-
-            button {
-                width: 200px;
-                height: 60px;
-                position: absolute;
-                left: 50%;
-                bottom: 50px;
-                transform: translateX(-50%);
-                background: #EA1C2D;
-                border-radius: 8px;
-                border: none;
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 18px;
-                line-height: 22px;
-                color: #FFFFFF;
-            }
+        }
+        button {
+            width: 200px;
+            height: 60px;
+            position: absolute;
+            left: 50%;
+            bottom: 50px;
+            transform: translateX(-50%);
+            background: #EA1C2D;
+            border-radius: 8px;
+            border: none;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            color: #FFFFFF;
+            margin: 20px 0px 0px 0px;
         }
     }
 }

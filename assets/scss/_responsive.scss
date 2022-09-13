@@ -359,8 +359,8 @@
     }
 
 
-    //  Subscribe and Newsletter Section
-    .newsletter-section {
+    //  Join Section:
+    .join-area {
         @include CarouselSwiper;
         .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
             bottom: 0px;
@@ -396,7 +396,7 @@
                 transform: translateX(-50%);
                 h2 {
                     font-size: 24px;
-                    margin: 0px auto 10px auto;
+                    margin: 0px auto 0px auto;
                     text-align: center;
                 }
                 .img-group {
@@ -411,7 +411,11 @@
                 }
             }
         }
-    
+    }
+
+    //  Subscribe and Newsletter Section
+    .newsletter-section {
+        padding: 70px 0px;
         // Subscribe To Our Newsletter
         .subscribe-area {
             width: 100%;
@@ -943,8 +947,8 @@
     }
 
 
-    //  Subscribe and Newsletter Section
-    .newsletter-section {
+    //  Join Section: 
+    .join-area {
         @include CarouselSwiper;
         .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
             bottom: 0px;
@@ -975,7 +979,7 @@
                 right: 0%;
                 h2 {
                     @include title;
-                    margin: 0px auto 60px auto;
+                    margin: 0px auto 10px auto;
                 }
                 .img-group {
                     display: flex;
@@ -987,6 +991,12 @@
                 }
             }
         }
+    }
+
+
+    //  Subscribe and Newsletter Section
+    .newsletter-section {
+        padding: 70px 0px;
     
         // Subscribe To Our Newsletter
         .subscribe-area {
@@ -1358,15 +1368,13 @@
     }
 
 
-    //  Subscribe and Newsletter Section
-    .newsletter-section {
+    //  Join Section:
+    .join-area {
         @include CarouselSwiper;
         .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
             bottom: 0px;
             left: -20%;
         }
-        padding: 70px 0px;
-    
         .get-app {
             .get-app-img {
                 margin-left: 40px;
@@ -1379,6 +1387,12 @@
                 }
             }
         }
+    }
+
+
+    //  Subscribe and Newsletter Section
+    .newsletter-section {
+        padding: 70px 0px;
     
         // Subscribe To Our Newsletter
         .subscribe-area {
