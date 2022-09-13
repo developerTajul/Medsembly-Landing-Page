@@ -1101,4 +1101,11 @@
 
 
 
-
+@media screen and (min-width: 1800px) and (max-width: 2000px) {
+    .have-question-section .have-question-wrapper .have-question-left {
+        width: 73%;
+        height: 532px;
+        position: relative;
+        background: #F4F4F4;
+    }
+}
