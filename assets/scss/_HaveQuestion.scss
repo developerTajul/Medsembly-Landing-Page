@@ -8,10 +8,10 @@
 
     .have-question-wrapper {
         width: 100%;
-        position: relative;
         .have-question-left {
             width: 1290px;
             height: 532px;
+            position: relative;
             background: #F4F4F4;
     
             .have-question-left-wrapper {
@@ -45,11 +45,12 @@
                     margin-right: auto;
                 }
             }
-        }
-        .have-question-img {
-            position: absolute;
-            right: 1%;
-            top: -20%;
+
+            .have-question-img {
+                position: absolute;
+                right: -15%;
+                top: -20%;
+            }
         }
     }
 

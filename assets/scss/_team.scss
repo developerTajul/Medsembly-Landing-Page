@@ -10,14 +10,13 @@
         margin-bottom: 60px;
         padding-bottom: 50px;
         .team {
-            border: 1px solid red;
-            max-width: 400px;
+            max-width: 394px;
             height: 590px;
             position: relative;
             img {
                 min-width: 100%;
                 height: 100%;
-
+                border-radius: 16px;
             }
             .team-info {
                 width: 100%;
@@ -30,7 +29,8 @@
                 border-radius: 16px;
                 padding: 17px;
                 .team-info-text {
-                    margin-top: 90%;
+                    position: absolute;
+                    bottom: 8%;
                     h2 {
                         font-family: 'Inter';
                         font-style: normal;
