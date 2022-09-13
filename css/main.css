@@ -5715,7 +5715,7 @@ footer .copyright .copy-right .copyright-links li span {
 }
 .for-student-service-section .student-service-wrapper .student-service:hover {
   border: none;
-  filter: drop-shadow(8px 10px 60px rgba(0, 0, 0, 0.08));
+  filter: drop-shadow(8px 10px 60px rgba(0, 0, 0, 0.04));
 }
 .for-student-service-section .student-service-wrapper .student-service img {
   width: 90px;
