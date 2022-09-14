@@ -2442,7 +2442,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
 }
 
 .newsletter-section {
-  padding: 110px 0px;
+  padding: 110px 0px 0px 0px;
   background-color: #fff;
 }
 .newsletter-section .swiper {
