@@ -73,19 +73,64 @@ Array.from(icons).forEach(icon => {
           e.innerText = "+";
         })
       });
-      Array.from(arrowIcon).forEach(icon => icon.setAttribute("src", "./images/resources/arrow-down.svg"));
       icon.parentElement.nextElementSibling.style.height = "auto";
       icon.parentElement.nextElementSibling.paddingTop = "25px";
       icon.children[0].innerText = "-";
-      icon.children[1].setAttribute("src", "./images/resources/arrow-up.svg");
     }else {
       icon.parentElement.nextElementSibling.style.height = "0";
       icon.parentElement.nextElementSibling.paddingTop = "0";
       icon.children[0].innerText = "+";
-      icon.children[1].setAttribute("src", "./images/resources/arrow-down.svg");
     }
   })
 });
+
+
+
+
+
+//  Discount Faq Section:
+const ArrowIcons = document.querySelectorAll(".discount-faq-icon");
+Array.from(ArrowIcons).forEach(icon => {
+  icon.addEventListener("click", () => {
+    if (icon.classList.contains("activeFaq") == false) {
+      Array.from(ArrowIcons).forEach(icon => {
+        icon.classList.remove("activeFaq");
+        icon.parentElement.nextElementSibling.style.height = "0";
+        icon.childNodes[1].classList.toggle("fa-chevron-down");
+      })
+
+      icon.parentElement.nextElementSibling.style.height = "auto";
+      icon.classList.add("activeFaq");
+      icon.childNodes[1].classList.add("fa-chevron-up")
+      console.log(icon.childNodes[1].classList);
+    } else {
+      icon.parentElement.nextElementSibling.style.height = "0";
+      icon.classList.remove("activeFaq");
+      icon.childNodes[1].classList.add("fa-chevron-down");
+    }
+  })
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -348,6 +393,17 @@ Array.from(Selectdates).forEach(date => {
     console.log(date.classList);
   })
 })
+
+
+
+
+
+
+
+
+
+
+
 
 
 

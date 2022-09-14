@@ -1,9 +1,11 @@
 .discount-faq-wrapper {
-    .faq-icon {
-        border: none !important;
-    }
-    span {
-        opacity: 0 !important;
+    .faq-head {
+        .discount-faq-icon {
+            width: 24px;
+            height: 14px;
+            color: #6D6E71;
+            font-size: 18px;
+        }
     }
     .faq-body {
         max-width: 1176px;

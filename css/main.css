@@ -2008,7 +2008,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   margin: 75px auto 0px auto;
 }
 .banner-section .banner_wrapper .banner_wrapper-left {
-  max-width: 405px;
+  max-width: 405zpx;
   max-height: 473px;
 }
 .banner-section .banner_wrapper .banner_wrapper-left img {
@@ -8537,11 +8537,11 @@ footer .copyright .copy-right .copyright-links li span {
   text-align: center;
 }
 
-.discount-faq-wrapper .faq-icon {
-  border: none !important;
-}
-.discount-faq-wrapper span {
-  opacity: 0 !important;
+.discount-faq-wrapper .faq-head .discount-faq-icon {
+  width: 24px;
+  height: 14px;
+  color: #6D6E71;
+  font-size: 18px;
 }
 .discount-faq-wrapper .faq-body {
   max-width: 1176px;
