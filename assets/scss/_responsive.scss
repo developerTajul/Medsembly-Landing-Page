@@ -44,6 +44,7 @@
             .banner-content {
                 padding-left: 24px;
                 padding-bottom: 24px;
+                margin: 0;
                 h1 {
                     font-size: 24px;
                     line-height: 40px;
@@ -86,10 +87,10 @@
             .feature-heading {
                 max-width: 650px;
                 max-height: 416px;
-                margin-bottom: 25px;
+                margin: 0 0 20px 0;
                 h2 {
-                    font-size: 25px;
-                    line-height: 40px;
+                    font-size: 22px;
+                    line-height: 35px;
                     padding: 5px;
                 }
         
@@ -99,7 +100,7 @@
                     font-weight: 400;
                     font-size: 15px;
                     line-height: 28px;
-                    padding: 25px 5px 25px 5px;
+                    padding: 15px 5px 15px 5px;
                 }
         
                 .primary_button {
@@ -116,12 +117,12 @@
             .feature {
                 width: 96%;
                 max-height: auto;
-                padding: 25px 13px;
+                padding: 8px 13px;
                 margin: 20px auto;
 
                 h2 {
                     font-size: 19px;
-                    line-height: 35px;
+                    line-height: 30px;
                     padding: 4px;
                 }
 
@@ -282,76 +283,79 @@
                 line-height: 40px;
             }
         }
-        .student-review-wrapper {
+        .mySwiperTwo {
             width: 100%;
-            min-height: 470px;
-            margin: 0 auto;
-            margin-left: 15px;
-            .student-review {
-                max-width: calc(100% - 25px);
-                margin-right: 23px;
-                min-height: 360px;
-                padding: 15px;
-                .student-review-head {
-                    width: 100%;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: flex-start;
-
-                    .student-img {
-                        width: 49px;
-                        height: 69px;
-                        margin: 0px 0 14px 0px;
-                        transition: all 1s ease;
-                        img {
-                            width: 100%;
-                            height: 100%;
+            .student-review-wrapper {
+                width: 100%;
+                min-height: 470px;
+                margin: 0 auto;
+                margin-left: 15px;
+                .student-review {
+                    max-width: calc(100% - 25px);
+                    margin-right: 23px;
+                    min-height: 360px;
+                    padding: 15px;
+                    .student-review-head {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: flex-start;
+    
+                        .student-img {
+                            width: 49px;
+                            height: 69px;
+                            margin: 0px 0 14px 0px;
+                            transition: all 1s ease;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
                         }
                     }
-                }
-    
-                p {
-                    font-size: 12px;
-                    line-height: 25px;
-                    padding: 10px 0px 12px 0px;
-                }
-    
-                h2 {
-                    font-size: 18px;
-                    line-height: 34px;
-                }
-    
-                h4 {
-                    font-size: 14px;
-                    line-height: 19px;
-                }
-    
-                h3 {
-                    font-size: 16px;
-                    line-height: 19px;
-                    padding: 10px 0px;
-                }
-    
-                &:hover {
-                    background-color: #fff;
-                    box-shadow: rgba(149, 157, 165, 0.1) 0px 6px 18px;
-                    .student-img {
-                        width: 106px;
-                        height: 114px;
-                    } 
-                    ::after {
-                        display: block;
-                        content: "";
-                        width: 0;
-                        height: 0;
-                        border-top: 50px solid transparent;
-                        border-left: 100px solid #fff;
-                        border-bottom: 50px solid transparent;
-                        position: absolute;
-                        bottom: -10%;
-                        left: 36%;
-                        transform: translateX(-40%);
-                        transform: rotate(90deg);
+        
+                    p {
+                        font-size: 12px;
+                        line-height: 25px;
+                        padding: 10px 0px 12px 0px;
+                    }
+        
+                    h2 {
+                        font-size: 18px;
+                        line-height: 34px;
+                    }
+        
+                    h4 {
+                        font-size: 14px;
+                        line-height: 19px;
+                    }
+        
+                    h3 {
+                        font-size: 16px;
+                        line-height: 19px;
+                        padding: 10px 0px;
+                    }
+        
+                    &:hover {
+                        background-color: #fff;
+                        box-shadow: rgba(149, 157, 165, 0.1) 0px 6px 18px;
+                        .student-img {
+                            width: 106px;
+                            height: 114px;
+                        } 
+                        ::after {
+                            display: block;
+                            content: "";
+                            width: 0;
+                            height: 0;
+                            border-top: 50px solid transparent;
+                            border-left: 100px solid #fff;
+                            border-bottom: 50px solid transparent;
+                            position: absolute;
+                            bottom: -10%;
+                            left: 36%;
+                            transform: translateX(-40%);
+                            transform: rotate(90deg);
+                        }
                     }
                 }
             }
@@ -622,7 +626,7 @@
     .banner-section {
         .banner_wrapper {
             height: auto;
-            min-height: 500px;
+            min-height: 450px;
             margin: 20px auto 0px auto;
             .banner_wrapper-left,
             .banner_wrapper-right {
@@ -636,6 +640,7 @@
             }
 
             .banner-content {
+                margin: 0px;
                 h1 {
                     font-size: 28px;
                     line-height: 38px;
@@ -695,10 +700,11 @@
         padding: 40px 10px;
         .feature-wrapper {
             .feature-heading {
+                margin: 0px auto 30px auto;
                 max-width: 650px;
                 max-height: 416px;
                 h2 {
-                    font-size: 30px;
+                    font-size: 24px;
                     line-height: 50px;
                 }
         
@@ -774,9 +780,9 @@
             margin-bottom: 60px;
             padding-bottom: 50px;
             .team {
-                max-width: 45.7%;
+                max-width: calc(50% - 20px);
+                margin-right: 20px;
                 height: 400px;
-                margin: 0 2%;
                 .team-info {
                     width: 100%;
                     height: 400px;
@@ -871,75 +877,78 @@
                 line-height: 50px;
             }
         }
-        .student-review-wrapper {
+        .mySwiperTwo {
             width: 100%;
-            min-height: 480px;
-            .student-review {
-                max-width: 45.7%;
-                min-height: 400px;
-                padding: 15px;
-                margin: 0px 2%;
-
-                .student-review-head {
-                    width: 100%;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: flex-start;
-
-                    .student-img {
-                        width: 49px;
-                        height: 69px;
-                        margin: 0px 6px 14px 0px;
-                        transition: all 1s ease;
-                        img {
-                            width: 100%;
-                            height: 100%;
+            .student-review-wrapper {
+                width: 100%;
+                min-height: 480px;
+                .student-review {
+                    max-width: calc(50% - 20px);
+                    margin-right: 20px;
+                    min-height: 400px;
+                    padding: 15px;
+    
+                    .student-review-head {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: flex-start;
+    
+                        .student-img {
+                            width: 49px;
+                            height: 69px;
+                            margin: 0px 6px 14px 0px;
+                            transition: all 1s ease;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
                         }
                     }
-                }
-    
-                p {
-                    font-size: 12px;
-                    line-height: 25px;
-                    padding: 10px 0px 12px 0px;
-                }
-    
-                h2 {
-                    font-size: 18px;
-                    line-height: 34px;
-                }
-    
-                h4 {
-                    font-size: 14px;
-                    line-height: 19px;
-                }
-    
-                h3 {
-                    font-size: 16px;
-                    line-height: 19px;
-                    padding: 10px 0px;
-                }
-    
-                &:hover {
-                    background-color: #fff;
-                    box-shadow: rgba(149, 157, 165, 0.1) 0px 6px 18px;
-                    .student-img {
-                        width: 106px;
-                        height: 114px;
-                    } 
-                    ::after {
-                        display: block;
-                        content: "";
-                        width: 0;
-                        height: 0;
-                        border-top: 50px solid transparent;
-                        border-left: 100px solid #fff;
-                        border-bottom: 50px solid transparent;
-                        position: absolute;
-                        bottom: -10%;
-                        left: 36%;
-                        transform: translateX(-40%);
-                        transform: rotate(90deg);
+        
+                    p {
+                        font-size: 12px;
+                        line-height: 25px;
+                        padding: 10px 0px 12px 0px;
+                    }
+        
+                    h2 {
+                        font-size: 18px;
+                        line-height: 34px;
+                    }
+        
+                    h4 {
+                        font-size: 14px;
+                        line-height: 19px;
+                    }
+        
+                    h3 {
+                        font-size: 16px;
+                        line-height: 19px;
+                        padding: 10px 0px;
+                    }
+        
+                    &:hover {
+                        background-color: #fff;
+                        box-shadow: rgba(149, 157, 165, 0.1) 0px 6px 18px;
+                        .student-img {
+                            width: 106px;
+                            height: 114px;
+                        } 
+                        ::after {
+                            display: block;
+                            content: "";
+                            width: 0;
+                            height: 0;
+                            border-top: 50px solid transparent;
+                            border-left: 100px solid #fff;
+                            border-bottom: 50px solid transparent;
+                            position: absolute;
+                            bottom: -10%;
+                            left: 36%;
+                            transform: translateX(-40%);
+                            transform: rotate(90deg);
+                        }
                     }
                 }
             }
@@ -983,10 +992,13 @@
                 }
                 .img-group {
                     display: flex;
-                    img {
+                    a {
                         max-width: 135px;
                         max-height: 70px;
                         margin-right: 40px;
+                    }
+                    &:last-child{
+                        margin-right: 0;
                     }
                 }
             }
@@ -1213,7 +1225,7 @@
         .feature-wrapper {
             .feature-heading {
                 max-width: 52%;
-                margin-top: 30px;
+                margin: 0px 0 50px 0;
                 p {
                     font-size: 14px;
                     line-height: 28px;
@@ -1221,19 +1233,22 @@
                 }
             }
             .feature {
-                width: 46%;
+                width: 30%;
                 max-height: 100%;
                 padding: 10px;
                 margin: 20px 2%;
 
                 h2 {
-                    font-size: 22px;
-                    line-height: 35px;
+                    font-size: 17px;
+                    line-height: 30px;
                 }
 
                 p {
                     font-size: 14px;
                     line-height: 28px;
+                    padding: 5px 10px;
+                    margin: 0px;
+                    text-align: justify;
                 }
 
                 img {
@@ -1243,14 +1258,10 @@
             }
             .feature-one {
                 margin-bottom: 0px;
-                img {
-                    max-height: auto;
-                }
+                margin: 20px auto;
             }
             .feature-two {
-                position: absolute;
-                left: 0;
-                bottom: 12%;
+                position: relative;
             }
             .feature-three {
                 margin-left: auto;
@@ -1265,7 +1276,8 @@
             margin-bottom: 60px;
             padding-bottom: 50px;
             .team {
-                max-width: 30.7%;
+                max-width: calc(33% - 15px);
+                margin-right: 15px;
                 margin: 0;
                 .team-info {
                     width: 100%;
@@ -1355,14 +1367,16 @@
     //  Student Review Section
     .student-review-section {
         padding: 10px 0 40px 0;
-        .student-review-wrapper {
+        .mySwiperTwo {
             width: 100%;
-            min-height: 480px;
-            .student-review {
-                max-width: 30.7%;
-                min-height: 380px;
-                padding: 10px;
-                margin: 0px;
+            .student-review-wrapper {
+                width: 100%;
+                min-height: 480px;
+                .student-review {
+                    max-width: calc(51% - 25px);
+                    min-height: 380px;
+                    padding: 10px;
+                }
             }
         }
     }
@@ -1536,7 +1550,7 @@
     //  Banner Section
     .banner-section {
         .banner_wrapper {
-            min-height: 600px;
+            min-height: 700px;
             .banner_wrapper-left,
             .banner_wrapper-right {
                 max-height: 330px;
@@ -1589,14 +1603,14 @@
                 }
             }
             .feature {
-                width: 46%;
+                width: 30%;
                 max-height: 580px;
-                padding: 15px;
-                margin: 25px 2%;
+                padding: 5px;
+                margin: 25px auto;
 
                 h2 {
-                    font-size: 24px;
-                    line-height: 40px;
+                    font-size: 18px;
+                    line-height: 30px;
                 }
 
                 p {
@@ -1605,9 +1619,7 @@
                 }
             }
             .feature-two {
-                position: absolute;
-                left: 0;
-                bottom: 14%;
+                position: relative;
             }
             .feature-three {
                 margin-left: auto;
@@ -1619,7 +1631,8 @@
     .team-section {
         .team-wrapper {
             .team {
-                max-width: 31.5%;
+                max-width: calc(33% - 20px);
+                margin-right: 20px;
                 .team-info {
                     width: 100%;
                     height: 100%;
@@ -1684,29 +1697,33 @@
     //  Student Review Section
     .student-review-section {
         padding: 10px 0 40px 0;
-        .student-review-wrapper {
+        .mySwiperTwo {
             width: 100%;
-            min-height: 480px;
-            .student-review {
-                max-width: 31.5%;
-                min-height: 400px;
-                padding: 10px;
-                margin: 0px;
-
-                p {
-                    font-size: 16px;
-                    line-height: 30px;
-                    text-align: justify;
-                }
-
-                h2 {
-                    font-size: 22px;
-                    line-height: 35px
-                }
-
-                h3 {
-                    font-size: 18px;
-                    line-height: 25px;
+            .student-review-wrapper {
+                width: 100%;
+                min-height: 480px;
+                .student-review {
+                    max-width: calc(33% - 20px);
+                    min-height: 400px;
+                    padding: 10px;
+                    margin: 0px;
+                    margin-right: 20px;
+    
+                    p {
+                        font-size: 16px;
+                        line-height: 30px;
+                        text-align: justify;
+                    }
+    
+                    h2 {
+                        font-size: 22px;
+                        line-height: 35px
+                    }
+    
+                    h3 {
+                        font-size: 18px;
+                        line-height: 25px;
+                    }
                 }
             }
         }

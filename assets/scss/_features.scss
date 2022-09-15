@@ -1,10 +1,11 @@
 .features-section {
-    padding: 110px 15px;
+    padding: 110px 15px 0 15px;
     .feature-wrapper {
         position: relative;
         .feature-heading {
             max-width: 600px;
             max-height: 416px;
+            margin: 0 auto 70px 12%;
             h2 {
                 font-family: 'Inter';
                 font-style: normal;
@@ -35,36 +36,16 @@
     
         .feature-one {    
             background: #E8E9FA;
-            margin-left: auto;
-            margin-bottom: 140px;
             max-height: 680px;
-
-            img {
-                height: auto;
-                max-width: 95%;
-            }
         }
     
         .feature-two {
             background: #FFECEC;
-            position: absolute;
-            left: 0%;
-            bottom: 23%;
-
-            img {
-                height: auto;
-                max-width: 95%;
-            }
+            position: relative;
         }
     
         .feature-three {
             background: #E6F6F6;
-            margin-left: auto;
-
-            img {
-                height: auto;
-                max-width: 100%;
-            }
         }
     }
 }

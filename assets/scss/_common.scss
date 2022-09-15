@@ -34,7 +34,8 @@ button:focus {
 
 
 .feature {
-  width: 450px;
+  width: 30%;
+  margin: 20px auto;
   max-height: 620px;
   border-radius: 16px;
   padding: 20px;
@@ -42,8 +43,8 @@ button:focus {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 28px;
-    line-height: 45px;
+    font-size: 24px;
+    line-height: 40px;
     text-transform: capitalize;
     color: #0B0036;
   }
@@ -56,6 +57,10 @@ button:focus {
     line-height: 28px;
     color: #6D6E71;
     padding: 20px 0px;
+  }
+
+  img {
+    width: 85%;
   }
 }
 

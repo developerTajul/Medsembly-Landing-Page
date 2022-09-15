@@ -32,7 +32,8 @@ button:focus {
 }
 
 .feature {
-  width: 450px;
+  width: 30%;
+  margin: 20px auto;
   max-height: 620px;
   border-radius: 16px;
   padding: 20px;
@@ -41,8 +42,8 @@ button:focus {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 28px;
-  line-height: 45px;
+  font-size: 24px;
+  line-height: 40px;
   text-transform: capitalize;
   color: #0B0036;
 }
@@ -54,6 +55,9 @@ button:focus {
   line-height: 28px;
   color: #6D6E71;
   padding: 20px 0px;
+}
+.feature img {
+  width: 85%;
 }
 
 .step {
@@ -1995,7 +1999,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
 }
 
 .banner-section .banner_wrapper {
-  height: 950px;
+  height: 920px;
   max-height: auto;
   position: relative;
   margin: 75px auto 0px auto;
@@ -2018,7 +2022,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
 }
 .banner-section .banner_wrapper .banner-content {
   max-width: 100%;
-  margin: 0 auto;
+  margin: 120px auto 0 auto;
 }
 .banner-section .banner_wrapper .banner-content h1 {
   font-family: "Inter";
@@ -2037,10 +2041,10 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-size: 22px;
   line-height: 38px;
   color: #6D6E71;
-  padding: 20px 6px 20px 6px;
+  padding: 20px 0px 20px 0px;
 }
 .banner-section .banner_wrapper .banner-content .primary_button {
-  margin: 0px 15px;
+  margin: 0px;
 }
 .banner-section .banner_wrapper .banner_bottom {
   width: 100%;
@@ -2087,7 +2091,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
 }
 
 .features-section {
-  padding: 110px 15px;
+  padding: 110px 15px 0 15px;
 }
 .features-section .feature-wrapper {
   position: relative;
@@ -2095,6 +2099,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
 .features-section .feature-wrapper .feature-heading {
   max-width: 600px;
   max-height: 416px;
+  margin: 0 auto 70px 12%;
 }
 .features-section .feature-wrapper .feature-heading h2 {
   font-family: "Inter";
@@ -2122,31 +2127,14 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
 }
 .features-section .feature-wrapper .feature-one {
   background: #E8E9FA;
-  margin-left: auto;
-  margin-bottom: 140px;
   max-height: 680px;
-}
-.features-section .feature-wrapper .feature-one img {
-  height: auto;
-  max-width: 95%;
 }
 .features-section .feature-wrapper .feature-two {
   background: #FFECEC;
-  position: absolute;
-  left: 0%;
-  bottom: 23%;
-}
-.features-section .feature-wrapper .feature-two img {
-  height: auto;
-  max-width: 95%;
+  position: relative;
 }
 .features-section .feature-wrapper .feature-three {
   background: #E6F6F6;
-  margin-left: auto;
-}
-.features-section .feature-wrapper .feature-three img {
-  height: auto;
-  max-width: 100%;
 }
 
 .team-section .swiper {
@@ -2193,9 +2181,9 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   padding-bottom: 50px;
 }
 .team-section .team-wrapper .team {
-  max-width: calc(25% - 25px);
+  max-width: calc(25% - 30px);
   height: 450px;
-  margin-right: 25px;
+  margin-right: 30px;
   position: relative;
   overflow: hidden;
   border-radius: 16px;
@@ -2337,44 +2325,49 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   text-transform: capitalize;
   color: #000000;
 }
-.student-review-section .student-review-wrapper {
+.student-review-section .mySwiperTwo {
+  width: calc(100% - 300px);
+  margin: 0 auto;
+}
+.student-review-section .mySwiperTwo .student-review-wrapper {
   width: 100%;
   min-height: 650px;
 }
-.student-review-section .student-review-wrapper .student-review {
+.student-review-section .mySwiperTwo .student-review-wrapper .student-review {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  max-width: 394px;
+  max-width: calc(33% - 25px);
   min-height: 484px;
-  padding: 33px;
+  margin-right: 25px;
+  padding: 20px;
   background-color: transparent;
   border-radius: 16px;
   position: relative;
   z-index: 1111;
 }
-.student-review-section .student-review-wrapper .student-review .student-img {
+.student-review-section .mySwiperTwo .student-review-wrapper .student-review .student-img {
   width: 49px;
   height: 69px;
   margin: 18px 0 14px 0px;
   transition: all 1s ease;
 }
-.student-review-section .student-review-wrapper .student-review .student-img img {
+.student-review-section .mySwiperTwo .student-review-wrapper .student-review .student-img img {
   width: 100%;
   height: 100%;
 }
-.student-review-section .student-review-wrapper .student-review p {
+.student-review-section .mySwiperTwo .student-review-wrapper .student-review p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 26px;
   text-transform: capitalize;
   color: #666666;
-  padding: 10px 0px 24px 0px;
+  padding: 10px 0px 15px 0px;
 }
-.student-review-section .student-review-wrapper .student-review h2 {
+.student-review-section .mySwiperTwo .student-review-wrapper .student-review h2 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -2383,7 +2376,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   text-transform: capitalize;
   color: #000000;
 }
-.student-review-section .student-review-wrapper .student-review h4 {
+.student-review-section .mySwiperTwo .student-review-wrapper .student-review h4 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -2392,7 +2385,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   text-transform: capitalize;
   color: #6D6E71;
 }
-.student-review-section .student-review-wrapper .student-review h3 {
+.student-review-section .mySwiperTwo .student-review-wrapper .student-review h3 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -2402,15 +2395,15 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   color: #000000;
   padding: 16px 0px;
 }
-.student-review-section .student-review-wrapper .student-review:hover {
+.student-review-section .mySwiperTwo .student-review-wrapper .student-review:hover {
   background-color: #fff;
   filter: drop-shadow(4px 8px 40px rgba(0, 0, 0, 0.04));
 }
-.student-review-section .student-review-wrapper .student-review:hover .student-img {
+.student-review-section .mySwiperTwo .student-review-wrapper .student-review:hover .student-img {
   width: 106px;
   height: 114px;
 }
-.student-review-section .student-review-wrapper .student-review:hover ::after {
+.student-review-section .mySwiperTwo .student-review-wrapper .student-review:hover ::after {
   display: block;
   content: "";
   width: 0;
@@ -2905,6 +2898,7 @@ footer .copyright .copy-right .copyright-links li span {
   .banner-section .banner_wrapper .banner-content {
     padding-left: 24px;
     padding-bottom: 24px;
+    margin: 0;
   }
   .banner-section .banner_wrapper .banner-content h1 {
     font-size: 24px;
@@ -2938,11 +2932,11 @@ footer .copyright .copy-right .copyright-links li span {
   .features-section .feature-wrapper .feature-heading {
     max-width: 650px;
     max-height: 416px;
-    margin-bottom: 25px;
+    margin: 0 0 20px 0;
   }
   .features-section .feature-wrapper .feature-heading h2 {
-    font-size: 25px;
-    line-height: 40px;
+    font-size: 22px;
+    line-height: 35px;
     padding: 5px;
   }
   .features-section .feature-wrapper .feature-heading p {
@@ -2951,7 +2945,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-weight: 400;
     font-size: 15px;
     line-height: 28px;
-    padding: 25px 5px 25px 5px;
+    padding: 15px 5px 15px 5px;
   }
   .features-section .feature-wrapper .feature-heading .primary_button {
     display: flex;
@@ -2965,12 +2959,12 @@ footer .copyright .copy-right .copyright-links li span {
   .features-section .feature-wrapper .feature {
     width: 96%;
     max-height: auto;
-    padding: 25px 13px;
+    padding: 8px 13px;
     margin: 20px auto;
   }
   .features-section .feature-wrapper .feature h2 {
     font-size: 19px;
-    line-height: 35px;
+    line-height: 30px;
     padding: 4px;
   }
   .features-section .feature-wrapper .feature p {
@@ -3124,61 +3118,64 @@ footer .copyright .copy-right .copyright-links li span {
     font-size: 25px;
     line-height: 40px;
   }
-  .student-review-section .student-review-wrapper {
+  .student-review-section .mySwiperTwo {
+    width: 100%;
+  }
+  .student-review-section .mySwiperTwo .student-review-wrapper {
     width: 100%;
     min-height: 470px;
     margin: 0 auto;
     margin-left: 15px;
   }
-  .student-review-section .student-review-wrapper .student-review {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review {
     max-width: calc(100% - 25px);
     margin-right: 23px;
     min-height: 360px;
     padding: 15px;
   }
-  .student-review-section .student-review-wrapper .student-review .student-review-head {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review .student-review-head {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
   }
-  .student-review-section .student-review-wrapper .student-review .student-review-head .student-img {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review .student-review-head .student-img {
     width: 49px;
     height: 69px;
     margin: 0px 0 14px 0px;
     transition: all 1s ease;
   }
-  .student-review-section .student-review-wrapper .student-review .student-review-head .student-img img {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review .student-review-head .student-img img {
     width: 100%;
     height: 100%;
   }
-  .student-review-section .student-review-wrapper .student-review p {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review p {
     font-size: 12px;
     line-height: 25px;
     padding: 10px 0px 12px 0px;
   }
-  .student-review-section .student-review-wrapper .student-review h2 {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review h2 {
     font-size: 18px;
     line-height: 34px;
   }
-  .student-review-section .student-review-wrapper .student-review h4 {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review h4 {
     font-size: 14px;
     line-height: 19px;
   }
-  .student-review-section .student-review-wrapper .student-review h3 {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review h3 {
     font-size: 16px;
     line-height: 19px;
     padding: 10px 0px;
   }
-  .student-review-section .student-review-wrapper .student-review:hover {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review:hover {
     background-color: #fff;
     box-shadow: rgba(149, 157, 165, 0.1) 0px 6px 18px;
   }
-  .student-review-section .student-review-wrapper .student-review:hover .student-img {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review:hover .student-img {
     width: 106px;
     height: 114px;
   }
-  .student-review-section .student-review-wrapper .student-review:hover ::after {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review:hover ::after {
     display: block;
     content: "";
     width: 0;
@@ -3470,7 +3467,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .banner-section .banner_wrapper {
     height: auto;
-    min-height: 500px;
+    min-height: 450px;
     margin: 20px auto 0px auto;
   }
   .banner-section .banner_wrapper .banner_wrapper-left,
@@ -3482,6 +3479,9 @@ footer .copyright .copy-right .copyright-links li span {
 .banner-section .banner_wrapper .banner_wrapper-right img {
     max-width: 100%;
     max-height: 100%;
+  }
+  .banner-section .banner_wrapper .banner-content {
+    margin: 0px;
   }
   .banner-section .banner_wrapper .banner-content h1 {
     font-size: 28px;
@@ -3528,11 +3528,12 @@ footer .copyright .copy-right .copyright-links li span {
     padding: 40px 10px;
   }
   .features-section .feature-wrapper .feature-heading {
+    margin: 0px auto 30px auto;
     max-width: 650px;
     max-height: 416px;
   }
   .features-section .feature-wrapper .feature-heading h2 {
-    font-size: 30px;
+    font-size: 24px;
     line-height: 50px;
   }
   .features-section .feature-wrapper .feature-heading p {
@@ -3616,9 +3617,9 @@ footer .copyright .copy-right .copyright-links li span {
     padding-bottom: 50px;
   }
   .team-section .team-wrapper .team {
-    max-width: 45.7%;
+    max-width: calc(50% - 20px);
+    margin-right: 20px;
     height: 400px;
-    margin: 0 2%;
   }
   .team-section .team-wrapper .team .team-info {
     width: 100%;
@@ -3698,59 +3699,62 @@ footer .copyright .copy-right .copyright-links li span {
     font-size: 30px;
     line-height: 50px;
   }
-  .student-review-section .student-review-wrapper {
+  .student-review-section .mySwiperTwo {
+    width: 100%;
+  }
+  .student-review-section .mySwiperTwo .student-review-wrapper {
     width: 100%;
     min-height: 480px;
   }
-  .student-review-section .student-review-wrapper .student-review {
-    max-width: 45.7%;
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review {
+    max-width: calc(50% - 20px);
+    margin-right: 20px;
     min-height: 400px;
     padding: 15px;
-    margin: 0px 2%;
   }
-  .student-review-section .student-review-wrapper .student-review .student-review-head {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review .student-review-head {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
   }
-  .student-review-section .student-review-wrapper .student-review .student-review-head .student-img {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review .student-review-head .student-img {
     width: 49px;
     height: 69px;
     margin: 0px 6px 14px 0px;
     transition: all 1s ease;
   }
-  .student-review-section .student-review-wrapper .student-review .student-review-head .student-img img {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review .student-review-head .student-img img {
     width: 100%;
     height: 100%;
   }
-  .student-review-section .student-review-wrapper .student-review p {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review p {
     font-size: 12px;
     line-height: 25px;
     padding: 10px 0px 12px 0px;
   }
-  .student-review-section .student-review-wrapper .student-review h2 {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review h2 {
     font-size: 18px;
     line-height: 34px;
   }
-  .student-review-section .student-review-wrapper .student-review h4 {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review h4 {
     font-size: 14px;
     line-height: 19px;
   }
-  .student-review-section .student-review-wrapper .student-review h3 {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review h3 {
     font-size: 16px;
     line-height: 19px;
     padding: 10px 0px;
   }
-  .student-review-section .student-review-wrapper .student-review:hover {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review:hover {
     background-color: #fff;
     box-shadow: rgba(149, 157, 165, 0.1) 0px 6px 18px;
   }
-  .student-review-section .student-review-wrapper .student-review:hover .student-img {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review:hover .student-img {
     width: 106px;
     height: 114px;
   }
-  .student-review-section .student-review-wrapper .student-review:hover ::after {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review:hover ::after {
     display: block;
     content: "";
     width: 0;
@@ -3834,10 +3838,13 @@ footer .copyright .copy-right .copyright-links li span {
   .join-area .get-app .get-app-text .img-group {
     display: flex;
   }
-  .join-area .get-app .get-app-text .img-group img {
+  .join-area .get-app .get-app-text .img-group a {
     max-width: 135px;
     max-height: 70px;
     margin-right: 40px;
+  }
+  .join-area .get-app .get-app-text .img-group:last-child {
+    margin-right: 0;
   }
   .newsletter-section {
     padding: 70px 0px;
@@ -4050,7 +4057,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .features-section .feature-wrapper .feature-heading {
     max-width: 52%;
-    margin-top: 30px;
+    margin: 0px 0 50px 0;
   }
   .features-section .feature-wrapper .feature-heading p {
     font-size: 14px;
@@ -4058,18 +4065,21 @@ footer .copyright .copy-right .copyright-links li span {
     padding: 15px 0px 15px 0px;
   }
   .features-section .feature-wrapper .feature {
-    width: 46%;
+    width: 30%;
     max-height: 100%;
     padding: 10px;
     margin: 20px 2%;
   }
   .features-section .feature-wrapper .feature h2 {
-    font-size: 22px;
-    line-height: 35px;
+    font-size: 17px;
+    line-height: 30px;
   }
   .features-section .feature-wrapper .feature p {
     font-size: 14px;
     line-height: 28px;
+    padding: 5px 10px;
+    margin: 0px;
+    text-align: justify;
   }
   .features-section .feature-wrapper .feature img {
     max-height: auto;
@@ -4077,14 +4087,10 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .features-section .feature-wrapper .feature-one {
     margin-bottom: 0px;
-  }
-  .features-section .feature-wrapper .feature-one img {
-    max-height: auto;
+    margin: 20px auto;
   }
   .features-section .feature-wrapper .feature-two {
-    position: absolute;
-    left: 0;
-    bottom: 12%;
+    position: relative;
   }
   .features-section .feature-wrapper .feature-three {
     margin-left: auto;
@@ -4095,7 +4101,8 @@ footer .copyright .copy-right .copyright-links li span {
     padding-bottom: 50px;
   }
   .team-section .team-wrapper .team {
-    max-width: 30.7%;
+    max-width: calc(33% - 15px);
+    margin-right: 15px;
     margin: 0;
   }
   .team-section .team-wrapper .team .team-info {
@@ -4170,15 +4177,17 @@ footer .copyright .copy-right .copyright-links li span {
   .student-review-section {
     padding: 10px 0 40px 0;
   }
-  .student-review-section .student-review-wrapper {
+  .student-review-section .mySwiperTwo {
+    width: 100%;
+  }
+  .student-review-section .mySwiperTwo .student-review-wrapper {
     width: 100%;
     min-height: 480px;
   }
-  .student-review-section .student-review-wrapper .student-review {
-    max-width: 30.7%;
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review {
+    max-width: calc(51% - 25px);
     min-height: 380px;
     padding: 10px;
-    margin: 0px;
   }
   .join-area .swiper {
     width: 100%;
@@ -4360,7 +4369,7 @@ footer .copyright .copy-right .copyright-links li span {
 }
 @media only screen and (max-width: 1400px) and (min-width: 992px) {
   .banner-section .banner_wrapper {
-    min-height: 600px;
+    min-height: 700px;
   }
   .banner-section .banner_wrapper .banner_wrapper-left,
 .banner-section .banner_wrapper .banner_wrapper-right {
@@ -4400,29 +4409,28 @@ footer .copyright .copy-right .copyright-links li span {
     line-height: 30px;
   }
   .features-section .feature-wrapper .feature {
-    width: 46%;
+    width: 30%;
     max-height: 580px;
-    padding: 15px;
-    margin: 25px 2%;
+    padding: 5px;
+    margin: 25px auto;
   }
   .features-section .feature-wrapper .feature h2 {
-    font-size: 24px;
-    line-height: 40px;
+    font-size: 18px;
+    line-height: 30px;
   }
   .features-section .feature-wrapper .feature p {
     font-size: 16px;
     line-height: 28px;
   }
   .features-section .feature-wrapper .feature-two {
-    position: absolute;
-    left: 0;
-    bottom: 14%;
+    position: relative;
   }
   .features-section .feature-wrapper .feature-three {
     margin-left: auto;
   }
   .team-section .team-wrapper .team {
-    max-width: 31.5%;
+    max-width: calc(33% - 20px);
+    margin-right: 20px;
   }
   .team-section .team-wrapper .team .team-info {
     width: 100%;
@@ -4470,26 +4478,30 @@ footer .copyright .copy-right .copyright-links li span {
   .student-review-section {
     padding: 10px 0 40px 0;
   }
-  .student-review-section .student-review-wrapper {
+  .student-review-section .mySwiperTwo {
+    width: 100%;
+  }
+  .student-review-section .mySwiperTwo .student-review-wrapper {
     width: 100%;
     min-height: 480px;
   }
-  .student-review-section .student-review-wrapper .student-review {
-    max-width: 31.5%;
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review {
+    max-width: calc(33% - 20px);
     min-height: 400px;
     padding: 10px;
     margin: 0px;
+    margin-right: 20px;
   }
-  .student-review-section .student-review-wrapper .student-review p {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review p {
     font-size: 16px;
     line-height: 30px;
     text-align: justify;
   }
-  .student-review-section .student-review-wrapper .student-review h2 {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review h2 {
     font-size: 22px;
     line-height: 35px;
   }
-  .student-review-section .student-review-wrapper .student-review h3 {
+  .student-review-section .mySwiperTwo .student-review-wrapper .student-review h3 {
     font-size: 18px;
     line-height: 25px;
   }

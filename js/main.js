@@ -23,10 +23,11 @@
         },
         992: {
           slidesPerView: 3,
-          spaceBetween: 50,
+          spaceBetween: 0,
         },
         1400: {
-          slidesPerView: 4
+          slidesPerView: 4,
+          spaceBetween: 0,
         },
       },
     });
@@ -40,6 +41,41 @@
         clickable: true,
       },
     });
+
+
+    //  For Student Love Section:
+    const mySwiperTwo = new Swiper(".mySwiperTwo", {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        576: {
+          slidesPerView: 2,
+          spaceBetween: 0,
+        },
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 0,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 0,
+        },
+        992: {
+          slidesPerView: 3,
+          spaceBetween: 0,
+        },
+        1400: {
+          slidesPerView: 3,
+          spaceBetween: 0
+        },
+      },
+    });
+
+
   })
 }(jQuery));
 
@@ -406,16 +442,3 @@ Array.from(Selectdates).forEach(date => {
 
 
 
-
-
-
-
-//  Wow.js Animation:
-wow = new WOW({
-  boxClass:     'wow',      // default
-  animateClass: 'animated', // default
-  offset:       0,          // default
-  mobile:       true,       // default
-  live:         true        // default
-})
-wow.init();

@@ -1,6 +1,6 @@
 .banner-section {
     .banner_wrapper {
-        height: 950px;
+        height: 920px;
         max-height: auto;
         position: relative;
         margin: 75px auto 0px auto;
@@ -24,7 +24,7 @@
 
         .banner-content {
             max-width: 100%;
-            margin: 0 auto;
+            margin: 120px auto 0 auto;
 
             h1 {
                 font-family: 'Inter';
@@ -44,11 +44,11 @@
                 font-size: 22px;
                 line-height: 38px;
                 color: #6D6E71;
-                padding: 20px 6px 20px 6px;
+                padding: 20px 0px 20px 0px;
             }
 
             .primary_button {
-                margin: 0px 15px;
+                margin: 0px;
             }
             
         }
