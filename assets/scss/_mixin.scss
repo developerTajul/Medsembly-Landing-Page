@@ -7,7 +7,7 @@
         font-style: normal;
         font-weight: 600;
         font-size: 50px;
-        line-height: 70px;
+        line-height: 60px;
         text-align: center;
         text-transform: capitalize;
         color: #000000;
@@ -19,7 +19,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-    line-height: 22px;
+    line-height: 27px;
     text-transform: capitalize;
     color: #000000;
     margin-bottom: 6px;
@@ -42,7 +42,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 30px;
     color: #333333;
     margin-bottom: 30px;
 }
@@ -56,7 +56,7 @@
                 font-style: normal;
                 font-weight: 400;
                 font-size: 17px;
-                line-height: 22px;
+                line-height: 27px;
                 text-transform: capitalize;
                 color: #6D6E71;
                 margin-bottom: 20px;
@@ -184,22 +184,23 @@
     div {
         h2 {
             font-size: 20px;
-            line-height: 28px;
+            line-height: 30px;
         }
         small {
             font-size: 12px;
-            line-height: 17px;
+            line-height: 20px;
             padding: 8px 0 12px 0;
         }
         p {
             font-size: 15px;
-            line-height: 30px;
+            line-height: 25px;
         }
     }
     button {
         width: 80px;
         padding: 10px 12px;
         font-size: 15px;
+        line-height: 25px;
         position: absolute;
         top: 15px;
         right: 15px;

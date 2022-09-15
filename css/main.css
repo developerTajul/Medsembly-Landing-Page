@@ -43,7 +43,7 @@ button:focus {
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
-  line-height: 40px;
+  line-height: 34px;
   text-transform: capitalize;
   color: #0B0036;
 }
@@ -52,7 +52,7 @@ button:focus {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 28px;
+  line-height: 26px;
   color: #6D6E71;
   padding: 20px 0px;
 }
@@ -74,7 +74,7 @@ button:focus {
   font-style: normal;
   font-weight: 500;
   font-size: 52px;
-  line-height: 74px;
+  line-height: 62px;
   color: rgba(234, 28, 45, 0.1);
   text-align: right;
 }
@@ -102,7 +102,7 @@ button:focus {
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
-  line-height: 39px;
+  line-height: 38px;
   text-align: left;
   text-transform: capitalize;
   color: #000000;
@@ -113,7 +113,7 @@ button:focus {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 26px;
   color: #6D6E71;
 }
 .step:hover {
@@ -2029,7 +2029,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-style: normal;
   font-weight: 600;
   font-size: 52px;
-  line-height: 72px;
+  line-height: 62px;
   text-transform: capitalize;
   color: #0B0036;
   padding: 15px 0px 10px 0px;
@@ -2039,7 +2039,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
-  line-height: 38px;
+  line-height: 32px;
   color: #6D6E71;
   padding: 20px 0px 20px 0px;
 }
@@ -2083,7 +2083,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
-  line-height: 50px;
+  line-height: 40px;
   text-align: center;
   text-transform: capitalize;
   color: #333333;
@@ -2177,7 +2177,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
-  line-height: 70px;
+  line-height: 60px;
   text-align: center;
   text-transform: capitalize;
   color: #000000;
@@ -2266,7 +2266,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
-  line-height: 70px;
+  line-height: 60px;
   text-align: center;
   text-transform: capitalize;
   color: #000000;
@@ -2327,7 +2327,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
-  line-height: 70px;
+  line-height: 60px;
   text-align: center;
   text-transform: capitalize;
   color: #000000;
@@ -2569,7 +2569,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
-  line-height: 22px;
+  line-height: 27px;
   text-transform: capitalize;
   color: #000000;
   margin-bottom: 6px;
@@ -2591,7 +2591,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
-  line-height: 22px;
+  line-height: 27px;
   text-transform: capitalize;
   color: #000000;
   margin-bottom: 6px;
@@ -2613,7 +2613,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
-  line-height: 22px;
+  line-height: 27px;
   text-transform: capitalize;
   color: #000000;
   margin-bottom: 6px;
@@ -2687,14 +2687,14 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   max-width: 500px;
   margin: 0px auto 30px auto;
   line-height: 60px;
-  font-size: 40px;
+  font-size: 50px;
 }
 .join-area .get-app .get-app-text h2 h2 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
-  line-height: 70px;
+  line-height: 60px;
   text-align: center;
   text-transform: capitalize;
   color: #000000;
@@ -2731,7 +2731,7 @@ footer .footer-wrapper .list-title {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 30px;
   color: #333333;
   margin-bottom: 30px;
 }
@@ -2741,7 +2741,7 @@ footer .footer-wrapper ul li a {
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
-  line-height: 22px;
+  line-height: 27px;
   text-transform: capitalize;
   color: #6D6E71;
   margin-bottom: 20px;
@@ -3164,20 +3164,20 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .student-review-section .mySwiperTwo .student-review-wrapper .student-review p {
     font-size: 12px;
-    line-height: 25px;
+    line-height: 22px;
     padding: 10px 0px 12px 0px;
   }
   .student-review-section .mySwiperTwo .student-review-wrapper .student-review h2 {
     font-size: 18px;
-    line-height: 34px;
+    line-height: 28px;
   }
   .student-review-section .mySwiperTwo .student-review-wrapper .student-review h4 {
     font-size: 14px;
-    line-height: 19px;
+    line-height: 24px;
   }
   .student-review-section .mySwiperTwo .student-review-wrapper .student-review h3 {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 26px;
     padding: 10px 0px;
   }
   .student-review-section .mySwiperTwo .student-review-wrapper .student-review:hover {
@@ -3259,9 +3259,10 @@ footer .copyright .copy-right .copyright-links li span {
     transform: translateX(-50%);
   }
   .join-area .get-app .get-app-text h2 {
-    font-size: 24px;
-    margin: 0px auto 0px auto;
+    font-size: 16px;
+    margin: 0px auto 20px auto;
     text-align: center;
+    line-height: 28px;
   }
   .join-area .get-app .get-app-text .img-group {
     width: 220px;
@@ -3335,7 +3336,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-    line-height: 22px;
+    line-height: 27px;
     text-transform: capitalize;
     color: #000000;
     margin-bottom: 6px;
@@ -3353,7 +3354,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-    line-height: 22px;
+    line-height: 27px;
     text-transform: capitalize;
     color: #000000;
     margin-bottom: 6px;
@@ -3371,7 +3372,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-    line-height: 22px;
+    line-height: 27px;
     text-transform: capitalize;
     color: #000000;
     margin-bottom: 6px;
@@ -3409,7 +3410,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 30px;
     color: #333333;
     margin-bottom: 30px;
     font-size: 17px;
@@ -3420,7 +3421,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-    line-height: 22px;
+    line-height: 27px;
     text-transform: capitalize;
     color: #6D6E71;
     margin-bottom: 20px;
@@ -3844,7 +3845,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-style: normal;
     font-weight: 600;
     font-size: 50px;
-    line-height: 70px;
+    line-height: 60px;
     text-align: center;
     text-transform: capitalize;
     color: #000000;
@@ -3906,7 +3907,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-    line-height: 22px;
+    line-height: 27px;
     text-transform: capitalize;
     color: #000000;
     margin-bottom: 6px;
@@ -3923,7 +3924,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-    line-height: 22px;
+    line-height: 27px;
     text-transform: capitalize;
     color: #000000;
     margin-bottom: 6px;
@@ -3940,7 +3941,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-    line-height: 22px;
+    line-height: 27px;
     text-transform: capitalize;
     color: #000000;
     margin-bottom: 6px;
@@ -3973,7 +3974,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 30px;
     color: #333333;
     margin-bottom: 30px;
   }
@@ -3983,7 +3984,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-    line-height: 22px;
+    line-height: 27px;
     text-transform: capitalize;
     color: #6D6E71;
     margin-bottom: 20px;
@@ -4229,7 +4230,11 @@ footer .copyright .copy-right .copyright-links li span {
     bottom: 0px;
     left: -20%;
   }
+  .join-area .get-app {
+    max-height: 550px;
+  }
   .join-area .get-app .get-app-img {
+    max-width: 65%;
     margin-left: 40px;
   }
   .join-area .get-app .get-app-text {
@@ -4244,7 +4249,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .newsletter-section .subscribe-area {
     width: 100%;
-    padding-top: 100px;
+    padding-top: 0px;
     display: grid;
     grid-template-columns: 60% 40%;
     justify-content: space-between;
@@ -4289,7 +4294,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-    line-height: 22px;
+    line-height: 27px;
     text-transform: capitalize;
     color: #000000;
     margin-bottom: 6px;
@@ -5637,6 +5642,7 @@ footer .copyright .copy-right .copyright-links li span {
 }
 .for-student-banner-section .student-banner-wrapper .student-banner-top .banner-content p {
   font-size: 16px;
+  line-height: 26px;
   padding-top: 25px;
   text-align: center;
 }
@@ -5663,7 +5669,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
-  line-height: 70px;
+  line-height: 60px;
   text-transform: capitalize;
   color: #000000;
   margin: 0 auto;
@@ -5695,7 +5701,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 26px;
   text-align: center;
   text-transform: capitalize;
   color: #6D6E71;
@@ -5735,7 +5741,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
-  line-height: 70px;
+  line-height: 60px;
   text-transform: capitalize;
   color: #000000;
 }
@@ -5744,13 +5750,14 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
-  line-height: 40px;
+  line-height: 27px;
   color: #6D6E71;
   margin: 30px 0px 45px 0px;
 }
 .have-question-section .have-question-wrapper .have-question-left .have-question-left-wrapper a {
   margin-right: auto;
   font-size: 16px;
+  line-height: 26px;
 }
 .have-question-section .have-question-wrapper .have-question-left .have-question-img {
   position: absolute;
@@ -5767,7 +5774,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
-  line-height: 70px;
+  line-height: 60px;
   text-align: center;
   text-transform: capitalize;
   color: #000000;
@@ -5803,7 +5810,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 37px;
+  line-height: 30px;
   text-align: center;
   color: #000000;
   padding: 15px 20px;
@@ -5822,7 +5829,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
-  line-height: 68px;
+  line-height: 60px;
   text-align: center;
   letter-spacing: -0.02em;
   text-transform: capitalize;
@@ -5834,7 +5841,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 26px;
   text-align: center;
   color: #6D6E71;
 }
@@ -5855,7 +5862,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
-  line-height: 53px;
+  line-height: 38px;
   letter-spacing: -0.02em;
   color: #6D6E71;
   text-align: center;
@@ -5881,7 +5888,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
-  line-height: 40px;
+  line-height: 34px;
   text-align: center;
   color: #000000;
 }
@@ -6103,7 +6110,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .for-student-banner-section .student-banner-wrapper .student-banner-top .banner-content h1 {
     font-size: 26px;
-    line-height: 40px;
+    line-height: 36px;
     text-align: center;
     position: relative;
     margin-top: 30px;
@@ -6129,7 +6136,7 @@ footer .copyright .copy-right .copyright-links li span {
   .for-student-banner-section .student-banner-wrapper .student_banner-bottom h2 {
     max-width: 350px;
     font-size: 26px;
-    line-height: 45px;
+    line-height: 36px;
     text-align: center;
     margin-bottom: 25px;
     margin: 0 auto 25px auto;
@@ -6183,19 +6190,20 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .have-question-section .have-question-wrapper .have-question-left .have-question-left-wrapper h2 {
     font-size: 26px;
-    line-height: 40px;
+    line-height: 36px;
     text-align: center;
     padding: 15px 0px 30px 0px;
   }
   .have-question-section .have-question-wrapper .have-question-left .have-question-left-wrapper p {
     font-size: 16px;
-    line-height: 28px;
+    line-height: 26px;
     margin: 0 15px;
     text-align: center;
   }
   .have-question-section .have-question-wrapper .have-question-left .have-question-left-wrapper a {
     margin: 30px auto;
     font-size: 15px;
+    line-height: 25px;
     padding: 16px 19px;
   }
   .have-question-section .have-question-wrapper .have-question-left .have-question-img {
@@ -6211,7 +6219,7 @@ footer .copyright .copy-right .copyright-links li span {
   .for-student-service-section h2 {
     max-width: 688px;
     font-size: 26px;
-    line-height: 40px;
+    line-height: 36px;
     text-align: center;
     margin: 0 auto 65px auto;
   }
@@ -6233,7 +6241,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .for-student-service-section .student-service-wrapper .student-service h4 {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 24px;
     text-align: center;
     margin: 20px auto;
   }
@@ -6243,13 +6251,13 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .pricing-section .section-title h2 {
     font-size: 26px;
-    line-height: 40px;
+    line-height: 36px;
     text-align: center;
     padding-bottom: 20px;
   }
   .pricing-section .section-title p {
     font-size: 14px;
-    line-height: 28px;
+    line-height: 25px;
     text-align: center;
     padding: 0 20px;
   }
@@ -6272,17 +6280,17 @@ footer .copyright .copy-right .copyright-links li span {
     width: 100%;
     text-align: center;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 28px;
     margin: 0px;
   }
   .pricing-section .pricing .pricing-top h3 {
     font-size: 20px;
-    line-height: 28px;
+    line-height: 30px;
     text-align: center;
   }
   .pricing-section .pricing .pricing-top p {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 24px;
     text-align: center;
     padding: 8px 8px 15px 8px;
   }
@@ -6291,7 +6299,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .pricing-section .pricing .pricing-bottom li {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 24px;
     padding: 7px 0px;
   }
   .pricing-section .pricing .pricing-bottom li span {
@@ -6370,7 +6378,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .student-newsletter-section .student-get-app .student-get-app-text h2 {
     font-size: 18px;
-    line-height: 35px;
+    line-height: 28px;
     margin: 30px auto 15px auto;
     text-align: center;
     padding: 15px;
@@ -6389,7 +6397,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .faq-section h2 {
     font-size: 26px;
-    line-height: 40px;
+    line-height: 36px;
     margin: 0 auto 60px auto;
     text-align: center;
   }
@@ -6430,7 +6438,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .faq-section .faq-wrapper .faq .faq-body p {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 24px;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 1400px) {
@@ -7270,7 +7278,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .partner-banner-section .partner-banner-top .partner-banner-text-one h1 {
     font-size: 40px;
-    line-height: 60px;
+    line-height: 50px;
     margin: 20px auto;
     text-align: center;
   }
@@ -7516,7 +7524,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
-  line-height: 70px;
+  line-height: 60px;
   text-align: center;
   text-transform: capitalize;
   color: #000000;
@@ -7527,7 +7535,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 26px;
   color: #6D6E71;
   text-align: center;
 }
@@ -7605,16 +7613,17 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
-  line-height: 70px;
+  line-height: 60px;
   text-transform: capitalize;
   color: #000000;
+  margin-bottom: 15px;
 }
 .professional-banner-section .professional-banner-middle .middle-content p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 26px;
   color: #6D6E71;
 }
 .professional-banner-section .professional-banner-bottom {
@@ -7649,7 +7658,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
-  line-height: 70px;
+  line-height: 60px;
   text-transform: capitalize;
   color: #000000;
   margin-bottom: 25px;
@@ -7659,7 +7668,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 26px;
   color: #6D6E71;
 }
 
@@ -7678,7 +7687,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
-  line-height: 70px;
+  line-height: 60px;
   text-transform: capitalize;
   color: #000000;
   margin-bottom: 40px;
@@ -7688,7 +7697,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 26px;
   text-transform: capitalize;
   color: #333333;
   background: #fff;
@@ -7741,13 +7750,13 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .professional-banner-section .professional-banner-title h1 {
     font-size: 32px;
-    line-height: 50px;
+    line-height: 42px;
     text-align: center;
     margin-bottom: 20px;
   }
   .professional-banner-section .professional-banner-title p {
     font-size: 16px;
-    line-height: 32px;
+    line-height: 26px;
   }
   .professional-banner-section .professional-banner-top {
     width: 100%;
@@ -7801,13 +7810,13 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .professional-banner-section .professional-banner-middle .middle-content h2 {
     font-size: 32px;
-    line-height: 50px;
+    line-height: 42px;
     text-align: center;
     margin-bottom: 25px;
   }
   .professional-banner-section .professional-banner-middle .middle-content p {
     font-size: 16px;
-    line-height: 32px;
+    line-height: 26px;
     color: #6D6E71;
   }
   .professional-banner-section .professional-banner-bottom {
@@ -7833,13 +7842,13 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .professional-banner-section .professional-banner-bottom .bottom-content h2 {
     font-size: 32px;
-    line-height: 50px;
+    line-height: 42px;
     text-align: center;
     margin-bottom: 25px;
   }
   .professional-banner-section .professional-banner-bottom .bottom-content p {
     font-size: 16px;
-    line-height: 32px;
+    line-height: 26px;
   }
   .professional-offer-section {
     padding: 150px 0px;
@@ -7849,7 +7858,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .professional-offer-section .professional-offer-context h2 {
     font-size: 32px;
-    line-height: 50px;
+    line-height: 42px;
     text-align: center;
     margin-bottom: 30px;
   }
@@ -7899,6 +7908,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .professional-newsletter-section .get-app .get-app-text h2 {
     font-size: 22px;
+    line-height: 32px;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 1400px) {
@@ -11656,21 +11666,22 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-one div h2 {
     font-size: 20px;
-    line-height: 28px;
+    line-height: 30px;
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-one div small {
     font-size: 12px;
-    line-height: 17px;
+    line-height: 20px;
     padding: 8px 0 12px 0;
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-one div p {
     font-size: 15px;
-    line-height: 30px;
+    line-height: 25px;
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-one button {
     width: 80px;
     padding: 10px 12px;
     font-size: 15px;
+    line-height: 25px;
     position: absolute;
     top: 15px;
     right: 15px;
@@ -11691,21 +11702,22 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-two div h2 {
     font-size: 20px;
-    line-height: 28px;
+    line-height: 30px;
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-two div small {
     font-size: 12px;
-    line-height: 17px;
+    line-height: 20px;
     padding: 8px 0 12px 0;
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-two div p {
     font-size: 15px;
-    line-height: 30px;
+    line-height: 25px;
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-two button {
     width: 80px;
     padding: 10px 12px;
     font-size: 15px;
+    line-height: 25px;
     position: absolute;
     top: 15px;
     right: 15px;
@@ -11964,21 +11976,22 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-one div h2 {
     font-size: 20px;
-    line-height: 28px;
+    line-height: 30px;
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-one div small {
     font-size: 12px;
-    line-height: 17px;
+    line-height: 20px;
     padding: 8px 0 12px 0;
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-one div p {
     font-size: 15px;
-    line-height: 30px;
+    line-height: 25px;
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-one button {
     width: 80px;
     padding: 10px 12px;
     font-size: 15px;
+    line-height: 25px;
     position: absolute;
     top: 15px;
     right: 15px;
@@ -11999,21 +12012,22 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-two div h2 {
     font-size: 20px;
-    line-height: 28px;
+    line-height: 30px;
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-two div small {
     font-size: 12px;
-    line-height: 17px;
+    line-height: 20px;
     padding: 8px 0 12px 0;
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-two div p {
     font-size: 15px;
-    line-height: 30px;
+    line-height: 25px;
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-two button {
     width: 80px;
     padding: 10px 12px;
     font-size: 15px;
+    line-height: 25px;
     position: absolute;
     top: 15px;
     right: 15px;
@@ -12276,21 +12290,22 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-one div h2 {
     font-size: 20px;
-    line-height: 28px;
+    line-height: 30px;
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-one div small {
     font-size: 12px;
-    line-height: 17px;
+    line-height: 20px;
     padding: 8px 0 12px 0;
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-one div p {
     font-size: 15px;
-    line-height: 30px;
+    line-height: 25px;
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-one button {
     width: 80px;
     padding: 10px 12px;
     font-size: 15px;
+    line-height: 25px;
     position: absolute;
     top: 15px;
     right: 15px;
@@ -12311,21 +12326,22 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-two div h2 {
     font-size: 20px;
-    line-height: 28px;
+    line-height: 30px;
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-two div small {
     font-size: 12px;
-    line-height: 17px;
+    line-height: 20px;
     padding: 8px 0 12px 0;
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-two div p {
     font-size: 15px;
-    line-height: 30px;
+    line-height: 25px;
   }
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment .comment-two button {
     width: 80px;
     padding: 10px 12px;
     font-size: 15px;
+    line-height: 25px;
     position: absolute;
     top: 15px;
     right: 15px;
