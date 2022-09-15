@@ -73,9 +73,13 @@
                     .award {
                         width: 90% !important;
                         height: auto;
-                        min-height: 120px;
+                        min-height: 200px;
                         border-radius: 10px;
                         margin: 30px auto;
+
+                        img {    
+                            margin-top: 20px;
+                        }
         
                         &:nth-child(2) {
                             margin: 0px !important;
@@ -206,7 +210,7 @@
         .pricing {
             width: 100%;
             max-width: 96%;
-            max-height: 470px;
+            max-height: 510px;
             padding: 13px 17px;
             position: relative;
             border-radius: 16px;
@@ -218,6 +222,7 @@
                     width: 100%;
                     font-size: 20px;
                     line-height: 30px;
+                    padding-top: 15px;
                 }
                 h4 {
                     width: 100%;
@@ -333,11 +338,13 @@
         h2 {
             font-size: 26px;
             line-height: 36px;
-            margin: 0 auto 60px auto;
+            margin: 0 auto 20px auto;
             text-align: center;
         }
     
         .faq-wrapper {
+            max-width: 96%;
+            margin: 0 auto;
             .faq {
                 padding: 25px 15px 10px 15px;
                 position: relative;

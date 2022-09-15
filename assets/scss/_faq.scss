@@ -1,5 +1,5 @@
 .faq-section {
-    margin: 110px auto;
+    margin: 50px auto;
     h2 {
         font-family: 'Inter';
         font-style: normal;
@@ -13,6 +13,8 @@
     }
 
     .faq-wrapper {
+        max-width: 80%;
+        margin: 0 auto;
         .faq {
             padding: 45px 15px;
             border-bottom: 1px solid #CCCCCC;;

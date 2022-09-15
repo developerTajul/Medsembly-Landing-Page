@@ -1,6 +1,5 @@
 @media screen and (min-width: 320px) and (max-width: 1400px) {
     .professional-banner-section {
-    
         .professional-banner-title {
             width: 100%;
             max-width: 100%;
@@ -74,8 +73,8 @@
                 h2 {
                     font-size: 32px;
                     line-height: 42px;
-                    text-align: center;
-                    margin-bottom: 25px;
+                    text-align: left;
+                    margin-bottom: 5px;
                 }
                 p {
                     font-size: 16px;
@@ -86,11 +85,14 @@
         }
 
         .professional-banner-bottom {
-            margin: 0 auto 110px auto;
+            margin: 0 auto 40px auto;
+            display: grid;
+
             .bottom-left-img {
                 max-width: 80%;
                 max-height: auto;
                 margin: 0 auto;
+
                 .bottom-left-img-one {
                     max-width: 100%;
                     max-height: 100%;
@@ -100,15 +102,23 @@
                     max-width: 80px;
                     max-height: 80px;
                 }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    margin-bottom: 25px;
+                    order: 1;
+                }
             }
             .bottom-content {
+                order: 1;
                 max-width: 100%;
-                margin-bottom: 25px;
+                margin-top: 25px;
                 h2 {
                     font-size: 32px;
                     line-height: 42px;
-                    text-align: center;
-                    margin-bottom: 25px;
+                    text-align: left;
+                    margin-bottom: 5px;
                 }
                 p {
                     font-size: 16px;

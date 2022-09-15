@@ -57,11 +57,11 @@ button:focus {
   padding: 20px 0px;
 }
 .feature img {
-  width: 85%;
+  width: 95%;
 }
 
 .step {
-  max-width: 413px;
+  max-width: 303px;
   min-height: 539px;
   background: #FFFFFF;
   border-radius: 16px;
@@ -2277,7 +2277,8 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   color: #000000;
 }
 .step-section .step-wrapper {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
@@ -2297,7 +2298,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
 .student-review-section {
   background-color: #F4F4F4;
   width: 100%;
-  height: 963px;
+  height: 900px;
   padding: 0px 0 0px 0;
 }
 .student-review-section .swiper {
@@ -2469,7 +2470,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   grid-template-columns: 45% 55%;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 110px;
+  margin-bottom: 70px;
 }
 .newsletter-section .subscribe-area .subscribe-text {
   max-width: 534px;
@@ -3125,7 +3126,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .student-review-section {
     width: 100%;
-    height: 750px;
+    height: 640px;
     max-height: 1123px;
     padding: 10px 0 60px 0;
   }
@@ -3285,7 +3286,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .newsletter-section .subscribe-area {
     width: 100%;
-    padding-top: 100px;
+    padding-top: 50px;
     grid-template-columns: 1fr;
     justify-content: center;
   }
@@ -4101,7 +4102,7 @@ footer .copyright .copy-right .copyright-links li span {
     line-height: 28px;
     padding: 5px 10px;
     margin: 0px;
-    text-align: justify;
+    text-align: left;
   }
   .features-section .feature-wrapper .feature img {
     max-height: auto;
@@ -4166,7 +4167,7 @@ footer .copyright .copy-right .copyright-links li span {
     max-width: 96%;
     min-height: 380px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px 20px;
     margin: 30px 4%;
   }
   .step-section .step-wrapper .step h2 {
@@ -4188,12 +4189,12 @@ footer .copyright .copy-right .copyright-links li span {
   .step-section .step-wrapper .step h3 {
     font-size: 14px;
     line-height: 30px;
-    margin: 20px 0px 16px 0px;
+    margin: 20px 0px 0px 0px;
   }
   .step-section .step-wrapper .step p {
     font-size: 13px;
     line-height: 24px;
-    text-align: justify;
+    text-align: left;
   }
   .student-review-section {
     padding: 10px 0 40px 0;
@@ -5046,16 +5047,21 @@ footer .copyright .copy-right .copyright-links li span {
   .about-service-section {
     padding: 60px 0px;
   }
+  .about-service-section .about-service-wrapper {
+    padding: 15px;
+  }
   .about-service-section .about-service-wrapper .about-service-text h2 {
     font-size: 28px;
     line-height: 38px;
     margin-bottom: 20px;
     text-align: center;
+    padding: 0 25px;
   }
   .about-service-section .about-service-wrapper .about-service-text p {
     font-size: 14px;
     line-height: 25px;
     padding: 17px;
+    text-align: center;
   }
   .about-service-section .about-service-wrapper .about-service-img {
     max-width: 80%;
@@ -5660,7 +5666,7 @@ footer .copyright .copy-right .copyright-links li span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 110px auto 0px auto;
+  margin: 0px auto 0px auto;
 }
 .for-student-banner-section .student-banner-wrapper .student_banner-bottom .banner_bottom-img {
   width: 580px;
@@ -5874,6 +5880,7 @@ footer .copyright .copy-right .copyright-links li span {
   letter-spacing: -0.02em;
   color: #6D6E71;
   text-align: center;
+  margin-top: 15px;
 }
 .pricing-section .pricing .pricing-top h2 span {
   color: #EA1C2D;
@@ -5959,7 +5966,7 @@ footer .copyright .copy-right .copyright-links li span {
 }
 
 .faq-section {
-  margin: 110px auto;
+  margin: 50px auto;
 }
 .faq-section h2 {
   font-family: "Inter";
@@ -5971,6 +5978,10 @@ footer .copyright .copy-right .copyright-links li span {
   color: #000000;
   margin: 0 auto 60px auto;
   text-align: center;
+}
+.faq-section .faq-wrapper {
+  max-width: 80%;
+  margin: 0 auto;
 }
 .faq-section .faq-wrapper .faq {
   padding: 45px 15px;
@@ -6163,9 +6174,12 @@ footer .copyright .copy-right .copyright-links li span {
   .for-student-banner-section .student-banner-wrapper .student_banner-bottom .banner_award .award {
     width: 90% !important;
     height: auto;
-    min-height: 120px;
+    min-height: 200px;
     border-radius: 10px;
     margin: 30px auto;
+  }
+  .for-student-banner-section .student-banner-wrapper .student_banner-bottom .banner_award .award img {
+    margin-top: 20px;
   }
   .for-student-banner-section .student-banner-wrapper .student_banner-bottom .banner_award .award:nth-child(2) {
     margin: 0px !important;
@@ -6272,7 +6286,7 @@ footer .copyright .copy-right .copyright-links li span {
   .pricing-section .pricing {
     width: 100%;
     max-width: 96%;
-    max-height: 470px;
+    max-height: 510px;
     padding: 13px 17px;
     position: relative;
     border-radius: 16px;
@@ -6283,6 +6297,7 @@ footer .copyright .copy-right .copyright-links li span {
     width: 100%;
     font-size: 20px;
     line-height: 30px;
+    padding-top: 15px;
   }
   .pricing-section .pricing .pricing-top h4 {
     width: 100%;
@@ -6406,8 +6421,12 @@ footer .copyright .copy-right .copyright-links li span {
   .faq-section h2 {
     font-size: 26px;
     line-height: 36px;
-    margin: 0 auto 60px auto;
+    margin: 0 auto 20px auto;
     text-align: center;
+  }
+  .faq-section .faq-wrapper {
+    max-width: 96%;
+    margin: 0 auto;
   }
   .faq-section .faq-wrapper .faq {
     padding: 25px 15px 10px 15px;
@@ -7723,9 +7742,10 @@ footer .copyright .copy-right .copyright-links li span {
   margin: 16px;
 }
 .professional-offer-section .professional-offer-context a {
-  display: block;
+  display: flex;
+  justify-content: center;
   margin: 30px 0px;
-  max-width: 220px;
+  max-width: 190px;
   white-space: nowrap;
   font-size: 16px;
 }
@@ -7819,8 +7839,8 @@ footer .copyright .copy-right .copyright-links li span {
   .professional-banner-section .professional-banner-middle .middle-content h2 {
     font-size: 32px;
     line-height: 42px;
-    text-align: center;
-    margin-bottom: 25px;
+    text-align: left;
+    margin-bottom: 5px;
   }
   .professional-banner-section .professional-banner-middle .middle-content p {
     font-size: 16px;
@@ -7828,7 +7848,8 @@ footer .copyright .copy-right .copyright-links li span {
     color: #6D6E71;
   }
   .professional-banner-section .professional-banner-bottom {
-    margin: 0 auto 110px auto;
+    margin: 0 auto 40px auto;
+    display: grid;
   }
   .professional-banner-section .professional-banner-bottom .bottom-left-img {
     max-width: 80%;
@@ -7844,15 +7865,22 @@ footer .copyright .copy-right .copyright-links li span {
     max-width: 80px;
     max-height: 80px;
   }
-  .professional-banner-section .professional-banner-bottom .bottom-content {
-    max-width: 100%;
+  .professional-banner-section .professional-banner-bottom .bottom-left-img img {
+    width: 100%;
+    height: 100%;
     margin-bottom: 25px;
+    order: 1;
+  }
+  .professional-banner-section .professional-banner-bottom .bottom-content {
+    order: 1;
+    max-width: 100%;
+    margin-top: 25px;
   }
   .professional-banner-section .professional-banner-bottom .bottom-content h2 {
     font-size: 32px;
     line-height: 42px;
-    text-align: center;
-    margin-bottom: 25px;
+    text-align: left;
+    margin-bottom: 5px;
   }
   .professional-banner-section .professional-banner-bottom .bottom-content p {
     font-size: 16px;
