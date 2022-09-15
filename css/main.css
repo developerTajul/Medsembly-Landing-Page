@@ -2663,16 +2663,16 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
 }
 .join-area .get-app {
   max-width: 100%;
-  max-height: 841px;
+  height: 941px;
   margin: 0 auto;
-  display: grid;
+  display: flex;
   align-items: center;
-  justify-content: space-between;
-  position: relative;
+  justify-content: center;
 }
 .join-area .get-app .get-app-img {
-  max-width: 777px;
-  max-height: 807px;
+  width: 400px;
+  height: auto;
+  padding-bottom: 70px;
 }
 .join-area .get-app .get-app-img img {
   max-width: 100%;
@@ -2680,8 +2680,6 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
 }
 .join-area .get-app .get-app-text {
   max-width: 517px;
-  position: absolute;
-  right: 0%;
 }
 .join-area .get-app .get-app-text h2 {
   max-width: 680px;

@@ -169,15 +169,15 @@
 
     .get-app {
         max-width: 100%;
-        max-height: 841px;
+        height: 941px;
         margin: 0 auto;
-        display: grid;
+        display: flex;
         align-items: center;
-        justify-content: space-between;
-        position: relative;
+        justify-content: center;
         .get-app-img {
-            max-width: 777px;
-            max-height: 807px;
+            width: 400px;
+            height: auto;
+            padding-bottom: 70px;
             img {
                 max-width: 100%;
                 height: 100%;
@@ -186,8 +186,6 @@
 
         .get-app-text {
             max-width: 517px;
-            position: absolute;
-            right: 0%;
             h2 {
                 @include title;
                 max-width: 500px;
