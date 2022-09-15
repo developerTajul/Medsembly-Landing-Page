@@ -10024,8 +10024,8 @@ footer .copyright .copy-right .copyright-links li span {
 }
 
 .package-section .package-wrapper .package {
-  max-height: 1400px;
-  max-width: 866px;
+  max-height: 1100px;
+  max-width: 766px;
   box-shadow: 10px 12px 60px rgba(0, 0, 0, 0.06);
   border-radius: 20px;
   padding: 0px 48px;
@@ -10036,7 +10036,7 @@ footer .copyright .copy-right .copyright-links li span {
 }
 .package-section .package-wrapper .package .package-top {
   text-align: center;
-  padding: 60px 0px;
+  padding: 30px 0px;
   border-bottom: 1px dashed #CCCCCC;
 }
 .package-section .package-wrapper .package .package-top img {
@@ -10048,8 +10048,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 56px;
-  line-height: 68px;
+  font-size: 50px;
+  line-height: 60px;
   text-transform: capitalize;
   color: #000000;
   margin-bottom: 20px;
@@ -10058,7 +10058,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 39px;
   text-transform: capitalize;
   color: #000000;
@@ -10070,39 +10070,40 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 27px;
+  line-height: 38px;
   text-transform: capitalize;
   color: #EA1C2D;
-  margin: 50px 0px 10px 0px;
+  margin: 30px 0px 10px 0px;
 }
 .package-section .package-wrapper .package .package-body ul li {
   padding: 12px 0px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 18px;
+  line-height: 28px;
   letter-spacing: -0.02em;
   color: #6D6E71;
 }
 .package-section .package-wrapper .package .package-body ul li img {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   margin-right: 12px;
 }
 .package-section .package-wrapper .package button {
   max-width: 175px;
+  font-size: 16px;
   margin: 10px auto 60px auto;
 }
 .package-section .package-wrapper .package-text {
-  max-width: 1145px;
+  max-width: 1000px;
   margin: 0 auto 110px auto;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 40px;
+  font-size: 20px;
+  line-height: 30px;
   text-align: center;
   text-transform: capitalize;
   color: #6D6E71;
