@@ -2100,6 +2100,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   max-width: 500px;
   max-height: 416px;
   margin: 40px 0 40px auto;
+  padding-top: 80px;
 }
 .features-section .feature-wrapper .feature-heading h2 {
   font-family: "Inter";
@@ -2984,7 +2985,8 @@ footer .copyright .copy-right .copyright-links li span {
     margin: 0;
   }
   .features-section .feature-wrapper .feature-one {
-    margin-bottom: 0px;
+    margin-bottom: 30px;
+    margin-top: 110px;
   }
   .features-section .feature-wrapper .feature-one img {
     max-height: auto;
