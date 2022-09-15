@@ -4759,13 +4759,13 @@ footer .copyright .copy-right .copyright-links li span {
   align-items: center;
 }
 .about-banner-section .about-banner-wrapper h1 {
-  max-width: 620px;
+  max-width: 520px;
   margin: 0 auto;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 64px;
-  line-height: 83px;
+  font-size: 52px;
+  line-height: 60px;
   text-transform: capitalize;
   color: #FFFFFF;
 }
@@ -4794,8 +4794,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 56px;
-  line-height: 72px;
+  font-size: 50px;
+  line-height: 60px;
   text-transform: capitalize;
   color: #000000;
   margin-bottom: 20px;
@@ -4804,8 +4804,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 26px;
   color: #6D6E71;
 }
 .about-service-section .about-service-wrapper .about-service-img {
@@ -4846,8 +4846,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 56px;
-  line-height: 68px;
+  font-size: 50px;
+  line-height: 60px;
   text-transform: capitalize;
   color: #000000;
   padding: 30px 50px 20px 50px;
@@ -4856,8 +4856,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 40px;
+  font-size: 16px;
+  line-height: 26px;
   color: #6D6E71;
   padding: 0 50px 50px 50px;
 }
@@ -4866,31 +4866,31 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 56px;
-  line-height: 74px;
+  font-size: 50px;
+  line-height: 60px;
   text-align: center;
   text-transform: capitalize;
   color: #0B0036;
   padding: 110px 0px;
 }
 .about-team-section .about-team-wrapper {
-  max-width: 845px;
+  max-width: 445px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .about-team-section .about-team-wrapper .about-team {
-  width: 330px;
-  height: 330px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
 }
 .about-team-section .about-team-wrapper .about-team img {
-  width: 340px;
-  height: 340px;
-  margin-left: -15px;
+  width: 200px;
+  height: 200px;
+  margin-left: -10px;
 }
 .about-team-section .about-team-wrapper .about-team .about-team-content {
   width: 120%;
@@ -4913,8 +4913,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
-  line-height: 39px;
+  font-size: 18px;
+  line-height: 28px;
   text-transform: capitalize;
   color: #FFFFFF;
 }
@@ -4924,7 +4924,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   text-align: center;
   text-transform: capitalize;
@@ -4936,11 +4936,11 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 10px;
+  line-height: 20px;
   text-transform: capitalize;
   color: #EA1C2D;
-  padding: 10px 15px;
+  padding: 8px 12px;
   border-radius: 5px;
 }
 .about-team-section .about-team-wrapper .about-team:hover .about-team-content {
@@ -4989,7 +4989,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
-  line-height: 39px;
+  line-height: 42px;
   text-transform: capitalize;
   color: #FFFFFF;
 }
@@ -5000,7 +5000,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 26px;
   text-align: center;
   text-transform: capitalize;
   margin: 5px 25px;
@@ -5012,7 +5012,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 26px;
   text-transform: capitalize;
   color: #EA1C2D;
   padding: 10px 15px;
@@ -5033,21 +5033,21 @@ footer .copyright .copy-right .copyright-links li span {
     max-width: 100%;
     margin: 0 auto;
     font-size: 40px;
-    line-height: 52px;
+    line-height: 50px;
     text-align: center;
   }
   .about-service-section {
     padding: 60px 0px;
   }
   .about-service-section .about-service-wrapper .about-service-text h2 {
-    font-size: 32px;
-    line-height: 52px;
+    font-size: 28px;
+    line-height: 38px;
     margin-bottom: 20px;
     text-align: center;
   }
   .about-service-section .about-service-wrapper .about-service-text p {
     font-size: 14px;
-    line-height: 32px;
+    line-height: 25px;
     padding: 17px;
   }
   .about-service-section .about-service-wrapper .about-service-img {
@@ -5097,7 +5097,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .about-service-section .about-service-wrapper .about-service-two .about-two-text h2 {
     font-size: 26px;
-    line-height: 68px;
+    line-height: 36px;
     text-align: center;
     padding: 5px 10px 7px 10px;
   }
@@ -5107,8 +5107,8 @@ footer .copyright .copy-right .copyright-links li span {
     padding: 0 10px 10px 10px;
   }
   .about-team-section h2 {
-    font-size: 26px;
-    line-height: 40px;
+    font-size: 25px;
+    line-height: 36px;
     padding: 70px 0px 30px 0px;
   }
   .about-team-section .about-team-wrapper {
@@ -5134,7 +5134,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .about-team-section .about-team-wrapper .about-team .about-team-content h3 {
     font-size: 12px;
-    line-height: 20px;
+    line-height: 22px;
   }
   .about-team-section .about-team-wrapper .about-team .about-team-content p {
     max-width: 100%;
@@ -5173,7 +5173,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .about-team-section .ambassador-wrapper .ambassador .ambassador-content h3 {
     font-size: 12px;
-    line-height: 20px;
+    line-height: 23px;
   }
   .about-team-section .ambassador-wrapper .ambassador .ambassador-content p {
     max-width: 100%;
@@ -8128,8 +8128,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 74px;
-  line-height: 90px;
+  font-size: 52px;
+  line-height: 62px;
   text-align: center;
   text-transform: capitalize;
   color: #FFFFFF;
@@ -8362,7 +8362,7 @@ footer .copyright .copy-right .copyright-links li span {
   padding-top: 70px;
 }
 .physician-banner-section .resources-banner-wrapper .resources-banner-title .physician-title {
-  max-width: 750px;
+  max-width: 560px;
   margin: 5px auto;
   padding-bottom: 40px;
   position: relative;
@@ -8396,8 +8396,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 32px;
+  line-height: 42px;
   text-transform: capitalize;
   color: #000000;
   padding-left: 17px;
@@ -8406,7 +8406,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 29px;
   text-transform: capitalize;
   background: transparent;
@@ -8425,6 +8425,8 @@ footer .copyright .copy-right .copyright-links li span {
   padding: 15px 25px;
   margin-left: 20px;
   margin-top: 30px;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 1400px) {
@@ -8453,14 +8455,14 @@ footer .copyright .copy-right .copyright-links li span {
     margin: 25px auto;
   }
   .physician-about-section .physician-about-wrapper .physician-about h2 {
-    font-size: 28px;
-    line-height: 45px;
+    font-size: 24px;
+    line-height: 35px;
     margin-bottom: 15px;
     padding-left: 10px;
   }
   .physician-about-section .physician-about-wrapper .physician-about ul li {
     font-size: 15px;
-    line-height: 22px;
+    line-height: 25px;
     padding: 13px 10px;
   }
   .physician-about-section .physician-about-wrapper .physician-about button {
@@ -8560,8 +8562,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 74px;
-  line-height: 90px;
+  font-size: 52px;
+  line-height: 62px;
   text-transform: capitalize;
   color: #FFFFFF;
   text-align: center;
@@ -8609,8 +8611,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 56px;
-  line-height: 74px;
+  font-size: 50px;
+  line-height: 60px;
   text-transform: capitalize;
   color: #000000;
   margin-bottom: 50px;
@@ -8623,7 +8625,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 39px;
   text-transform: capitalize;
   color: #6D6E71;
@@ -8655,6 +8657,8 @@ footer .copyright .copy-right .copyright-links li span {
 }
 .discount-section .healthcare-wrapper .healthcare button {
   margin-left: 23px !important;
+  font-size: 16px;
+  line-height: 26px;
 }
 .discount-section .healthcare-wrapper .discount-img {
   max-width: 613px;
@@ -8696,16 +8700,16 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .discount-section .healthcare-wrapper .healthcare h2 {
     max-width: 100%;
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 32px;
+    line-height: 42px;
     margin-bottom: 30px;
     margin-left: 13px;
     text-align: center;
   }
   .discount-section .healthcare-wrapper .healthcare ul li {
     padding: 7px 7px 7px 10px;
-    font-size: 18px;
-    line-height: 39px;
+    font-size: 17px;
+    line-height: 28px;
     margin: 20px 10px;
   }
   .discount-section .healthcare-wrapper .healthcare ul li span {
@@ -9480,7 +9484,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
-  line-height: 52px;
+  line-height: 46px;
   color: #121212;
 }
 .events-section .calendar-wrapper .calendar .calendar-inner .calendar-controls .calendar-year-month .calendar-year-label,
@@ -9489,7 +9493,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
-  line-height: 52px;
+  line-height: 46px;
   color: #121212;
 }
 .events-section .calendar-wrapper .calendar .calendar-inner .calendar-controls .calendar-control-buttons {
@@ -9501,6 +9505,7 @@ footer .copyright .copy-right .copyright-links li span {
   color: #121212;
   font-family: "Inter";
   font-size: 30px;
+  line-height: 40px;
   padding: 4px 25px;
   display: inline-block;
   margin: 10px 0 10px 0;
@@ -9640,11 +9645,11 @@ footer .copyright .copy-right .copyright-links li span {
     min-height: 15px;
     margin: 0px 0px;
     font-size: 13px;
-    line-height: 28px;
+    line-height: 27px;
   }
   .events-section .calendar-wrapper .calendar .calendar-inner .calendar-body div > span {
     font-size: 16px;
-    line-height: 35px;
+    line-height: 26px;
     text-align: center;
   }
   .events-section .calendar-wrapper .calendar .calendar-inner .calendar-body .calendar-today {
@@ -9658,16 +9663,17 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .events-section .calendar-wrapper .calendar .calendar-inner .calendar-controls .calendar-year-month {
     font-size: 20px;
-    line-height: 35px;
+    line-height: 30px;
   }
   .events-section .calendar-wrapper .calendar .calendar-inner .calendar-controls .calendar-year-month .calendar-year-label,
 .events-section .calendar-wrapper .calendar .calendar-inner .calendar-controls .calendar-year-month .calendar-month-label {
     font-size: 20px;
-    line-height: 35px;
+    line-height: 30px;
   }
   .events-section .calendar-wrapper .calendar .calendar-inner .calendar-controls .calendar-control-buttons .calendar-next span,
 .events-section .calendar-wrapper .calendar .calendar-inner .calendar-controls .calendar-control-buttons .calendar-prev span {
     font-size: 20px;
+    line-height: 30px;
     padding: 4px 20px;
     margin: 5px 0 10px 0;
   }
@@ -9681,12 +9687,12 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .events-section .event-wrapper .events-title h3 {
     font-size: 17px;
-    line-height: 30px;
+    line-height: 28px;
     margin: 15px 0px;
   }
   .events-section .event-wrapper .events-title a {
     font-size: 17px;
-    line-height: 30px;
+    line-height: 28px;
     margin: 15px 0px;
   }
   .events-section .event-wrapper .event-list {
@@ -9698,7 +9704,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .events-section .event-wrapper .event-list .event-left h4 {
     font-size: 17px;
-    line-height: 30px;
+    line-height: 28px;
     margin-bottom: 12px;
   }
   .events-section .event-wrapper .event-list .event-left p {

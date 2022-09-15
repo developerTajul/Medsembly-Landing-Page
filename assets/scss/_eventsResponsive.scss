@@ -33,12 +33,12 @@
                             min-height: 15px;
                             margin: 0px 0px;
                             font-size: 13px;
-                            line-height: 28px;
+                            line-height: 27px;
                         }
 
                         div>span {
                             font-size: 16px;
-                            line-height: 35px;
+                            line-height: 26px;
                             text-align: center;
                         }
 
@@ -56,12 +56,12 @@
 
                         .calendar-year-month {
                             font-size: 20px;
-                            line-height: 35px;
+                            line-height: 30px;
 
                             .calendar-year-label,
                             .calendar-month-label {
                                 font-size: 20px;
-                                line-height: 35px;
+                                line-height: 30px;
                             }
                         }
 
@@ -70,6 +70,7 @@
                             .calendar-next span,
                             .calendar-prev span {
                                 font-size: 20px;
+                                line-height: 30px;
                                 padding: 4px 20px;
                                 margin: 5px 0 10px 0;
                             }
@@ -77,7 +78,6 @@
                     }
                 }
             }
-
         }
 
         .event-wrapper {
@@ -90,13 +90,13 @@
 
                 h3 {
                     font-size: 17px;
-                    line-height: 30px;
+                    line-height: 28px;
                     margin: 15px 0px;
                 }
 
                 a {
                     font-size: 17px;
-                    line-height: 30px;
+                    line-height: 28px;
                     margin: 15px 0px;
                 }
             }
@@ -111,7 +111,7 @@
                 .event-left {
                     h4 {
                         font-size: 17px;
-                        line-height: 30px;
+                        line-height: 28px;
                         margin-bottom: 12px;
                     }
 
@@ -122,14 +122,12 @@
                 }
 
                 .event-right {
-
                     label {
                         width: 30px;
                         height: 30px;
                         padding: 8px;
                         border-radius: 50px;
                     }
-
 
                     input:checked+label:after {
                         content: '';
