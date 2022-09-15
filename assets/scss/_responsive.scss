@@ -131,7 +131,7 @@
                     font-size: 15px;
                     padding: 4px;
                     margin: 0px;
-                    text-align: justify;
+                    text-align: left;
                 }
 
                 img {
@@ -142,7 +142,7 @@
         
             .feature-one {
                 margin-bottom: 30px;
-                margin-top: 110px;
+                margin-top: 30px;
                 img {
                     max-height: auto;
                     margin: 0px;
@@ -151,6 +151,10 @@
         
             .feature-two {
                 position: relative;
+            }
+
+            .feature-three {
+                margin-top: 30px;
             }
         }
     }
@@ -162,7 +166,8 @@
             max-width: 400px;
             h2 {
                 font-size: 25px;
-                line-height: 40px;
+                line-height: 35px;
+                font-weight: bold;
             }
             margin: 30px auto;
         }
@@ -170,8 +175,9 @@
         .team-wrapper {
             width: 100%;
             margin-bottom: 60px;
-            padding-bottom: 50px;
+            padding-bottom: 0px;
             margin-left: 10px;
+
             .team {
                 max-width: calc(100% - 25px);
                 margin-right: 25px;
@@ -221,11 +227,12 @@
         padding-top: 0px;
         .step-heading {
             max-width: 400px;
+            margin: 0px auto 10px auto;
             h2 {
                 font-size: 23px;
-                line-height: 40px;
+                line-height: 33px;
+                font-weight: bold;
             }
-            margin: 50px auto 30px auto;
         }
         .step-wrapper {
             width: 100%;
@@ -252,7 +259,7 @@
 
                 h2 {
                     font-size: 39px;
-                    line-height: 74px;
+                    line-height: 50px;
                     text-align: left;
                 }
 
@@ -282,7 +289,8 @@
             max-width: 400px;
             h2 {
                 font-size: 25px;
-                line-height: 40px;
+                line-height: 35px;
+                font-weight: bold;
             }
         }
         .mySwiperTwo {
@@ -291,7 +299,7 @@
                 width: 100%;
                 min-height: 470px;
                 margin: 0 auto;
-                margin-left: 15px;
+                margin-left: 0px;
                 .student-review {
                     max-width: calc(100% - 25px);
                     margin-right: 23px;
@@ -439,7 +447,8 @@
                 .subscribe-title {
                     h2 {
                         font-size: 25px;
-                        line-height: 40px;
+                        line-height: 35px;
+                        font-weight: bold;
                         text-align: center;
                     }
                 }
