@@ -30,7 +30,7 @@ header {
                                     font-family: 'Inter';
                                     font-style: normal;
                                     font-weight: 400;
-                                    font-size: 18px;
+                                    font-size: 16px;
                                     line-height: 22px;
                                     text-transform: capitalize;
                                     color: #6D6E71;
@@ -90,8 +90,8 @@ header {
                         ul li:hover > ul,
                         ul li ul:hover {
                             display: block;
-                        visibility: visible;
-                        opacity: 1;
+                            visibility: visible;
+                            opacity: 1;
                         }
                     }
                     .theme-btn a {
@@ -105,7 +105,7 @@ header {
                         font-family: 'Inter';
                         font-style: normal;
                         font-weight: 500;
-                        font-size: 18px;
+                        font-size: 16px;
                         line-height: 22px;
                         text-transform: capitalize;
                         color: #434242;
@@ -173,7 +173,7 @@ header {
                         margin-top: 15px;
                         a {
                             padding: 10px 15px;
-                            font-size: 18px;
+                            font-size: 16px;
                         }
                     }
                 }

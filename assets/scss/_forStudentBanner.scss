@@ -8,7 +8,7 @@
 }
 
 .for-student-banner-section {
-    max-width: 1500px;
+    max-width: 100%;
     max-height: auto;
     height: auto;
     display: block;
@@ -20,13 +20,13 @@
         padding: 0px;
 
         .student-banner-top {
-            width: 1480px;
-            min-height: 610;
+            width: 100%;
+            min-height: 510;
             margin: 0 auto;
 
             .student-banner_wrapper-left {
-                width: 338px;
-                height: 426px;
+                width: 300px;
+                height: 400px;
 
                 img {
                     width: 100%;
@@ -35,8 +35,8 @@
             }
 
             .student-banner_wrapper-right {
-                width: 400px;
-                height: 600px;
+                width: 300px;
+                height: 500px;
 
                 img {
                     width: 100%;
@@ -45,7 +45,7 @@
             }
 
             .banner-content {
-                max-width: 650px;
+                max-width: 550px;
                 margin: auto;
                 padding: 0px;
 
@@ -60,6 +60,7 @@
                 }
 
                 p {
+                    font-size: 16px;
                     padding-top: 25px;
                     text-align: center;
                 }
@@ -69,7 +70,7 @@
 
 
         .student_banner-bottom {
-            width: 1320px;
+            width: 100%;
             min-height: 600px;
             position: relative;
             display: flex;
@@ -78,8 +79,8 @@
             margin: 110px auto 0px auto;
 
             .banner_bottom-img {
-                width: 680px;
-                height: 584px;
+                width: 580px;
+                height: 484px;
 
                 img {
                     max-width: 100%;
@@ -92,8 +93,8 @@
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
-                font-size: 56px;
-                line-height: 74px;
+                font-size: 50px;
+                line-height: 70px;
                 text-transform: capitalize;
                 color: #000000;
             }
@@ -107,8 +108,8 @@
 
                 .award {
                     background-color: #fff;
-                    width: 340px;
-                    height: 255px;
+                    width: 300px;
+                    height: 225px;
                     border-radius: 20px;
                     display: flex;
                     flex-direction: column;
@@ -116,24 +117,24 @@
                     align-items: center;
                     box-shadow: 0px 8px 50px rgba(0, 0, 0, 0.08);
                     img {
-                        width: 90px;
-                        height: 80px;
+                        width: 70px;
+                        height: 60px;
                     }
 
                     h4 {
                         font-family: 'Inter';
                         font-style: normal;
                         font-weight: 400;
-                        font-size: 18px;
+                        font-size: 16px;
                         line-height: 30px;
                         text-align: center;
                         text-transform: capitalize;
                         color: #6D6E71;
-                        padding: 34px 25px;
+                        padding: 15px 25px;
                     }
 
                     &:nth-child(2) {
-                        margin: 0px 50px;
+                        margin: 0px 40px;
                     }
                 }
             }
