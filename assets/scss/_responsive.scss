@@ -88,6 +88,7 @@
                 max-width: 650px;
                 max-height: 416px;
                 margin: 0 0 20px 0;
+                padding-top: 20px;
                 h2 {
                     font-size: 22px;
                     line-height: 35px;
@@ -117,11 +118,11 @@
             .feature {
                 width: 96%;
                 max-height: auto;
-                padding: 8px 13px;
+                padding: 10px 20px 20px 20px;
                 margin: 20px auto;
 
                 h2 {
-                    font-size: 19px;
+                    font-size: 18px;
                     line-height: 30px;
                     padding: 4px;
                 }
@@ -217,7 +218,7 @@
 
     // Step Section: 
     .step-section {
-        padding-top: 60px;
+        padding-top: 0px;
         .step-heading {
             max-width: 400px;
             h2 {
@@ -238,7 +239,7 @@
             .step {
                 width: 98%;
                 min-height: 319px;
-                padding: 15px 10px 15px 10px;
+                padding: 10px 20px 25px 20px;
                 margin: 20px auto;
                 .step-head {
                     display: flex;
@@ -256,7 +257,7 @@
                 }
 
                 h3 {
-                    font-size: 25px;
+                    font-size: 18px;
                     line-height: 40px;
                 }
 
@@ -295,7 +296,7 @@
                     max-width: calc(100% - 25px);
                     margin-right: 23px;
                     min-height: 360px;
-                    padding: 15px;
+                    padding: 15px 20px;
                     .student-review-head {
                         width: 100%;
                         display: flex;
@@ -371,7 +372,7 @@
             bottom: 0px;
             left: 0%;
         }
-        padding: 70px 0px;
+        padding: 70px 0px 0 0;
     
         .get-app {
             max-width: 100%;
@@ -420,7 +421,7 @@
 
     //  Subscribe and Newsletter Section
     .newsletter-section {
-        padding: 70px 0px;
+        padding: 0px;
         // Subscribe To Our Newsletter
         .subscribe-area {
             width: 100%;

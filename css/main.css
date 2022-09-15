@@ -36,7 +36,7 @@ button:focus {
   margin: 40px 0px 40px 0px;
   max-height: 620px;
   border-radius: 16px;
-  padding: 20px;
+  padding: 30px;
 }
 .feature h2 {
   font-family: "Inter";
@@ -2106,7 +2106,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 52px;
+  font-size: 50px;
   line-height: 70px;
   text-transform: capitalize;
   color: #0B0036;
@@ -2176,8 +2176,8 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 56px;
-  line-height: 74px;
+  font-size: 50px;
+  line-height: 70px;
   text-align: center;
   text-transform: capitalize;
   color: #000000;
@@ -2265,8 +2265,8 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 56px;
-  line-height: 74px;
+  font-size: 50px;
+  line-height: 70px;
   text-align: center;
   text-transform: capitalize;
   color: #000000;
@@ -2326,8 +2326,8 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 56px;
-  line-height: 74px;
+  font-size: 50px;
+  line-height: 70px;
   text-align: center;
   text-transform: capitalize;
   color: #000000;
@@ -2473,7 +2473,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 52px;
+  font-size: 50px;
   line-height: 70px;
   text-transform: capitalize;
   color: #0B0036;
@@ -2568,7 +2568,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 22px;
   text-transform: capitalize;
   color: #000000;
@@ -2590,7 +2590,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 22px;
   text-transform: capitalize;
   color: #000000;
@@ -2612,7 +2612,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 22px;
   text-transform: capitalize;
   color: #000000;
@@ -2695,8 +2695,8 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 56px;
-  line-height: 74px;
+  font-size: 50px;
+  line-height: 70px;
   text-align: center;
   text-transform: capitalize;
   color: #000000;
@@ -2742,7 +2742,7 @@ footer .footer-wrapper ul li a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 22px;
   text-transform: capitalize;
   color: #6D6E71;
@@ -2940,6 +2940,7 @@ footer .copyright .copy-right .copyright-links li span {
     max-width: 650px;
     max-height: 416px;
     margin: 0 0 20px 0;
+    padding-top: 20px;
   }
   .features-section .feature-wrapper .feature-heading h2 {
     font-size: 22px;
@@ -2966,11 +2967,11 @@ footer .copyright .copy-right .copyright-links li span {
   .features-section .feature-wrapper .feature {
     width: 96%;
     max-height: auto;
-    padding: 8px 13px;
+    padding: 10px 20px 20px 20px;
     margin: 20px auto;
   }
   .features-section .feature-wrapper .feature h2 {
-    font-size: 19px;
+    font-size: 18px;
     line-height: 30px;
     padding: 4px;
   }
@@ -3067,7 +3068,7 @@ footer .copyright .copy-right .copyright-links li span {
     line-height: 16px;
   }
   .step-section {
-    padding-top: 60px;
+    padding-top: 0px;
   }
   .step-section .step-heading {
     max-width: 400px;
@@ -3089,7 +3090,7 @@ footer .copyright .copy-right .copyright-links li span {
   .step-section .step-wrapper .step {
     width: 98%;
     min-height: 319px;
-    padding: 15px 10px 15px 10px;
+    padding: 10px 20px 25px 20px;
     margin: 20px auto;
   }
   .step-section .step-wrapper .step .step-head {
@@ -3106,7 +3107,7 @@ footer .copyright .copy-right .copyright-links li span {
     text-align: left;
   }
   .step-section .step-wrapper .step h3 {
-    font-size: 25px;
+    font-size: 18px;
     line-height: 40px;
   }
   .step-section .step-wrapper .step p {
@@ -3139,7 +3140,7 @@ footer .copyright .copy-right .copyright-links li span {
     max-width: calc(100% - 25px);
     margin-right: 23px;
     min-height: 360px;
-    padding: 15px;
+    padding: 15px 20px;
   }
   .student-review-section .mySwiperTwo .student-review-wrapper .student-review .student-review-head {
     width: 100%;
@@ -3198,7 +3199,7 @@ footer .copyright .copy-right .copyright-links li span {
     transform: rotate(90deg);
   }
   .join-area {
-    padding: 70px 0px;
+    padding: 70px 0px 0 0;
   }
   .join-area .swiper {
     width: 100%;
@@ -3269,7 +3270,7 @@ footer .copyright .copy-right .copyright-links li span {
     margin-right: 10px;
   }
   .newsletter-section {
-    padding: 70px 0px;
+    padding: 0px;
   }
   .newsletter-section .subscribe-area {
     width: 100%;
@@ -3328,7 +3329,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 22px;
     text-transform: capitalize;
     color: #000000;
@@ -3346,7 +3347,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 22px;
     text-transform: capitalize;
     color: #000000;
@@ -3364,7 +3365,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 22px;
     text-transform: capitalize;
     color: #000000;
@@ -3413,7 +3414,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 22px;
     text-transform: capitalize;
     color: #6D6E71;
@@ -3837,8 +3838,8 @@ footer .copyright .copy-right .copyright-links li span {
     font-family: "Inter";
     font-style: normal;
     font-weight: 600;
-    font-size: 56px;
-    line-height: 74px;
+    font-size: 50px;
+    line-height: 70px;
     text-align: center;
     text-transform: capitalize;
     color: #000000;
@@ -3899,7 +3900,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 22px;
     text-transform: capitalize;
     color: #000000;
@@ -3916,7 +3917,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 22px;
     text-transform: capitalize;
     color: #000000;
@@ -3933,7 +3934,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 22px;
     text-transform: capitalize;
     color: #000000;
@@ -3976,7 +3977,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 22px;
     text-transform: capitalize;
     color: #6D6E71;
@@ -4282,7 +4283,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 22px;
     text-transform: capitalize;
     color: #000000;
