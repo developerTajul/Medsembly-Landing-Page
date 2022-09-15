@@ -17,7 +17,7 @@ button:focus {
 }
 
 .primary_button {
-  padding: 20px 32px;
+  padding: 18px 28px;
   background: #EA1C2D;
   border: none;
   outline: none;
@@ -25,7 +25,7 @@ button:focus {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 22px;
   text-transform: capitalize;
   color: #FFFFFF;
@@ -9073,7 +9073,7 @@ footer .copyright .copy-right .copyright-links li span {
   }
 }
 .contact-us-section .container {
-  max-width: 1462px;
+  max-width: 1262px;
   margin: 0 auto;
   padding: 110px 15px;
 }
@@ -9084,8 +9084,8 @@ footer .copyright .copy-right .copyright-links li span {
   align-items: center;
 }
 .contact-us-section .contact-us-wrapper .contact-us-img {
-  max-width: 748px;
-  max-height: 782px;
+  max-width: 548px;
+  max-height: 582px;
 }
 .contact-us-section .contact-us-wrapper .contact-us-img img {
   height: 100%;
@@ -9099,9 +9099,9 @@ footer .copyright .copy-right .copyright-links li span {
 .contact-us-section .contact-us-wrapper .contact-us-form h2 {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 48px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
   text-transform: capitalize;
   color: #000000;
 }
@@ -9109,10 +9109,10 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 28px;
   color: #6D6E71;
-  margin: 20px 0px;
+  margin: 20px 0px 30px 0px;
 }
 .contact-us-section .contact-us-wrapper .contact-us-form form .user-name .first-name h3,
 .contact-us-section .contact-us-wrapper .contact-us-form form .user-name .last-name h3,
@@ -9123,7 +9123,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 22px;
   text-transform: capitalize;
   color: #000000;
@@ -9168,7 +9168,7 @@ footer .copyright .copy-right .copyright-links li span {
   margin-bottom: 20px;
 }
 .contact-us-section .contact-us-wrapper .contact-us-form form .recaptcha {
-  width: 47%;
+  width: 52%;
   height: 62px;
   display: flex;
   align-items: center;
@@ -9221,13 +9221,14 @@ footer .copyright .copy-right .copyright-links li span {
     margin: 60px auto 0px auto;
   }
   .contact-us-section .contact-us-wrapper .contact-us-form h2 {
-    font-size: 30px;
-    line-height: 48px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
     text-align: left;
   }
   .contact-us-section .contact-us-wrapper .contact-us-form p {
-    font-size: 17px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 28px;
     margin: 20px 0px;
     text-align: justify;
   }
