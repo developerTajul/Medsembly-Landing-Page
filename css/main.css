@@ -2459,7 +2459,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
 }
 .newsletter-section .subscribe-area {
   width: 100%;
-  padding-top: 100px;
+  padding-top: 0px;
   display: grid;
   grid-template-columns: 45% 55%;
   justify-content: space-between;
