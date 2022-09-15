@@ -2044,7 +2044,10 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   padding: 20px 0px 20px 0px;
 }
 .banner-section .banner_wrapper .banner-content .primary_button {
-  margin: 0px;
+  display: block;
+  margin: 20px 0px;
+  max-width: 210px;
+  word-wrap: nowrap;
 }
 .banner-section .banner_wrapper .banner_bottom {
   width: 100%;
@@ -2293,7 +2296,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   background-color: #F4F4F4;
   width: 100%;
   height: 1123px;
-  padding: 0px 0 60px 0;
+  padding: 0px 0 0px 0;
 }
 .student-review-section .swiper {
   width: 100%;
@@ -2916,6 +2919,7 @@ footer .copyright .copy-right .copyright-links li span {
     padding: 5px;
   }
   .banner-section .banner_wrapper .banner-content .primary_button {
+    max-width: 160px;
     padding: 14px 20px;
     margin: 20px 0px;
     border-radius: 7px;
@@ -3513,6 +3517,7 @@ footer .copyright .copy-right .copyright-links li span {
     margin: 0;
     border-radius: 7px;
     font-size: 14px;
+    max-width: 160px;
   }
   .banner-section .banner_wrapper .banner_bottom .banner_wrapper-bottom-left {
     margin-left: 5%;
@@ -4874,22 +4879,22 @@ footer .copyright .copy-right .copyright-links li span {
   padding: 110px 0px;
 }
 .about-team-section .about-team-wrapper {
-  max-width: 445px;
+  max-width: 550px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .about-team-section .about-team-wrapper .about-team {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
 }
 .about-team-section .about-team-wrapper .about-team img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   margin-left: -10px;
 }
 .about-team-section .about-team-wrapper .about-team .about-team-content {
@@ -4955,17 +4960,17 @@ footer .copyright .copy-right .copyright-links li span {
   align-items: center;
 }
 .about-team-section .ambassador-wrapper .ambassador {
-  width: 330px;
-  height: 330px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
   margin-bottom: 100px;
 }
 .about-team-section .ambassador-wrapper .ambassador img {
-  width: 340px;
-  height: 340px;
-  margin-left: -15px;
+  width: 250px;
+  height: 250px;
+  margin-left: -10px;
 }
 .about-team-section .ambassador-wrapper .ambassador .ambassador-content {
   width: 120%;
@@ -4988,8 +4993,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
-  line-height: 42px;
+  font-size: 18px;
+  line-height: 28px;
   text-transform: capitalize;
   color: #FFFFFF;
 }
@@ -4999,8 +5004,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 14px;
+  line-height: 24px;
   text-align: center;
   text-transform: capitalize;
   margin: 5px 25px;
@@ -5011,8 +5016,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 10px;
+  line-height: 20px;
   text-transform: capitalize;
   color: #EA1C2D;
   padding: 10px 15px;

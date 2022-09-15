@@ -12,20 +12,20 @@
     }
 
     .about-team-wrapper {
-        max-width: 445px;
+        max-width: 550px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
         .about-team {
-            width: 200px;
-            height: 200px;
+            width: 250px;
+            height: 250px;
             border-radius: 50%;
             position: relative; 
             overflow: hidden;
             img {
-                width: 200px;
-                height: 200px;
+                width: 250px;
+                height: 250px;
                 margin-left: -10px;
             }
 
@@ -100,16 +100,16 @@
         justify-content: space-between;
         align-items: center;
         .ambassador {
-            width: 330px;
-            height: 330px;
+            width: 250px;
+            height: 250px;
             border-radius: 50%;
             position: relative; 
             overflow: hidden;
             margin-bottom: 100px;
             img {
-                width: 340px;
-                height: 340px;
-                margin-left: -15px;
+                width: 250px;
+                height: 250px;
+                margin-left: -10px;
             }
 
             .ambassador-content {
@@ -132,8 +132,8 @@
                     font-family: 'Inter';
                     font-style: normal;
                     font-weight: 600;
-                    font-size: 32px;
-                    line-height: 42px;
+                    font-size: 18px;
+                    line-height: 28px;
                     text-transform: capitalize;
                     color: #FFFFFF;
                 }
@@ -144,8 +144,8 @@
                     font-family: 'Inter';
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 16px;
-                    line-height: 26px;
+                    font-size: 14px;
+                    line-height: 24px;
                     text-align: center;
                     text-transform: capitalize;
                     margin: 5px 25px;
@@ -157,8 +157,8 @@
                     font-family: 'Inter';
                     font-style: normal;
                     font-weight: 500;
-                    font-size: 16px;
-                    line-height: 26px;
+                    font-size: 10px;
+                    line-height: 20px;
                     text-transform: capitalize;
                     color: #EA1C2D;
                     padding: 10px 15px;
