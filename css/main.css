@@ -7148,15 +7148,17 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 56px;
-  line-height: 74px;
+  font-size: 50px;
+  line-height: 60px;
   text-transform: capitalize;
   color: #181818;
 }
 .become-partner-section .become-partner-wrapper .become-partner-content a {
-  max-width: 230px;
-  display: block;
+  max-width: 210px;
+  display: flex;
+  justify-content: center;
   margin: 50px 0px;
+  word-wrap: nowrap;
 }
 .become-partner-section .become-partner-wrapper .become-partner-img {
   max-width: 750px;
@@ -7205,8 +7207,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 74px;
-  line-height: 90px;
+  font-size: 50px;
+  line-height: 60px;
   text-transform: capitalize;
   color: #181818;
   margin-bottom: 40px;
@@ -7227,8 +7229,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 40px;
+  font-size: 18px;
+  line-height: 28px;
   color: #6D6E71;
 }
 .partner-banner-section .partner-banner-top .partner-banner-img-one {
@@ -7259,8 +7261,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 56px;
-  line-height: 74px;
+  font-size: 50px;
+  line-height: 60px;
   text-transform: capitalize;
   color: #181818;
 }
@@ -7269,12 +7271,12 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 26px;
   text-align: left;
   text-transform: capitalize;
   color: #6D6E71;
-  padding: 20px 15px;
+  padding: 20px 15px 20px 0px;
 }
 .partner-banner-section .partner-banner-middle .partner-banner-text-two ul li img {
   width: 25px;
@@ -7286,12 +7288,18 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 44px;
-  line-height: 67px;
+  font-size: 32px;
+  line-height: 42px;
   text-align: center;
   text-transform: capitalize;
   color: #333333;
   margin: 110px auto;
+}
+.partner-banner-section .partner-banner-bottom {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 35px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 1400px) {

@@ -14,15 +14,17 @@
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
-                font-size: 56px;
-                line-height: 74px;
+                font-size: 50px;
+                line-height: 60px;
                 text-transform: capitalize;
                 color: #181818;
             }
             a {
-                max-width: 230px;
-                display: block;
+                max-width: 210px;
+                display: flex;
+                justify-content: center;
                 margin: 50px 0px;
+                word-wrap: nowrap;
             }
         }
         .become-partner-img {

@@ -13,8 +13,8 @@
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
-                font-size: 74px;
-                line-height: 90px;
+                font-size: 50px;
+                line-height: 60px;
                 text-transform: capitalize;
                 color: #181818;
                 margin-bottom: 40px;
@@ -36,8 +36,8 @@
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 24px;
-                line-height: 40px;
+                font-size: 18px;
+                line-height: 28px;
                 color: #6D6E71;
             }
         }
@@ -70,8 +70,8 @@
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
-                font-size: 56px;
-                line-height: 74px;
+                font-size: 50px;
+                line-height: 60px;
                 text-transform: capitalize;
                 color: #181818;
             }
@@ -80,12 +80,12 @@
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 17px;
-                line-height: 22px;
+                font-size: 16px;
+                line-height: 26px;
                 text-align: left;
                 text-transform: capitalize;
                 color: #6D6E71;
-                padding: 20px 15px;
+                padding: 20px 15px 20px 0px;
             }
             ul li img {
                 width: 25px;
@@ -99,11 +99,18 @@
         font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
-        font-size: 44px;
-        line-height: 67px;
+        font-size: 32px;
+        line-height: 42px;
         text-align: center;
         text-transform: capitalize;
         color: #333333;
         margin: 110px auto;
+    }
+
+    .partner-banner-bottom {
+        max-width: 900px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 35px;
     }
 }
