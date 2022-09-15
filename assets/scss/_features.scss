@@ -1,19 +1,16 @@
 .features-section {
     padding: 110px 15px;
-    .container {
-        max-width: 1320px;
-    }
     .feature-wrapper {
         position: relative;
         .feature-heading {
-            max-width: 650px;
+            max-width: 600px;
             max-height: 416px;
             h2 {
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
-                font-size: 56px;
-                line-height: 74px;
+                font-size: 52px;
+                line-height: 70px;
                 text-transform: capitalize;
                 color: #0B0036; 
             }
@@ -22,7 +19,7 @@
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 18px;
+                font-size: 16px;
                 line-height: 32px;
                 color: #6D6E71;
                 padding: 25px 0px 25px 0px;
@@ -32,6 +29,7 @@
                 display: block;
                 width: 144px;
                 height: 62px;
+                font-size: 17px;
             }
         }
     
@@ -42,9 +40,8 @@
             max-height: 680px;
 
             img {
-                max-width: 486px;
                 height: auto;
-                margin: 0 63px 50px 63px;
+                max-width: 95%;
             }
         }
     
@@ -56,8 +53,7 @@
 
             img {
                 height: auto;
-                max-width: 447px;
-                margin: 0 40px 40px 40px;
+                max-width: 95%;
             }
         }
     
@@ -67,8 +63,7 @@
 
             img {
                 height: auto;
-                max-width: 484px;
-                margin: 0 auto;
+                max-width: 100%;
             }
         }
     }

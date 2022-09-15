@@ -1,8 +1,4 @@
 .team-section {
-    .container {
-        max-width: 1385px;
-        margin: 0 auto;
-    }
     @include CarouselSwiper;
     .team-header {
         @include title;
@@ -14,8 +10,9 @@
         margin-bottom: 60px;
         padding-bottom: 50px;
         .team {
-            max-width: 414px;
-            height: 590px;
+            max-width: calc(25% - 25px);
+            height: 450px;
+            margin-right: 25px;
             position: relative;
             overflow: hidden;
             border-radius: 16px;
@@ -36,12 +33,12 @@
                 padding: 17px;
                 .team-info-text {
                     position: absolute;
-                    bottom: 8%;
+                    bottom: 5%;
                     h2 {
                         font-family: 'Inter';
                         font-style: normal;
                         font-weight: 600;
-                        font-size: 32px;
+                        font-size: 28px;
                         line-height: 39px;
                         text-transform: capitalize;
                         color: #FFFFFF;
@@ -51,7 +48,7 @@
                         font-family: 'Inter';
                         font-style: normal;
                         font-weight: 400;
-                        font-size: 18px;
+                        font-size: 17px;
                         line-height: 22px;
                         text-transform: capitalize;
                         color: #EBEAEA;
@@ -61,7 +58,7 @@
                         font-family: 'Inter';
                         font-style: normal;
                         font-weight: 600;
-                        font-size: 20px;
+                        font-size: 18px;
                         line-height: 24px;
                         text-transform: capitalize;
                         color: #FFFFFF;
@@ -73,7 +70,7 @@
                         font-family: 'Inter';
                         font-style: normal;
                         font-weight: 400;
-                        font-size: 18px;
+                        font-size: 16px;
                         line-height: 26px;
                         text-transform: capitalize;
                         color: #EBEAEA;

@@ -25,6 +25,9 @@
           slidesPerView: 3,
           spaceBetween: 50,
         },
+        1400: {
+          slidesPerView: 4
+        },
       },
     });
 

@@ -32,19 +32,19 @@ button:focus {
 }
 
 .feature {
-  width: 590px;
-  max-height: 635px;
+  width: 450px;
+  max-height: 620px;
   border-radius: 16px;
+  padding: 20px;
 }
 .feature h2 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 38px;
-  line-height: 50px;
+  font-size: 28px;
+  line-height: 45px;
   text-transform: capitalize;
   color: #0B0036;
-  padding: 50px 0px 16px 40px;
 }
 .feature p {
   font-family: "Inter";
@@ -53,11 +53,7 @@ button:focus {
   font-size: 16px;
   line-height: 28px;
   color: #6D6E71;
-  margin: 0px 40px 35px 40px;
-}
-.feature img {
-  width: 100%;
-  height: 100%;
+  padding: 20px 0px;
 }
 
 .step {
@@ -73,8 +69,8 @@ button:focus {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 69px;
-  line-height: 84px;
+  font-size: 52px;
+  line-height: 74px;
   color: rgba(234, 28, 45, 0.1);
   text-align: right;
 }
@@ -101,7 +97,7 @@ button:focus {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 39px;
   text-align: left;
   text-transform: capitalize;
@@ -112,7 +108,7 @@ button:focus {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
   color: #6D6E71;
 }
@@ -1998,26 +1994,23 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-size: 18px;
 }
 
-.banner-section .container {
-  max-width: 1476px;
-}
 .banner-section .banner_wrapper {
-  height: 1086px;
+  height: 950px;
   max-height: auto;
   position: relative;
   margin: 75px auto 0px auto;
 }
 .banner-section .banner_wrapper .banner_wrapper-left {
-  max-width: 405zpx;
-  max-height: 473px;
+  max-width: 351px;
+  max-height: 433px;
 }
 .banner-section .banner_wrapper .banner_wrapper-left img {
-  max-width: 405px;
-  max-height: 473px;
+  max-width: 351px;
+  max-height: 433px;
 }
 .banner-section .banner_wrapper .banner_wrapper-right {
-  max-width: 359px;
-  max-height: 428px;
+  max-width: 309px;
+  max-height: 368px;
 }
 .banner-section .banner_wrapper .banner_wrapper-right img {
   width: 100%;
@@ -2031,20 +2024,20 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 74px;
-  line-height: 92px;
+  font-size: 60px;
+  line-height: 72px;
   text-transform: capitalize;
   color: #0B0036;
-  padding: 15px 0px;
+  padding: 15px 0px 10px 0px;
 }
 .banner-section .banner_wrapper .banner-content p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 38px;
   color: #6D6E71;
-  padding: 30px 6px 40px 6px;
+  padding: 20px 6px 20px 6px;
 }
 .banner-section .banner_wrapper .banner-content .primary_button {
   margin: 0px 15px;
@@ -2064,8 +2057,8 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   height: 100%;
 }
 .banner-section .banner_wrapper .banner_bottom .banner_wrapper-bottom-right {
-  max-width: 587px;
-  max-height: 697px;
+  max-width: 487px;
+  max-height: 597px;
   position: absolute;
   right: 0;
   bottom: -7%;
@@ -2085,33 +2078,30 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 42px;
-  line-height: 67px;
+  font-size: 30px;
+  line-height: 50px;
   text-align: center;
   text-transform: capitalize;
   color: #333333;
-  padding: 93px 15px;
+  padding: 75px 15px;
 }
 
 .features-section {
   padding: 110px 15px;
 }
-.features-section .container {
-  max-width: 1320px;
-}
 .features-section .feature-wrapper {
   position: relative;
 }
 .features-section .feature-wrapper .feature-heading {
-  max-width: 650px;
+  max-width: 600px;
   max-height: 416px;
 }
 .features-section .feature-wrapper .feature-heading h2 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 56px;
-  line-height: 74px;
+  font-size: 52px;
+  line-height: 70px;
   text-transform: capitalize;
   color: #0B0036;
 }
@@ -2119,7 +2109,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 32px;
   color: #6D6E71;
   padding: 25px 0px 25px 0px;
@@ -2128,6 +2118,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   display: block;
   width: 144px;
   height: 62px;
+  font-size: 17px;
 }
 .features-section .feature-wrapper .feature-one {
   background: #E8E9FA;
@@ -2136,9 +2127,8 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   max-height: 680px;
 }
 .features-section .feature-wrapper .feature-one img {
-  max-width: 486px;
   height: auto;
-  margin: 0 63px 50px 63px;
+  max-width: 95%;
 }
 .features-section .feature-wrapper .feature-two {
   background: #FFECEC;
@@ -2148,8 +2138,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
 }
 .features-section .feature-wrapper .feature-two img {
   height: auto;
-  max-width: 447px;
-  margin: 0 40px 40px 40px;
+  max-width: 95%;
 }
 .features-section .feature-wrapper .feature-three {
   background: #E6F6F6;
@@ -2157,14 +2146,9 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
 }
 .features-section .feature-wrapper .feature-three img {
   height: auto;
-  max-width: 484px;
-  margin: 0 auto;
+  max-width: 100%;
 }
 
-.team-section .container {
-  max-width: 1385px;
-  margin: 0 auto;
-}
 .team-section .swiper {
   width: 100%;
   height: 100%;
@@ -2209,8 +2193,9 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   padding-bottom: 50px;
 }
 .team-section .team-wrapper .team {
-  max-width: 414px;
-  height: 590px;
+  max-width: calc(25% - 25px);
+  height: 450px;
+  margin-right: 25px;
   position: relative;
   overflow: hidden;
   border-radius: 16px;
@@ -2235,13 +2220,13 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
 }
 .team-section .team-wrapper .team .team-info .team-info-text {
   position: absolute;
-  bottom: 8%;
+  bottom: 5%;
 }
 .team-section .team-wrapper .team .team-info .team-info-text h2 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 39px;
   text-transform: capitalize;
   color: #FFFFFF;
@@ -2250,7 +2235,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 22px;
   text-transform: capitalize;
   color: #EBEAEA;
@@ -2259,7 +2244,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 24px;
   text-transform: capitalize;
   color: #FFFFFF;
@@ -2270,7 +2255,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 26px;
   text-transform: capitalize;
   color: #EBEAEA;
@@ -2383,7 +2368,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
   text-transform: capitalize;
   color: #666666;
@@ -2393,7 +2378,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 34px;
   text-transform: capitalize;
   color: #000000;
@@ -2479,6 +2464,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   grid-template-columns: 45% 55%;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 110px;
 }
 .newsletter-section .subscribe-area .subscribe-text {
   max-width: 534px;
@@ -2487,7 +2473,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 56px;
+  font-size: 52px;
   line-height: 70px;
   text-transform: capitalize;
   color: #0B0036;
@@ -2500,7 +2486,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 34px;
   text-transform: capitalize;
   color: #333333;
@@ -2676,7 +2662,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   left: -17%;
 }
 .join-area .get-app {
-  max-width: 1123px;
+  max-width: 100%;
   max-height: 841px;
   margin: 0 auto;
   display: grid;
@@ -2701,7 +2687,7 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   max-width: 680px;
   margin: 60px auto;
   max-width: 500px;
-  margin: 0px auto 60px auto;
+  margin: 0px auto 30px auto;
   line-height: 60px;
   font-size: 40px;
 }
@@ -2718,10 +2704,17 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
 .join-area .get-app .get-app-text .img-group {
   display: flex;
 }
-.join-area .get-app .get-app-text .img-group img {
+.join-area .get-app .get-app-text .img-group a {
   max-width: 235px;
   max-height: 70px;
   margin-right: 40px;
+}
+.join-area .get-app .get-app-text .img-group a img {
+  width: 100%;
+  height: 100%;
+}
+.join-area .get-app .get-app-text .img-group a:last-child {
+  margin-right: 0;
 }
 
 footer {
@@ -3265,9 +3258,9 @@ footer .copyright .copy-right .copyright-links li span {
     display: flex;
     margin: 0 auto;
   }
-  .join-area .get-app .get-app-text .img-group img {
-    max-width: 100px;
-    max-height: 60px;
+  .join-area .get-app .get-app-text .img-group a {
+    max-width: 150px;
+    max-height: 70px;
     margin-right: 10px;
   }
   .newsletter-section {
