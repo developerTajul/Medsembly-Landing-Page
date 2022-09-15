@@ -15,11 +15,11 @@
         position: relative;
 
         .back-button {
-            color: #6D6E71;
+            color: #EA1C2D;
             position: absolute;
             width: 50px;
             height: 50px;
-            left: 0;
+            left: 10px;
             top: 0;
             i {
                 width: 50px;
@@ -34,8 +34,8 @@
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
-                font-size: 56px;
-                line-height: 74px;
+                font-size: 50px;
+                line-height: 60px;
                 text-transform: capitalize;
                 color: #000000;
                 margin: 20px 0px;
@@ -46,28 +46,29 @@
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 500;
-                font-size: 24px;
-                line-height: 29px;
+                font-size: 18px;
+                line-height: 28px;
                 text-transform: capitalize;
                 color: #000000;
-                margin: 20px 0px;
+                margin: 10px 0px;
                 span {
                     color: #6D6E71;
                 }
             }
 
             a {
-                max-width: 190px;
+                max-width: 170px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 margin: 20px 0px;
+                font-size: 16px;
             }
         }
 
         .workshop-img {
-            max-width: 550px;
-            max-height: 600px;
+            max-width: 450px;
+            max-height: 500px;
 
             img {
                 width: 100%;
