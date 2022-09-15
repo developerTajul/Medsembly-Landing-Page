@@ -5,16 +5,16 @@
         position: relative;
         margin: 75px auto 0px auto;
         .banner_wrapper-left {
-            max-width: 351px;
+            max-width: 300px;
             max-height: 433px;
             img {
-                max-width: 351px;
+                max-width: 300px;
                 max-height: 433px;
             }
         }
 
         .banner_wrapper-right {
-            max-width: 309px;
+            max-width: 300px;
             max-height: 368px;
             img {
                 width: 100%;
@@ -24,14 +24,15 @@
 
         .banner-content {
             max-width: 100%;
-            margin: 120px auto 0 auto;
+            margin: 120px auto 0 30px;
+            padding-left: 25px;
 
             h1 {
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
-                font-size: 52px;
-                line-height: 62px;
+                font-size: 50px;
+                line-height: 60px;
                 text-transform: capitalize;
                 color: #0B0036;
                 padding: 15px 0px 10px 0px;
@@ -48,9 +49,10 @@
             }
 
             .primary_button {
-                display: block;
+                display: flex;
+                justify-content: center;
                 margin: 20px 0px;
-                max-width: 210px;
+                max-width: 200px;
                 word-wrap: nowrap;
             }
             

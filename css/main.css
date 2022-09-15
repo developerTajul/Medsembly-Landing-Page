@@ -2005,15 +2005,15 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   margin: 75px auto 0px auto;
 }
 .banner-section .banner_wrapper .banner_wrapper-left {
-  max-width: 351px;
+  max-width: 300px;
   max-height: 433px;
 }
 .banner-section .banner_wrapper .banner_wrapper-left img {
-  max-width: 351px;
+  max-width: 300px;
   max-height: 433px;
 }
 .banner-section .banner_wrapper .banner_wrapper-right {
-  max-width: 309px;
+  max-width: 300px;
   max-height: 368px;
 }
 .banner-section .banner_wrapper .banner_wrapper-right img {
@@ -2022,14 +2022,15 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
 }
 .banner-section .banner_wrapper .banner-content {
   max-width: 100%;
-  margin: 120px auto 0 auto;
+  margin: 120px auto 0 30px;
+  padding-left: 25px;
 }
 .banner-section .banner_wrapper .banner-content h1 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 52px;
-  line-height: 62px;
+  font-size: 50px;
+  line-height: 60px;
   text-transform: capitalize;
   color: #0B0036;
   padding: 15px 0px 10px 0px;
@@ -2044,9 +2045,10 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   padding: 20px 0px 20px 0px;
 }
 .banner-section .banner_wrapper .banner-content .primary_button {
-  display: block;
+  display: flex;
+  justify-content: center;
   margin: 20px 0px;
-  max-width: 210px;
+  max-width: 200px;
   word-wrap: nowrap;
 }
 .banner-section .banner_wrapper .banner_bottom {
@@ -8842,7 +8844,11 @@ footer .copyright .copy-right .copyright-links li span {
   position: absolute;
   width: 50px;
   height: 50px;
-  left: 10px;
+  margin-bottom: 20px;
+  left: 40px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
   top: 0;
 }
 .workshop-section .workshop-wrapper .back-button i {
@@ -8859,7 +8865,7 @@ footer .copyright .copy-right .copyright-links li span {
   text-transform: capitalize;
   color: #000000;
   margin: 20px 0px;
-  padding: 30px 0px 0px 0px;
+  padding: 50px 0px 0px 0px;
 }
 .workshop-section .workshop-wrapper .workshop-content h4 {
   font-family: "Inter";
@@ -8913,6 +8919,9 @@ footer .copyright .copy-right .copyright-links li span {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
+  }
+  .workshop-section .workshop-wrapper .back-button {
+    left: 10px;
   }
   .workshop-section .workshop-wrapper .workshop-content {
     width: 100%;
@@ -8971,12 +8980,12 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .workshop-section .workshop-wrapper .workshop-content h2 {
     font-size: 46px;
-    line-height: 60px;
+    line-height: 56px;
     margin: 20px 0px;
   }
   .workshop-section .workshop-wrapper .workshop-content h4 {
     font-size: 24px;
-    line-height: 30px;
+    line-height: 34px;
     margin: 20px 0px;
   }
   .workshop-section .workshop-wrapper .workshop-content a {
@@ -8985,6 +8994,7 @@ footer .copyright .copy-right .copyright-links li span {
     display: block;
     margin: 20px 0px;
     font-size: 17px;
+    line-height: 27px;
     padding: 22px 30px;
     text-align: center;
   }
@@ -9028,7 +9038,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
-  line-height: 27px;
+  line-height: 32px;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   text-transform: capitalize;
@@ -9414,13 +9424,13 @@ footer .copyright .copy-right .copyright-links li span {
   top: 0px;
 }
 .events-section .calendar-wrapper {
-  margin: 110px 30px 110px auto;
+  margin: 110px 40px 110px auto;
 }
 .events-section .calendar-wrapper .calendar {
   font-family: "Inter";
   position: relative;
   max-width: 580px;
-  max-height: 600px;
+  max-height: 675px;
   background: #FFF;
   color: #CCCCCC;
   margin: 20px 0px;
@@ -9432,7 +9442,7 @@ footer .copyright .copy-right .copyright-links li span {
   filter: drop-shadow(8px 10px 60px rgba(0, 0, 0, 0.08));
 }
 .events-section .calendar-wrapper .calendar .calendar-inner {
-  padding: 0px 40px;
+  padding: 0px 20px;
 }
 .events-section .calendar-wrapper .calendar .calendar-inner .calendar-body {
   display: grid;
@@ -10027,7 +10037,7 @@ footer .copyright .copy-right .copyright-links li span {
 
 .package-section .package-wrapper .package {
   max-height: 1100px;
-  max-width: 766px;
+  max-width: 630px;
   box-shadow: 10px 12px 60px rgba(0, 0, 0, 0.06);
   border-radius: 20px;
   padding: 0px 48px;
@@ -10066,7 +10076,7 @@ footer .copyright .copy-right .copyright-links li span {
   color: #000000;
 }
 .package-section .package-wrapper .package .package-body {
-  padding: 0px 0px 40px 67px;
+  padding: 0px 0px 40px 20px;
 }
 .package-section .package-wrapper .package .package-body h3 {
   font-family: "Inter";
@@ -10525,6 +10535,8 @@ footer .copyright .copy-right .copyright-links li span {
 }
 .privacy-policy-section {
   padding: 110px 0px;
+  max-width: 950px;
+  margin: 0 auto;
 }
 .privacy-policy-section .privacy-title {
   border-bottom: 1px solid #CCCCCC;
@@ -10532,9 +10544,9 @@ footer .copyright .copy-right .copyright-links li span {
 .privacy-policy-section .privacy-title h2 {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 48px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
   text-transform: capitalize;
   color: #000000;
 }
@@ -10542,8 +10554,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 26px;
   padding: 15px 0px 30px;
   text-transform: capitalize;
   color: #6D6E71;
@@ -10555,8 +10567,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 26px;
   color: #6D6E71;
   padding: 21px 0px;
 }
@@ -10566,8 +10578,8 @@ footer .copyright .copy-right .copyright-links li span {
 .privacy-policy-section .privacy-body .privacy-sub-title h3 {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 500;
-  font-size: 32px;
+  font-weight: 700;
+  font-size: 28px;
   line-height: 39px;
   text-transform: capitalize;
   color: #000000;
@@ -10576,8 +10588,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 26px;
   color: #6D6E71;
   padding: 15px 0px 0px 0px;
 }
@@ -10594,8 +10606,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 26px;
   color: #6D6E71;
   padding: 16px 0px;
 }
@@ -10605,27 +10617,27 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 26px;
   color: #6D6E71;
   padding: 16px 0px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 575px) {
   .privacy-banner-section .discount-wrapper h2 {
-    font-size: 32px;
-    line-height: 50px;
+    font-size: 26px;
+    line-height: 36px;
   }
   .privacy-policy-section {
     padding: 70px 12px;
   }
   .privacy-policy-section .privacy-title h2 {
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 30px;
   }
   .privacy-policy-section .privacy-title p {
     font-size: 16px;
-    line-height: 22px;
+    line-height: 26px;
     padding: 10px 0px 20px;
   }
   .privacy-policy-section .privacy-top {
@@ -10633,35 +10645,35 @@ footer .copyright .copy-right .copyright-links li span {
   }
   .privacy-policy-section .privacy-top p {
     font-size: 16px;
-    line-height: 28px;
-    text-align: justify;
+    line-height: 26px;
+    text-align: left;
     padding: 21px 0px;
   }
   .privacy-policy-section .privacy-body .privacy-sub-title {
     margin-top: 50px;
   }
   .privacy-policy-section .privacy-body .privacy-sub-title h3 {
-    font-size: 22px;
-    line-height: 39px;
+    font-size: 20px;
+    line-height: 30px;
   }
   .privacy-policy-section .privacy-body .privacy-sub-title p {
     font-size: 16px;
     line-height: 28px;
     padding: 10px 0px 0px 0px;
-    text-align: justify;
+    text-align: left;
   }
   .privacy-policy-section .privacy-body ul li {
     font-size: 16px;
     line-height: 28px;
     padding: 10px 0px;
-    text-align: justify;
+    text-align: left;
   }
   .privacy-policy-section .privacy-body p {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     padding: 10px 0px;
-    text-align: justify;
+    text-align: left;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1399px) {
@@ -10676,12 +10688,16 @@ footer .copyright .copy-right .copyright-links li span {
     margin: 0 auto;
   }
 }
+.terms-and-condition-section {
+  max-width: 950px;
+  margin: 0 auto;
+}
 .terms-and-condition-section .privacy-title p {
   font-family: "Inter";
   font-style: italic;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 40px;
+  font-size: 18px;
+  line-height: 28px;
   text-transform: capitalize;
   color: #EA1C2D;
 }
@@ -10711,7 +10727,7 @@ footer .copyright .copy-right .copyright-links li span {
     font-size: 15px;
     line-height: 30px;
     padding: 10px 0px 0px 0px;
-    text-align: justify;
+    text-align: left;
   }
 }
 .blog-section {
@@ -11207,9 +11223,9 @@ footer .copyright .copy-right .copyright-links li span {
 .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper article .postbox__text .post-text h3 {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: bold;
   text-transform: capitalize;
   color: #000000;
   margin: 40px 0px 12px 0px;
@@ -11221,8 +11237,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 26px;
   text-transform: capitalize;
   color: #6D6E71;
 }
@@ -11239,8 +11255,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 16px;
+  line-height: 28px;
   text-transform: capitalize;
   color: #6D6E71;
 }
@@ -11258,7 +11274,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 29px;
   text-transform: capitalize;
   color: #000000;
@@ -11276,8 +11292,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
-  line-height: 39px;
+  font-size: 24px;
+  line-height: 34px;
   text-transform: capitalize;
   color: #000000;
 }
@@ -11394,8 +11410,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
-  line-height: 39px;
+  font-size: 24px;
+  line-height: 34px;
   text-transform: capitalize;
   color: #000000;
 }
@@ -11403,8 +11419,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 26px;
   color: #6D6E71;
   padding: 16px 0 20px 0;
 }
@@ -11415,8 +11431,8 @@ footer .copyright .copy-right .copyright-links li span {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 26px;
   text-transform: capitalize;
   color: #6D6E71;
   margin-bottom: 6px;
@@ -11429,7 +11445,8 @@ footer .copyright .copy-right .copyright-links li span {
   background: #F1F1F1;
   border-radius: 8px;
   border: none;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 26px;
   padding-left: 15px;
 }
 .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .post-comment-wrapper form .name-email {
@@ -11505,14 +11522,15 @@ footer .copyright .copy-right .copyright-links li span {
   padding-left: 20px;
   outline: none;
   border: none;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 26px;
 }
 .blog-details-section .blog-details-area .sidebar-blog .search-bar input::-moz-placeholder {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 28px;
   text-transform: capitalize;
   color: #6D6E71;
 }
@@ -11521,7 +11539,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 28px;
   text-transform: capitalize;
   color: #6D6E71;
 }
@@ -11530,7 +11548,7 @@ footer .copyright .copy-right .copyright-links li span {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 28px;
   text-transform: capitalize;
   color: #6D6E71;
 }

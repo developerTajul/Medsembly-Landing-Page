@@ -22,13 +22,13 @@
     }
 
     .calendar-wrapper {
-        margin: 110px 30px 110px auto;
+        margin: 110px 40px 110px auto;
 
         .calendar {
             font-family: 'Inter';
             position: relative;
             max-width: 580px;
-            max-height: 600px;
+            max-height: 675px;
             background: #FFF;
             color: #CCCCCC;
             margin: 20px 0px;
@@ -40,7 +40,7 @@
             filter: drop-shadow(8px 10px 60px rgba(0, 0, 0, 0.08));
 
             .calendar-inner {
-                padding: 0px 40px;
+                padding: 0px 20px;
 
                 .calendar-body {
                     display: grid;
