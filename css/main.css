@@ -32,8 +32,8 @@ button:focus {
 }
 
 .feature {
-  width: 30%;
-  margin: 20px auto;
+  width: 500px;
+  margin: 40px 0px 40px 0px;
   max-height: 620px;
   border-radius: 16px;
   padding: 20px;
@@ -2097,9 +2097,9 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
   position: relative;
 }
 .features-section .feature-wrapper .feature-heading {
-  max-width: 600px;
+  max-width: 500px;
   max-height: 416px;
-  margin: 0 auto 70px 12%;
+  margin: 40px 0 40px auto;
 }
 .features-section .feature-wrapper .feature-heading h2 {
   font-family: "Inter";
@@ -2128,13 +2128,19 @@ header .container .header-top .navbar .mobile-nav-wrapper .theme-btn a {
 .features-section .feature-wrapper .feature-one {
   background: #E8E9FA;
   max-height: 680px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .features-section .feature-wrapper .feature-two {
   background: #FFECEC;
   position: relative;
+  margin-left: auto;
+  margin-right: 0;
 }
 .features-section .feature-wrapper .feature-three {
   background: #E6F6F6;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .team-section .swiper {
@@ -4065,10 +4071,10 @@ footer .copyright .copy-right .copyright-links li span {
     padding: 15px 0px 15px 0px;
   }
   .features-section .feature-wrapper .feature {
-    width: 30%;
+    width: 45%;
     max-height: 100%;
     padding: 10px;
-    margin: 20px 2%;
+    margin: 20px auto;
   }
   .features-section .feature-wrapper .feature h2 {
     font-size: 17px;
@@ -4086,8 +4092,7 @@ footer .copyright .copy-right .copyright-links li span {
     margin: 0px auto 30px auto;
   }
   .features-section .feature-wrapper .feature-one {
-    margin-bottom: 0px;
-    margin: 20px auto;
+    margin: 20px 0px 20px 0px;
   }
   .features-section .feature-wrapper .feature-two {
     position: relative;
@@ -4409,10 +4414,10 @@ footer .copyright .copy-right .copyright-links li span {
     line-height: 30px;
   }
   .features-section .feature-wrapper .feature {
-    width: 30%;
+    width: 45%;
     max-height: 580px;
     padding: 5px;
-    margin: 25px auto;
+    margin: 25px auto 45px 0px;
   }
   .features-section .feature-wrapper .feature h2 {
     font-size: 18px;

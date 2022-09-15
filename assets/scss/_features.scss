@@ -3,9 +3,9 @@
     .feature-wrapper {
         position: relative;
         .feature-heading {
-            max-width: 600px;
+            max-width: 500px;
             max-height: 416px;
-            margin: 0 auto 70px 12%;
+            margin: 40px 0 40px auto;
             h2 {
                 font-family: 'Inter';
                 font-style: normal;
@@ -37,15 +37,21 @@
         .feature-one {    
             background: #E8E9FA;
             max-height: 680px;
+            margin-right: auto;
+            margin-left: auto;
         }
     
         .feature-two {
             background: #FFECEC;
             position: relative;
+            margin-left: auto;
+            margin-right: 0;
         }
     
         .feature-three {
             background: #E6F6F6;
+            margin-right: auto;
+            margin-left: auto;
         }
     }
 }
