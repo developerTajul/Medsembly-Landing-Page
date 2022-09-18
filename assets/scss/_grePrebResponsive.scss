@@ -485,3 +485,18 @@
         }
     }
 }
+/* grePeb */
+@media all and (min-width: 320px) {
+    .package-section .package-wrapper .package .package-body ul {
+        list-style-type: none;
+        padding-left: 0px;
+    }
+
+    footer ul {
+        padding-left: 0px;
+    }
+
+    .package-section .package-wrapper .package button {
+        margin-top: -20px;
+    }
+}

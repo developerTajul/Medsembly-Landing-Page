@@ -1,6 +1,7 @@
 footer {
     width: 100%;
-    background-color: #F4F4F4;;
+    background-color: #F4F4F4;
+    ;
     max-height: 703px;
     padding-top: 160px;
     position: relative;
@@ -9,7 +10,7 @@ footer {
         width: 203px;
         height: 38px;
     }
-    
+
     .footer-wrapper {
         .list-title {
             @include listTitle;
@@ -22,10 +23,11 @@ footer {
             justify-content: space-between;
         }
 
-        
+
         .footer-link-wrapper-two {
             display: flex;
             justify-content: space-between;
+
             .footer-three {
                 margin: 0 auto;
             }
@@ -40,7 +42,7 @@ footer {
                 line-height: 17px;
                 color: #6D6E71;
                 margin: 55px 0 30px 0px;
-            } 
+            }
 
             .input-wrapper {
                 width: 280px;
@@ -57,6 +59,7 @@ footer {
                     height: 46px;
                     padding-left: 15px;
                     border-radius: 25px;
+
                     ::placeholder {
                         font-family: 'Inter';
                         font-style: normal;
@@ -86,10 +89,13 @@ footer {
             ul {
                 list-style: none;
                 display: flex;
+
                 li {
                     margin: 50px 40px 10px 0px;
+
                     a {
                         color: #6D6E71;
+
                         i {
                             font-size: 24px;
                         }
@@ -112,7 +118,8 @@ footer {
         .copy-left {
             width: 100%;
             display: block;
-            p{
+
+            p {
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 400;
@@ -126,13 +133,16 @@ footer {
         .copy-right {
             width: 100%;
             display: block;
+
             .copyright-links {
                 float: right;
                 display: flex;
+
                 li {
                     a {
                         color: #6D6E71;
                     }
+
                     span {
                         margin: 0 20px;
                     }
@@ -141,3 +151,4 @@ footer {
         }
     }
 }
+

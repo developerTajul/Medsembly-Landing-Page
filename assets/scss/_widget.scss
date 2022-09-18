@@ -1,5 +1,5 @@
 /** Custom & Default Widget **/
-footer.footer-area {
+.footer-area {
     padding-top: 80px;
 
     .footer-top {
@@ -42,54 +42,60 @@ footer.footer-area {
 
             // subscribe form
             .subscribe-form {
-                p {
-                    margin-bottom: 18px;
-                }
 
                 form {
                     width: 289px;
-                    position: relative;
 
-                    input[type="email"] {
-                        width: 100%;
-                        height: 46px;
-                        padding: 0 15px;
-                        background-color: #fff;
-                        border: 0;
-                        border-radius: 25px;
-                    }
+                    .subscribe {
+                        position: relative;
 
-                    input:focus-visible {
-                        outline: 1px solid #EA1C2D;
-                    }
+                        input[type="email"] {
+                            width: 100%;
+                            height: 46px;
+                            padding: 0 15px;
+                            background-color: #fff;
+                            border: 0;
+                            border-radius: 25px;
+                        }
 
-                    input[type="submit"] {
-                        position: absolute;
-                        top: 0;
-                        right: 0;
-                        height: 38px;
-                        width: 38px;
-                        border: 0px solid transparent;
-                        background: #EA1C2D;
-                        box-sizing: border-box;
-                        color: #6F6F6F;
-                    }
+                        input:focus-visible {
+                            outline: 1px solid #EA1C2D;
+                        }
 
-                    button[type="submit"] {
-                        position: absolute;
-                        top: 50%;
-                        right: 3px;
-                        height: 38px;
-                        width: 38px;
-                        border-radius: 50%;
-                        border: 0px solid transparent;
-                        background: #EA1C2D;
-                        box-sizing: border-box;
-                        color: #fff;
-                        transform: translateY(-50%);
+                        input[type="submit"] {
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            height: 38px;
+                            width: 38px;
+                            border: 0px solid transparent;
+                            background: #EA1C2D;
+                            box-sizing: border-box;
+                            color: #6F6F6F;
+                        }
+
+                        button[type="submit"] {
+                            position: absolute;
+                            top: 50%;
+                            right: 3px;
+                            height: 38px;
+                            width: 38px;
+                            border-radius: 50%;
+                            border: 0px solid transparent;
+                            background: #EA1C2D;
+                            box-sizing: border-box;
+                            color: #fff;
+                            transform: translateY(-50%);
+                        }
+
+                        p {
+                            margin-bottom: 18px;
+                            color: #ea1c2d;
+                        }
                     }
                 }
             }
+
 
             // social profiles
             .social-profiles {
@@ -284,6 +290,23 @@ footer.footer-area {
 
                 }
 
+                &:first-child {
+                    a {
+                        display: inline-block;
+                        position: relative;
+
+                        &::before {
+                            position: absolute;
+                            top: 3px;
+                            right: -25px;
+                            height: 16px;
+                            width: 1px;
+                            content: "";
+                            background: #3F3F3F;
+                            margin-right: 10px;
+                        }
+                    }
+                }
 
             }
 

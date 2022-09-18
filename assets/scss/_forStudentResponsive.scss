@@ -938,6 +938,7 @@
 
     //  Pricing Section:
     .pricing-section {
+        max-width: 100%;
         .section-title {
             h2 {
                 font-size: 45px;
@@ -1114,9 +1115,10 @@
 @media screen and (min-width: 1800px) and (max-width: 2000px) {
     .have-question-section .have-question-wrapper .have-question-left {
         width: 73%;
-        height: 532px;
+        height: fit-content;
         position: relative;
         background: #F4F4F4;
+        padding-bottom: 50px;
     }
 
     .have-question-section .have-question-wrapper .have-question-left .have-question-left-wrapper {
@@ -1132,5 +1134,142 @@
     .pricing-section .pricing .pricing-bottom {
         border-top: 1px solid #CCCCCC;
         padding: 20px 0 0 20px;
+    }
+}
+
+/* 1400 to 1600 */
+@media all and (min-width: 1400px) and (max-width: 1600px) {
+
+    /* for student page */
+    .for-student-banner-section .student-banner-wrapper .student_banner-bottom .banner_award {
+        left: 0%;
+        bottom: -17%;
+    }
+
+    .for-student-banner-section .student-banner-wrapper .student_banner-bottom .banner_award {
+        left: 6%;
+    }
+
+    .for-student-banner-section .student-banner-wrapper .student_banner-bottom .banner_award {
+        left: -3%;
+        bottom: -15%;
+    }
+
+    .have-question-section .have-question-wrapper .have-question-left .have-question-img {
+        right: -5%;
+        top: -15%;
+    }
+
+    .pricing-section .pricing button {
+        left: 48%;
+    }
+
+    .join-area .get-app .get-app-text h2 {
+        line-height: 50px;
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+    /* for student page */
+    .have-question-section .have-question-wrapper .have-question-left .have-question-img {
+        right: -20%;
+        top: 20%;
+    }
+
+    .for-student-service-section h2 {
+        max-width: 358px;
+    }
+
+    .pricing-section .pricing {
+        max-height: 470px;
+    }
+
+    .get-app-text .img-group {
+        margin-top: 20px;
+    }
+
+    .for-students .faq-section {
+        margin-top: -2px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .for-student-banner-section .student-banner-wrapper .student_banner-bottom .banner_award {
+        top: 30%;
+        left: 6%;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1159px) {
+    .for-student-banner-section .student-banner-wrapper .student_banner-bottom .banner_award {
+        left: 5%;
+    }
+
+    .pricing-section .pricing {
+        max-height: 580px;
+    }
+
+    .get-app-text .img-group {
+        margin-top: 35px;
+    }
+
+    .get-app-text .img-group {
+        margin-top: 35px;
+    }
+
+    .get-app-text .img-group img {
+        width: 200px;
+    }
+
+    .for-student-banner-section .student-banner-wrapper .student_banner-bottom .banner_award {
+        left: 5%;
+        top: 50%;
+        z-index: 988;
+    }
+}
+
+@media all and (min-width: 1200px) and (max-width: 1359px) {
+    .for-student-banner-section .student-banner-wrapper .student_banner-bottom .banner_award {
+        left: 5%;
+        bottom: -25%;
+    }
+
+    .have-question-section {
+        margin-top: 200px;
+    }
+
+    .have-question-section .have-question-wrapper .have-question-left .have-question-img {
+        right: -40%;
+        top: -15%;
+    }
+
+    .pricing-section .pricing {
+        max-height: 600px;
+    }
+
+    .join-area .get-app .get-app-img {
+        margin-left: 100px;
+    }
+
+    .get-app-text h2 {
+        font-size: 40px;
+    }
+
+    .img-group {
+        margin-top: 40px;
+    }
+}
+
+@media all and (min-width: 1400px) and (max-width: 1600px) {
+    .get-app-text h2 {
+        font-size: 34px;
+        line-height: 46px;
+        font-weight: 500;
+    }
+
+    .for-students .faq-section {
+        margin-bottom: 100px;
     }
 }

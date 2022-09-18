@@ -5,11 +5,12 @@
 @import 'header';
 @import 'banner';
 @import 'features';
+@import './accordion';
 @import 'team';
 @import 'step';
 @import 'studentReview';
 @import 'newsletter';
-@import 'widget';
+@import 'footer';
 @import 'responsive';
 
 //  About Section
@@ -108,3 +109,5 @@
 @import 'blogDetails';
 @import 'blogDetailsResponsive';
 
+// widget
+@import './widget';

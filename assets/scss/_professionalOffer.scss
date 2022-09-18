@@ -70,3 +70,14 @@
         }
     }
 }
+/* button problem fix */
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+    .professional-offer-section .professional-offer-context a {
+        font-size: 14px;
+        margin: 0px;
+        margin-left: 0px;
+        max-width: 180px;
+        display: block;
+        margin-left: 15px;
+    }
+}

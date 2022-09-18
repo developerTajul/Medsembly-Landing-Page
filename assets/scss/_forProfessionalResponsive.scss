@@ -391,6 +391,7 @@
 
     .faq-section {
         max-width: 80%;
+        padding-bottom: 70px;
     }
 
     .professional-newsletter-section 
@@ -446,5 +447,65 @@
             background-position: top center;
             position: relative;
         }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+    .professional-offer-section .professional-offer-context a {
+        margin: 0px;
+    }
+}
+.professional-offer-section .professional-offer-context a {
+    margin: 0px;
+    display: block;
+    margin-left: 15px;
+}
+
+/* for professional page */
+@media all and (min-width: 320px) and (max-width: 575px) {
+    .professional-offer-section {
+        padding: 50px 0px;
+    }
+
+    .professional-offer-section .professional-offer-context h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media all and (min-width: 576px) and (max-width: 767px) {
+    .spellon-professional-page.professional-banner-section .professional-banner-middle .middle-content h2 {
+        margin-left: 20px;
+    }
+
+    .spellon-professional-page.professional-banner-section .professional-banner-middle .middle-content p {
+        font-size: 16px;
+        line-height: 26px;
+        color: #6d6e71;
+        margin-left: 20px;
+    }
+
+    .spellon-professional-page.professional-banner-section .professional-banner-bottom .bottom-content {
+        order: 1;
+        max-width: 100%;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    .spellon-professional-page.professional-offer-section {
+        padding: 60px 0px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .spellon-professional-page.professional-banner-section .professional-banner-bottom .bottom-content {
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+}
+
+@media all and (min-width: 1400px) and (max-width: 1600px) {
+    .spellon-professional-page.img-group {
+        margin-top: 40px;
     }
 }

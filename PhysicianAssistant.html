@@ -21,9 +21,15 @@
     <!--    Bootstrap   -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/fontawesomeAll.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="assets/scss/main.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <!--    Wow Js  -->
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="./js/wow.min.js"></script>
+    <!-- main css -->
 </head>
 
 <body>
@@ -132,7 +138,7 @@
                         <li>LGBT PA Caucus</li>
                         <li>National Society of Black Physician Assistants</li>
                     </ul>
-                    <button class="primary_button">View More</button>
+                    <a class="primary_button">View More</a>
                 </div>
                 <div class="col-sm-6 physician-about">
                     <h2>Helpful Websites</h2>
@@ -142,7 +148,7 @@
                         <li>Canadian PA</li>
                         <li>Canadian PA-Alicia Petrie PA</li>
                     </ul>
-                    <button class="primary_button">View More</button>
+                    <a href="#" class="primary_button">View More</a>
                 </div>
 
                 <div class="col-sm-6 physician-about">
@@ -153,7 +159,7 @@
                         <li>Kaplan PANCE QBank</li>
                         <li>Kaplan PANCE QBank</li>
                     </ul>
-                    <button class="primary_button">View More</button>
+                    <a href="#" class="primary_button">View More</a>
                 </div>
                 <div class="col-sm-6 physician-about">
                     <h2>Virtual Shadowing Opportunities</h2>
@@ -163,7 +169,7 @@
                         <li>The Web Shadowers</li>
                         <li>Virtual Shadowing List</li>
                     </ul>
-                    <button class="primary_button">View More</button>
+                  <a href="#" class="primary_button">View More</a>
                 </div>
 
                 <div class="col-sm-6 physician-about">
@@ -174,7 +180,7 @@
                         <li>DiagnosUs</li>
                         <li>EM Coach</li>
                     </ul>
-                    <button class="primary_button">View More</button>
+                  <a href="#" class="primary_button">View More</a>
                 </div>
                 <div class="col-sm-6 physician-about">
                     <h2>You Tube Pages</h2>
@@ -184,7 +190,7 @@
                         <li>Osmosis</li>
                         <li>Zero To Finals</li>
                     </ul>
-                    <button class="primary_button">View More</button>
+                  <a href="#" class="primary_button">View More</a>
                 </div>
 
                 <div class="col-sm-6 physician-about">
@@ -195,7 +201,7 @@
                         <li>PA 4 Finance</li>
                         <li>PA Money Sense</li>
                     </ul>
-                    <button class="primary_button">View More</button>
+                  <a href="#" class="primary_button">View More</a>
                 </div>
                 <div class="col-sm-6 physician-about">
                     <h2>Instagram Pages</h2>
@@ -205,7 +211,7 @@
                         <li>Inside the PA World: @inside_the_pa_world</li>
                         <li>I am Jackie: @_iamjackie</li>
                     </ul>
-                    <button class="primary_button">View More</button>
+                  <a href="#" class="primary_button">View More</a>
                 </div>
 
                 
@@ -217,7 +223,7 @@
                         <li>Physician Assistant Jobs</li>
                         <li>Pre-PA and PA Student Group</li>
                     </ul>
-                    <button class="primary_button">View More</button>
+                  <a href="#" class="primary_button">View More</a>
                 </div>
                 <div class="col-sm-6 physician-about">
                     <h2>Podcasts</h2>
@@ -227,7 +233,7 @@
                         <li>Behind The Knife: The Surgery Podcast</li>
                         <li>The Future Minority Doctor Podcast</li>
                     </ul>
-                    <button class="primary_button">View More</button>
+                  <a href="#" class="primary_button">View More</a>
                 </div>
 
                 <div class="col-sm-6 physician-about">
@@ -238,7 +244,7 @@
                         <li>The 7 Habits of Highly Effective People</li>
                         <li>Rich Dad Poor Dad</li>
                     </ul>
-                    <button class="primary_button">View More</button>
+                  <a href="#" class="primary_button">View More</a>
                 </div>
 
                 <div class="col-sm-6 physician-about">
@@ -252,76 +258,101 @@
 
 
     <!--    Footer Section  -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <a href="./index.html"><img class="logo" src="./images/Home Page/Medsembly-logo.png" alt="Logo"></a>
-            </div>
-            <div class="row footer-wrapper">
-                <div class="col-md-6">
-                    <div class="footer-link-wrapper-one">
-                        <div class="footer-one">
-                            <p>Stay connected, join our newsletter</p>
-                            <div class="input-wrapper">
-                                <input type="text" placeholder="Your email" />
-                                <div class="arrow"><i class="fa-solid fa-greater-than"></i></div>
+    <!--    Footer Section  -->
+<footer class="footer-area bg-grey">
+    <div class="container">
+        <div class="footer-top  pt-60 pb-25">
+            <div class="container footer-border">
+                <div class="row ">
+                    <div class="col-xl-4 col-sm-12 col-md-7  col-lg-4  ">
+                        <div class="footer-top-widget mb-35">
+                            <div class="about-widget">
+                                <div class="logo">
+                                    <a href="#"><img src="./images/Home Page/Medsembly-logo.png" alt="Sinax"></a>
+                                </div>
+                                <div class="content">
+                                    <p>Stay connected, join our newsletter</p>
+                                </div>
+
+                                <div class="subscribe-form mb-30">
+                                    <form action="#" method="post">
+                                        <input type="email" name="EMAIL" placeholder="Your Email Here" required />
+                                        <!-- <input type="submit" value="Subscribe" /> -->
+                                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                                    </form>
+                                </div>
+
+                                <div class="social-profiles">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <ul>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                            </ul>
                         </div>
-                        <div class="footer-two">
+                    </div>
+
+                    <div class="col-xl-3 col-sm-6 col-md-5 col-lg-4  ">
+                        <div class="footer-top-widget mb-35 widget_nav_menu">
+                            <h2>pages</h2>
                             <ul>
-                                <li class="list-title">Pages</li>
-                                <li><a href="./index.html">Home</a></li>
-                                <li><a href="./forStudent.html">For Students</a></li>
-                                <li><a href="./forProfessional.html">For Professional</a></li>
-                                <li><a href="./about.html">About</a></li>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">For Students</a></li>
+                                <li><a href="#">For professionals</a></li>
+                                <li><a href="#">About</a></li>
                             </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="footer-link-wrapper-two">
-                        <div class="footer-three">
+                    <div class="col-xl-2 col-sm-6 col-md-6 d-xl-flex justify-content-center col-lg-4 col-md-4 ">
+                        <div class="footer-top-widget mb-35 widget_nav_menu">
+                            <h2>Resources</h2>
                             <ul>
-                                <li class="list-title">Resources</li>
-                                <li><a href="./blog.html">Blog</a></li>
-                                <li><a href="resources.html">Resources</a></li>
-                                <li><a href="./discount.html">Discounts</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Resources</a></li>
+                                <li><a href="#">Discounts</a></li>
                                 <li><a href="#">Get Magoosh</a></li>
                             </ul>
                         </div>
-                        <div class="footer-four">
+                    </div>
+                    <div class="col-xl-3 col-md-6 d-xl-flex justify-content-end  col-lg-4 col-md-4 ">
+                        <div class="footer-top-widget mb-35 widget_nav_menu">
+                            <h2>Company</h2>
                             <ul>
-                                <li class="list-title">Company</li>
                                 <li><a href="#">Join Medsembly</a></li>
-                                <li><a href="./forPartner.html">Partnerships</a></li>
-                                <li><a href="./contactUs.html">Contact Us</a></li>
-                                <li><a href="./about.html">About</a></li>
+                                <li><a href="#">Partnerships</a></li>
+                                <li><a href="#">For professionals</a></li>
+                                <li><a href="#">About</a></li>
                             </ul>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="row copyright">
-                <div class="copy-left">
-                    <p>©Copyright 2022 Medsembly. All Rights Reserved.Designed by Cosmo Creative.</p>
-                </div>
-                <div class="copy-right">
-                    <ul class="copyright-links">
-                        <li><a href="./termsAndCondition.html">terms & condintions</a></li>
-                        <li><span> | </span></li>
-                        <li><a href="./privacyPolicy.html">privacy policy</a></li>
-                    </ul>
+
                 </div>
             </div>
         </div>
-    </footer>
-
+    </div>
+    <!-- footer bottom -->
+    <div class="copy-right-info  ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6 ">
+                    <div class="copy-right ">
+                        <p>&copy;Copyright 2022 Medsembly. All Rights Reserved.Designed by Cosmo Creative.</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 ">
+                    <div class="footer-bottom-copyright-nav-widget">
+                        <ul>
+                            <li><a href="#">terms & condintions</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
     <!-- all js files -->
     <script src="js/jquery-3.4.1.slim.min.js"></script>
