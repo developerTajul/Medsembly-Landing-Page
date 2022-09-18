@@ -1,6 +1,6 @@
 /* 1. Theme default css */
 body {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -65,7 +65,7 @@ h4,
 h5,
 h6 {
     font-family: 'Inter', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     color: #222222;
     margin-bottom:0;
     line-height: 1.15;
@@ -162,6 +162,10 @@ label {
   background-color: #2E2E2E;
 }
 
+
+/**
+Please replace the following css with correct scss files 
+**/
 
 .feature {
   width: 500px;
@@ -262,6 +266,9 @@ label {
     filter: drop-shadow(8px 10px 60px rgba(0, 0, 0, 0.08));
   }
 }
+
+
+
 
 /*
 * {
