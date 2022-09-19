@@ -9418,7 +9418,16 @@ footer {
     max-width: 575px !important; }
 
   .join-area .get-app {
-    max-width: 850px; } }
+    max-width: 850px; }
+
+  .pricing-section .pricing .pricing-bottom li {
+    padding-left: 34px; }
+
+  .pricing-section .pricing {
+    padding-bottom: 35px; }
+
+  .have-question-section .have-question-wrapper .have-question-left .have-question-left-wrapper {
+    min-height: inherit; } }
 @media screen and (max-width: 1199px) {
   .student-banner__content {
     padding: 100px 0 130px;
@@ -9480,6 +9489,10 @@ footer {
     position: inherit;
     transform: inherit;
     padding-left: inherit; }
+    .join-area .get-app .get-app-text h2 {
+      padding: 0px 24px; }
+    .join-area .get-app .get-app-text .img-group {
+      align-items: center; }
 
   .student-review-section {
     height: inherit;
@@ -9499,6 +9512,11 @@ footer {
     bottom: 44px !important; }
 
   .newsletter-section {
-    padding: 0 0px 10px; } }
+    padding: 0 0px 10px; }
+
+  .have-question-section .have-question-wrapper .have-question-left .have-question-left-wrapper h2 {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 24px 30px 24px; } }
 
 /*# sourceMappingURL=style.css.map */

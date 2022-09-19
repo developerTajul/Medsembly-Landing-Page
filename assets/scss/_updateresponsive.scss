@@ -239,7 +239,17 @@
         max-width: 850px; 
     }
 
+    .pricing-section .pricing .pricing-bottom li {
+        padding-left: 34px;
+    }
 
+    .pricing-section .pricing {
+        padding-bottom: 35px;
+    }
+
+    .have-question-section .have-question-wrapper .have-question-left .have-question-left-wrapper {
+         min-height: inherit;
+    }
 }
 
 @media screen and (max-width: 1199px) { 
@@ -329,6 +339,14 @@
         position: inherit;
         transform: inherit;
         padding-left: inherit;
+
+        h2 {
+            padding: 0px 24px;
+        }
+
+        .img-group {
+            align-items: center;
+        }
     }
 
     .student-review-section { 
@@ -355,5 +373,11 @@
 
     .newsletter-section {
         padding: 0 0px 10px;
+    }
+
+    .have-question-section .have-question-wrapper .have-question-left .have-question-left-wrapper h2 { 
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px 24px 30px 24px;
     }
 }
