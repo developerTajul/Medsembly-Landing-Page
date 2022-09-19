@@ -33,10 +33,7 @@ h6, .h6 { font-size: 28px; line-height: 34px; }
         &.fz-lg { font-size: 64px !important; line-height: 74px !important; }
     }
     h2, .h2 { font-size: 50px !important; line-height: 60px !important; }
-    h3, .h3 { font-size: 44px !important; line-height: 56px !important; }
-    h4, .h4 { font-size: 38px !important; line-height: 50px !important; }
-    h5, .h5 { font-size: 32px !important; line-height: 39px !important; } 
-    h6, .h6 { font-size: 28px !important; line-height: 34px !important; } 
+    h3, .h3 { font-size: 44px !important; line-height: 56px !important; }   
 
     .student-banner {
 
@@ -75,6 +72,58 @@ h6, .h6 { font-size: 28px; line-height: 34px; }
             max-width: 100%;
         }
     }
+}
+
+@media screen and (max-width: 1400px) {
+
+    h1, .h1 { font-size: 50px !important; line-height: 60px !important; 
+        &.fz-lg { font-size: 56px !important; line-height: 66px !important; }
+    }
+    h2, .h2 { font-size: 45px !important; line-height: 55px !important; }
+    h3, .h3 { font-size: 38px !important; line-height: 48px !important; }
+    h4, .h4 { font-size: 32px !important; line-height: 39px !important; }
+    h5, .h5 { font-size: 28px !important; line-height: 34px !important; } 
+    h6, .h6 { font-size: 24px !important; line-height: 30px !important; } 
+}
+
+
+@media screen and (max-width: 1199px) {
+
+    h1, .h1 { font-size: 45px !important; line-height: 55px !important; 
+        &.fz-lg { font-size: 50px !important; line-height: 60px !important; }
+    }
+    h2, .h2 { font-size: 38px !important; line-height: 48px !important; }
+    h3, .h3 { font-size: 32px !important; line-height: 49px !important; }
+    h4, .h4 { font-size: 28px !important; line-height: 34px !important; }
+    h5, .h5 { font-size: 24px !important; line-height: 30px !important; } 
+    h6, .h6 { font-size: 20px !important; line-height: 28px !important; } 
+}
+
+@media screen and (max-width: 991px) {
+
+    h1, .h1 { font-size: 38px !important; line-height: 48px !important; 
+        &.fz-lg { font-size: 45px !important; line-height: 55px !important; }
+    }
+    h2, .h2 { font-size: 32px !important; line-height: 49px !important; }
+    h3, .h3 { font-size: 28px !important; line-height: 34px !important; }
+    h4, .h4 { font-size: 24px !important; line-height: 30px !important; }
+    h5, .h5 { font-size: 22px !important; line-height: 26px !important; }  
+}
+
+@media screen and (max-width: 767px) {
+
+    h1, .h1 { font-size: 33px !important; line-height: 43px !important; 
+        &.fz-lg { font-size: 38px !important; line-height: 48px !important; }
+    }
+    h2, .h2 { font-size: 30px !important; line-height: 40px !important; } 
+}
+
+@media screen and (max-width: 575px) {
+
+    h1, .h1 {
+
+        &.fz-lg { font-size: 35px !important; line-height: 45px !important; }
+    } 
 }
 
 h1, h2, h3, h4, h5, h6 {

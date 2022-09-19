@@ -49,18 +49,6 @@ h6, .h6 {
     font-size: 44px !important;
     line-height: 56px !important; }
 
-  h4, .h4 {
-    font-size: 38px !important;
-    line-height: 50px !important; }
-
-  h5, .h5 {
-    font-size: 32px !important;
-    line-height: 39px !important; }
-
-  h6, .h6 {
-    font-size: 28px !important;
-    line-height: 34px !important; }
-
   .student-banner__content {
     max-width: 793px !important; }
     .student-banner__content h1 {
@@ -82,6 +70,98 @@ h6, .h6 {
     .have-question-section .have-question-wrapper .have-question-left .have-question-img img {
       height: auto;
       max-width: 100%; } }
+@media screen and (max-width: 1400px) {
+  h1, .h1 {
+    font-size: 50px !important;
+    line-height: 60px !important; }
+    h1.fz-lg, .h1.fz-lg {
+      font-size: 56px !important;
+      line-height: 66px !important; }
+
+  h2, .h2 {
+    font-size: 45px !important;
+    line-height: 55px !important; }
+
+  h3, .h3 {
+    font-size: 38px !important;
+    line-height: 48px !important; }
+
+  h4, .h4 {
+    font-size: 32px !important;
+    line-height: 39px !important; }
+
+  h5, .h5 {
+    font-size: 28px !important;
+    line-height: 34px !important; }
+
+  h6, .h6 {
+    font-size: 24px !important;
+    line-height: 30px !important; } }
+@media screen and (max-width: 1199px) {
+  h1, .h1 {
+    font-size: 45px !important;
+    line-height: 55px !important; }
+    h1.fz-lg, .h1.fz-lg {
+      font-size: 50px !important;
+      line-height: 60px !important; }
+
+  h2, .h2 {
+    font-size: 38px !important;
+    line-height: 48px !important; }
+
+  h3, .h3 {
+    font-size: 32px !important;
+    line-height: 49px !important; }
+
+  h4, .h4 {
+    font-size: 28px !important;
+    line-height: 34px !important; }
+
+  h5, .h5 {
+    font-size: 24px !important;
+    line-height: 30px !important; }
+
+  h6, .h6 {
+    font-size: 20px !important;
+    line-height: 28px !important; } }
+@media screen and (max-width: 991px) {
+  h1, .h1 {
+    font-size: 38px !important;
+    line-height: 48px !important; }
+    h1.fz-lg, .h1.fz-lg {
+      font-size: 45px !important;
+      line-height: 55px !important; }
+
+  h2, .h2 {
+    font-size: 32px !important;
+    line-height: 49px !important; }
+
+  h3, .h3 {
+    font-size: 28px !important;
+    line-height: 34px !important; }
+
+  h4, .h4 {
+    font-size: 24px !important;
+    line-height: 30px !important; }
+
+  h5, .h5 {
+    font-size: 22px !important;
+    line-height: 26px !important; } }
+@media screen and (max-width: 767px) {
+  h1, .h1 {
+    font-size: 33px !important;
+    line-height: 43px !important; }
+    h1.fz-lg, .h1.fz-lg {
+      font-size: 38px !important;
+      line-height: 48px !important; }
+
+  h2, .h2 {
+    font-size: 30px !important;
+    line-height: 40px !important; } }
+@media screen and (max-width: 575px) {
+  h1.fz-lg, .h1.fz-lg {
+    font-size: 35px !important;
+    line-height: 45px !important; } }
 h1, h2, h3, h4, h5, h6 {
   color: #000;
   margin-bottom: 0;
@@ -1688,9 +1768,6 @@ footer {
       margin: 0px auto 30px auto;
       max-width: 650px;
       max-height: 416px; }
-      .features-section .feature-wrapper .feature-heading h2 {
-        font-size: 24px;
-        line-height: 50px; }
       .features-section .feature-wrapper .feature-heading p {
         font-family: 'Inter';
         font-style: normal;
@@ -2148,7 +2225,6 @@ footer {
       .features-section .feature-wrapper .feature p {
         font-size: 14px;
         line-height: 28px;
-        padding: 5px 10px;
         margin: 0px;
         text-align: left; }
       .features-section .feature-wrapper .feature img {
@@ -9154,5 +9230,275 @@ footer {
   .copy-right-info .footer-bottom-copyright-nav-widget ul {
     display: flex;
     justify-content: end; } }
+@media screen and (max-width: 1400px) {
+  .student-banner__content {
+    padding: 120px 0 190px;
+    max-width: 670px !important; }
+    .student-banner__content h1 {
+      margin-bottom: 15px; }
+    .student-banner__content p {
+      margin-bottom: 20px; }
+  .student-banner__media {
+    top: 35px;
+    max-width: 440px;
+    right: 10px !important; }
+  .student-banner .hero-section .hero-text h3 {
+    padding: 85px 0; }
+
+  .features-section {
+    padding-bottom: 0 !important; }
+    .features-section .feature-wrapper .feature-heading h2 {
+      max-width: 400px; }
+    .features-section .feature-wrapper .feature {
+      margin-right: inherit;
+      padding: 20px !important;
+      margin-top: 15px !important;
+      margin-bottom: 15px !important; }
+      .features-section .feature-wrapper .feature img {
+        width: 80% !important; }
+    .features-section .feature-wrapper .feature-one {
+      margin-left: auto; }
+    .features-section .feature-wrapper .feature-two {
+      margin-left: auto !important;
+      margin-right: 43px !important; }
+    .features-section .feature-wrapper .feature-three {
+      margin-left: inherit; }
+
+  .step-section .step-heading {
+    max-width: 571px; }
+
+  .team-section .team-header {
+    max-width: 532px;
+    margin-top: 10px; }
+
+  .student-review-section .student-review-header {
+    max-width: 450px; }
+
+  .student-review-section {
+    width: 100%;
+    padding: 0px 0 0px 0;
+    background-color: #F4F4F4; }
+    .student-review-section .swiper {
+      width: 100%;
+      height: 100%; }
+      .student-review-section .swiper .swiper-pagination-bullet {
+        width: 12px;
+        height: 8px;
+        border-radius: 0%;
+        background-color: #D9D9D9;
+        opacity: 1; }
+      .student-review-section .swiper .swiper-pagination-bullet-active {
+        opacity: var(--swiper-pagination-bullet-opacity, 1);
+        background: #EA1C2D;
+        width: 12px;
+        height: 8px;
+        border-radius: 0%; }
+    .student-review-section .swiper-slide {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center; }
+    .student-review-section .student-review-header {
+      max-width: 680px;
+      margin: 80px auto 50px;
+      text-align: center; }
+    .student-review-section .mySwiperTwo {
+      margin: 0 auto;
+      width: calc(100% - 300px); }
+      .student-review-section .mySwiperTwo .student-review-wrapper {
+        width: 100%;
+        min-height: 650px; }
+        .student-review-section .mySwiperTwo .student-review-wrapper .student-review {
+          display: flex;
+          z-index: 1111;
+          padding: 20px;
+          min-height: 484px;
+          position: relative;
+          border-radius: 16px;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          max-width: calc(33% - 25px);
+          background-color: transparent; }
+          .student-review-section .mySwiperTwo .student-review-wrapper .student-review .student-img {
+            width: 49px;
+            height: 69px;
+            margin: 18px 0 14px 0px;
+            transition: all 1s ease; }
+            .student-review-section .mySwiperTwo .student-review-wrapper .student-review .student-img img {
+              width: 100%;
+              height: 100%; }
+          .student-review-section .mySwiperTwo .student-review-wrapper .student-review h6 {
+            font-size: 24px;
+            line-height: 30px; }
+          .student-review-section .mySwiperTwo .student-review-wrapper .student-review p {
+            font-size: 16px;
+            line-height: 26px;
+            color: #666666;
+            padding: 10px 0px 15px 0px; }
+          .student-review-section .mySwiperTwo .student-review-wrapper .student-review span {
+            color: #6D6E71;
+            font-size: 16px;
+            margin-top: 2px;
+            line-height: 19px;
+            text-transform: capitalize; }
+            .student-review-section .mySwiperTwo .student-review-wrapper .student-review span + span {
+              margin: 0;
+              color: #000;
+              font-weight: 500;
+              padding: 12px 0px; }
+          .student-review-section .mySwiperTwo .student-review-wrapper .student-review:hover {
+            background-color: #fff;
+            filter: drop-shadow(4px 8px 40px rgba(0, 0, 0, 0.04)); }
+            .student-review-section .mySwiperTwo .student-review-wrapper .student-review:hover .student-img {
+              width: 106px;
+              height: 114px; }
+            .student-review-section .mySwiperTwo .student-review-wrapper .student-review:hover ::after {
+              width: 0;
+              height: 0;
+              content: "";
+              left: 36%;
+              z-index: -1;
+              bottom: -10%;
+              display: block;
+              position: absolute;
+              transform: rotate(90deg);
+              transform: translateX(-40%);
+              border-left: 100px solid #fff;
+              border-top: 50px solid transparent;
+              border-bottom: 50px solid transparent; }
+    .student-review-section .student-testimonial .student-review {
+      flex-direction: column !important; }
+    .student-review-section .student-testimonial .swiper-pagination {
+      bottom: 70px !important; }
+    .student-review-section .student-testimonial .student-review {
+      display: flex;
+      z-index: 1111;
+      max-width: 100%;
+      position: relative;
+      margin-right: 25px;
+      border-radius: 16px;
+      margin-bottom: 60px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 20px 20px 118px;
+      background-color: transparent; }
+      .student-review-section .student-testimonial .student-review .text-wrapper {
+        padding: 35px;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        background-color: #FFFFFF; }
+        .student-review-section .student-testimonial .student-review .text-wrapper:after {
+          width: 0;
+          height: 0;
+          left: 46%;
+          z-index: -1;
+          content: "";
+          bottom: 75px;
+          display: block;
+          position: absolute;
+          transform: rotate(90deg);
+          border-left: 35px solid #fff;
+          border-top: 25px solid transparent;
+          border-bottom: 25px solid transparent;
+          transform: translateX(-40%) rotate(90deg); }
+
+  .join-area .get-app .get-app-text {
+    max-width: 575px !important; }
+
+  .join-area .get-app {
+    max-width: 850px; } }
+@media screen and (max-width: 1199px) {
+  .student-banner__content {
+    padding: 100px 0 130px;
+    max-width: 600px !important; }
+
+  .student-banner__media {
+    max-width: 350px; } }
+@media screen and (max-width: 991px) {
+  .student-banner__content {
+    padding: 80px 0 30px;
+    max-width: 557px !important; }
+
+  .student-banner__media {
+    max-width: 350px;
+    position: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px; }
+
+  .step-section .step-heading {
+    margin: 20px auto 25px auto; } }
+@media screen and (max-width: 767px) {
+  .features-section .feature-wrapper .feature {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important; }
+
+  .join-area .get-app {
+    gap: 80px 0;
+    justify-items: center;
+    grid-template-columns: 1fr !important; }
+
+  .join-area .get-app .get-app-text {
+    position: inherit; }
+
+  .join-area .get-app .get-app-img {
+    margin-left: auto;
+    margin-right: auto; }
+
+  .newsletter-section .subscribe-area {
+    padding-top: 0; }
+
+  .newsletter-section {
+    padding: 0 0px 70px; } }
+@media screen and (max-width: 575px) {
+  .team-section .swiper-pagination {
+    bottom: 10px !important; }
+
+  .join-area .get-app {
+    padding: 50px 0;
+    gap: 40px 0 !important;
+    max-height: inherit !important;
+    justify-items: center !important;
+    grid-template-columns: 1fr !important; }
+
+  .join-area .get-app .get-app-text {
+    left: inherit;
+    margin-top: 0;
+    position: inherit;
+    transform: inherit;
+    padding-left: inherit; }
+
+  .student-review-section {
+    height: inherit;
+    margin-top: 50px !important; }
+
+  .student-review-section .student-review-header {
+    margin: 50px auto 30px; }
+
+  .student-review-section .student-testimonial .student-review {
+    margin-bottom: 28px;
+    padding-bottom: 104px; }
+
+  .student-review-section .student-testimonial .student-review .text-wrapper:after {
+    bottom: 61px; }
+
+  .student-review-section .student-testimonial .swiper-pagination {
+    bottom: 44px !important; }
+
+  .newsletter-section {
+    padding: 0 0px 10px; } }
 
 /*# sourceMappingURL=style.css.map */
