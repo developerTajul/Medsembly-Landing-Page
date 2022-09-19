@@ -1,6 +1,7 @@
 /** Custom & Default Widget **/
 .footer-area {
     padding-top: 80px;
+    background-color: #F4F4F4;
 
     .footer-top {
         .footer-border {
@@ -10,11 +11,12 @@
     }
 
     .footer-top-widget {
+
         h2 {
             font-size: 20px;
+            color: #333333; 
+            font-weight: 700;
             line-height: 24px;
-            color: #333333;
-            text-transform: capitalize;
             margin-bottom: 30px;
         }
 

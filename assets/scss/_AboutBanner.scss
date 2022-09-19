@@ -19,15 +19,9 @@
         align-items: center;
 
         h1 {
-            max-width: 520px;
-            margin: 0 auto;
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 52px;
-            line-height: 60px;
-            text-transform: capitalize;
-            color: #FFFFFF;
+            color: $white;
+            margin: 0 auto; 
+            max-width: 618px;
         }
     }
 }

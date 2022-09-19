@@ -1,20 +1,16 @@
 .for-student-service-section {
     width: 100%;
+
     h2 {
-        max-width: 688px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 50px;
-        line-height: 60px;
-        text-align: center;
-        text-transform: capitalize;
-        color: #000000;
+        max-width: 688px; 
+        text-align: center;  
         margin: 110px auto 60px auto;
     }
+
     .student-service-wrapper {
         width: 80%;
         margin: 0 auto;
+        
         .student-service {
             background-color: #fff;
             width: 313px;
@@ -39,16 +35,13 @@
                 width: 90px;
                 height: 80px;
             }
-            h4 {
-                font-family: 'Inter';
-                font-style: normal;
+            h6 { 
                 font-weight: 500;
                 font-size: 20px;
-                line-height: 30px;
                 text-align: center;
-                color: #000000;
+                line-height: 30px; 
                 padding: 15px 20px;
-            } 
+            }
         }
     }
 } 

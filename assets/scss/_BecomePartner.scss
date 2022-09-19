@@ -10,21 +10,13 @@
 
         .become-partner-content {
             max-width: 550px;
+
             h2 {
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 50px;
-                line-height: 60px;
-                text-transform: capitalize;
-                color: #181818;
+                max-width: 439px;
             }
-            a {
-                max-width: 210px;
-                display: flex;
-                justify-content: center;
-                margin: 50px 0px;
-                word-wrap: nowrap;
+
+            a {  
+                margin: 50px 0px; 
             }
         }
         .become-partner-img {

@@ -5,27 +5,14 @@
         max-width: 885px;
         margin: 110px auto 110px auto;
 
-        h2 {
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 50px;
-            line-height: 60px;
+        h2 { 
             text-align: center;
-            letter-spacing: -0.02em;
-            text-transform: capitalize;
-            color: #000000;
+            letter-spacing: -0.02em; 
             padding-bottom: 30px;
         }
 
-        p {
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 26px;
-            text-align: center;
-            color: #6D6E71;
+        p {   
+            text-align: center; 
         }
     }
 

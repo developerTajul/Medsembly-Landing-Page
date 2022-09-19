@@ -15,26 +15,17 @@
 
     .professional-banner-title {
         width: 100%;
-        max-width: 585px;
+        max-width: 745px;
         margin: 110px auto 50px auto;
-        h1 {
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 50px;
-            line-height: 60px;
-            text-align: center;
-            text-transform: capitalize;
-            color: #000000;
+
+        h1 { 
+            text-align: center; 
             margin-bottom: 20px;
         }
-        p {
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 26px;
-            color: #6D6E71;
+
+        p { 
+            font-size: 24px;
+            line-height: 32px; 
             text-align: center;
         }
     }
@@ -112,24 +103,10 @@
         }
         .middle-content {
             max-width: 700px;
+            
             h2 {
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 50px;
-                line-height: 60px;
-                text-transform: capitalize;
-                color: #000000;
                 margin-bottom: 15px;
-            }
-            p {
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 26px;
-                color: #6D6E71;
-            }
+            } 
         }
     }
 
@@ -158,24 +135,9 @@
         }
         .bottom-content {
             max-width: 700px;
-            h2 {
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 50px;
-                line-height: 60px;
-                text-transform: capitalize;
-                color: #000000;
+            h2 { 
                 margin-bottom: 25px;
-            }
-            p {
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 26px;
-                color: #6D6E71;
-            }
+            } 
         }
     }
 }

@@ -1,13 +1,7 @@
 .faq-section {
     margin: 50px auto;
-    h2 {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 50px;
-        line-height: 70px;
-        text-transform: capitalize;
-        color: #000000;
+
+    h2 {  
         margin: 0 auto 60px auto;
         text-align: center;
     }
@@ -23,15 +17,10 @@
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
+
                 h3 {
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 25px;
-                    line-height: 39px;
-                    text-transform: capitalize;
+                    
                     color: #333333;
-                    text-align: left;
                 }
                 .faq-icon {
                     width: 42px;
@@ -53,14 +42,6 @@
                 height: 0;
                 overflow: hidden;
                 transition: all 1s ease;
-                p {
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 32px;
-                    color: #6D6E71;
-                }
             }
         }
     }

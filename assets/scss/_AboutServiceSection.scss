@@ -19,24 +19,9 @@
         .about-service-text {
             max-width: 588px;
             margin: 0 auto;
-            h2 {
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 50px;
-                line-height: 60px;
-                text-transform: capitalize;
-                color: #000000;
-                margin-bottom: 20px;
-            }
 
-            p {
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 26px;
-                color: #6D6E71;
+            h2 { 
+                margin-bottom: 20px;
             }
         }
 
@@ -79,24 +64,11 @@
                 overflow: hidden;
                 filter: drop-shadow(8px 10px 60px rgba(0, 0, 0, 0.08));
 
-                h2 {
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 50px;
-                    line-height: 60px;
-                    text-transform: capitalize;
-                    color: #000000;
+                h2 { 
                     padding: 30px 50px 20px 50px;
                 }
 
-                p {
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 26px;
-                    color: #6D6E71;
+                p { 
                     padding: 0 50px 50px 50px;
                 }
             }

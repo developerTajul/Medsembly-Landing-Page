@@ -152,19 +152,7 @@
             justify-content: space-between;
             margin-bottom: 10px;
 
-            h3 {
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 32px;
-                line-height: 39px;
-                color: #000000;
-            }
-
-            a {
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
+            a {   
                 font-size: 24px;
                 line-height: 29px;
                 text-transform: capitalize;
@@ -189,24 +177,15 @@
                 flex-direction: column;
                 justify-content: center;
 
-                h4 {
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 32px;
-                    line-height: 39px;
-                    color: #000000;
+                h5 { 
+                    font-weight: 500; 
                     margin-bottom: 12px;
                 }
 
-                p {
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 400;
+                p { 
                     font-size: 24px;
                     line-height: 29px;
-                    text-transform: capitalize;
-                    color: #6D6E71;
+                    text-transform: capitalize; 
                 }
 
                 i {

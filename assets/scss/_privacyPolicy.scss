@@ -3,26 +3,13 @@
     max-width: 950px;
     margin: 0 auto;
     .privacy-title {
-        border-bottom: 1px solid #CCCCCC;;
-        h2 {
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 28px;
-            line-height: 38px;
-            text-transform: capitalize;
-            color: #000000;
-        }
+        border-bottom: 1px solid #CCCCCC;
 
-        p {
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 400;
+        p {   
             font-size: 16px;
             line-height: 26px;
             padding: 15px 0px 30px;
-            text-transform: capitalize;
-            color: #6D6E71;
+            text-transform: capitalize; 
         }
     }
 
@@ -42,24 +29,10 @@
     .privacy-body {
         .privacy-sub-title {
             margin-top: 50px;
-            h3 {
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 28px;
-                line-height: 39px;
-                text-transform: capitalize;
-                color: #000000;
-            }
 
-            p {
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 26px;
-                color: #6D6E71;
+            p { 
                 padding: 15px 0px 0px 0px;
+
                 span {
                     text-transform: capitalize;
                     color: #EA1C2D;
@@ -71,25 +44,13 @@
             list-style: disc;
             li {
                 list-style: disc;
-                list-style-position: inside;
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 26px;
-                color: #6D6E71;
+                list-style-position: inside; 
                 padding: 16px 0px;
             }
         }
         p {
             list-style: disc;
-            list-style-position: inside;
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 26px;
-            color: #6D6E71;
+            list-style-position: inside; 
             padding: 16px 0px;
         }
     }

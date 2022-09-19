@@ -1,58 +1,38 @@
 .features-section {
     padding: 110px 15px 0 15px;
+    
     .feature-wrapper {
         position: relative;
+
         .feature-heading {
-            max-width: 500px;
+            max-width: 518px;
             max-height: 416px;
-            margin: 40px 0 40px auto;
             padding-top: 80px;
-            h2 {
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 50px;
-                line-height: 70px;
-                text-transform: capitalize;
-                color: #0B0036; 
-            }
+            margin: 40px 0 40px auto;
     
-            p {
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 32px;
-                color: #6D6E71;
+            p {     
                 padding: 25px 0px 25px 0px;
-            }
-    
-            .primary_button {
-                display: block;
-                width: 144px;
-                height: 62px;
-                font-size: 17px;
             }
         }
     
         .feature-one {    
-            background: #E8E9FA;
             max-height: 680px;
-            margin-right: auto;
             margin-left: auto;
+            margin-right: auto;
+            background: #E8E9FA;
         }
     
         .feature-two {
-            background: #FFECEC;
-            position: relative;
-            margin-left: auto;
             margin-right: 0;
+            margin-left: auto;
+            position: relative;
+            background: #FFECEC;
         }
     
         .feature-three {
-            background: #E6F6F6;
-            margin-right: auto;
             margin-left: auto;
+            margin-right: auto;
+            background: #E6F6F6;
         }
     }
 }

@@ -22,29 +22,11 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: flex-start;
-    
-                h2 {
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 50px;
-                    line-height: 60px;
-                    text-transform: capitalize;
-                    color: #000000;
-                }
-                p{
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 17px;
-                    line-height: 27px;
-                    color: #6D6E71;
+     
+                p{ 
+                    font-size: 24px;
+                    line-height: 40px; 
                     margin: 30px 0px 45px 0px;
-                }
-                a {
-                    margin-right: auto;
-                    font-size: 16px;
-                    line-height: 26px;
                 }
             }
 

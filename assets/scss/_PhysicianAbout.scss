@@ -12,20 +12,12 @@
             height: 477px;
             margin: 55px auto;
 
-            h2 {
-                font-family: 'Inter';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 32px;
-                line-height: 42px;
-                text-transform: capitalize;
-                color: #000000;
+            h2 { 
                 padding-left: 17px;
             }
 
             ul {
-                li {
-                    font-family: 'Inter';
+                li { 
                     font-style: normal;
                     font-weight: 500;
                     font-size: 18px;
@@ -41,7 +33,7 @@
                     &:hover {
                         background: #fff;
                         color: #EA1C2D;
-                        box-shadow: rgb(0 0 0 / 5%) 1.95px 1.95px 7.6px;
+                        // box-shadow: rgb(0 0 0 / 5%) 1.95px 1.95px 7.6px;
                     }
                 }
             }
