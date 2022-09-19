@@ -251,7 +251,7 @@
          min-height: inherit;
     }
 
-    .professional-offer-section .professional-offer-context a {
+    .professional-offer-section .professional-offer-context a { 
         margin-left: 13px !important;
     }
 }
@@ -393,5 +393,23 @@
     .features-section {
         padding-left: 24px;
         padding-right: 24px;
+    }
+
+    .spellon-professional-page.img-group {
+        gap: 10px;
+        display: flex;
+        padding: 0 24px;
+
+        a {
+
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+
+    .join-area .get-app-text h2 {
+        text-align: center;
+        padding: 0px 24px;
     }
 }

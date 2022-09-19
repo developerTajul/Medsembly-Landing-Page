@@ -72,7 +72,7 @@ h6, .h6 {
       max-width: 100%; }
 
   .team-section .team-wrapper .team .team-info .team-info-text h6 {
-    font-size: 1px !important; } }
+    font-size: 18px !important; } }
 @media screen and (max-width: 1400px) {
   h1, .h1 {
     font-size: 50px !important;
@@ -9531,6 +9531,17 @@ footer {
 
   .features-section {
     padding-left: 24px;
-    padding-right: 24px; } }
+    padding-right: 24px; }
+
+  .spellon-professional-page.img-group {
+    gap: 10px;
+    display: flex;
+    padding: 0 24px; }
+    .spellon-professional-page.img-group a img {
+      max-width: 100%; }
+
+  .join-area .get-app-text h2 {
+    text-align: center;
+    padding: 0px 24px; } }
 
 /*# sourceMappingURL=style.css.map */
