@@ -6950,8 +6950,6 @@ footer {
   .package-section .package-wrapper .package .package-body {
     padding: 0px 0px 40px 20px; }
     .package-section .package-wrapper .package .package-body h3 {
-      font-family: 'Inter';
-      font-style: normal;
       font-weight: 500;
       font-size: 27px;
       line-height: 38px;
@@ -6970,15 +6968,11 @@ footer {
       position: relative;
       padding-left: 40px; }
       .package-section .package-wrapper .package .package-body ul li::before {
-        position: absolute;
-        top: 15px;
         left: 0;
-        height: 25px;
-        width: 25px;
-        background: url("../../images/grepreb/list-icon.svg");
-        background-position: center;
-        content: "";
-        border-radius: 50%; }
+        font-size: 24px;
+        content: "\f058";
+        position: absolute;
+        font-family: 'Font Awesome 6 Free'; }
   .package-section .package-wrapper .package button {
     max-width: 175px;
     font-size: 16px;

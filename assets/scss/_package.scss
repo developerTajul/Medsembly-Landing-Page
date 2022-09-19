@@ -31,9 +31,7 @@
 
             .package-body {
                 padding: 0px 0px 40px 20px;
-                h3 {
-                    font-family: 'Inter';
-                    font-style: normal;
+                h3 { 
                     font-weight: 500;
                     font-size: 27px;
                     line-height: 38px;
@@ -55,16 +53,13 @@
                         color: #6D6E71;
                         position: relative;
                         padding-left: 40px;
+
                         &::before{
-                            position: absolute;
-                            top: 15px;
                             left: 0;
-                            height: 25px;
-                            width: 25px;
-                            background:url('../../images/grepreb/list-icon.svg');
-                            background-position: center;
-                            content: "";
-                            border-radius: 50%;
+                            font-size: 24px;
+                            content: "\f058";
+                            position: absolute;
+                            font-family: 'Font Awesome 6 Free';
                         }
                     }
                 }
