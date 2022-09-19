@@ -49,9 +49,9 @@ h1, h2, h3, h4, h5, h6 {
     color: $white;
     font-size: 18px;
     font-weight: 500;
+    background: $red;
     line-height: 22px; 
     padding: 20px 32px;
-    background: $red;
     border-radius: 10px; 
     display: inline-block;
     text-transform: capitalize;
@@ -159,8 +159,8 @@ Please replace the following css with correct scss files
 
     p {   
         margin: 0;
-        font-size: 16px;
-        line-height: 26px;
+        // font-size: 16px;
+        // line-height: 26px;
         padding-top: 20px; 
     }
 

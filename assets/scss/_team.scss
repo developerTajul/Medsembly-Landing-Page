@@ -9,19 +9,18 @@
     
     .team-wrapper {
         width: 100%;
+        padding-left: 0;
         margin-bottom: 60px;
         padding-bottom: 50px;
 
         .team {
             height: 450px;
-            overflow: hidden;
-            margin-right: 30px;
+            overflow: hidden; 
             position: relative;
             border-radius: 16px;
-            max-width: calc(25% - 30px);
 
             img {
-                width: fit-content;
+                width: 100%;
                 height: 100%;
                 border-radius: 16px;
             }
@@ -38,8 +37,11 @@
                 background: linear-gradient(180deg, rgba(0, 0, 0, 0) 35.35%, #000000 104.5%);
 
                 .team-info-text {
+                    left: 0;
                     bottom: 5%;
+                    text-align: center;
                     position: absolute;
+                    padding: 0 20px 15px;
 
                     h5 {
                         color: $white;

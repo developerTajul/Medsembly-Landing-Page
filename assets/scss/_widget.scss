@@ -1,5 +1,6 @@
 /** Custom & Default Widget **/
 .footer-area {
+    max-height: 100%;
     padding-top: 80px;
     background-color: #F4F4F4;
 
@@ -181,6 +182,7 @@
 
 /** recent posts **/
 .widget_recent_entries {
+
     ul {
         float: right;
 
@@ -272,41 +274,42 @@
 
     .footer-bottom-copyright-nav-widget {
         ul {
-            list-style-type: none;
             display: flex;
             justify-content: end;
+            list-style-type: none;
+            margin: 0 -11px;
 
             li {
+                margin: 0 11px;
+                
                 a {
                     display: block;
-                    text-transform: capitalize;
                     font-size: 16px;
-                    line-height: 20px;
                     color: #6D6E71;
-                    margin-left: 22px;
-                    //position: relative;
+                    line-height: 20px; 
+                    position: relative;
+                    text-transform: capitalize;
+
+                    &::before {
+                        top: 0;
+                        width: 1px;
+                        right: -22px;
+                        content: "";
+                        height: 100%;
+                        position: absolute;
+                        margin-right: 10px;
+                        background: #6D6E71;
+                    }
 
                     &:hover {
                         color: #EA1C2D;
                     }
-
                 }
 
-                &:first-child {
-                    a {
-                        display: inline-block;
-                        position: relative;
+                &:last-child {
 
-                        &::before {
-                            position: absolute;
-                            top: 3px;
-                            right: -25px;
-                            height: 16px;
-                            width: 1px;
-                            content: "";
-                            background: #3F3F3F;
-                            margin-right: 10px;
-                        }
+                    a:before {
+                        content: inherit;  
                     }
                 }
 
@@ -331,8 +334,7 @@
         display: block;
 
         li a {
-            display: block;
-            margin-left: -28px;
+            display: block; 
             margin-bottom: 7px;
         }
 
@@ -353,7 +355,7 @@
 
         li {
             a {
-                margin-right: 60px;
+                 
             }
         }
     }

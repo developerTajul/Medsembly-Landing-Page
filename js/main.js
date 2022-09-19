@@ -1,34 +1,29 @@
 (function ($) {
   jQuery(document).ready(function () {
     //  Swiper for Carousel:
-    const swiper = new Swiper(".mySwiper", {
+    const swiper = new Swiper(".mentors-swiper", {
       slidesPerView: 1,
-      spaceBetween: 0,
+      spaceBetween: 40,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
       },
       breakpoints: {
         576: {
-          slidesPerView: 2,
-          spaceBetween: 0,
+          slidesPerView: 2, 
         },
         640: {
-          slidesPerView: 2,
-          spaceBetween: 20,
+          slidesPerView: 2, 
         },
         768: {
-          slidesPerView: 2,
-          spaceBetween: 20,
+          slidesPerView: 2, 
         },
         992: {
-          slidesPerView: 3,
-          spaceBetween: 0,
+          slidesPerView: 3, 
         },
-        1400: {
-          slidesPerView: 4,
-          spaceBetween: 0,
-        },
+        // 1400: {
+        //   slidesPerView: 4, 
+        // },
       },
     });
 
@@ -44,34 +39,12 @@
 
 
     //  For Student Love Section:
-    const mySwiperTwo = new Swiper(".mySwiperTwo", {
+    const mySwiperTwo = new Swiper(".student-testimonial", {
       slidesPerView: 1,
       spaceBetween: 0,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
-      },
-      breakpoints: {
-        576: {
-          slidesPerView: 2,
-          spaceBetween: 0,
-        },
-        640: {
-          slidesPerView: 2,
-          spaceBetween: 0,
-        },
-        768: {
-          slidesPerView: 2,
-          spaceBetween: 0,
-        },
-        992: {
-          slidesPerView: 3,
-          spaceBetween: 0,
-        },
-        1400: {
-          slidesPerView: 3,
-          spaceBetween: 0
-        },
       },
     });
 
