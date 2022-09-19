@@ -168,6 +168,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        
         .get-app-img {
             width: 400px;
             height: auto;
@@ -202,6 +203,13 @@
                     }
                 }
             }
+        }
+    }
+
+    .get-app-text {
+
+        h2 {
+            margin-bottom: 30px;
         }
     }
 }

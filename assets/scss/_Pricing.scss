@@ -87,9 +87,7 @@
                 color: #000000;
             }
 
-            li,p {
-                font-family: 'Inter';
-                font-style: normal;
+            li,p {  
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 26px;
@@ -108,6 +106,20 @@
                     }
                 }
             }
+
+            li {
+                padding-left: 35px;
+                position: relative;
+
+                &:after {
+                    left: 0;
+                    font-size: 24px;
+                    content: "\f058";
+                    position: absolute;
+                    font-family: 'Font Awesome 6 Free';
+                }
+            }
+
         }
         button {
             width: 200px;

@@ -956,6 +956,8 @@ header-area
             height: 100%; }
           .join-area .get-app .get-app-text .img-group a:last-child {
             margin-right: 0; }
+  .join-area .get-app-text h2 {
+    margin-bottom: 30px; }
 
 footer {
   width: 100%;
@@ -3411,16 +3413,26 @@ footer {
 
 .have-question-section {
   width: 100%;
-  margin: 110px 0px; }
+  margin: 190px 0px; }
   .have-question-section .container-fluid {
     padding: 0px; }
   .have-question-section .have-question-wrapper {
     width: 100%; }
     .have-question-section .have-question-wrapper .have-question-left {
       width: 1290px;
-      height: 532px;
+      padding: 63px 0px;
+      margin-left: auto;
+      margin-right: auto;
       position: relative;
       background: #F4F4F4; }
+      .have-question-section .have-question-wrapper .have-question-left:after {
+        top: 0;
+        left: -9999px;
+        width: 9999px;
+        content: "";
+        height: 100%;
+        position: absolute;
+        background: #F4F4F4; }
       .have-question-section .have-question-wrapper .have-question-left .have-question-left-wrapper {
         max-width: 720px;
         height: 100%;
@@ -3545,8 +3557,6 @@ footer {
         font-weight: 500;
         color: #000000; }
       .pricing-section .pricing .pricing-bottom li, .pricing-section .pricing .pricing-bottom p {
-        font-family: 'Inter';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 26px;
@@ -3561,6 +3571,15 @@ footer {
           .pricing-section .pricing .pricing-bottom li span img, .pricing-section .pricing .pricing-bottom p span img {
             width: 25px;
             height: 25px; }
+      .pricing-section .pricing .pricing-bottom li {
+        padding-left: 35px;
+        position: relative; }
+        .pricing-section .pricing .pricing-bottom li:after {
+          left: 0;
+          font-size: 24px;
+          content: "\f058";
+          position: absolute;
+          font-family: 'Font Awesome 6 Free'; }
     .pricing-section .pricing button {
       width: 200px;
       height: 60px;

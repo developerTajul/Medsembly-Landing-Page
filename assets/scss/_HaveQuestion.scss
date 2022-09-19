@@ -1,6 +1,6 @@
 .have-question-section {
     width: 100%;
-    margin: 110px 0px;
+    margin: 190px 0px;
 
     .container-fluid {
         padding: 0px;
@@ -8,11 +8,24 @@
 
     .have-question-wrapper {
         width: 100%;
+
         .have-question-left {
-            width: 1290px;
-            height: 532px;
+            width: 1290px; 
+            padding: 63px 0px;
+            margin-left: auto;
+            margin-right: auto;
             position: relative;
             background: #F4F4F4;
+
+            &:after {
+                top: 0;
+                left: -9999px;
+                width: 9999px;
+                content: "";
+                height: 100%;
+                position: absolute;
+                background: #F4F4F4;
+            }
     
             .have-question-left-wrapper {
                 max-width: 720px;
