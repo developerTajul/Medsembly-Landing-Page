@@ -5,7 +5,7 @@
         position: relative;
 
         .feature-heading {
-            max-width: 518px;
+            max-width: 650px;
             max-height: 416px;
             padding-top: 80px;
             margin: 40px 0 40px auto;
@@ -16,22 +16,21 @@
         }
     
         .feature-one {    
-            max-height: 680px;
+            margin-right: 5%;
             margin-left: auto;
-            margin-right: auto;
+            max-height: 680px;
             background: #E8E9FA;
         }
     
-        .feature-two {
-            margin-right: 0;
+        .feature-two { 
             margin-left: auto;
+            margin-right: 30px;
             position: relative;
             background: #FFECEC;
         }
     
         .feature-three {
-            margin-left: auto;
-            margin-right: auto;
+            margin-right: 5%;
             background: #E6F6F6;
         }
     }

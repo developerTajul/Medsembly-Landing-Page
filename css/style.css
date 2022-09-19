@@ -197,9 +197,9 @@ Please replace the following css with correct scss files
 .feature {
   width: 500px;
   padding: 30px;
+  margin: 15px 0px;
   max-height: 620px;
-  border-radius: 16px;
-  margin: 40px 0px 40px 0px; }
+  border-radius: 16px; }
   .feature p {
     margin: 0;
     padding: 20px 0; }
@@ -472,32 +472,32 @@ header-area
       justify-content: center;
       text-align: center;
       color: #333333;
-      padding: 93px 0; }
+      padding: 93px 0;
+      font-weight: 500; }
 
 .features-section {
   padding: 80px 15px 0 15px; }
   .features-section .feature-wrapper {
     position: relative; }
     .features-section .feature-wrapper .feature-heading {
-      max-width: 518px;
+      max-width: 650px;
       max-height: 416px;
       padding-top: 80px;
       margin: 40px 0 40px auto; }
       .features-section .feature-wrapper .feature-heading p {
         padding: 25px 0px 25px 0px; }
     .features-section .feature-wrapper .feature-one {
-      max-height: 680px;
+      margin-right: 5%;
       margin-left: auto;
-      margin-right: auto;
+      max-height: 680px;
       background: #E8E9FA; }
     .features-section .feature-wrapper .feature-two {
-      margin-right: 0;
       margin-left: auto;
+      margin-right: 30px;
       position: relative;
       background: #FFECEC; }
     .features-section .feature-wrapper .feature-three {
-      margin-left: auto;
-      margin-right: auto;
+      margin-right: 5%;
       background: #E6F6F6; }
 
 @media screen and (min-width: 320px) {
