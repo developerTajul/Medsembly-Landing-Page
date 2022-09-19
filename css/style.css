@@ -9517,6 +9517,14 @@ footer {
   .have-question-section .have-question-wrapper .have-question-left .have-question-left-wrapper h2 {
     margin-left: auto;
     margin-right: auto;
-    padding: 15px 24px 30px 24px; } }
+    padding: 15px 24px 30px 24px; }
+
+  .student-banner__content {
+    padding-left: 24px;
+    padding-right: 24px; }
+
+  .features-section {
+    padding-left: 24px;
+    padding-right: 24px; } }
 
 /*# sourceMappingURL=style.css.map */
