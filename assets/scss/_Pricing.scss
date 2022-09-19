@@ -18,16 +18,15 @@
 
     .pricing {
         width: 100%;
-        max-width: 450px;
-        height: 650px;
-        padding: 20px 22px;
+        margin: 0 auto;
+        max-width: 450px; 
         position: relative;
         border-radius: 16px;
-        margin: 0 auto;
+        padding: 20px 22px 40px;
         box-shadow: 8px 10px 60px rgba(0, 0, 0, 0.08);
 
         .pricing-top {
-            h2 {
+            h5 {
                 width: 100%;
                 display: block;
                 font-family: 'Inter';
@@ -39,6 +38,7 @@
                 color: #6D6E71;
                 text-align: center;
                 margin-top: 15px;
+                
                 span {
                     color: #EA1C2D;
                 }
@@ -81,11 +81,6 @@
             padding-top: 18px;
             border-top: 1px solid #CCCCCC;
             padding: 18px 20px 0 20px;
-
-            .sub-title {
-                font-weight: 500;
-                color: #000000;
-            }
 
             li,p {  
                 font-weight: 400;
@@ -140,4 +135,8 @@
             margin: 20px 0px 0px 0px;
         }
     }
+}
+
+.pricing-section .pricing a {
+    margin-top: 25px;
 }

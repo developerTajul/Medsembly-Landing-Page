@@ -113,9 +113,11 @@
                     .firstname {
                         max-width: 50%;
                         margin-right: 30px;
+
                         @include formInput(240px);
                         h4 {
-                            @include formH4Design;
+                            font-size: 18px !important;
+                            line-height: 28px !important;
                         }
                     }
 
@@ -123,7 +125,8 @@
                         max-width: 50%;
                         @include formInput(240px);
                         h4 {
-                            @include formH4Design;
+                            font-size: 18px !important;
+                            line-height: 28px !important;
                         }
                     }
                 }
@@ -131,7 +134,8 @@
                     max-width: 100%;
                     @include formInput(514px);
                     h4 {
-                        @include formH4Design;
+                        font-size: 18px !important;
+                        line-height: 28px !important;
                     }
                 }
 
@@ -157,20 +161,25 @@
     padding: 0 0 0 0;
     @include CarouselSwiper;
     .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-        bottom: 0px;
         left: -17%;
+        bottom: 10px;
+    }
+
+    .swiper {
+        margin-right: 150px;
+        margin-left: initial;
     }
 
     .get-app {
-        max-width: 100%;
-        height: 941px;
+        padding: 80px 0;
+        max-width: 100%; 
         margin: 0 auto;
         display: flex;
         align-items: center;
         justify-content: center;
         
         .get-app-img {
-            width: 400px;
+            width: 300px;
             height: auto;
             padding-bottom: 70px;
             img {

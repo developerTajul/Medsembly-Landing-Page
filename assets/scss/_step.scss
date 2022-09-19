@@ -3,14 +3,14 @@
     .step-heading { 
         max-width: 680px; 
         text-align: center;
-        margin: 110px auto 65px auto;
+        margin: 80px auto 50px auto;
     }
 
     .step-wrapper {
         width: 80%;
         display: grid;
         margin: 0 auto;
-        align-items: center;
+        align-items: start;
         padding-bottom: 0px;
         justify-content: center;
         grid-template-columns: 1fr 1fr 1fr;

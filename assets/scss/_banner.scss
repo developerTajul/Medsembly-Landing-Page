@@ -87,11 +87,13 @@
             text-align: center; 
             color: #333333;
             padding: 93px 0;
+            font-weight: 500 !important;
         }
     }
 }
 
 .student-banner {
+    overflow: hidden;
 
     .container {
         position: relative;
@@ -99,7 +101,7 @@
 
     &__content { 
         max-width: 860px;
-        padding: 190px 0 250px;
+        padding: 130px 0 250px;
 
         p {
             font-size: 24px;
@@ -108,6 +110,7 @@
     }
 
     &__media {
+        top: 60px;
         z-index: -1; 
         right: -172px;
         max-width: 570px;

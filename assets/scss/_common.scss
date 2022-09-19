@@ -27,6 +27,56 @@ h4, .h4 { font-size: 38px; line-height: 50px; }
 h5, .h5 { font-size: 32px; line-height: 39px; } 
 h6, .h6 { font-size: 28px; line-height: 34px; } 
 
+@media screen and (min-width: 1300px) and (max-width: 1440px) {
+
+    h1, .h1 { font-size: 64px !important; line-height: 83px !important; 
+        &.fz-lg { font-size: 64px !important; line-height: 74px !important; }
+    }
+    h2, .h2 { font-size: 50px !important; line-height: 60px !important; }
+    h3, .h3 { font-size: 44px !important; line-height: 56px !important; }
+    h4, .h4 { font-size: 38px !important; line-height: 50px !important; }
+    h5, .h5 { font-size: 32px !important; line-height: 39px !important; } 
+    h6, .h6 { font-size: 28px !important; line-height: 34px !important; } 
+
+    .student-banner {
+
+        &__content {
+            max-width: 793px !important;
+    
+            h1 {
+                margin-bottom: 20px;
+            }
+    
+            p {
+                margin-bottom: 30px;
+            }
+        }
+
+        &__media {
+            right: -40px !important;
+        }
+
+    }
+
+    .student-banner .hero-section .hero-text h3 {
+        text-transform: inherit;
+    }
+
+    .have-question-section .have-question-wrapper .have-question-left {
+        width: 1195px !important;
+    }
+
+    .have-question-section .have-question-wrapper .have-question-left .have-question-img {
+        max-width: 430px;
+        top: -10% !important;
+
+        img {
+            height: auto;
+            max-width: 100%;
+        }
+    }
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: $black;
     margin-bottom:0;
@@ -161,7 +211,7 @@ Please replace the following css with correct scss files
         margin: 0;
         // font-size: 16px;
         // line-height: 26px;
-        padding-top: 20px; 
+        padding: 20px 0; 
     }
 
     img {
@@ -175,7 +225,7 @@ Please replace the following css with correct scss files
     min-height: 539px;
     background: $white;
     border-radius: 16px;
-    padding: 10px 20px 15px 35px;
+    padding: 10px 20px;
 
     h2 {
         width: 100%; 
