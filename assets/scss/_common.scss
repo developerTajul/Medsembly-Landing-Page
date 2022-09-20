@@ -32,8 +32,10 @@ h6, .h6 { font-size: 28px; line-height: 34px; }
     h1, .h1 { font-size: 64px !important; line-height: 83px !important; 
         &.fz-lg { font-size: 64px !important; line-height: 74px !important; }
     }
-    h2, .h2 { font-size: 50px !important; line-height: 60px !important; }
-    h3, .h3 { font-size: 44px !important; line-height: 56px !important; }   
+    h2, .h2 { font-size: 42px !important; line-height: 52px !important; }
+    h3, .h3 { font-size: 36px !important; line-height: 46px !important; }   
+    h4, .h4 { font-size: 30px !important; line-height: 40px !important; }   
+    h5, .h5 { font-size: 26px !important; line-height: 36px !important; }   
 
     .student-banner {
 
@@ -75,6 +77,38 @@ h6, .h6 { font-size: 28px; line-height: 34px; }
 
     .team-section .team-wrapper .team .team-info .team-info-text h6{
         font-size: 18px !important;
+    }
+
+    .student-banner .hero-text {
+        max-width: 1025px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .features-section .feature-wrapper .feature-heading h2 {
+        max-width: 470px;
+    }
+
+    .feature h5 {
+        max-width: 340px;
+    }
+
+    .step-section .step-heading h2 {
+        max-width: 582px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .team-header h2 {
+        max-width: 518px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .student-review-section .student-review-header h2 {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 

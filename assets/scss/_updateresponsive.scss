@@ -321,6 +321,10 @@
     .newsletter-section {
         padding: 0 0px 70px;
     }
+
+    .student-banner__content {
+        max-width: 471px !important;
+    }
 }
 
 @media screen and (max-width: 575px) { 
@@ -413,3 +417,10 @@
         padding: 0px 24px;
     }
 }
+
+@media screen and (max-width: 480px) {
+
+    .student-banner__content h1 {
+        max-width: 325px;
+    }
+ }
