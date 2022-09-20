@@ -7556,8 +7556,13 @@ footer {
     .privacy-policy-section .privacy-body .privacy-sub-title p {
       padding: 15px 0px 0px 0px; }
       .privacy-policy-section .privacy-body .privacy-sub-title p span {
-        text-transform: capitalize;
-        color: #EA1C2D; }
+        color: #EA1C2D;
+        text-transform: capitalize; }
+      .privacy-policy-section .privacy-body .privacy-sub-title p a {
+        color: #EA1C2D;
+        transition: all .3s ease; }
+        .privacy-policy-section .privacy-body .privacy-sub-title p a:hover {
+          color: #6D6E71; }
   .privacy-policy-section .privacy-body ul {
     list-style: disc; }
     .privacy-policy-section .privacy-body ul li {

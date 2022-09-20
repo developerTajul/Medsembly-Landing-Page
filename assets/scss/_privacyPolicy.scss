@@ -27,6 +27,7 @@
     }
 
     .privacy-body {
+
         .privacy-sub-title {
             margin-top: 50px;
 
@@ -34,8 +35,17 @@
                 padding: 15px 0px 0px 0px;
 
                 span {
-                    text-transform: capitalize;
                     color: #EA1C2D;
+                    text-transform: capitalize;
+                }
+
+                a {
+                    color: $red;
+                    transition: all .3s ease;
+
+                    &:hover {
+                        color: #6D6E71;
+                    }
                 }
             }
         }
