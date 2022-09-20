@@ -9,8 +9,7 @@
     .blog-wrapper {
         .blog-post-items {
             article {
-                max-width: 413px;
-                height: 560px;
+                max-width: 413px; 
                 background: #FFFFFF;
                 border: 0.75px solid #CCCCCC;
                 border-radius: 16px;
@@ -41,16 +40,15 @@
                     .post-meta {
                         display: flex;
                         align-items: center;
-                        margin: 12px 0px;
+                        margin: 25px 0px 8px !important;
 
-                        img {
-                            width: 20px;
-                            height: 20px;
+                        svg { 
+                            color: #6D6E71;
+                            font-size: 20px;
                             margin-right: 5px;
                         }
 
-                        span {
-                            font-family: 'Inter';
+                        span { 
                             font-style: normal;
                             font-weight: 400;
                             font-size: 18px;
@@ -100,9 +98,9 @@
                         div {
                             display: flex;
 
-                            img {
-                                width: 20px;
-                                height: 20px;
+                            svg {
+                                font-size: 20px;
+                                color: #6D6E71;
                                 margin-right: 5px;
                             }
 

@@ -512,6 +512,10 @@
             padding: 20px 25px; 
         }
     }
+    
+    .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper article .postbox__text .post-meta {
+        padding: 25px 0 16px 0;
+    }
 }
 
 @media screen and (max-width: 480px) {

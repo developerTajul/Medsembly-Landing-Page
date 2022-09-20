@@ -57,6 +57,10 @@ h6, .h6 {
     font-size: 26px !important;
     line-height: 36px !important; }
 
+  .blog-section .blog-wrapper .blog-post-items article .postbox_text .blog-title {
+    font-size: 28px !important;
+    line-height: 38px !important; }
+
   .student-banner__content {
     max-width: 793px !important; }
     .student-banner__content h1 {
@@ -7654,7 +7658,6 @@ footer {
     margin: 0 auto; }
   .blog-section .blog-wrapper .blog-post-items article {
     max-width: 413px;
-    height: 560px;
     background: #FFFFFF;
     border: 0.75px solid #CCCCCC;
     border-radius: 16px;
@@ -7677,13 +7680,12 @@ footer {
     .blog-section .blog-wrapper .blog-post-items article .postbox_text .post-meta {
       display: flex;
       align-items: center;
-      margin: 12px 0px; }
-      .blog-section .blog-wrapper .blog-post-items article .postbox_text .post-meta img {
-        width: 20px;
-        height: 20px;
+      margin: 25px 0px 8px !important; }
+      .blog-section .blog-wrapper .blog-post-items article .postbox_text .post-meta svg {
+        color: #6D6E71;
+        font-size: 20px;
         margin-right: 5px; }
       .blog-section .blog-wrapper .blog-post-items article .postbox_text .post-meta span {
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
@@ -7720,9 +7722,9 @@ footer {
         color: #EA1C2D; }
       .blog-section .blog-wrapper .blog-post-items article .postbox_text .read-more div {
         display: flex; }
-        .blog-section .blog-wrapper .blog-post-items article .postbox_text .read-more div img {
-          width: 20px;
-          height: 20px;
+        .blog-section .blog-wrapper .blog-post-items article .postbox_text .read-more div svg {
+          font-size: 20px;
+          color: #6D6E71;
           margin-right: 5px; }
         .blog-section .blog-wrapper .blog-post-items article .postbox_text .read-more div span {
           font-family: 'Inter';
@@ -8032,9 +8034,9 @@ footer {
           display: flex;
           align-items: center;
           padding: 38px 0 16px 0; }
-          .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper article .postbox__text .post-meta img {
-            width: 26px;
-            height: 26px; }
+          .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper article .postbox__text .post-meta svg {
+            font-size: 26px;
+            color: #6D6E71; }
           .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper article .postbox__text .post-meta span {
             font-weight: 400;
             font-size: 24px;
@@ -9694,7 +9696,10 @@ footer {
     .discount-section .discount-content .discount-list ul li a {
       font-size: 24px;
       line-height: 32px;
-      padding: 20px 25px; } }
+      padding: 20px 25px; }
+
+  .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper article .postbox__text .post-meta {
+    padding: 25px 0 16px 0; } }
 @media screen and (max-width: 480px) {
   .student-banner__content h1 {
     max-width: 325px; } }
