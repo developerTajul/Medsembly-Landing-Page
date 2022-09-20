@@ -31,19 +31,13 @@
             }
     
             form {
-                .user-name .first-name h3,
-                .user-name .last-name h3,
-                .email-address h3,
-                .phone-number h3,
-                .message h3,
-                .recaptcha h3 {
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 22px;
-                    text-transform: capitalize;
-                    color: #000000;
+                .user-name .first-name h5,
+                .user-name .last-name h5,
+                .email-address h5,
+                .phone-number h5,
+                .message h5,
+                .recaptcha h5 { 
+                    font-weight: 400; 
                     margin-bottom: 5px;
                 }
     

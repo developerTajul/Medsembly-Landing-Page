@@ -6419,19 +6419,13 @@ footer {
     .contact-us-section .contact-us-wrapper .contact-us-form p {
       color: #6D6E71;
       margin: 20px 0px 30px 0px; }
-    .contact-us-section .contact-us-wrapper .contact-us-form form .user-name .first-name h3,
-    .contact-us-section .contact-us-wrapper .contact-us-form form .user-name .last-name h3,
-    .contact-us-section .contact-us-wrapper .contact-us-form form .email-address h3,
-    .contact-us-section .contact-us-wrapper .contact-us-form form .phone-number h3,
-    .contact-us-section .contact-us-wrapper .contact-us-form form .message h3,
-    .contact-us-section .contact-us-wrapper .contact-us-form form .recaptcha h3 {
-      font-family: 'Inter';
-      font-style: normal;
+    .contact-us-section .contact-us-wrapper .contact-us-form form .user-name .first-name h5,
+    .contact-us-section .contact-us-wrapper .contact-us-form form .user-name .last-name h5,
+    .contact-us-section .contact-us-wrapper .contact-us-form form .email-address h5,
+    .contact-us-section .contact-us-wrapper .contact-us-form form .phone-number h5,
+    .contact-us-section .contact-us-wrapper .contact-us-form form .message h5,
+    .contact-us-section .contact-us-wrapper .contact-us-form form .recaptcha h5 {
       font-weight: 400;
-      font-size: 16px;
-      line-height: 22px;
-      text-transform: capitalize;
-      color: #000000;
       margin-bottom: 5px; }
     .contact-us-section .contact-us-wrapper .contact-us-form form .user-name .first-name input,
     .contact-us-section .contact-us-wrapper .contact-us-form form .user-name .last-name input,
@@ -9560,7 +9554,13 @@ footer {
     padding-bottom: 80px; }
 
   .step-section .step-heading {
-    margin: 20px auto 25px auto; } }
+    margin: 20px auto 25px auto; }
+
+  .contact-us-section .container {
+    padding: 80px 15px; }
+
+  .contact-us-section .contact-us-wrapper .contact-us-form form {
+    margin: 40px auto 0 !important; } }
 @media screen and (max-width: 767px) {
   .features-section .feature-wrapper .feature {
     width: 100% !important;
