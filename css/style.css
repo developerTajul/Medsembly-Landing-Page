@@ -6002,7 +6002,7 @@ footer {
   align-items: center;
   justify-content: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover !important;
   background-position: center;
   box-sizing: border-box;
   padding: 0;
