@@ -52,7 +52,7 @@
                         letter-spacing: -0.02em;
                         color: #6D6E71;
                         position: relative;
-                        padding-left: 40px;
+                        padding-left: 40px !important;
 
                         &::before{
                             left: 0;
@@ -65,10 +65,9 @@
                 }
             }
 
-            button {
-                max-width: 175px;
+            button { 
                 font-size: 16px;
-                margin: 10px auto 60px auto;
+                margin: 10px auto 60px auto !important;
             }
         }
 
