@@ -1,48 +1,50 @@
 .physician-about-section {
-    padding: 60px 0px 0px 0px;
+    padding: 110px 0;
+
     .container {
         max-width: 1350px;
         margin: 0 auto;
     }
     .physician-about-wrapper {
         width: 100%;
-        margin: 0 auto;
+        margin: 0 auto -100px;
+
         .physician-about {
             max-width: 665px;
-            height: 477px;
-            margin: 55px auto;
+            margin: 0 0 100px;
 
             h2 { 
                 padding-left: 17px;
             }
 
             ul {
-                li { 
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 18px;
-                    line-height: 29px;
-                    text-transform: capitalize;
-                    background: transparent;
-                    color: #6D6E71;
-                    box-shadow: none;
-                    border-radius: 10px;
-                    padding: 23px 20px;
-                    cursor: pointer;
+                margin: 20px 0 0 20px;
 
-                    &:hover {
-                        background: #fff;
-                        color: #EA1C2D;
-                        // box-shadow: rgb(0 0 0 / 5%) 1.95px 1.95px 7.6px;
+                li {
+                    
+                    a {
+                        padding: 15px;
+                        display: block;
+                        color: #6D6E71;
+                        font-weight: 500;
+                        border-radius: 10px;
+                        
+                        &:not(:last-child) {
+                            margin-bottom: 10px;
+                        }
+                        
+                        &:hover {
+                            color: $red;
+                            background: $white;
+                            filter: drop-shadow(4px 6px 60px rgba(0, 0, 0, 0.06));
+                        }
                     }
                 }
             }
-            button {
-                padding: 15px 25px;
-                margin-left: 20px;
+
+            .primary_button {
                 margin-top: 30px;
-                font-size: 16px;
-                line-height: 26px;
+                margin-left: 32px; 
             }
         }
     }

@@ -3523,7 +3523,7 @@ footer {
   max-height: auto;
   height: auto;
   display: block;
-  margin: 0 auto 277px auto; }
+  margin: 0 auto 230px auto; }
   .for-student-banner-section .student-banner-wrapper {
     height: auto;
     margin: 0 auto;
@@ -3605,7 +3605,7 @@ footer {
 
 .have-question-section {
   width: 100%;
-  margin: 190px 0px; }
+  margin: 0 0 160px; }
   .have-question-section .container-fluid {
     padding: 0px; }
   .have-question-section .have-question-wrapper {
@@ -5723,7 +5723,10 @@ footer {
             transform: scale(1.3); }
       .resource-service-section .resource-service-wrapper .resource-service h4 {
         padding-top: 20px;
-        text-align: center; }
+        text-align: center;
+        transition: all .3s ease; }
+        .resource-service-section .resource-service-wrapper .resource-service h4:hover {
+          color: #EA1C2D; }
 
 @media screen and (min-width: 320px) and (max-width: 1400px) {
   .resources-banner-section {
@@ -5869,40 +5872,35 @@ footer {
         left: -10px; }
 
 .physician-about-section {
-  padding: 60px 0px 0px 0px; }
+  padding: 110px 0; }
   .physician-about-section .container {
     max-width: 1350px;
     margin: 0 auto; }
   .physician-about-section .physician-about-wrapper {
     width: 100%;
-    margin: 0 auto; }
+    margin: 0 auto -100px; }
     .physician-about-section .physician-about-wrapper .physician-about {
       max-width: 665px;
-      height: 477px;
-      margin: 55px auto; }
+      margin: 0 0 100px; }
       .physician-about-section .physician-about-wrapper .physician-about h2 {
         padding-left: 17px; }
-      .physician-about-section .physician-about-wrapper .physician-about ul li {
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 29px;
-        text-transform: capitalize;
-        background: transparent;
-        color: #6D6E71;
-        box-shadow: none;
-        border-radius: 10px;
-        padding: 23px 20px;
-        cursor: pointer; }
-        .physician-about-section .physician-about-wrapper .physician-about ul li:hover {
-          background: #fff;
-          color: #EA1C2D; }
-      .physician-about-section .physician-about-wrapper .physician-about button {
-        padding: 15px 25px;
-        margin-left: 20px;
+      .physician-about-section .physician-about-wrapper .physician-about ul {
+        margin: 20px 0 0 20px; }
+        .physician-about-section .physician-about-wrapper .physician-about ul li a {
+          padding: 15px;
+          display: block;
+          color: #6D6E71;
+          font-weight: 500;
+          border-radius: 10px; }
+          .physician-about-section .physician-about-wrapper .physician-about ul li a:not(:last-child) {
+            margin-bottom: 10px; }
+          .physician-about-section .physician-about-wrapper .physician-about ul li a:hover {
+            color: #EA1C2D;
+            background: #FFFFFF;
+            filter: drop-shadow(4px 6px 60px rgba(0, 0, 0, 0.06)); }
+      .physician-about-section .physician-about-wrapper .physician-about .primary_button {
         margin-top: 30px;
-        font-size: 16px;
-        line-height: 26px; }
+        margin-left: 32px; }
 
 @media screen and (min-width: 320px) and (max-width: 1400px) {
   .resources-banner-wrapper .resources-banner-title {
