@@ -139,10 +139,7 @@
                     }
                 }
 
-                a {
-                    max-width: 160px;
-                    display: flex;
-                    justify-content: center;
+                a {   
                     margin-top: 35px;
                 }
             }
@@ -153,6 +150,10 @@
             img {
                 max-width: 100%;
             }
+        }
+
+        input[type="submit"] {
+            margin-top: 20px;
         }
     }
 }

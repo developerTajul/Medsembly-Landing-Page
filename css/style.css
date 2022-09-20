@@ -254,7 +254,7 @@ h1, h2, h3, h4, h5, h6 {
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 600; }
 
-.primary_button {
+.primary_button, input[type="submit"] {
   border: none;
   outline: none;
   color: #FFFFFF;
@@ -1080,14 +1080,13 @@ header-area
           font-size: 18px !important;
           line-height: 28px !important; }
       .newsletter-section .subscribe-area .subscribe-text .sub-form a {
-        max-width: 160px;
-        display: flex;
-        justify-content: center;
         margin-top: 35px; }
     .newsletter-section .subscribe-area .subscribe-img {
       max-width: 100%; }
       .newsletter-section .subscribe-area .subscribe-img img {
         max-width: 100%; }
+    .newsletter-section .subscribe-area input[type="submit"] {
+      margin-top: 20px; }
 
 .join-area {
   padding: 0 0 0 0; }
