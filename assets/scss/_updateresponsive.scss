@@ -331,6 +331,22 @@
     .contact-us-section .contact-us-wrapper .contact-us-form form {
         margin: 40px auto 0 !important;
     }
+
+    .blog-details-section {
+        padding: 70px 0px;
+    }
+
+    .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .post-comment-wrapper {
+        margin-bottom: 65px;
+    }
+
+    .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper .blog-comment { 
+        margin: 0 auto 35px auto;
+    }
+
+    .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper article .postbox__text .blog-extra {
+        margin: 60px auto 80px auto;
+    }
 }
 
 @media screen and (max-width: 767px) { 

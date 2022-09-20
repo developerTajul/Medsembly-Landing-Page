@@ -238,7 +238,8 @@
                     margin: 40px 0 20px 0;
                 }
     
-                .news-wrapper {
+                .latest-news {
+
                     .news {
                         max-width: 100%;
                         height: 100px;
@@ -514,7 +515,7 @@
                     margin: 40px 0 20px 0;
                 }
     
-                .news-wrapper {
+                .latest-news {
                     .news {
                         max-width: 100%;
                         height: 120px;
@@ -794,7 +795,8 @@
                     margin: 40px 0 20px 0;
                 }
     
-                .news-wrapper {
+                .latest-news {
+
                     .news {
                         max-width: 100%;
                         height: 120px;
@@ -808,13 +810,15 @@
                             border-radius: 8px;
                         }
                         .news-content {
-                            h4 {
+
+                            span {
                                 font-size: 14px;
                                 line-height: 17px;
                                 margin-bottom: 5px;
                                 padding-right: 10px;
                             }
-                            p {
+
+                            h6 {
                                 font-size: 17px;
                                 line-height: 23px;
                                 padding-right: 10px;
