@@ -21,6 +21,10 @@
                 margin: 20px 0 0 20px;
 
                 li {
+
+                    &:not(:last-child) {
+                        margin-bottom: 10px;
+                    }
                     
                     a {
                         padding: 15px;
@@ -28,10 +32,6 @@
                         color: #6D6E71;
                         font-weight: 500;
                         border-radius: 10px;
-                        
-                        &:not(:last-child) {
-                            margin-bottom: 10px;
-                        }
                         
                         &:hover {
                             color: $red;

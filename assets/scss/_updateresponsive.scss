@@ -271,6 +271,18 @@
     .faq-section .faq-wrapper .faq .faq-head .faq-icon {
         min-width: 30px;
     }
+
+    .physician-about-section .physician-about-wrapper .physician-about ul li {
+        padding: 0; 
+
+        a {
+            padding: 10px 12px;
+        }
+    }
+
+    .physician-about-section .physician-about-wrapper .physician-about .primary_button {
+        margin-left: 31px;
+    }
 }
 
 @media screen and (max-width: 1199px) { 

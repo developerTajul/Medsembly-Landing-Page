@@ -5886,14 +5886,14 @@ footer {
         padding-left: 17px; }
       .physician-about-section .physician-about-wrapper .physician-about ul {
         margin: 20px 0 0 20px; }
+        .physician-about-section .physician-about-wrapper .physician-about ul li:not(:last-child) {
+          margin-bottom: 10px; }
         .physician-about-section .physician-about-wrapper .physician-about ul li a {
           padding: 15px;
           display: block;
           color: #6D6E71;
           font-weight: 500;
           border-radius: 10px; }
-          .physician-about-section .physician-about-wrapper .physician-about ul li a:not(:last-child) {
-            margin-bottom: 10px; }
           .physician-about-section .physician-about-wrapper .physician-about ul li a:hover {
             color: #EA1C2D;
             background: #FFFFFF;
@@ -9514,7 +9514,15 @@ footer {
     line-height: 30px !important; }
 
   .faq-section .faq-wrapper .faq .faq-head .faq-icon {
-    min-width: 30px; } }
+    min-width: 30px; }
+
+  .physician-about-section .physician-about-wrapper .physician-about ul li {
+    padding: 0; }
+    .physician-about-section .physician-about-wrapper .physician-about ul li a {
+      padding: 10px 12px; }
+
+  .physician-about-section .physician-about-wrapper .physician-about .primary_button {
+    margin-left: 31px; } }
 @media screen and (max-width: 1199px) {
   .student-banner__content {
     padding: 100px 0 130px;
