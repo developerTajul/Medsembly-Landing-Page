@@ -240,8 +240,8 @@ h6, .h6 {
     line-height: 40px !important; } }
 @media screen and (max-width: 575px) {
   h1.fz-lg, .h1.fz-lg {
-    font-size: 35px !important;
-    line-height: 45px !important; } }
+    font-size: 38px !important;
+    line-height: 48px !important; } }
 h1, h2, h3, h4, h5, h6 {
   color: #000;
   margin-bottom: 0;
@@ -1125,11 +1125,11 @@ header-area
     margin-right: 150px;
     margin-left: initial; }
   .join-area .get-app {
-    padding: 80px 0;
-    max-width: 100%;
-    margin: 0 auto;
     display: flex;
+    margin: 0 auto;
+    max-width: 100%;
     align-items: center;
+    padding: 100px 0 80px;
     justify-content: center; }
     .join-area .get-app .get-app-img {
       width: 300px;
@@ -2938,13 +2938,7 @@ footer {
       opacity: 0;
       cursor: pointer;
       transition: all 1s ease; }
-      .about-team-section .about-team-wrapper .about-team .about-team-content h3 {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 28px;
-        text-transform: capitalize;
+      .about-team-section .about-team-wrapper .about-team .about-team-content h6 {
         color: #FFFFFF; }
       .about-team-section .about-team-wrapper .about-team .about-team-content p {
         color: #fff;
@@ -3688,7 +3682,7 @@ footer {
   margin: 0 auto; }
   .pricing-section .section-title {
     max-width: 885px;
-    margin: 110px auto 110px auto; }
+    margin: 110px auto 70px auto; }
     .pricing-section .section-title h2 {
       text-align: center;
       letter-spacing: -0.02em;
@@ -5291,8 +5285,8 @@ footer {
         display: block;
         margin: 16px; }
     .professional-offer-section .professional-offer-context a {
-      margin: 30px 0px;
-      font-size: 16px; }
+      font-size: 16px;
+      margin: 25px 0px 0 !important; }
   .professional-offer-section .offer-img-wrapper {
     max-width: 640px;
     max-height: 712px;
@@ -5449,11 +5443,11 @@ footer {
         max-height: 85%;
         margin: 0 auto; }
       .professional-offer-section .offer-img-wrapper .offer-top-img {
+        right: 2%;
+        bottom: -2%;
         max-width: 80px;
         max-height: 80px;
-        position: absolute;
-        right: -15%;
-        bottom: -30%; }
+        position: absolute; }
 
   .professional-service-section {
     padding-top: 65px; }
@@ -5640,7 +5634,7 @@ footer {
 /* for professional page */
 @media all and (min-width: 320px) and (max-width: 575px) {
   .professional-offer-section {
-    padding: 50px 0px; }
+    padding: 50px 0px 135px; }
 
   .professional-offer-section .professional-offer-context h2 {
     font-size: 28px;
@@ -5727,9 +5721,9 @@ footer {
           transition: all 0.7s ease; }
           .resource-service-section .resource-service-wrapper .resource-service .resource-img img:hover {
             transform: scale(1.3); }
-      .resource-service-section .resource-service-wrapper .resource-service h2 {
-        font-weight: 600;
-        padding-top: 20px; }
+      .resource-service-section .resource-service-wrapper .resource-service h4 {
+        padding-top: 20px;
+        text-align: center; }
 
 @media screen and (min-width: 320px) and (max-width: 1400px) {
   .resources-banner-section {
@@ -9512,7 +9506,17 @@ footer {
     margin-left: 13px !important; }
 
   .professional-banner-section .professional-banner-bottom .bottom-content {
-    margin-top: 45px; } }
+    margin-top: 45px; }
+
+  .for-student-service-section h2 {
+    margin: 0 auto 50px auto; }
+
+  .for-student-service-section .student-service-wrapper .student-service h6 {
+    font-size: 18px !important;
+    line-height: 30px !important; }
+
+  .faq-section .faq-wrapper .faq .faq-head .faq-icon {
+    min-width: 30px; } }
 @media screen and (max-width: 1199px) {
   .student-banner__content {
     padding: 100px 0 130px;
@@ -9559,7 +9563,23 @@ footer {
     padding: 0 0px 70px; }
 
   .student-banner__content {
-    max-width: 471px !important; } }
+    max-width: 471px !important; }
+
+  .about-service-section .container .row {
+    flex-direction: column-reverse; }
+
+  .about-service-section .about-service-wrapper .about-service-two {
+    padding-top: 80px; }
+
+  .about-service-section .about-service-wrapper .about-service-img {
+    padding-bottom: 150px; }
+
+  .about-service-section {
+    padding-top: 60px !important; }
+
+  .about-service-section .about-service-wrapper .about-service-img .top-img {
+    right: -6%;
+    bottom: 8%; } }
 @media screen and (max-width: 575px) {
   .team-section .swiper-pagination {
     bottom: 10px !important; }
@@ -9608,8 +9628,12 @@ footer {
     padding: 15px 24px 30px 24px; }
 
   .student-banner__content {
+    padding-top: 30px;
     padding-left: 24px;
     padding-right: 24px; }
+    .student-banner__content p {
+      font-size: 20px;
+      line-height: 30px; }
 
   .features-section {
     padding-left: 24px;

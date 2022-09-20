@@ -258,6 +258,19 @@
     .professional-banner-section .professional-banner-bottom .bottom-content {
         margin-top: 45px;
     }
+
+    .for-student-service-section h2 {
+        margin: 0 auto 50px auto;
+    }
+
+    .for-student-service-section .student-service-wrapper .student-service h6 {
+        font-size: 18px !important; 
+        line-height: 30px !important; 
+    }
+
+    .faq-section .faq-wrapper .faq .faq-head .faq-icon {
+        min-width: 30px;
+    }
 }
 
 @media screen and (max-width: 1199px) { 
@@ -329,6 +342,27 @@
     .student-banner__content {
         max-width: 471px !important;
     }
+
+    .about-service-section .container .row {
+        flex-direction: column-reverse;
+    }
+
+    .about-service-section .about-service-wrapper .about-service-two {
+        padding-top: 80px;
+    }
+
+    .about-service-section .about-service-wrapper .about-service-img {
+        padding-bottom: 150px;
+    }
+
+    .about-service-section {
+        padding-top: 60px !important;
+    }
+
+    .about-service-section .about-service-wrapper .about-service-img .top-img {
+        right: -6%;
+        bottom: 8%;
+    }
 }
 
 @media screen and (max-width: 575px) { 
@@ -394,8 +428,14 @@
     }
 
     .student-banner__content {
+        padding-top: 30px;
         padding-left: 24px;
         padding-right: 24px;
+
+        p {
+            font-size: 20px;
+            line-height: 30px;
+        }
     }
  
     .features-section {

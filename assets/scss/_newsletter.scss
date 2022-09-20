@@ -172,11 +172,11 @@
     }
 
     .get-app {
-        padding: 80px 0;
-        max-width: 100%; 
-        margin: 0 auto;
         display: flex;
+        margin: 0 auto;
+        max-width: 100%; 
         align-items: center;
+        padding: 100px 0 80px;
         justify-content: center;
         
         .get-app-img {
