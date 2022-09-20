@@ -104,11 +104,23 @@ h6, .h6 { font-size: 28px; line-height: 34px; }
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     .student-review-section .student-review-header h2 {
         max-width: 600px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .for-student-banner-section .student-banner-wrapper .student-banner-top .banner-content h1 {
+        max-width: 595px !important;
+    }
+
+    .for-student-banner-section .student-banner-wrapper .student_banner-bottom h2 {
+        max-width: 460px !important;
+    }
+
+    .for-student-service-section h2 {
+        max-width: 419px !important;
     }
 }
 
