@@ -122,6 +122,52 @@ h6, .h6 { font-size: 28px; line-height: 34px; }
     .for-student-service-section h2 {
         max-width: 419px !important;
     }
+
+    .professional-banner-section .professional-banner-middle .middle-left-img .left-img-one, .professional-banner-section .professional-banner-bottom .bottom-left-img .bottom-left-img-one {
+        max-width: 400px !important;
+        max-height: 399px !important;
+    }
+
+    .professional-banner-section .professional-banner-middle .middle-left-img .left-img-two, .professional-banner-section .professional-banner-bottom .bottom-left-img .bottom-left-img-two {
+        right: -2% !important; 
+        max-width: 270px !important;
+        max-height: 265px !important; 
+    }
+
+    .professional-banner-section .professional-banner-bottom .bottom-left-img .bottom-left-img-two { 
+        left: -15% !important;
+        bottom: -19% !important; 
+    }
+
+    .professional-banner-section .professional-banner-bottom .bottom-left-img {
+        max-width: 480px !important; 
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .professional-banner-section .professional-banner-middle {
+        margin: 130px auto !important;
+    }
+
+    .professional-banner-section .professional-banner-bottom {
+        margin: 0 auto 160px auto !important;
+
+        + .professional-banner-bottom {
+            margin: 0 auto 130px auto !important;
+        }
+    }
+
+    .professional-offer-section .offer-img-wrapper .offer-bottom-img {
+        max-width: 470px !important; 
+    }
+
+    .professional-offer-section .offer-img-wrapper .offer-top-img {
+        right: -6% !important;
+        bottom: -25% !important; 
+        max-width: 290px !important; 
+    }
 }
 
 @media screen and (max-width: 1400px) {
