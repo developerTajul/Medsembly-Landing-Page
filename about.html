@@ -18,18 +18,18 @@
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
-<!--    Bootstrap   -->
-<link rel="stylesheet" href="css/bootstrap.min.css" />
-<link rel="stylesheet" href="css/fontawesomeAll.min.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/common.css">
-<link rel="stylesheet" href="css/default.css">
-<!-- <link rel="stylesheet" href="assets/scss/main.css"> -->
-<link rel="stylesheet" href="css/responsive.css">
-<!--    Wow Js  -->
-<link rel="stylesheet" href="css/animate.css">
-<script src="./js/wow.min.js"></script>
-<!-- main css -->
+    <!--    Bootstrap   -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fontawesomeAll.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/default.css">
+    <!-- <link rel="stylesheet" href="assets/scss/main.css"> -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--    Wow Js  -->
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="./js/wow.min.js"></script>
+    <!-- main css -->
 </head>
 
 <body>
@@ -171,45 +171,64 @@
                         <h6>Brandi Pinette</h6>
                         <p>Graphic Designer
                             and Social Media Manager</p>
-                        <a  onclick="showModal('modalOne')">Read Full Bio</a>
+                        <a data-bs-toggle="modal" data-bs-target="#modalOne">Read Full Bio</a>
                     </div>
-                    <div class="skl-modal-content skl-modal-toggle" id="modalOne">
-                        <div class="skl-modal-body">
-                            <div>
-                                <h3 class="skl-modal-title">Brandi Pinette</h3>
-                                <p class="skl-modal-text">
-                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, aperiam.
-                                </p>
-                            </div>
-                            <div>
-                                <button type="button" class="btn btn-close" onclick="showModal('modalTwo')">   </button>
+                    <!-- modal -->
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalOne" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog  modal-dialog-scrollable modal-dialog-centered">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    Brandi is a graphic designer from Hartford County, Connecticut. She started a
+                                    freelance business while in college in
+                                    2019 and has done everything from branding to motion graphics to app and web design.
+                                    She is a recent graduate from
+                                    Quinnipiac University with a Bachelor’s in Graphic and Interactive Design and a
+                                    minor in Biology.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
                 <!-- team bio -->
 
                 <div class="about-team">
                     <img src="./images/Inner/About/3.png" alt="about12" />
                     <div class="about-team-content">
-                        <h6>Brandi Pinette</h6>
-                        <p>Graphic Designer
-                            and Social Media Manager</p>
-                        <a onclick="showModal('modalTwo')">Read Full Bio</a>
+                        <h6>Rodeline Joseph, MMS, PA-C
+                            Founder</h6>
+                        <p>Our Amazing Ambassadors</p>
+                        <a data-bs-toggle="modal" data-bs-target="#modalTwo">Read Full Bio</a>
                     </div>
-                    <div class="skl-modal-content skl-modal-toggle" id="modalTwo">
-                        <div class="skl-modal-body">
-                            <div>
-                                <h3 class="skl-modal-title">Brandi Pinette</h3>
-                                <p class="skl-modal-text">Lorem ipsum dolor sit amet.
-                                    Lorem ipsum dolor sit amet.
-                                    Lorem ipsum dolor sit amet</p>
-                            </div>
-                            <div>
-                                <button type="button" class="btn btn-close"></button>
+                    <!-- modal two -->
+                    <div class="modal fade" id="modalTwo" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog  modal-dialog-scrollable modal-dialog-centered">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    Brandi is a graphic designer from Hartford County, Connecticut. She started a
+                                    freelance business while
+                                    in college in
+                                    2019 and has done everything from branding to motion graphics to app and web design.
+                                    She is a recent
+                                    graduate from
+                                    Quinnipiac University with a Bachelor’s in Graphic and Interactive Design and a
+                                    minor in Biology.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
             <h2>Our Amazing Ambassadors</h2>
@@ -219,18 +238,27 @@
                     <div class="ambassador-content">
                         <h6>Brandi Pinette</h6>
                         <p>pre-pa student ambassador</p>
-                        <a onclick="showModal('modalThree')">Read Full Bio</a>
+                        <a data-bs-toggle="modal" data-bs-target="#modalThree">Read Full Bio</a>
                     </div>
-                    <div class="skl-modal-content skl-modal-toggle" id="modalThree">
-                        <div class="skl-modal-body">
-                            <div>
-                                <h3 class="skl-modal-title">Brandi Pinette</h3>
-                                <p class="skl-modal-text">Lorem ipsum dolor sit amet.
-                                    Lorem ipsum dolor sit amet.
-                                    Lorem ipsum dolor sit amet</p>
-                            </div>
-                            <div>
-                                <button type="button" class="btn btn-close"></button>
+                    <!-- modal three -->
+                    <div class="modal fade" id="modalThree" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog  modal-dialog-scrollable modal-dialog-centered">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    Brandi is a graphic designer from Hartford County, Connecticut. She started a
+                                    freelance business while
+                                    in college in
+                                    2019 and has done everything from branding to motion graphics to app and web design.
+                                    She is a recent
+                                    graduate from
+                                    Quinnipiac University with a Bachelor’s in Graphic and Interactive Design and a
+                                    minor in Biology.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -241,18 +269,27 @@
                     <div class="ambassador-content">
                         <h6>Brandi Pinette</h6>
                         <p>pre-pa student ambassador</p>
-                        <a onclick="showModal('modalFour')">Read Full Bio</a>
+                        <a data-bs-toggle="modal" data-bs-target="#modalFour">Read Full Bio</a>
                     </div>
-                    <div class="skl-modal-content skl-modal-toggle" id="modalFour">
-                        <div class="skl-modal-body">
-                            <div>
-                                <h3 class="skl-modal-title">Brandi Pinette</h3>
-                                <p class="skl-modal-text">Lorem ipsum dolor sit amet.
-                                    Lorem ipsum dolor sit amet.
-                                    Lorem ipsum dolor sit amet</p>
-                            </div>
-                            <div>
-                                <button type="button" class="btn btn-close"></button>
+                    <!-- modal four -->
+                    <div class="modal fade" id="modalFour" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog  modal-dialog-scrollable modal-dialog-centered">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    Brandi is a graphic designer from Hartford County, Connecticut. She started a
+                                    freelance business while
+                                    in college in
+                                    2019 and has done everything from branding to motion graphics to app and web design.
+                                    She is a recent
+                                    graduate from
+                                    Quinnipiac University with a Bachelor’s in Graphic and Interactive Design and a
+                                    minor in Biology.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -263,21 +300,30 @@
                     <div class="ambassador-content">
                         <h6>Brandi Pinette</h6>
                         <p>pre-pa student ambassador</p>
-                        <a onclick="showModal('modalFive')">Read Full Bio</a>
+                        <a data-bs-toggle="modal" data-bs-target="#modalFive">Read Full Bio</a>
                     </div>
-                        <div class="skl-modal-content skl-modal-toggle" id="modalFive">
-                            <div class="skl-modal-body">
-                                <div>
-                                    <h3 class="skl-modal-title">Brandi Pinette</h3>
-                                    <p class="skl-modal-text">Lorem ipsum dolor sit amet.
-                                        Lorem ipsum dolor sit amet.
-                                        Lorem ipsum dolor sit amet</p>
+                    <!-- Modal five -->
+                    <div class="modal fade" id="modalFive" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog  modal-dialog-scrollable modal-dialog-centered">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    Brandi is a graphic designer from Hartford County, Connecticut. She started a
+                                    freelance business while
+                                    in college in
+                                    2019 and has done everything from branding to motion graphics to app and web design.
+                                    She is a recent
+                                    graduate from
+                                    Quinnipiac University with a Bachelor’s in Graphic and Interactive Design and a
+                                    minor in Biology.
                                 </div>
-                                <div>
-                                    <button type="button" class="btn btn-close"></button>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
+                    </div>
                 </div>
 
                 <div class="ambassador">
@@ -285,18 +331,27 @@
                     <div class="ambassador-content">
                         <h6>Brandi Pinette</h6>
                         <p>pre-pa student ambassador</p>
-                        <a onclick="showModal('modalSix')">Read Full Bio</a>
+                        <a data-bs-toggle="modal" data-bs-target="#modalSix">Read Full Bio</a>
                     </div>
-                    <div class="skl-modal-content skl-modal-toggle" id="modalSix">
-                        <div class="skl-modal-body">
-                            <div>
-                                <h3 class="skl-modal-title">Brandi Pinette</h3>
-                                <p class="skl-modal-text">Lorem ipsum dolor sit amet.
-                                    Lorem ipsum dolor sit amet.
-                                    Lorem ipsum dolor sit amet</p>
-                            </div>
-                            <div>
-                                <button type="button" class="btn btn-close"></button>
+                    <!-- modal six -->
+                    <div class="modal fade" id="modalSix" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog  modal-dialog-scrollable modal-dialog-centered">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    Brandi is a graphic designer from Hartford County, Connecticut. She started a
+                                    freelance business while
+                                    in college in
+                                    2019 and has done everything from branding to motion graphics to app and web design.
+                                    She is a recent
+                                    graduate from
+                                    Quinnipiac University with a Bachelor’s in Graphic and Interactive Design and a
+                                    minor in Biology.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -307,19 +362,27 @@
                     <div class="ambassador-content">
                         <h6>Brandi Pinette</h6>
                         <p>pre-pa student ambassador</p>
-                        <a  onclick="showModal('modalSeaven')">Read Full Bio</a>
+                        <a data-bs-toggle="modal" data-bs-target="#modalSeaven">Read Full Bio</a>
                     </div>
-                    <!-- modal -->
-                    <div class="skl-modal-content skl-modal-toggle" id="modalSix">
-                        <div class="skl-modal-body">
-                            <div>
-                                <h3 class="skl-modal-title">Brandi Pinette</h3>
-                                <p class="skl-modal-text">Lorem ipsum dolor sit amet.
-                                    Lorem ipsum dolor sit amet.
-                                    Lorem ipsum dolor sit amet</p>
-                            </div>
-                            <div>
-                                <button type="button" class="btn btn-close"></button>
+                    <!-- modal seaven -->
+                    <div class="modal fade" id="modalSeaven" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog  modal-dialog-scrollable modal-dialog-centered">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    Brandi is a graphic designer from Hartford County, Connecticut. She started a
+                                    freelance business while
+                                    in college in
+                                    2019 and has done everything from branding to motion graphics to app and web design.
+                                    She is a recent
+                                    graduate from
+                                    Quinnipiac University with a Bachelor’s in Graphic and Interactive Design and a
+                                    minor in Biology.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -330,19 +393,27 @@
                     <div class="ambassador-content">
                         <h6>Brandi Pinette</h6>
                         <p>pre-pa student ambassador</p>
-                        <a onclick="openModal('modalSeaven')">Read Full Bio</a>
+                        <a data-bs-toggle="modal" data-bs-target="#modalEight">Read Full Bio</a>
                     </div>
-                    <!-- modal -->
-                    <div class="skl-modal-content skl-modal-toggle" id="modalSeaven">
-                        <div class="skl-modal-body">
-                            <div>
-                                <h3 class="skl-modal-title">Brandi Pinette</h3>
-                                <p class="skl-modal-text">Lorem ipsum dolor sit amet.
-                                    Lorem ipsum dolor sit amet.
-                                    Lorem ipsum dolor sit amet</p>
-                            </div>
-                            <div>
-                                <button type="button" class="btn btn-close"></button>
+                    <!-- modal eight -->
+                    <div class="modal fade" id="modalEight" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog  modal-dialog-scrollable modal-dialog-centered">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    Brandi is a graphic designer from Hartford County, Connecticut. She started a
+                                    freelance business while
+                                    in college in
+                                    2019 and has done everything from branding to motion graphics to app and web design.
+                                    She is a recent
+                                    graduate from
+                                    Quinnipiac University with a Bachelor’s in Graphic and Interactive Design and a
+                                    minor in Biology.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -353,19 +424,27 @@
                     <div class="ambassador-content">
                         <h6>Brandi Pinette</h6>
                         <p>pre-pa student ambassador</p>
-                        <a onclick="showModal('modalEight')">Read Full Bio</a>
+                        <a data-bs-toggle="modal" data-bs-target="#modalNine">Read Full Bio</a>
                     </div>
-                    <!-- modal -->
-                    <div class="skl-modal-content skl-modal-toggle" id="modalEight">
-                        <div class="skl-modal-body">
-                            <div>
-                                <h3 class="skl-modal-title">Brandi Pinette</h3>
-                                <p class="skl-modal-text">Lorem ipsum dolor sit amet.
-                                    Lorem ipsum dolor sit amet.
-                                    Lorem ipsum dolor sit amet</p>
-                            </div>
-                            <div>
-                                <button type="button" class="btn btn-close"></button>
+                    <!-- modal nine -->
+                    <div class="modal fade" id="modalNine" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog  modal-dialog-scrollable modal-dialog-centered">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    Brandi is a graphic designer from Hartford County, Connecticut. She started a
+                                    freelance business while
+                                    in college in
+                                    2019 and has done everything from branding to motion graphics to app and web design.
+                                    She is a recent
+                                    graduate from
+                                    Quinnipiac University with a Bachelor’s in Graphic and Interactive Design and a
+                                    minor in Biology.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -376,19 +455,27 @@
                     <div class="ambassador-content">
                         <h6>Brandi Pinette</h6>
                         <p>pre-pa student ambassador</p>
-                        <a onclick="showModal('modalNine')">Read Full Bio</a>
+                        <a data-bs-toggle="modal" data-bs-target="#modalTen">Read Full Bio</a>
                     </div>
-                    <!-- modal -->
-                    <div class="skl-modal-content skl-modal-toggle" id="modalNine">
-                        <div class="skl-modal-body">
-                            <div>
-                                <h3 class="skl-modal-title">Brandi Pinette</h3>
-                                <p class="skl-modal-text">Lorem ipsum dolor sit amet.
-                                    Lorem ipsum dolor sit amet.
-                                    Lorem ipsum dolor sit amet</p>
-                            </div>
-                            <div>
-                                <button type="button" class="btn btn-close"></button>
+                    <!-- modal three -->
+                    <div class="modal fade" id="modalTen" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog  modal-dialog-scrollable modal-dialog-centered">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    Brandi is a graphic designer from Hartford County, Connecticut. She started a
+                                    freelance business while
+                                    in college in
+                                    2019 and has done everything from branding to motion graphics to app and web design.
+                                    She is a recent
+                                    graduate from
+                                    Quinnipiac University with a Bachelor’s in Graphic and Interactive Design and a
+                                    minor in Biology.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -399,19 +486,27 @@
                     <div class="ambassador-content">
                         <h6>Brandi Pinette</h6>
                         <p>pre-pa student ambassador</p>
-                        <a href="#">Read Full Bio</a>
+                        <a data-bs-toggle="modal" data-bs-target="#modalEleven">Read Full Bio</a>
                     </div>
-                    <!-- modal -->
-                    <div class="skl-modal-content skl-modal-toggle" id="modalEight">
-                        <div class="skl-modal-body">
-                            <div>
-                                <h3 class="skl-modal-title">Brandi Pinette</h3>
-                                <p class="skl-modal-text">Lorem ipsum dolor sit amet.
-                                    Lorem ipsum dolor sit amet.
-                                    Lorem ipsum dolor sit amet</p>
-                            </div>
-                            <div>
-                                <button type="button" class="btn btn-close"></button>
+                    <!-- modal eleven -->
+                    <div class="modal fade" id="modalEleven" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog  modal-dialog-scrollable modal-dialog-centered">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    Brandi is a graphic designer from Hartford County, Connecticut. She started a
+                                    freelance business while
+                                    in college in
+                                    2019 and has done everything from branding to motion graphics to app and web design.
+                                    She is a recent
+                                    graduate from
+                                    Quinnipiac University with a Bachelor’s in Graphic and Interactive Design and a
+                                    minor in Biology.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -477,120 +572,120 @@
         </div>
     </section>
 
- 
-<!--    Footer Section  -->
-<footer class="footer-area bg-grey">
-    <div class="container">
-        <div class="footer-top  pt-120 pb-25">
-            <div class="container footer-border">
-                <div class="row ">
-                    <div class="col-xl-4 col-sm-12 col-md-7  col-lg-4">
-                        <div class="footer-top-widget mb-35">
-                            <div class="about-widget">
-                                <div class="logo">
-                                    <a href="#"><img src="./images/Home Page/Medsembly-logo.png" alt="Sinax"></a>
-                                </div>
-                                <div class="content">
-                                    <p>Stay connected, join our newsletter</p>
-                                </div>
 
-                                <div class="subscribe-form mb-30">
-                                    <form action="#" method="post">
-                                        <div class="subscribe">
-                                            <input type="email" name="EMAIL" placeholder="Your Email Here"
-                                                required />
-                                            <!-- <input type="submit" value="Subscribe" /> -->
-                                            <button type="submit"><i class="fas fa-arrow-right"></i></button>
-                                        </div>
-                                        <!-- <div class="subscribe-text">
+    <!--    Footer Section  -->
+    <footer class="footer-area bg-grey">
+        <div class="container">
+            <div class="footer-top  pt-120 pb-25">
+                <div class="container footer-border">
+                    <div class="row ">
+                        <div class="col-xl-4 col-sm-12 col-md-7  col-lg-4">
+                            <div class="footer-top-widget mb-35">
+                                <div class="about-widget">
+                                    <div class="logo">
+                                        <a href="#"><img src="./images/Home Page/Medsembly-logo.png" alt="Sinax"></a>
+                                    </div>
+                                    <div class="content">
+                                        <p>Stay connected, join our newsletter</p>
+                                    </div>
+
+                                    <div class="subscribe-form mb-30">
+                                        <form action="#" method="post">
+                                            <div class="subscribe">
+                                                <input type="email" name="EMAIL" placeholder="Your Email Here"
+                                                    required />
+                                                <!-- <input type="submit" value="Subscribe" /> -->
+                                                <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                                            </div>
+                                            <!-- <div class="subscribe-text">
                                             <p>Lorem ipsum dolor sit amet.</p>
                                         </div> -->
-                                    </form>
-                                </div>
+                                        </form>
+                                    </div>
 
-                                <div class="social-profiles">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
-                                    </ul>
+                                    <div class="social-profiles">
+                                        <ul>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-xl-3 col-sm-6 col-md-5 col-lg-4 mt-50">
-                        <div class="footer-top-widget mb-35 widget_nav_menu">
-                            <h2>pages</h2>
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">For Students</a></li>
-                                <li><a href="#">For professionals</a></li>
-                                <li><a href="#">About</a></li>
-                            </ul>
+                        <div class="col-xl-3 col-sm-6 col-md-5 col-lg-4 mt-50">
+                            <div class="footer-top-widget mb-35 widget_nav_menu">
+                                <h2>pages</h2>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">For Students</a></li>
+                                    <li><a href="#">For professionals</a></li>
+                                    <li><a href="#">About</a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="col-xl-2 col-sm-6 col-md-6 d-xl-flex justify-content-center col-lg-4 col-md-4 mt-50">
-                        <div class="footer-top-widget mb-35 widget_nav_menu">
-                            <h2>Resources</h2>
-                            <ul>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Resources</a></li>
-                                <li><a href="#">Discounts</a></li>
-                                <li><a href="#">Get Magoosh</a></li>
-                            </ul>
+                        <div
+                            class="col-xl-2 col-sm-6 col-md-6 d-xl-flex justify-content-center col-lg-4 col-md-4 mt-50">
+                            <div class="footer-top-widget mb-35 widget_nav_menu">
+                                <h2>Resources</h2>
+                                <ul>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Resources</a></li>
+                                    <li><a href="#">Discounts</a></li>
+                                    <li><a href="#">Get Magoosh</a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="col-xl-3 col-md-6 d-xl-flex justify-content-end  col-lg-4 col-md-4 mt-50">
-                        <div class="footer-top-widget mb-35 widget_nav_menu">
-                            <h2>Company</h2>
-                            <ul>
-                                <li><a href="#">Join Medsembly</a></li>
-                                <li><a href="#">Partnerships</a></li>
-                                <li><a href="#">For professionals</a></li>
-                                <li><a href="#">About</a></li>
-                            </ul>
+                        <div class="col-xl-3 col-md-6 d-xl-flex justify-content-end  col-lg-4 col-md-4 mt-50">
+                            <div class="footer-top-widget mb-35 widget_nav_menu">
+                                <h2>Company</h2>
+                                <ul>
+                                    <li><a href="#">Join Medsembly</a></li>
+                                    <li><a href="#">Partnerships</a></li>
+                                    <li><a href="#">For professionals</a></li>
+                                    <li><a href="#">About</a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
 
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- footer bottom -->
-    <div class="copy-right-info  ">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6 ">
-                    <div class="copy-right ">
-                        <p>&copy;Copyright 2022 Medsembly. All Rights Reserved.Designed by Cosmo Creative.</p>
-                    </div>
-                </div>
-                <div class="col-xl-6 ">
-                    <div class="footer-bottom-copyright-nav-widget">
-                        <ul>
-                            <li><a href="#">terms & condintions</a></li>
-                            <li><a href="#">privacy policy</a></li>
-                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+        <!-- footer bottom -->
+        <div class="copy-right-info  ">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 ">
+                        <div class="copy-right ">
+                            <p>&copy;Copyright 2022 Medsembly. All Rights Reserved.Designed by Cosmo Creative.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 ">
+                        <div class="footer-bottom-copyright-nav-widget">
+                            <ul>
+                                <li><a href="#">terms & condintions</a></li>
+                                <li><a href="#">privacy policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-<!-- footer-area ends -->
+    <!-- footer-area ends -->
+
 
 
     <!-- all js files -->
     <script src="js/jquery-3.4.1.slim.min.js"></script>
-
     <!--    Bootstrap   -->
     <script src="js/bootstrap.min.js"></script>
-
     <!--    Swiper  -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
