@@ -94,6 +94,12 @@ closeBtn.addEventListener("click", () => {
   mobile_nav_wrapper.style.right = "-100%"
 })
 
+const subItem = document.querySelectorAll(".sub-item-wrapper");
+for (let i = 0; i < subItem.length; i++){
+ subItem[0].parentNode.classList.add('has-children')
+}
+
+
 
 
 //  Faq Section
