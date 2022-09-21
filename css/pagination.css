@@ -1,0 +1,599 @@
+.elementor img {
+	max-width: none;
+}
+
+.discount-section .healthcare-wrapper .healthcare ul li a {
+	color: #6D6E71;
+}
+.discount-section .healthcare-wrapper .healthcare ul li a:hover {
+	color: #6D6E71;
+}
+.physician-about-section .physician-about-wrapper .physician-about ul li a {
+	color: #6D6E71;
+}
+.physician-about-section .physician-about-wrapper .physician-about ul li a:hover {
+	color: #EA1C2D;
+}
+.pricing-section .pricing a {
+	width: 200px;
+	height: 60px;
+	position: absolute;
+	left: 50%;
+	bottom: 50px;
+	transform: translateX(-50%);
+	background: #EA1C2D;
+	border-radius: 8px;
+	border: none;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 60px;
+	color: #FFFFFF;
+	margin: 20px 0px 0px 0px;
+	text-align: center;
+	padding:0;
+}
+
+.basic-pagination ul li a {
+	background: transparent;
+	color: #777382;
+	border: 1px solid #e7e7f6;
+	height: 50px;
+	width: 50px;
+	line-height: 48px;
+	display:block;
+	border-radius:50%;
+	text-align:center;
+	margin-right:5px;
+}
+
+.basic-pagination ul li a:hover {
+	background: #ff4646;
+	color: #fff;
+
+}
+.basic-pagination-2 ul li span:hover, .basic-pagination ul li span.current {
+	border-radius: 50%;
+}
+.blog-section {
+	padding: 0px 0px;
+}
+/* comments form  */
+.post-comments-title {
+	margin-left: 30px;
+	margin-bottom:30px;
+	color:#233d63;
+}
+
+.comment-form {
+	margin-bottom: 20px;
+	padding: 40px 40px;
+	box-shadow: 0 10px 30px 0 rgba(0,0,0,.09);
+}
+
+.comment-form input {
+	height: 55px;
+	margin-bottom: 20px;
+	padding: 0 20px;
+	width: 100%;
+	font-size: 14px;
+	color: #223645;
+	border: 1px solid transparent;
+	background: #eceff3;
+	transition: .3s;
+}
+
+
+.x-btn.theme-btn {
+	background: #ff4646;
+	border: 2px solid #ff4646;
+	padding: 10px 25px;
+	color: #fff;
+  font-weight: 500; 
+	border-radius: 355px;
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.x-btn.theme-btn:hover {
+	background: transparent;
+	color: #ff4646;
+	
+}
+.required-field-message {
+	display: inline-block;
+	margin-bottom: 5px;
+	color: #223645;
+	font-size: 16px;
+}
+.physician-about-section .physician-about-wrapper .col-sm-6:last-child {
+	max-width: 665px;
+	height: 477px;
+	margin: 55px 0px;
+}
+.student-review-section {
+	margin-top: 70px;
+}
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+	bottom: 70px;
+	left: 0;
+	width: 100%;
+}
+.pricing-section .pricing .pricing-bottom {
+	padding-top: 30px;
+	margin-top: -30px;
+}
+.faq-section {
+	padding-bottom: 50px;
+}
+.package-section .package-wrapper .package {
+	max-height: fit-content;
+
+}
+
+.faq-section .faq-wrapper {
+	max-width: 95%;
+}
+.faq-section .faq-wrapper .faq .faq-body p {
+	padding-right: 50px;
+}
+
+.discount-section .healthcare a {
+	margin-left: 30px;
+}
+
+.newsletter-section .subscribe-area .subscribe-text .sub-checkbox {
+	margin: 30px 0px 0px 0px;
+}
+ul {
+	list-style: none;
+}
+
+/*** Sabbir */
+@media only screen and (max-width: 1680px) and (min-width: 1401px) {
+	
+	/****************************** 
+	  HOME PAGE 
+	******************************/
+	/*** header */
+	header {
+		height: 95px;
+	}
+	header .container .header-top .navbar .logo {
+		width: 180px;
+		height: 35px;
+	}
+	header .container .header-top .navbar .navbar-right .main-menu ul li {
+			padding: 0px 20px;
+	}
+	header .container .header-top .navbar .navbar-right .theme-btn a {
+			padding: 14px 29px;
+			font-size: 15px;
+			line-height: 21px; 
+	}
+	
+	/*** banner */
+	.banner-section .banner_wrapper .banner_wrapper-left img {
+    max-width: 285px;
+    max-height: 418px;
+	}
+	.banner-section .banner_wrapper {
+    	margin: 60px auto 0px auto;
+			height: 900px;
+	}
+
+	.banner-section .banner_wrapper .banner_wrapper-right {
+			max-width: 285px;
+			max-height: 353px;
+	}
+	
+	.banner-section .banner_wrapper .banner-content h1 {
+    font-size: 48px;
+    line-height: 58px;
+	}
+
+	.banner-section .banner_wrapper .banner-content p { 
+			padding: 15px 0px 15px 0px;
+	}
+	
+	.banner-section .banner_wrapper .banner_bottom .banner_wrapper-bottom-left {
+    max-width: 289px;
+    max-height: 340px;
+	}
+
+	.banner-section .banner_wrapper .banner_bottom .banner_wrapper-bottom-right {
+			max-width: 472px;
+			max-height: 582px; 
+	}
+	
+	.banner-section .hero-section .hero-text h2 {
+    font-size: 28px;
+    line-height: 38px;
+    padding: 70px 14px;
+	}
+	
+	/*** features-section */
+	.features-section .feature-wrapper .feature-heading h2 {
+    font-size: 48px;
+    line-height: 68px; 
+	}
+
+	.features-section .feature-wrapper .feature-heading p { 
+			padding: 20px 0px;
+	}
+
+	.feature p {
+			padding: 10px 0px;
+	}
+
+	.feature h2 {
+			font-size: 23px;
+			line-height: 33px; 
+	}
+
+	.feature img {
+			width: 85%;
+	}
+
+	.feature { 
+			padding: 28px;
+			margin: 35px 0px; 
+			max-height: 530px;
+	}
+	
+	/*** step-section */
+	.step-section .step-heading {
+    max-width: 660px; 
+    margin: 100px auto 60px auto;
+	}
+
+	.step-section .step-heading h2 {
+			font-size: 48px;
+			line-height: 58px; 
+	}
+	
+	/*** team-section */
+	.team-section .team-header { 
+    margin: 50px auto; 
+	}
+
+	.team-section .team-header h2 {
+			font-size: 48px;
+			line-height: 58px; 
+	}
+
+	.team-section .team-wrapper .team .team-info .team-info-text h2 { 
+			font-size: 27px;
+			line-height: 37px; 
+	}
+
+	.team-section .team-wrapper .team .team-info .team-info-text h3 {
+			margin-top: 16px; 
+	}
+
+	.team-section .team-wrapper .team .team-info {
+			padding: 15px;
+	}
+
+	.team-section .team-wrapper .team { 
+			height: 440px; 
+	}
+	
+	/*** student-review-section */
+	.student-review-section {
+    margin-top: 60px;
+	}
+
+	.student-review-section .student-review-header {
+			margin: 55px auto;
+	}
+
+	.student-review-section .student-review-header h2 {
+			font-size: 48px;
+			line-height: 57px; 
+	}
+
+	.student-review-section .mySwiperTwo .student-review-wrapper .student-review h2 {
+			font-size: 22px;
+			line-height: 32px; 
+	}
+
+	.student-review-section .mySwiperTwo .student-review-wrapper .student-review h3 {
+			padding: 8px 0px;
+	}
+
+	.student-review-section .mySwiperTwo .student-review-wrapper .student-review p {   
+			padding-bottom: 10px;
+	}
+	
+	.student-review-section .mySwiperTwo .student-review-wrapper .student-review:hover .student-img {
+    width: 100px;
+    height: 108px;
+	}
+	
+	/*** join-area */
+	.join-area .get-app .get-app-img {
+    width: 380px; 
+    padding-bottom: 60px;
+	}
+
+	.join-area .get-app .get-app-text h2 {
+			font-size: 48px;
+			max-width: 500px;
+			line-height: 58px;
+			margin: 0px auto 25px auto;
+	}
+
+	.join-area .get-app .get-app-text .img-group a {
+			max-width: 230px;
+			max-height: 65px;
+			margin-right: 35px;
+	}
+	
+	/*** newsletter-section */
+	newsletter-section .subscribe-area .subscribe-text .subscribe-title h2 {
+    font-size: 48px;
+    line-height: 58px;
+	}
+
+	.newsletter-section .subscribe-area .subscribe-img {
+			max-width: 685px;
+	}
+
+	.newsletter-section .subscribe-area {
+			margin-bottom: 60px;
+	}
+	
+	/*** footer */
+	footer .logo {
+    width: 180px;
+    height: 35px;
+	}
+
+	footer.footer-area .footer-top-widget .about-widget .logo {
+			margin-bottom: 20px;
+	}
+	
+}/* 1680 */
+
+.student-review-section .mySwiperTwo .student-review-wrapper { 
+    min-height: 850px;
+}
+
+.student-review-section {
+    height: 1150px; 
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 0px;
+}
+
+
+@media only screen and (max-width: 1400px) {
+	.student-review-section .mySwiperTwo .student-review-wrapper { 
+			min-height: 730px;
+	}
+	
+	.student-review-section {
+    height: 1100px; 
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	.student-review-section .mySwiperTwo .student-review-wrapper { 
+			min-height: 850px;
+	}
+	
+	.student-review-section {
+    height: 1180px; 
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.student-review-section .mySwiperTwo .student-review-wrapper { 
+			min-height: 600px;
+	}
+	
+	.student-review-section {
+    height: 900px; 
+	}
+}
+
+@media only screen and (max-width: 1440px)  {
+		.container {
+			max-width: 1050px;
+	}
+	
+	.primary_button {
+    padding: 14px 24px;
+	}
+	/****************************** 
+	  HOME PAGE 
+	******************************/
+	/*** header */
+    header {
+    height: 90px;
+	}
+
+	header .container .header-top .navbar .logo {
+			width: 175px;
+			height: 33px;
+	}
+
+	header .container .header-top .navbar .navbar-right .main-menu ul li {
+			padding: 0px 10px;
+	}
+
+	header .container .header-top .navbar .navbar-right .theme-btn a {
+			padding: 10px 20px;
+			font-size: 15px;
+			line-height: 21px;
+	}
+	 
+	.banner-section .banner_wrapper .banner_wrapper-left img {
+    max-width: 230px;
+    max-height: 290px;
+	}
+	
+	.banner-section .banner_wrapper .banner-content h1 {
+    font-size: 35px; 
+    line-height: 45px;
+		padding: 0;
+	}
+	
+	.banner-section .banner_wrapper .banner-content {  
+		padding-left: 15px;
+    	margin: 0 auto 0 30px;
+	}
+	
+	.banner-section .banner_wrapper .banner-content p {
+    padding: 5px 0px;
+		font-size: 20px;
+		line-height: 30px;
+}
+	
+.banner-section .banner_wrapper .banner_wrapper-right {
+    max-width: 265px;
+    max-height: 308px;
+}
+	
+ 
+	.banner-section .banner_wrapper .banner_bottom .banner_wrapper-bottom-left {
+    margin-left: 0%; 
+    margin-top: 3%;
+		max-width: 269px;
+    max-height: 320px;
+}
+	
+	.banner-section .banner_wrapper .banner-content a.primary_button{
+		color: #fff;
+	}
+	
+	.banner-section .banner_wrapper .banner_bottom .banner_wrapper-bottom-right {
+    max-width: 432px;
+    max-height: 542px;
+}
+	
+	.banner-section .banner_wrapper .banner_bottom .banner_wrapper-bottom-right { 
+       right: 6%;
+    bottom: -8%;
+    max-width: 390px;
+    max-height: 433px;
+
+}
+	
+/* 	.banner-section .banner_wrapper { 
+    height: 700px;
+} */
+.banner-section .hero-section .hero-text h2 {
+    font-size: 26px;
+    line-height: 36px;
+    padding: 66px 15px;
+}
+
+	.banner-section .hero-text {
+    max-width: 822px;
+    margin: 0 auto;
+}
+	.features-section {
+    padding: 75px 0 0;
+}
+	
+	.features-section .feature-wrapper .feature-heading h2 {
+    font-size: 33px;
+    line-height: 43px;
+    max-width: 372px;
+}
+	
+	.features-section .feature-wrapper .feature-heading p {
+    padding: 10px 0px;
+}
+	
+	.features-section .feature-wrapper .feature-heading .primary_button { 
+    width: 137px;
+    height: 53px; 
+}
+	
+.banner-section .banner_wrapper .banner_wrapper-right {
+	display: block;
+}
+	.banner-section .banner_wrapper 
+	.feature { 
+    margin: 7.5px 0px; 
+}
+	
+	.feature p {
+    padding: 5px 0px;
+		margin-bottom: 0;
+}
+	
+	.feature img {
+    max-width: 310px;
+}
+
+	.step-section .step-heading {
+    max-width: 460px;
+    margin: 80px auto 35px auto;
+}
+
+	.step-section .step-heading h2 {
+    font-size: 33px;
+    line-height: 43px;
+}
+	
+
+		
+.banner-section .banner_wrapper .banner-content h1 {
+	font-size: 60px;
+	line-height: 74px;
+}
+	
+}/* 1440 */
+
+
+/*
+ * Code by tajul
+.banner-section .banner_wrapper .banner_wrapper-right {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+.banner-section .banner_wrapper .banner-content {
+	margin: 120px 0 0 30px;
+	padding-left: 0;
+}
+ */
+@media only screen and (min-width: 320px) and (max-width: 575px){
+
+	.banner-section .banner_wrapper .banner-content {
+	margin-top: 0px;
+	padding-left: 0;
+	margin: 0;
+	padding: 0 18px;
+}
+	.banner-section .banner_wrapper .banner_wrapper-right {
+	max-width: 100%;
+	max-height: 308px;
+}
+	
+	.banner-section .banner_wrapper .banner-content h1 {
+	font-size: 40px;
+	line-height: 50px;
+}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

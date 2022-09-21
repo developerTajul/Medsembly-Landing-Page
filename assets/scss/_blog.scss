@@ -9,7 +9,7 @@
     .blog-wrapper {
         .blog-post-items {
             article {
-                max-width: 413px; 
+                max-width: 413px;
                 background: #FFFFFF;
                 border: 0.75px solid #CCCCCC;
                 border-radius: 16px;
@@ -42,13 +42,13 @@
                         align-items: center;
                         margin: 25px 0px 8px !important;
 
-                        svg { 
+                        svg {
                             color: #6D6E71;
                             font-size: 20px;
                             margin-right: 5px;
                         }
 
-                        span { 
+                        span {
                             font-style: normal;
                             font-weight: 400;
                             font-size: 18px;
@@ -58,7 +58,7 @@
                         }
                     }
 
-                    .blog-title {   
+                    .blog-title {
                         margin-top: 12px;
                     }
 
@@ -153,6 +153,23 @@
                         color: #6D6E71;
                     }
                 }
+
+                a {
+                    background: transparent;
+                    color: #777382;
+                    height: 50px;
+                    width: 50px;
+                    line-height: 48px;
+                    display: block;
+                    border-radius: 50%;
+                    text-align: center;
+                    margin-right: 5px;
+
+                    &:hover {
+                        background: #ff4646;
+                        color: #fff;
+                    }
+                }
             }
 
             .active {
@@ -161,5 +178,10 @@
                 border: 1px solid transparent;
             }
         }
+    }
+
+    .basic-pagination-2 ul li span:hover,
+    .basic-pagination ul li span.current {
+        border-radius: 50%;
     }
 }
