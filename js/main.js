@@ -1,5 +1,30 @@
 (function ($) {
   jQuery(document).ready(function () {
+ 
+
+      /*** Masonry */
+      function masonryGrid(){
+          var $grid = $('.masonry');
+          // initialize
+          $grid.masonry({
+              itemSelector: '.item',
+              columnWidth: '.item',
+              horizontalOrder: false,
+              // isAnimated: true,
+              // percentPosition: true,
+          });
+
+          $grid.masonry('reloadItems');
+          $grid.masonry('layout');
+
+          // layout Masonry after each image loads
+          $grid.imagesLoaded().progress( function() {
+              $grid.masonry('layout');
+          });
+      }
+      masonryGrid(); 
+
+
     //  Swiper for Carousel:
     const swiper = new Swiper(".mentors-swiper", {
       slidesPerView: 1,
@@ -160,6 +185,7 @@ Array.from(radioButton).forEach(radio => {
     e.target.parentNode.parentNode.style.boxShadow = "6px 12px 60px rgba(0, 0, 0, 0.08)";
   })
 });
+
 const checkedOrNot = document.querySelector('.event-list input[name="event"]:checked');
 if (checkedOrNot.checked === true) {
   checkedOrNot.parentNode.parentNode.style.border = "none";
@@ -405,11 +431,6 @@ Array.from(Selectdates).forEach(date => {
     console.log(date.classList);
   })
 })
-
-
-
-
-
 
 
 
