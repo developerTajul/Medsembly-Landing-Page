@@ -51,16 +51,21 @@
         }
 
         ul {
-            list-style: disc;
+            
             li {
-                list-style: disc;
-                list-style-position: inside; 
-                padding: 16px 0px;
+                padding: 10px 0px;
+                list-style: lower-alpha;
+
+                ul {
+
+                    li {
+                        list-style: lower-roman;
+                    }
+                }
             }
         }
         p {
-            list-style: disc;
-            list-style-position: inside; 
+            list-style: disc; 
             padding: 16px 0px;
         }
     }
