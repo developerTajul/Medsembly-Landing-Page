@@ -173,32 +173,30 @@ Array.from(ArrowIcons).forEach(icon => {
 
 
 
-
-
-
-
-
-
-//  Change Background Color of select Radion Button:
-const radioButton = document.querySelectorAll(".event-right input");
-Array.from(radioButton).forEach(radio => {
-  radio.addEventListener("click", (e) => {
-    Array.from(radioButton).forEach(radio =>  {
-      radio.removeAttribute("checked");
-      radio.parentNode.parentNode.style.border = "1px solid #CCCCCC";
-      radio.parentNode.parentNode.style.boxShadow = "none";
+ 
+if ( document.querySelector(".event-right input") ) {
+  
+    //  Change Background Color of select Radion Button:
+    const radioButton = document.querySelectorAll(".event-right input");
+    Array.from(radioButton).forEach(radio => {
+      radio.addEventListener("click", (e) => {
+        Array.from(radioButton).forEach(radio =>  {
+          radio.removeAttribute("checked");
+          radio.parentNode.parentNode.style.border = "1px solid #CCCCCC";
+          radio.parentNode.parentNode.style.boxShadow = "none";
+        });
+        e.target.setAttribute("checked", "checked");
+        e.target.parentNode.parentNode.style.border = "none";
+        e.target.parentNode.parentNode.style.boxShadow = "6px 12px 60px rgba(0, 0, 0, 0.08)";
+      })
     });
-    e.target.setAttribute("checked", "checked");
-    e.target.parentNode.parentNode.style.border = "none";
-    e.target.parentNode.parentNode.style.boxShadow = "6px 12px 60px rgba(0, 0, 0, 0.08)";
-  })
-});
 
-const checkedOrNot = document.querySelector('.event-list input[name="event"]:checked');
-if (checkedOrNot.checked === true) {
-  checkedOrNot.parentNode.parentNode.style.border = "none";
-  checkedOrNot.parentNode.parentNode.style.boxShadow = "6px 12px 60px rgba(0, 0, 0, 0.08)";
+    const checkedOrNot = document.querySelector('.event-list input[name="event"]:checked');
+    if (checkedOrNot.checked === true) {
+      checkedOrNot.parentNode.parentNode.style.border = "none";
+      checkedOrNot.parentNode.parentNode.style.boxShadow = "6px 12px 60px rgba(0, 0, 0, 0.08)";
 
+    }
 }
 
 
