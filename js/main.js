@@ -404,7 +404,10 @@ function CalendarControl() {
   };
   calendarControl.init();
 }
-const calendarControl = new CalendarControl();
+
+if ( document.querySelector(".calendar") ) {
+    const calendarControl = new CalendarControl();
+}
 
 
 
@@ -414,11 +417,6 @@ const Selectdates = document.querySelectorAll(".number-item span");
 Array.from(Selectdates).forEach(date => {
   date.addEventListener("click", () => {
     date.classList.toggle("active");
-    console.log(date.classList);
+    // console.log(date.classList);
   })
 })
-
-
-
-
-
