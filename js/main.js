@@ -162,25 +162,25 @@
 
 
 
-//  Handle Navigation:
-let hamburger_menu = document.getElementsByClassName("hamburger-menu")[0];
-let closeBtn = document.getElementsByClassName("close-btn")[0];
-let mobile_nav_wrapper = document.getElementsByClassName("mobile-nav-wrapper")[0];
-let navItem = document.querySelectorAll(".main-menu ul li");
+// //  Handle Navigation:
+// let hamburger_menu = document.getElementsByClassName("hamburger-menu")[0];
+// let closeBtn = document.getElementsByClassName("close-btn")[0];
+// let mobile_nav_wrapper = document.getElementsByClassName("mobile-nav-wrapper")[0];
+// let navItem = document.querySelectorAll(".main-menu ul li");
 
 
-hamburger_menu.addEventListener("click", () => {
-  mobile_nav_wrapper.style.right = "-1px";
-});
+// hamburger_menu.addEventListener("click", () => {
+//   mobile_nav_wrapper.style.right = "-1px";
+// });
 
-closeBtn.addEventListener("click", () => {
-  mobile_nav_wrapper.style.right = "-100%"
-})
+// closeBtn.addEventListener("click", () => {
+//   mobile_nav_wrapper.style.right = "-100%"
+// })
 
-const subItem = document.querySelectorAll(".sub-item-wrapper");
-for (let i = 0; i < subItem.length; i++){
- subItem[0].parentNode.classList.add('has-children')
-}
+// const subItem = document.querySelectorAll(".sub-item-wrapper");
+// for (let i = 0; i < subItem.length; i++){
+//  subItem[0].parentNode.classList.add('has-children')
+// }
 
 
 
