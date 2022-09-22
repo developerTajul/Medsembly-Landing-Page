@@ -972,6 +972,8 @@ header-area
   .newsletter-section .swiper-horizontal > .swiper-pagination-bullets, .newsletter-section .swiper-pagination-bullets.swiper-pagination-horizontal, .newsletter-section .swiper-pagination-custom, .newsletter-section .swiper-pagination-fraction {
     bottom: 0px;
     left: -17%; }
+  .newsletter-section .switchContainer {
+    height: 37px; }
   .newsletter-section .subscribe-area {
     width: 100%;
     padding-top: 0px;
@@ -986,7 +988,7 @@ header-area
         max-width: 468px; }
       .newsletter-section .subscribe-area .subscribe-text .sub-checkbox {
         display: flex;
-        margin: 30px 0 0 0px; }
+        margin: 30px 0px 50px 0px; }
         .newsletter-section .subscribe-area .subscribe-text .sub-checkbox h3 {
           font-weight: 500;
           font-size: 24px;
