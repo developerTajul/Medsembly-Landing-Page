@@ -2,78 +2,80 @@
   jQuery(document).ready(function () {
 
 
-    /*** Navbar Menu */
-    $('.hamburger-menu').sidr({
-        name: 'sidr',
-        side: 'right',
-        source: '#sidr',
-        displace: false,
-        renaming: false,
-    });
-
-    /*** Dropdown Menu */
-    $('.navbar-nav').click(function(){
-        $(this).parent().parent().toggleClass('show');
-    });
-
-    $('.navbar-toggle').on('click', function(){
-        $.sidr('close', 'sidr');
-    });
-
-    /** Sidr submenu */
-    function medsemblyMobileMenu() {
-        var $nav = $(".spellon-navbar-mobile"),
-            $back_btn = $nav.find(" > li.dropdown > ul.dropdown-menu").prepend("<li class='dropdown-back d-flex flex-wrap align-items-center justify-content-between'><div class='control ml-auto d-flex align-items-center' style='white-space: nowrap'>Back<span class='fa-solid fa-arrow-left'></span></div></li>");
-
-        // For Title
-        $('.spellon-navbar-mobile li.dropdown > a').each(function(){
-            $(this).siblings("ul").find("li.dropdown-back").prepend("<div class='title'><a style='color: #000'>" + $(this).text() +"</a></div>");
+    if ( document.querySelector("#sidr") ) {
+        /*** Navbar Menu */
+        $('.hamburger-menu').sidr({
+            name: 'sidr',
+            side: 'right',
+            source: '#sidr',
+            displace: false,
+            renaming: false,
         });
 
-        // open sub-level
-        $('.spellon-navbar-mobile li.dropdown > a').append("<span class='dropdown-toggle' data-toggle='dropdown'></span>");
-        $('.spellon-navbar-mobile li.dropdown > a .dropdown-toggle').on("click", function(e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            $(this).parent().parent().addClass("is-open");
-            $(this).parents().find( '.spellon-navbar-mobile' ).addClass("is-parent");
-
-
-            var header = $(this).parent().parent().find('ul.dropdown-menu').height(),
-                gutter = $('.medsembly-mobile-nav');
-
-            if ( gutter ) 
-            {
-                gutter.height(header+15);
-            }
+        /*** Dropdown Menu */
+        $('.navbar-nav').click(function(){
+            $(this).parent().parent().toggleClass('show');
         });
 
-        // go back
-        $back_btn.on("click", ".dropdown-back", function(e) {
-            e.stopPropagation();
-            $(this)
-            .parents(".is-open")
-            .first()
-            .removeClass("is-open");
-
-            var header = $(this).parents(".is-parent").first().height();
-
-            $(this)
-            .parents(".is-parent")
-            .first()
-            .removeClass("is-parent");
-
-            var gutter = $('.medsembly-mobile-nav');
-
-            setTimeout(function() {
-                if (gutter) {
-                    gutter.height(header);
-                } 
-            }, 200);
+        $('.navbar-toggle').on('click', function(){
+            $.sidr('close', 'sidr');
         });
+
+        /** Sidr submenu */
+        function medsemblyMobileMenu() {
+            var $nav = $(".spellon-navbar-mobile"),
+                $back_btn = $nav.find(" > li.dropdown > ul.dropdown-menu").prepend("<li class='dropdown-back d-flex flex-wrap align-items-center justify-content-between'><div class='control ml-auto d-flex align-items-center' style='white-space: nowrap'>Back<span class='fa-solid fa-arrow-left'></span></div></li>");
+
+            // For Title
+            $('.spellon-navbar-mobile li.dropdown > a').each(function(){
+                $(this).siblings("ul").find("li.dropdown-back").prepend("<div class='title'><a style='color: #000'>" + $(this).text() +"</a></div>");
+            });
+
+            // open sub-level
+            $('.spellon-navbar-mobile li.dropdown > a').append("<span class='dropdown-toggle' data-toggle='dropdown'></span>");
+            $('.spellon-navbar-mobile li.dropdown > a .dropdown-toggle').on("click", function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+
+                $(this).parent().parent().addClass("is-open");
+                $(this).parents().find( '.spellon-navbar-mobile' ).addClass("is-parent");
+
+
+                var header = $(this).parent().parent().find('ul.dropdown-menu').height(),
+                    gutter = $('.medsembly-mobile-nav');
+
+                if ( gutter ) 
+                {
+                    gutter.height(header+15);
+                }
+            });
+
+            // go back
+            $back_btn.on("click", ".dropdown-back", function(e) {
+                e.stopPropagation();
+                $(this)
+                .parents(".is-open")
+                .first()
+                .removeClass("is-open");
+
+                var header = $(this).parents(".is-parent").first().height();
+
+                $(this)
+                .parents(".is-parent")
+                .first()
+                .removeClass("is-parent");
+
+                var gutter = $('.medsembly-mobile-nav');
+
+                setTimeout(function() {
+                    if (gutter) {
+                        gutter.height(header);
+                    } 
+                }, 200);
+            });
+        }
+        medsemblyMobileMenu();
     }
-    medsemblyMobileMenu();
  
 
     if ( document.querySelector(".js-masonry") ) {
