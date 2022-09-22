@@ -599,6 +599,10 @@ header-area
   z-index: 98888;
   padding-top: 20px;
 }
+.header-area .header-top .navbar .mobile-nav-wrapper .menu-item-has-children:hover .dropdown-menu {
+  display: block;
+  margin-left: 30px;
+}
 .header-area .header-top .navbar .mobile-nav-wrapper .close-btn {
   font-size: 26px;
   color: #6D6E71;
