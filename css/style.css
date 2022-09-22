@@ -7216,7 +7216,6 @@ footer {
         padding: 15px 0px; }
 
 .package-section .package-wrapper .package {
-  max-height: 1100px;
   max-width: 630px;
   box-shadow: 10px 12px 60px rgba(0, 0, 0, 0.06);
   border-radius: 20px;
