@@ -669,6 +669,9 @@ header-area
           padding: 0;
           display: block;
           max-width: 180px; }
+          .sidr .sidr-inner .mobile-header .navbar-header .navbar-brand img {
+            height: auto;
+            max-width: 100%; }
         .sidr .sidr-inner .mobile-header .navbar-header .navbar-toggle {
           display: block;
           cursor: pointer;
