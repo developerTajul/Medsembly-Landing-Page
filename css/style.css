@@ -665,7 +665,7 @@ header-area
         width: 100%;
         float: none;
         padding: 0 0 20px; }
-        .sidr .sidr-inner .mobile-header .navbar-header .navbar-brand {
+        .sidr .sidr-inner .mobile-header .navbar-header .standard-logo {
           padding: 0;
           display: block;
           max-width: 180px; }
@@ -9841,7 +9841,10 @@ footer {
     margin: 0 auto 35px auto; }
 
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper article .postbox__text .blog-extra {
-    margin: 60px auto 80px auto; } }
+    margin: 60px auto 80px auto; }
+
+  .footer-area {
+    margin-top: 0 !important; } }
 @media screen and (max-width: 767px) {
   .features-section .feature-wrapper .feature {
     width: 100% !important;
