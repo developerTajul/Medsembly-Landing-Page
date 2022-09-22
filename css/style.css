@@ -670,8 +670,8 @@ header-area
           display: block;
           max-width: 180px; }
         .sidr .sidr-inner .mobile-header .navbar-header img {
-          height: auto;
-          max-width: 100%; }
+          height: auto !important;
+          max-width: 100% !important; }
         .sidr .sidr-inner .mobile-header .navbar-header .navbar-toggle {
           display: block;
           cursor: pointer;
