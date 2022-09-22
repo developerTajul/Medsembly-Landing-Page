@@ -149,7 +149,7 @@ Array.from(ArrowIcons).forEach(icon => {
       icon.parentElement.nextElementSibling.style.height = "auto";
       icon.classList.add("activeFaq");
       icon.childNodes[1].classList.add("fa-chevron-up")
-      console.log(icon.childNodes[1].classList);
+      // console.log(icon.childNodes[1].classList);
     } else {
       icon.parentElement.nextElementSibling.style.height = "0";
       icon.classList.remove("activeFaq");
