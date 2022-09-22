@@ -115,6 +115,10 @@
         right: -172px;
         max-width: 570px;
         position: absolute;
+
+        img {
+            max-width: 100%;
+        }
     }
 
     .hero-section {
