@@ -22,7 +22,28 @@
               $grid.masonry('layout');
           });
       }
-      masonryGrid(); 
+      masonryGrid();
+
+      $('.our-partners-slider-wrapper').slick({
+        dots: false,
+        // autoplay: true,
+        speed: 5000,
+        arrows: false,
+        infinite: true,
+        slidesToShow: 3,
+        autoplaySpeed: 0,
+        cssEase: 'linear',
+        // centerMode: true,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 481,
+            settings: {
+              slidesToShow: 2,
+            }
+          }
+        ]
+      });
 
 
     //  Swiper for Carousel:
