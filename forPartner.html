@@ -148,7 +148,29 @@
                         <h3 class="title">Our Partners</h3>
                     </div>
 
-                    <div class="our-partners-slider-wrapper"> 
+                    <div class="our-partners-slider-wrapper"  data-slick='{
+                        "dots": "false", 
+                        "arrows": "false",
+                        "autoplay": "true",
+                        "slidesToShow": 3,
+                        "infinite": "true",
+                        "slidesToScroll": 1,
+                        "autoplaySpeed": 500,
+                        "responsive": [
+                            {
+                              "breakpoint": 768,
+                              "settings": {
+                                "slidesToShow": 2
+                              }
+                            },
+                            {
+                              "breakpoint": 481,
+                              "settings": {
+                                "slidesToShow": 1
+                              }
+                            }
+                        ]
+                        }'> 
                         <div class="slider-item">
                             <a href="#" class="our-partners__item">
                                 <div class="our-partners__item-media">
