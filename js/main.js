@@ -26,14 +26,14 @@
 
       $('.our-partners-slider-wrapper').slick({
         dots: false,
-        // autoplay: true,
+        autoplay: true,
         speed: 5000,
         arrows: false,
         infinite: true,
         slidesToShow: 3,
         autoplaySpeed: 0,
         cssEase: 'linear',
-        // centerMode: true,
+        centerMode: true,
         slidesToScroll: 1,
         responsive: [
           {
