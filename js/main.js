@@ -2,6 +2,7 @@
   jQuery(document).ready(function () {
  
 
+    if ( document.querySelector(".js-masonry") ) {
       /*** Masonry */
       function masonryGrid(){
           var $grid = $('.masonry');
@@ -25,6 +26,7 @@
       masonryGrid();
 
       $('.our-partners-slider-wrapper').slick();
+    }
 
 
     //  Swiper for Carousel:
@@ -155,27 +157,9 @@ Array.from(ArrowIcons).forEach(icon => {
     }
   })
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  
 if ( document.querySelector(".event-right input") ) {
-  
+
     //  Change Background Color of select Radion Button:
     const radioButton = document.querySelectorAll(".event-right input");
     Array.from(radioButton).forEach(radio => {
@@ -198,10 +182,6 @@ if ( document.querySelector(".event-right input") ) {
 
     }
 }
-
-
-
-
 
 //  Calender Section:
 function CalendarControl() {
