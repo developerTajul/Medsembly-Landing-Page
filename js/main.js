@@ -23,8 +23,11 @@
 
         /** Sidr submenu */
         function medsemblyMobileMenu() {
+            $('.medsembly-mobile-nav ul')[0].classList.add("spellon-navbar-mobile");
+
             var $nav = $(".spellon-navbar-mobile"),
                 $back_btn = $nav.find(" > li.dropdown > ul.dropdown-menu").prepend("<li class='dropdown-back d-flex flex-wrap align-items-center justify-content-between'><div class='control ml-auto d-flex align-items-center' style='white-space: nowrap'>Back<span class='fa-solid fa-arrow-left'></span></div></li>");
+
 
             // For Title
             $('.spellon-navbar-mobile li.dropdown > a').each(function(){
