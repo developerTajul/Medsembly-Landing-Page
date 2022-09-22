@@ -626,7 +626,7 @@ header-area
     max-width: 570px;
     position: absolute; }
     .student-banner__media img {
-      max-width: 100%; }
+      max-width: 100% !important; }
   .student-banner .hero-section {
     background: #F4F4F4; }
     .student-banner .hero-section .hero-text h3 {
