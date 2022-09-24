@@ -6803,6 +6803,12 @@ footer {
 .checkout-section .container {
   padding: 0 15px 80px; }
 
+div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms-container-full .wpforms-form select.wpforms-field-medium, div.wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium {
+  max-width: 100% !important; }
+
+.contact-us-section .contact-us-wrapper .contact-us-form form select {
+  margin-top: 0 !important; }
+
 @media screen and (min-width: 320px) and (max-width: 991px) {
   .contact-us-section .container {
     max-width: 100%;
