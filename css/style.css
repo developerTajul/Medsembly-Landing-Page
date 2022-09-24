@@ -10,8 +10,8 @@ h1, .h1 {
   font-size: 64px;
   line-height: 83px; }
   h1.fz-lg, .h1.fz-lg {
-    font-size: 74px;
-    line-height: 90px; }
+    font-size: 64px;
+    line-height: 74px; }
 
 h2, .h2 {
   font-size: 56px;
@@ -614,7 +614,7 @@ header-area
   .student-banner .container {
     position: relative; }
   .student-banner__content {
-    max-width: 860px;
+    max-width: 793px;
     padding: 130px 0 250px; }
     .student-banner__content p {
       font-size: 24px;
@@ -623,7 +623,7 @@ header-area
     top: 60px;
     z-index: -1;
     right: -172px;
-    max-width: 570px;
+    max-width: 650px;
     position: absolute; }
     .student-banner__media img {
       max-width: 100% !important; }
