@@ -152,7 +152,7 @@
     //  For Student Love Section:
     const mySwiperTwo = new Swiper(".student-testimonial", {
       slidesPerView: 1,
-      spaceBetween: 0,
+      spaceBetween: 15,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,

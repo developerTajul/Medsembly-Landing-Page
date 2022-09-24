@@ -1029,71 +1029,70 @@ header-area
             border-left: 100px solid #fff;
             border-top: 50px solid transparent;
             border-bottom: 50px solid transparent; }
-  .student-review-section .student-testimonial .student-review {
-    flex-direction: column !important; }
-  .student-review-section .student-testimonial .swiper-pagination {
-    bottom: 70px !important; }
-  .student-review-section .student-testimonial .student-review {
-    display: flex;
-    z-index: 1111;
-    max-width: 100%;
-    position: relative;
-    margin-right: 25px;
-    border-radius: 16px;
-    margin-bottom: 60px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 20px 20px 118px;
-    background-color: transparent; }
-    .student-review-section .student-testimonial .student-review .text-wrapper {
-      padding: 35px;
-      max-width: 700px;
-      margin-left: auto;
-      margin-right: auto;
-      border-radius: 20px;
-      background-color: #FFFFFF; }
-      .student-review-section .student-testimonial .student-review .text-wrapper:after {
-        width: 0;
-        height: 0;
-        left: 46%;
-        z-index: -1;
-        content: "";
-        bottom: 75px;
-        display: block;
-        position: absolute;
-        transform: rotate(90deg);
-        border-left: 35px solid #fff;
-        border-top: 25px solid transparent;
-        border-bottom: 25px solid transparent;
-        transform: translateX(-40%) rotate(90deg); }
-      .student-review-section .student-testimonial .student-review .text-wrapper .student-img {
-        width: 106px;
-        height: 114px;
-        margin: 18px 0 14px 0px;
-        transition: all 1s ease; }
-        .student-review-section .student-testimonial .student-review .text-wrapper .student-img img {
-          width: 100%;
-          height: 100%; }
-      .student-review-section .student-testimonial .student-review .text-wrapper h6 {
-        font-size: 24px;
-        line-height: 30px; }
-      .student-review-section .student-testimonial .student-review .text-wrapper p {
-        font-size: 16px;
-        line-height: 26px;
-        color: #666666;
-        padding: 10px 0px 15px 0px; }
-      .student-review-section .student-testimonial .student-review .text-wrapper span {
-        color: #6D6E71;
-        font-size: 16px;
-        margin-top: 2px;
-        line-height: 19px;
-        text-transform: capitalize; }
-        .student-review-section .student-testimonial .student-review .text-wrapper span + span {
-          margin: 0;
-          color: #000;
-          font-weight: 500;
-          padding: 12px 0px; }
+  .student-review-section .student-testimonial {
+    --bs-gutter-x: 0;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto; }
+    .student-review-section .student-testimonial .student-review {
+      flex-direction: column !important; }
+    .student-review-section .student-testimonial .swiper-pagination {
+      bottom: 70px !important; }
+    .student-review-section .student-testimonial .student-review {
+      z-index: 1111;
+      max-width: 100%;
+      position: relative;
+      border-radius: 16px;
+      margin-bottom: 60px;
+      padding: 20px 0 118px;
+      background-color: transparent; }
+      .student-review-section .student-testimonial .student-review .text-wrapper {
+        padding: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        background-color: #FFFFFF; }
+        .student-review-section .student-testimonial .student-review .text-wrapper:after {
+          width: 0;
+          height: 0;
+          left: 46%;
+          z-index: -1;
+          content: "";
+          bottom: 75px;
+          display: block;
+          position: absolute;
+          transform: rotate(90deg);
+          border-left: 35px solid #fff;
+          border-top: 25px solid transparent;
+          border-bottom: 25px solid transparent;
+          transform: translateX(-40%) rotate(90deg); }
+        .student-review-section .student-testimonial .student-review .text-wrapper .student-img {
+          width: 106px;
+          height: 114px;
+          margin: 18px 0 14px 0px;
+          transition: all 1s ease; }
+          .student-review-section .student-testimonial .student-review .text-wrapper .student-img img {
+            width: 100%;
+            height: 100%; }
+        .student-review-section .student-testimonial .student-review .text-wrapper h6 {
+          font-size: 24px;
+          line-height: 30px; }
+        .student-review-section .student-testimonial .student-review .text-wrapper p {
+          font-size: 16px;
+          line-height: 26px;
+          color: #666666;
+          padding: 10px 0px 15px 0px; }
+        .student-review-section .student-testimonial .student-review .text-wrapper span {
+          color: #6D6E71;
+          font-size: 16px;
+          margin-top: 2px;
+          line-height: 19px;
+          text-transform: capitalize; }
+          .student-review-section .student-testimonial .student-review .text-wrapper span + span {
+            margin: 0;
+            color: #000;
+            font-weight: 500;
+            padding: 12px 0px; }
 
 .newsletter-section {
   padding: 0px 0px 0px 0px;
@@ -9665,8 +9664,8 @@ footer {
       align-items: center; }
     .student-review-section .student-review-header {
       max-width: 680px;
-      margin: 80px auto 50px;
-      text-align: center; }
+      text-align: center;
+      margin: 80px auto 50px; }
     .student-review-section .mySwiperTwo {
       margin: 0 auto;
       width: calc(100% - 300px); }
@@ -9737,16 +9736,11 @@ footer {
     .student-review-section .student-testimonial .swiper-pagination {
       bottom: 70px !important; }
     .student-review-section .student-testimonial .student-review {
-      display: flex;
       z-index: 1111;
       max-width: 100%;
       position: relative;
-      margin-right: 25px;
       border-radius: 16px;
       margin-bottom: 60px;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
       padding: 20px 20px 118px;
       background-color: transparent; }
       .student-review-section .student-testimonial .student-review .text-wrapper {
