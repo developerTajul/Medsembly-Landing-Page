@@ -6792,9 +6792,6 @@ footer {
       margin-bottom: 15px !important; }
   .checkout form .wpforms-field-name .wpforms-field-medium {
     display: flex !important; }
-    @media screen and (max-width: 480px) {
-      .checkout form .wpforms-field-name .wpforms-field-medium {
-        flex-direction: column !important; } }
   .checkout form .wpforms-required-label {
     color: #EA1C2D; }
   .checkout form button[type="submit"] {

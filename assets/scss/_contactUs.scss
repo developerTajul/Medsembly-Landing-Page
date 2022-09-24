@@ -190,10 +190,6 @@
             
             .wpforms-field-medium { 
                 display: flex !important;
-
-                @media screen and (max-width: 480px) { 
-                    flex-direction: column !important;
-                }
             }
         }
 
