@@ -6761,7 +6761,7 @@ footer {
 .checkout {
   max-width: 650px;
   margin-right: auto;
-  padding-top: 0 !important; }
+  margin-top: 0 !important; }
   .checkout p {
     margin-top: 0 !important; }
   .checkout .wpforms-field-label {
