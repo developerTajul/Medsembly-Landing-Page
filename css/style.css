@@ -6788,6 +6788,18 @@ footer {
     display: flex !important; }
   .checkout form .wpforms-required-label {
     color: #EA1C2D; }
+  .checkout form input[type="submit"] {
+    border: none !important;
+    outline: none !important;
+    color: #FFFFFF !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    background: #EA1C2D !important;
+    line-height: 22px !important;
+    padding: 20px 32px !important;
+    border-radius: 10px !important;
+    display: inline-block !important;
+    text-transform: capitalize !important; }
 
 .checkout-section .container {
   padding: 0 15px 80px; }
