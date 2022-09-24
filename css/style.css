@@ -1794,13 +1794,12 @@ footer {
       grid-template-columns: 1fr;
       justify-content: center; }
       .newsletter-section .subscribe-area .subscribe-text {
-        width: 100%;
-        max-width: 450px;
-        margin: 0 auto;
-        display: grid;
-        justify-content: center;
         order: 1;
-        padding-left: 24px; }
+        width: 100%;
+        margin: 0 auto;
+        max-width: 445px;
+        padding-left: 24px;
+        justify-content: center; }
         .newsletter-section .subscribe-area .subscribe-text .subscribe-title h2 {
           font-size: 25px;
           line-height: 35px;
@@ -1808,11 +1807,12 @@ footer {
           text-align: center; }
         .newsletter-section .subscribe-area .subscribe-text .sub-checkbox {
           display: flex;
+          align-items: center;
           margin: 30px 0px 50px 0px; }
           .newsletter-section .subscribe-area .subscribe-text .sub-checkbox h3 {
-            font-size: 14px;
-            line-height: 24px;
-            margin-top: 4px; }
+            margin-top: 4px;
+            font-size: 20px !important;
+            line-height: 30px !important; }
           .newsletter-section .subscribe-area .subscribe-text .sub-checkbox .switch {
             margin: 0px 20px 0px 20px;
             width: 50px;
@@ -3334,8 +3334,8 @@ footer {
         width: 120%;
         height: 120%; }
         .about-team-section .about-team-wrapper .about-team .about-team-content h6 {
-          font-size: 12px;
-          line-height: 22px; }
+          font-size: 12px !important;
+          line-height: 22px !important; }
         .about-team-section .about-team-wrapper .about-team .about-team-content p {
           max-width: 100%;
           font-size: 8px;
@@ -9980,7 +9980,12 @@ footer {
     max-width: 100%; } }
 @media screen and (max-width: 480px) {
   .student-banner__content h1 {
-    max-width: 325px; } }
+    max-width: 325px; }
+
+  .newsletter-section .subscribe-area .subscribe-text .sub-form .username .firstname input, .newsletter-section .subscribe-area .subscribe-text .sub-form .username .lastname input {
+    width: 100%; }
+  .newsletter-section .subscribe-area .subscribe-text .sub-form .username .firstname {
+    margin-right: 15px; } }
 .header-area .header-top .navbar .navbar-right .main-menu ul {
   margin-bottom: 0; }
 

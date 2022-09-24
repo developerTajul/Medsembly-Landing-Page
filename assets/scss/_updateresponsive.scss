@@ -531,6 +531,17 @@
     .student-banner__content h1 {
         max-width: 325px;
     }
+
+    .newsletter-section .subscribe-area .subscribe-text .sub-form .username {
+
+        .firstname input, .lastname input {
+            width: 100%;
+        }
+
+        .firstname {
+            margin-right: 15px;
+        }
+    }
  }
 
 .header-area .header-top .navbar .navbar-right .main-menu ul {
