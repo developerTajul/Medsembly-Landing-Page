@@ -160,10 +160,12 @@
             margin: 0 auto;
             justify-content: center;
             align-items: center;
+
             .ambassador {
                 width: 140px;
                 height: 140px;
                 margin: 20px auto;
+
                 img {
                     width: 160px;
                     height: 160px;
@@ -175,9 +177,10 @@
                     height: 120%;
                     width: 120%;
                     height: 120%;
-                    h3 {
-                        font-size: 12px;
-                        line-height: 23px;
+
+                    h6 {
+                        font-size: 12px !important;
+                        line-height: 23px !important;
                     }
     
                     p {
