@@ -1,6 +1,10 @@
 .discount-section {
     padding-bottom: 130px;
 
+    @media screen and (max-width: 575px) {
+        padding-bottom: 80px;
+    }
+
     .row {
         max-width: 80%;
         margin-left: auto;
@@ -72,4 +76,10 @@
         }
     }
 
+    .discount-img {
+
+        img {
+            max-width: 100%;
+        }
+    }
 }

@@ -6286,6 +6286,9 @@ footer {
 
 .discount-section {
   padding-bottom: 130px; }
+  @media screen and (max-width: 575px) {
+    .discount-section {
+      padding-bottom: 80px; } }
   .discount-section .row {
     max-width: 80%;
     margin-left: auto;
@@ -6325,6 +6328,8 @@ footer {
   .discount-section .discount-content .discount-btn {
     margin-top: 25px;
     padding-left: 25px; }
+  .discount-section .discount-img img {
+    max-width: 100%; }
 
 @media screen and (min-width: 320px) and (max-width: 1400px) {
   .discount-banner-section .discount-wrapper {
