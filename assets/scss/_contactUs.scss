@@ -143,6 +143,7 @@
 .checkout {
     max-width: 650px;
     margin-right: auto;
+    padding-top: 0 !important;
 
     p {
         margin-top: 0 !important;
@@ -225,10 +226,6 @@
     
     .container { 
         padding: 0 15px 80px;
-    }
-
-    .contact-us-wrapper .contact-us-form form {
-        margin: 0 auto 0 !important !important;
     }
 }
 
