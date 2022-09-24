@@ -6764,28 +6764,30 @@ footer {
   .checkout p {
     margin-top: 0 !important; }
   .checkout form .wpforms-field-label {
-    color: #000;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 39px;
-    margin-bottom: 5px; }
+    color: #000 !important;
+    font-size: 28px !important;
+    font-weight: 400 !important;
+    line-height: 28px !important;
+    margin-bottom: 5px !important; }
   .checkout form input, .checkout form select {
-    width: 100%;
-    height: 62px;
-    border: none;
-    outline: none;
-    font-size: 20px;
-    padding: 5px 20px;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    background: #F1F1F1; }
+    width: 100% !important;
+    height: 62px !important;
+    border: none !important;
+    outline: none !important;
+    font-size: 20px !important;
+    padding: 5px 20px !important;
+    border-radius: 8px !important;
+    margin-bottom: 15px !important;
+    background: #F1F1F1 !important; }
     .checkout form input + label, .checkout form select + label {
-      display: block;
-      margin-top: -10px;
-      margin-bottom: 15px; }
+      display: block !important;
+      margin-top: -10px !important;
+      margin-bottom: 15px !important; }
   .checkout form .wpforms-field-name .wpforms-field-medium {
-    gap: 15px;
-    display: flex; }
+    gap: 15px !important;
+    display: flex !important; }
+  .checkout form .wpforms-required-label {
+    color: #EA1C2D; }
 
 .checkout-section .container {
   padding: 0 15px 80px; }
