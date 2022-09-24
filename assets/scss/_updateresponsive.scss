@@ -325,7 +325,7 @@
     }
 
     .contact-us-section .container { 
-        padding: 80px 15px;
+        padding: 0 15px 80px;
     }
     
     .contact-us-section .contact-us-wrapper .contact-us-form form {
@@ -519,6 +519,10 @@
     
     .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper article .postbox__text .post-meta {
         padding: 25px 0 16px 0;
+    }
+
+    .contact-us-section .contact-us-wrapper .contact-us-img {
+        max-width: 100%;
     }
 }
 

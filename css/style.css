@@ -9826,7 +9826,7 @@ footer {
     margin: 20px auto 25px auto; }
 
   .contact-us-section .container {
-    padding: 80px 15px; }
+    padding: 0 15px 80px; }
 
   .contact-us-section .contact-us-wrapper .contact-us-form form {
     margin: 40px auto 0 !important; }
@@ -9965,7 +9965,10 @@ footer {
       padding: 20px 25px; }
 
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper article .postbox__text .post-meta {
-    padding: 25px 0 16px 0; } }
+    padding: 25px 0 16px 0; }
+
+  .contact-us-section .contact-us-wrapper .contact-us-img {
+    max-width: 100%; } }
 @media screen and (max-width: 480px) {
   .student-banner__content h1 {
     max-width: 325px; } }
