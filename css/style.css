@@ -6763,7 +6763,7 @@ footer {
   margin-right: auto; }
   .checkout p {
     margin-top: 0 !important; }
-  .checkout form .wpforms-field-label {
+  .checkout .wpforms-field-label {
     color: #000 !important;
     font-size: 28px !important;
     font-weight: 400 !important;

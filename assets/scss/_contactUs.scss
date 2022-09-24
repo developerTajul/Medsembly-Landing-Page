@@ -148,15 +148,16 @@
         margin-top: 0 !important;
     }
     
+    .wpforms-field-label { 
+        color: $black !important;
+        font-size: 28px !important;
+        font-weight: 400 !important; 
+        line-height: 28px !important;
+        margin-bottom: 5px !important;
+    }
+    
     form {
 
-        .wpforms-field-label { 
-            color: $black !important;
-            font-size: 28px !important;
-            font-weight: 400 !important; 
-            line-height: 28px !important;
-            margin-bottom: 5px !important;
-        }
 
         input:not([type="radio"]), select {
             width: 100% !important; 
