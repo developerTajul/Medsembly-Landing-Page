@@ -3135,7 +3135,9 @@ footer {
       cursor: pointer;
       transition: all 1s ease; }
       .about-team-section .about-team-wrapper .about-team .about-team-content h6 {
-        color: #FFFFFF; }
+        color: #FFFFFF;
+        font-size: 22px;
+        line-height: 32px; }
       .about-team-section .about-team-wrapper .about-team .about-team-content p {
         color: #fff;
         max-width: 202px;
@@ -3231,7 +3233,9 @@ footer {
       opacity: 1; }
 
 .about-team-section .ambassador-wrapper .ambassador .ambassador-content h6 {
-  color: white; }
+  color: white;
+  font-size: 22px;
+  list-style: 32px; }
 
 @media screen and (min-width: 320px) and (max-width: 1400px) {
   .about-banner-section {
