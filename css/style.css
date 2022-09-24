@@ -6769,7 +6769,7 @@ footer {
     font-weight: 400 !important;
     line-height: 28px !important;
     margin-bottom: 5px !important; }
-  .checkout form input, .checkout form select {
+  .checkout form input:not([type="radio"]), .checkout form select {
     width: 100% !important;
     height: 62px !important;
     border: none !important;
@@ -6779,7 +6779,7 @@ footer {
     border-radius: 8px !important;
     margin-bottom: 15px !important;
     background: #F1F1F1 !important; }
-    .checkout form input + label, .checkout form select + label {
+    .checkout form input:not([type="radio"]) + label, .checkout form select + label {
       display: block !important;
       margin-top: -10px !important;
       margin-bottom: 15px !important; }

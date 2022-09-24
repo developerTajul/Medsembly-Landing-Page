@@ -158,7 +158,7 @@
             margin-bottom: 5px !important;
         }
 
-        input, select {
+        input:not([type="radio"]), select {
             width: 100% !important; 
             height: 62px !important; 
             border: none !important;
