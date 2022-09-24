@@ -153,7 +153,12 @@
         font-size: 28px !important;
         font-weight: 400 !important; 
         line-height: 28px !important;
-        margin-bottom: 5px !important;
+        margin-bottom: 10px !important;
+
+        @media screen and (max-width: 480px) {
+            font-size: 24px !important; 
+            line-height: 24px !important;
+        }
     }
     
     form {
@@ -170,6 +175,11 @@
             margin-bottom: 15px !important;
             background: #F1F1F1 !important;
 
+            @media screen and (max-width: 480px) {
+                font-size: 24px !important; 
+                line-height: 24px !important;
+            }
+
             + label {
                 display: block !important;
                 margin-top: -10px !important;
@@ -182,8 +192,8 @@
             .wpforms-field-medium { 
                 display: flex !important;
 
-                .wpforms-first {
-                    
+                @media screen and (max-width: 480px) { 
+                    flex-direction: column !important;
                 }
             }
         }
