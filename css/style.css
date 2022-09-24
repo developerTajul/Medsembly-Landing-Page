@@ -9816,7 +9816,7 @@ footer {
     max-width: 557px !important; }
 
   .student-banner__media {
-    max-width: 350px;
+    max-width: 100%;
     position: inherit;
     margin-left: auto;
     margin-right: auto;
