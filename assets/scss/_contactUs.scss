@@ -178,9 +178,12 @@
 
         .wpforms-field-name {
             
-            .wpforms-field-medium {
-                gap: 15px !important;
+            .wpforms-field-medium { 
                 display: flex !important;
+
+                .wpforms-first {
+                    
+                }
             }
         }
 

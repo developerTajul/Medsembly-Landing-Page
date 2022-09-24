@@ -6784,7 +6784,6 @@ footer {
       margin-top: -10px !important;
       margin-bottom: 15px !important; }
   .checkout form .wpforms-field-name .wpforms-field-medium {
-    gap: 15px !important;
     display: flex !important; }
   .checkout form .wpforms-required-label {
     color: #EA1C2D; }
