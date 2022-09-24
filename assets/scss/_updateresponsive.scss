@@ -344,7 +344,10 @@
     }
 
     .footer-area {
-        margin-top: 0 !important;
+
+        .mt-50 {
+            margin-top: 0 !important;
+        }
     }
 }
 

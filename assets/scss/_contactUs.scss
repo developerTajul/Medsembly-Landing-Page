@@ -36,15 +36,19 @@
                 .email-address h5,
                 .phone-number h5,
                 .message h5,
-                .recaptcha h5 { 
+                .recaptcha h5,
+                .address h5,
+                .payment h5 { 
                     font-weight: 400; 
                     margin-bottom: 5px;
                 }
-    
+
                 .user-name .first-name input,
                 .user-name .last-name input,
                 .email-address input,
-                .phone-number input {
+                .phone-number input,
+                .address input,
+                .address select {
                     width: 100%;
                     height: 62px;
                     background: #F1F1F1;
@@ -54,6 +58,23 @@
                     font-size: 20px;
                     outline: none;
                     margin-bottom: 15px;
+
+                    + label {
+                        display: block;
+                        margin-top: -10px;
+                        margin-bottom: 15px;
+                    }
+                }
+
+
+                select {
+                    margin-top: 15px;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    background-repeat: no-repeat !important;
+                    background-position-x: 99% !important;
+                    background-position-y: 20px !important;  
+                    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>") !important;
                 }
     
     
@@ -85,6 +106,10 @@
                         margin-bottom: 20px;
                     }
                 }
+
+                .payment {
+                    margin-bottom: 15px;
+                }
     
                 .recaptcha {
                     width: 52%;
@@ -112,5 +137,13 @@
                 }
             }
         }
+    }
+}
+
+.checkout {
+    margin-right: auto;
+
+    p {
+        margin-top: 0 !important;
     }
 }

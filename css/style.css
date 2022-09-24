@@ -859,6 +859,8 @@ header-area
   bottom: 35px !important; }
 .team-section .container {
   max-width: 1100px; }
+.team-section .mentors-swiper {
+  --bs-gutter-x: 0; }
 .team-section .team-wrapper {
   padding-left: 0;
   margin-bottom: 60px;
@@ -2082,8 +2084,6 @@ footer {
     margin-bottom: 60px;
     padding-bottom: 50px; }
     .team-section .team-wrapper .team {
-      max-width: calc(50% - 20px);
-      margin-right: 20px;
       height: 400px; }
       .team-section .team-wrapper .team .team-info {
         width: 100%;
@@ -6682,13 +6682,17 @@ footer {
     .contact-us-section .contact-us-wrapper .contact-us-form form .email-address h5,
     .contact-us-section .contact-us-wrapper .contact-us-form form .phone-number h5,
     .contact-us-section .contact-us-wrapper .contact-us-form form .message h5,
-    .contact-us-section .contact-us-wrapper .contact-us-form form .recaptcha h5 {
+    .contact-us-section .contact-us-wrapper .contact-us-form form .recaptcha h5,
+    .contact-us-section .contact-us-wrapper .contact-us-form form .address h5,
+    .contact-us-section .contact-us-wrapper .contact-us-form form .payment h5 {
       font-weight: 400;
       margin-bottom: 5px; }
     .contact-us-section .contact-us-wrapper .contact-us-form form .user-name .first-name input,
     .contact-us-section .contact-us-wrapper .contact-us-form form .user-name .last-name input,
     .contact-us-section .contact-us-wrapper .contact-us-form form .email-address input,
-    .contact-us-section .contact-us-wrapper .contact-us-form form .phone-number input {
+    .contact-us-section .contact-us-wrapper .contact-us-form form .phone-number input,
+    .contact-us-section .contact-us-wrapper .contact-us-form form .address input,
+    .contact-us-section .contact-us-wrapper .contact-us-form form .address select {
       width: 100%;
       height: 62px;
       background: #F1F1F1;
@@ -6698,6 +6702,23 @@ footer {
       font-size: 20px;
       outline: none;
       margin-bottom: 15px; }
+      .contact-us-section .contact-us-wrapper .contact-us-form form .user-name .first-name input + label,
+      .contact-us-section .contact-us-wrapper .contact-us-form form .user-name .last-name input + label,
+      .contact-us-section .contact-us-wrapper .contact-us-form form .email-address input + label,
+      .contact-us-section .contact-us-wrapper .contact-us-form form .phone-number input + label,
+      .contact-us-section .contact-us-wrapper .contact-us-form form .address input + label,
+      .contact-us-section .contact-us-wrapper .contact-us-form form .address select + label {
+        display: block;
+        margin-top: -10px;
+        margin-bottom: 15px; }
+    .contact-us-section .contact-us-wrapper .contact-us-form form select {
+      margin-top: 15px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-repeat: no-repeat !important;
+      background-position-x: 99% !important;
+      background-position-y: 20px !important;
+      background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>") !important; }
     .contact-us-section .contact-us-wrapper .contact-us-form form .user-name {
       width: 100%;
       display: flex; }
@@ -6718,6 +6739,8 @@ footer {
       padding-left: 12px;
       font-size: 20px;
       margin-bottom: 20px; }
+    .contact-us-section .contact-us-wrapper .contact-us-form form .payment {
+      margin-bottom: 15px; }
     .contact-us-section .contact-us-wrapper .contact-us-form form .recaptcha {
       width: 52%;
       height: 62px;
@@ -6737,6 +6760,11 @@ footer {
         width: 48px;
         height: 55px;
         margin-left: auto; }
+
+.checkout {
+  margin-right: auto; }
+  .checkout p {
+    margin-top: 0 !important; }
 
 @media screen and (min-width: 320px) and (max-width: 991px) {
   .contact-us-section .container {
@@ -9846,7 +9874,7 @@ footer {
   .blog-details-section .blog-details-area .blog-post-items .blog-details-wrapper article .postbox__text .blog-extra {
     margin: 60px auto 80px auto; }
 
-  .footer-area {
+  .footer-area .mt-50 {
     margin-top: 0 !important; } }
 @media screen and (max-width: 767px) {
   .features-section .feature-wrapper .feature {

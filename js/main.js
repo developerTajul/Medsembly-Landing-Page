@@ -114,23 +114,26 @@
     //  Swiper for Carousel:
     const swiper = new Swiper(".mentors-swiper", {
       slidesPerView: 1,
-      spaceBetween: 40,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
       },
       breakpoints: {
         576: {
+          spaceBetween: 30,
           slidesPerView: 2, 
         },
         640: {
-          slidesPerView: 2, 
+          spaceBetween: 30,
+          slidesPerView: 2,
         },
         768: {
-          slidesPerView: 2, 
+          slidesPerView: 2,
+          spaceBetween: 30,
         },
         992: {
           slidesPerView: 3, 
+          spaceBetween: 40,
         },
         // 1400: {
         //   slidesPerView: 4, 
