@@ -104,6 +104,9 @@
       }
       masonryGrid();
 
+    }
+
+    if ( document.querySelector(".our-partners-slider-wrapper") ) {
       $('.our-partners-slider-wrapper').slick();
     }
 
