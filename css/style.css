@@ -6792,6 +6792,9 @@ footer {
       margin-bottom: 15px !important; }
   .checkout form .wpforms-field-name .wpforms-field-medium {
     display: flex !important; }
+    @media screen and (max-width: 480px) {
+      .checkout form .wpforms-field-name .wpforms-field-medium {
+        flex-direction: column !important; } }
   .checkout form .wpforms-required-label {
     color: #EA1C2D; }
   .checkout form button[type="submit"] {
@@ -6816,6 +6819,12 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms
 .contact-us-section .contact-us-wrapper .contact-us-form form select {
   margin-top: 0 !important; }
 
+@media screen and (max-width: 480px) {
+  div.wpforms-container-full .wpforms-form .wpforms-one-half, div.wpforms-container-full .wpforms-form .wpforms-three-sixths, div.wpforms-container-full .wpforms-form .wpforms-two-fourths {
+    width: 100% !important; }
+
+  div.wpforms-container-full .wpforms-form .wpforms-five-sixths, div.wpforms-container-full .wpforms-form .wpforms-four-sixths, div.wpforms-container-full .wpforms-form .wpforms-four-fifths, div.wpforms-container-full .wpforms-form .wpforms-one-fifth, div.wpforms-container-full .wpforms-form .wpforms-one-fourth, div.wpforms-container-full .wpforms-form .wpforms-one-half, div.wpforms-container-full .wpforms-form .wpforms-one-sixth, div.wpforms-container-full .wpforms-form .wpforms-one-third, div.wpforms-container-full .wpforms-form .wpforms-three-fourths, div.wpforms-container-full .wpforms-form .wpforms-three-fifths, div.wpforms-container-full .wpforms-form .wpforms-three-sixths, div.wpforms-container-full .wpforms-form .wpforms-two-fourths, div.wpforms-container-full .wpforms-form .wpforms-two-fifths, div.wpforms-container-full .wpforms-form .wpforms-two-sixths, div.wpforms-container-full .wpforms-form .wpforms-two-thirds {
+    margin-left: 0 !important; } }
 @media screen and (min-width: 320px) and (max-width: 991px) {
   .contact-us-section .container {
     max-width: 100%;
