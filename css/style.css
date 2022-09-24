@@ -1578,11 +1578,8 @@ footer {
   .team-section .team-wrapper {
     width: 100%;
     margin-bottom: 60px;
-    padding-bottom: 0px;
-    margin-left: 10px; }
+    padding-bottom: 0px; }
     .team-section .team-wrapper .team {
-      max-width: calc(100% - 25px);
-      margin-right: 25px;
       height: 400px; }
       .team-section .team-wrapper .team .team-info {
         width: 100%;
