@@ -6788,7 +6788,7 @@ footer {
     display: flex !important; }
   .checkout form .wpforms-required-label {
     color: #EA1C2D; }
-  .checkout form input[type="submit"] {
+  .checkout form button[type="submit"] {
     border: none !important;
     outline: none !important;
     color: #FFFFFF !important;
