@@ -6766,17 +6766,17 @@ footer {
     margin-top: 0 !important; }
   .checkout .wpforms-field-label {
     color: #000 !important;
-    font-size: 28px !important;
+    font-size: 20px !important;
     font-weight: 400 !important;
     line-height: 28px !important;
     margin-bottom: 10px !important; }
     @media screen and (max-width: 480px) {
       .checkout .wpforms-field-label {
-        font-size: 24px !important;
+        font-size: 18px !important;
         line-height: 24px !important; } }
   .checkout form input:not([type="radio"]), .checkout form select {
     width: 100% !important;
-    height: 62px !important;
+    height: 50px !important;
     border: none !important;
     outline: none !important;
     font-size: 20px !important;
@@ -6786,7 +6786,7 @@ footer {
     background: #F1F1F1 !important; }
     @media screen and (max-width: 480px) {
       .checkout form input:not([type="radio"]), .checkout form select {
-        height: 50px !important; } }
+        height: 45px !important; } }
     .checkout form input:not([type="radio"]) + label, .checkout form select + label {
       display: block !important;
       margin-top: -10px !important;

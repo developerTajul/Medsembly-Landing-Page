@@ -151,13 +151,13 @@
     
     .wpforms-field-label { 
         color: $black !important;
-        font-size: 28px !important;
+        font-size: 20px !important;
         font-weight: 400 !important; 
         line-height: 28px !important;
         margin-bottom: 10px !important;
 
         @media screen and (max-width: 480px) {
-            font-size: 24px !important; 
+            font-size: 18px !important; 
             line-height: 24px !important;
         }
     }
@@ -167,7 +167,7 @@
 
         input:not([type="radio"]), select {
             width: 100% !important; 
-            height: 62px !important; 
+            height: 50px !important; 
             border: none !important;
             outline: none !important;
             font-size: 20px !important;
@@ -177,7 +177,7 @@
             background: #F1F1F1 !important;
 
             @media screen and (max-width: 480px) {
-                height: 50px !important; 
+                height: 45px !important; 
             }
 
             + label {
