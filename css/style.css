@@ -9674,6 +9674,9 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms
   .copy-right-info .footer-bottom-copyright-nav-widget ul {
     display: flex;
     justify-content: end; } }
+@media screen and (max-width: 1440px) {
+  .student-banner__media {
+    max-width: 600px; } }
 @media screen and (max-width: 1400px) {
   .student-banner__content {
     padding: 120px 0 190px;
